@@ -1,0 +1,1398 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED D?
+U 1 1 60B59D41
+P 4750 2400
+F 0 "D?" V 4789 2282 50  0000 R CNN
+F 1 "LED" V 4698 2282 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 4750 2400 50  0001 C CNN
+F 3 "~" H 4750 2400 50  0001 C CNN
+	1    4750 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B5B2B8
+P 5200 2400
+F 0 "D?" V 5239 2282 50  0000 R CNN
+F 1 "LED" V 5148 2282 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 5200 2400 50  0001 C CNN
+F 3 "~" H 5200 2400 50  0001 C CNN
+	1    5200 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B5BAD2
+P 5650 2400
+F 0 "D?" V 5689 2282 50  0000 R CNN
+F 1 "LED" V 5598 2282 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 5650 2400 50  0001 C CNN
+F 3 "~" H 5650 2400 50  0001 C CNN
+	1    5650 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B5BAD8
+P 6100 2400
+F 0 "D?" V 6139 2282 50  0000 R CNN
+F 1 "LED" V 6048 2282 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 6100 2400 50  0001 C CNN
+F 3 "~" H 6100 2400 50  0001 C CNN
+	1    6100 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B5D650
+P 6550 2400
+F 0 "D?" V 6589 2282 50  0000 R CNN
+F 1 "LED" V 6498 2282 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 6550 2400 50  0001 C CNN
+F 3 "~" H 6550 2400 50  0001 C CNN
+	1    6550 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B5D656
+P 7000 2400
+F 0 "D?" V 7039 2282 50  0000 R CNN
+F 1 "LED" V 6948 2282 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 7000 2400 50  0001 C CNN
+F 3 "~" H 7000 2400 50  0001 C CNN
+	1    7000 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B5D65C
+P 7450 2400
+F 0 "D?" V 7489 2282 50  0000 R CNN
+F 1 "LED" V 7398 2282 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 7450 2400 50  0001 C CNN
+F 3 "~" H 7450 2400 50  0001 C CNN
+	1    7450 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B5D662
+P 7900 2400
+F 0 "D?" V 7939 2282 50  0000 R CNN
+F 1 "LED" V 7848 2282 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 7900 2400 50  0001 C CNN
+F 3 "~" H 7900 2400 50  0001 C CNN
+	1    7900 2400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7900 2550 7450 2550
+Wire Wire Line
+	7450 2550 7000 2550
+Connection ~ 7450 2550
+Wire Wire Line
+	7000 2550 6550 2550
+Connection ~ 7000 2550
+Wire Wire Line
+	6550 2550 6100 2550
+Connection ~ 6550 2550
+Wire Wire Line
+	6100 2550 5650 2550
+Connection ~ 6100 2550
+Wire Wire Line
+	5650 2550 5200 2550
+Connection ~ 5650 2550
+Wire Wire Line
+	5200 2550 4750 2550
+Connection ~ 5200 2550
+$Comp
+L Device:R_Small R?
+U 1 1 60B5E4C6
+P 4400 2550
+F 0 "R?" V 4204 2550 50  0000 C CNN
+F 1 "R_Small" V 4295 2550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 4400 2550 50  0001 C CNN
+F 3 "~" H 4400 2550 50  0001 C CNN
+	1    4400 2550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 2550 4500 2550
+Connection ~ 4750 2550
+Wire Wire Line
+	5000 2250 4750 2250
+Wire Wire Line
+	5450 2250 5200 2250
+Wire Wire Line
+	5900 2250 5650 2250
+Wire Wire Line
+	6350 2250 6100 2250
+Wire Wire Line
+	6800 2250 6550 2250
+Wire Wire Line
+	7250 2250 7000 2250
+Wire Wire Line
+	7700 2250 7450 2250
+Wire Wire Line
+	8100 2250 7900 2250
+$Comp
+L Device:LED D?
+U 1 1 60B66417
+P 4750 2850
+F 0 "D?" V 4789 2732 50  0000 R CNN
+F 1 "LED" V 4698 2732 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 4750 2850 50  0001 C CNN
+F 3 "~" H 4750 2850 50  0001 C CNN
+	1    4750 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B6641D
+P 5200 2850
+F 0 "D?" V 5239 2732 50  0000 R CNN
+F 1 "LED" V 5148 2732 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 5200 2850 50  0001 C CNN
+F 3 "~" H 5200 2850 50  0001 C CNN
+	1    5200 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B66423
+P 5650 2850
+F 0 "D?" V 5689 2732 50  0000 R CNN
+F 1 "LED" V 5598 2732 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 5650 2850 50  0001 C CNN
+F 3 "~" H 5650 2850 50  0001 C CNN
+	1    5650 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B66429
+P 6100 2850
+F 0 "D?" V 6139 2732 50  0000 R CNN
+F 1 "LED" V 6048 2732 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 6100 2850 50  0001 C CNN
+F 3 "~" H 6100 2850 50  0001 C CNN
+	1    6100 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B6642F
+P 6550 2850
+F 0 "D?" V 6589 2732 50  0000 R CNN
+F 1 "LED" V 6498 2732 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 6550 2850 50  0001 C CNN
+F 3 "~" H 6550 2850 50  0001 C CNN
+	1    6550 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B66435
+P 7000 2850
+F 0 "D?" V 7039 2732 50  0000 R CNN
+F 1 "LED" V 6948 2732 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 7000 2850 50  0001 C CNN
+F 3 "~" H 7000 2850 50  0001 C CNN
+	1    7000 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B6643B
+P 7450 2850
+F 0 "D?" V 7489 2732 50  0000 R CNN
+F 1 "LED" V 7398 2732 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 7450 2850 50  0001 C CNN
+F 3 "~" H 7450 2850 50  0001 C CNN
+	1    7450 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B66441
+P 7900 2850
+F 0 "D?" V 7939 2732 50  0000 R CNN
+F 1 "LED" V 7848 2732 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 7900 2850 50  0001 C CNN
+F 3 "~" H 7900 2850 50  0001 C CNN
+	1    7900 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7900 3000 7450 3000
+Wire Wire Line
+	7450 3000 7000 3000
+Connection ~ 7450 3000
+Wire Wire Line
+	7000 3000 6550 3000
+Connection ~ 7000 3000
+Wire Wire Line
+	6550 3000 6100 3000
+Connection ~ 6550 3000
+Wire Wire Line
+	6100 3000 5650 3000
+Connection ~ 6100 3000
+Wire Wire Line
+	5650 3000 5200 3000
+Connection ~ 5650 3000
+Wire Wire Line
+	5200 3000 4750 3000
+Connection ~ 5200 3000
+$Comp
+L Device:R_Small R?
+U 1 1 60B66454
+P 4400 3000
+F 0 "R?" V 4204 3000 50  0000 C CNN
+F 1 "R_Small" V 4295 3000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 4400 3000 50  0001 C CNN
+F 3 "~" H 4400 3000 50  0001 C CNN
+	1    4400 3000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 3000 4500 3000
+Connection ~ 4750 3000
+Wire Wire Line
+	5000 2700 4750 2700
+Wire Wire Line
+	5450 2700 5200 2700
+Wire Wire Line
+	5900 2700 5650 2700
+Wire Wire Line
+	6350 2700 6100 2700
+Wire Wire Line
+	6800 2700 6550 2700
+Wire Wire Line
+	7250 2700 7000 2700
+Wire Wire Line
+	7700 2700 7450 2700
+Wire Wire Line
+	8100 2700 7900 2700
+$Comp
+L Device:LED D?
+U 1 1 60B6A05F
+P 4750 3300
+F 0 "D?" V 4789 3182 50  0000 R CNN
+F 1 "LED" V 4698 3182 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 4750 3300 50  0001 C CNN
+F 3 "~" H 4750 3300 50  0001 C CNN
+	1    4750 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B6A065
+P 5200 3300
+F 0 "D?" V 5239 3182 50  0000 R CNN
+F 1 "LED" V 5148 3182 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 5200 3300 50  0001 C CNN
+F 3 "~" H 5200 3300 50  0001 C CNN
+	1    5200 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B6A06B
+P 5650 3300
+F 0 "D?" V 5689 3182 50  0000 R CNN
+F 1 "LED" V 5598 3182 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 5650 3300 50  0001 C CNN
+F 3 "~" H 5650 3300 50  0001 C CNN
+	1    5650 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B6A071
+P 6100 3300
+F 0 "D?" V 6139 3182 50  0000 R CNN
+F 1 "LED" V 6048 3182 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 6100 3300 50  0001 C CNN
+F 3 "~" H 6100 3300 50  0001 C CNN
+	1    6100 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B6A077
+P 6550 3300
+F 0 "D?" V 6589 3182 50  0000 R CNN
+F 1 "LED" V 6498 3182 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 6550 3300 50  0001 C CNN
+F 3 "~" H 6550 3300 50  0001 C CNN
+	1    6550 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B6A07D
+P 7000 3300
+F 0 "D?" V 7039 3182 50  0000 R CNN
+F 1 "LED" V 6948 3182 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 7000 3300 50  0001 C CNN
+F 3 "~" H 7000 3300 50  0001 C CNN
+	1    7000 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B6A083
+P 7450 3300
+F 0 "D?" V 7489 3182 50  0000 R CNN
+F 1 "LED" V 7398 3182 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 7450 3300 50  0001 C CNN
+F 3 "~" H 7450 3300 50  0001 C CNN
+	1    7450 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B6A089
+P 7900 3300
+F 0 "D?" V 7939 3182 50  0000 R CNN
+F 1 "LED" V 7848 3182 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 7900 3300 50  0001 C CNN
+F 3 "~" H 7900 3300 50  0001 C CNN
+	1    7900 3300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7900 3450 7450 3450
+Wire Wire Line
+	7450 3450 7000 3450
+Connection ~ 7450 3450
+Wire Wire Line
+	7000 3450 6550 3450
+Connection ~ 7000 3450
+Wire Wire Line
+	6550 3450 6100 3450
+Connection ~ 6550 3450
+Wire Wire Line
+	6100 3450 5650 3450
+Connection ~ 6100 3450
+Wire Wire Line
+	5650 3450 5200 3450
+Connection ~ 5650 3450
+Wire Wire Line
+	5200 3450 4750 3450
+Connection ~ 5200 3450
+$Comp
+L Device:R_Small R?
+U 1 1 60B6A09C
+P 4400 3450
+F 0 "R?" V 4204 3450 50  0000 C CNN
+F 1 "R_Small" V 4295 3450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 4400 3450 50  0001 C CNN
+F 3 "~" H 4400 3450 50  0001 C CNN
+	1    4400 3450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 3450 4500 3450
+Connection ~ 4750 3450
+Wire Wire Line
+	5000 3150 4750 3150
+Wire Wire Line
+	5450 3150 5200 3150
+Wire Wire Line
+	5900 3150 5650 3150
+Wire Wire Line
+	6350 3150 6100 3150
+Wire Wire Line
+	6800 3150 6550 3150
+Wire Wire Line
+	7250 3150 7000 3150
+Wire Wire Line
+	7700 3150 7450 3150
+Wire Wire Line
+	8100 3150 7900 3150
+$Comp
+L Device:LED D?
+U 1 1 60B6E821
+P 4750 3750
+F 0 "D?" V 4789 3632 50  0000 R CNN
+F 1 "LED" V 4698 3632 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 4750 3750 50  0001 C CNN
+F 3 "~" H 4750 3750 50  0001 C CNN
+	1    4750 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B6E827
+P 5200 3750
+F 0 "D?" V 5239 3632 50  0000 R CNN
+F 1 "LED" V 5148 3632 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 5200 3750 50  0001 C CNN
+F 3 "~" H 5200 3750 50  0001 C CNN
+	1    5200 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B6E82D
+P 5650 3750
+F 0 "D?" V 5689 3632 50  0000 R CNN
+F 1 "LED" V 5598 3632 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 5650 3750 50  0001 C CNN
+F 3 "~" H 5650 3750 50  0001 C CNN
+	1    5650 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B6E833
+P 6100 3750
+F 0 "D?" V 6139 3632 50  0000 R CNN
+F 1 "LED" V 6048 3632 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 6100 3750 50  0001 C CNN
+F 3 "~" H 6100 3750 50  0001 C CNN
+	1    6100 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B6E839
+P 6550 3750
+F 0 "D?" V 6589 3632 50  0000 R CNN
+F 1 "LED" V 6498 3632 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 6550 3750 50  0001 C CNN
+F 3 "~" H 6550 3750 50  0001 C CNN
+	1    6550 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B6E83F
+P 7000 3750
+F 0 "D?" V 7039 3632 50  0000 R CNN
+F 1 "LED" V 6948 3632 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 7000 3750 50  0001 C CNN
+F 3 "~" H 7000 3750 50  0001 C CNN
+	1    7000 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B6E845
+P 7450 3750
+F 0 "D?" V 7489 3632 50  0000 R CNN
+F 1 "LED" V 7398 3632 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 7450 3750 50  0001 C CNN
+F 3 "~" H 7450 3750 50  0001 C CNN
+	1    7450 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B6E84B
+P 7900 3750
+F 0 "D?" V 7939 3632 50  0000 R CNN
+F 1 "LED" V 7848 3632 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 7900 3750 50  0001 C CNN
+F 3 "~" H 7900 3750 50  0001 C CNN
+	1    7900 3750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7900 3900 7450 3900
+Wire Wire Line
+	7450 3900 7000 3900
+Connection ~ 7450 3900
+Wire Wire Line
+	7000 3900 6550 3900
+Connection ~ 7000 3900
+Wire Wire Line
+	6550 3900 6100 3900
+Connection ~ 6550 3900
+Wire Wire Line
+	6100 3900 5650 3900
+Connection ~ 6100 3900
+Wire Wire Line
+	5650 3900 5200 3900
+Connection ~ 5650 3900
+Wire Wire Line
+	5200 3900 4750 3900
+Connection ~ 5200 3900
+$Comp
+L Device:R_Small R?
+U 1 1 60B6E85E
+P 4400 3900
+F 0 "R?" V 4204 3900 50  0000 C CNN
+F 1 "R_Small" V 4295 3900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 4400 3900 50  0001 C CNN
+F 3 "~" H 4400 3900 50  0001 C CNN
+	1    4400 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 3900 4500 3900
+Connection ~ 4750 3900
+Wire Wire Line
+	5000 3600 4750 3600
+Wire Wire Line
+	5450 3600 5200 3600
+Wire Wire Line
+	5900 3600 5650 3600
+Wire Wire Line
+	6350 3600 6100 3600
+Wire Wire Line
+	6800 3600 6550 3600
+Wire Wire Line
+	7250 3600 7000 3600
+Wire Wire Line
+	7700 3600 7450 3600
+Wire Wire Line
+	8100 3600 7900 3600
+$Comp
+L Device:LED D?
+U 1 1 60B75233
+P 4750 4200
+F 0 "D?" V 4789 4082 50  0000 R CNN
+F 1 "LED" V 4698 4082 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 4750 4200 50  0001 C CNN
+F 3 "~" H 4750 4200 50  0001 C CNN
+	1    4750 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B75239
+P 5200 4200
+F 0 "D?" V 5239 4082 50  0000 R CNN
+F 1 "LED" V 5148 4082 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 5200 4200 50  0001 C CNN
+F 3 "~" H 5200 4200 50  0001 C CNN
+	1    5200 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B7523F
+P 5650 4200
+F 0 "D?" V 5689 4082 50  0000 R CNN
+F 1 "LED" V 5598 4082 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 5650 4200 50  0001 C CNN
+F 3 "~" H 5650 4200 50  0001 C CNN
+	1    5650 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B75245
+P 6100 4200
+F 0 "D?" V 6139 4082 50  0000 R CNN
+F 1 "LED" V 6048 4082 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 6100 4200 50  0001 C CNN
+F 3 "~" H 6100 4200 50  0001 C CNN
+	1    6100 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B7524B
+P 6550 4200
+F 0 "D?" V 6589 4082 50  0000 R CNN
+F 1 "LED" V 6498 4082 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 6550 4200 50  0001 C CNN
+F 3 "~" H 6550 4200 50  0001 C CNN
+	1    6550 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B75251
+P 7000 4200
+F 0 "D?" V 7039 4082 50  0000 R CNN
+F 1 "LED" V 6948 4082 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 7000 4200 50  0001 C CNN
+F 3 "~" H 7000 4200 50  0001 C CNN
+	1    7000 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B75257
+P 7450 4200
+F 0 "D?" V 7489 4082 50  0000 R CNN
+F 1 "LED" V 7398 4082 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 7450 4200 50  0001 C CNN
+F 3 "~" H 7450 4200 50  0001 C CNN
+	1    7450 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B7525D
+P 7900 4200
+F 0 "D?" V 7939 4082 50  0000 R CNN
+F 1 "LED" V 7848 4082 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 7900 4200 50  0001 C CNN
+F 3 "~" H 7900 4200 50  0001 C CNN
+	1    7900 4200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7900 4350 7450 4350
+Wire Wire Line
+	7450 4350 7000 4350
+Connection ~ 7450 4350
+Wire Wire Line
+	7000 4350 6550 4350
+Connection ~ 7000 4350
+Wire Wire Line
+	6550 4350 6100 4350
+Connection ~ 6550 4350
+Wire Wire Line
+	6100 4350 5650 4350
+Connection ~ 6100 4350
+Wire Wire Line
+	5650 4350 5200 4350
+Connection ~ 5650 4350
+Wire Wire Line
+	5200 4350 4750 4350
+Connection ~ 5200 4350
+$Comp
+L Device:R_Small R?
+U 1 1 60B75270
+P 4400 4350
+F 0 "R?" V 4204 4350 50  0000 C CNN
+F 1 "R_Small" V 4295 4350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 4400 4350 50  0001 C CNN
+F 3 "~" H 4400 4350 50  0001 C CNN
+	1    4400 4350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 4350 4500 4350
+Connection ~ 4750 4350
+Wire Wire Line
+	5000 4050 4750 4050
+Wire Wire Line
+	5450 4050 5200 4050
+Wire Wire Line
+	5900 4050 5650 4050
+Wire Wire Line
+	6350 4050 6100 4050
+Wire Wire Line
+	6800 4050 6550 4050
+Wire Wire Line
+	7250 4050 7000 4050
+Wire Wire Line
+	7700 4050 7450 4050
+Wire Wire Line
+	8100 4050 7900 4050
+$Comp
+L Device:LED D?
+U 1 1 60B88273
+P 4750 4650
+F 0 "D?" V 4789 4532 50  0000 R CNN
+F 1 "LED" V 4698 4532 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 4750 4650 50  0001 C CNN
+F 3 "~" H 4750 4650 50  0001 C CNN
+	1    4750 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B88279
+P 5200 4650
+F 0 "D?" V 5239 4532 50  0000 R CNN
+F 1 "LED" V 5148 4532 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 5200 4650 50  0001 C CNN
+F 3 "~" H 5200 4650 50  0001 C CNN
+	1    5200 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B8827F
+P 5650 4650
+F 0 "D?" V 5689 4532 50  0000 R CNN
+F 1 "LED" V 5598 4532 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 5650 4650 50  0001 C CNN
+F 3 "~" H 5650 4650 50  0001 C CNN
+	1    5650 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B88285
+P 6100 4650
+F 0 "D?" V 6139 4532 50  0000 R CNN
+F 1 "LED" V 6048 4532 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 6100 4650 50  0001 C CNN
+F 3 "~" H 6100 4650 50  0001 C CNN
+	1    6100 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B8828B
+P 6550 4650
+F 0 "D?" V 6589 4532 50  0000 R CNN
+F 1 "LED" V 6498 4532 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 6550 4650 50  0001 C CNN
+F 3 "~" H 6550 4650 50  0001 C CNN
+	1    6550 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B88291
+P 7000 4650
+F 0 "D?" V 7039 4532 50  0000 R CNN
+F 1 "LED" V 6948 4532 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 7000 4650 50  0001 C CNN
+F 3 "~" H 7000 4650 50  0001 C CNN
+	1    7000 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B88297
+P 7450 4650
+F 0 "D?" V 7489 4532 50  0000 R CNN
+F 1 "LED" V 7398 4532 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 7450 4650 50  0001 C CNN
+F 3 "~" H 7450 4650 50  0001 C CNN
+	1    7450 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B8829D
+P 7900 4650
+F 0 "D?" V 7939 4532 50  0000 R CNN
+F 1 "LED" V 7848 4532 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 7900 4650 50  0001 C CNN
+F 3 "~" H 7900 4650 50  0001 C CNN
+	1    7900 4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7900 4800 7450 4800
+Wire Wire Line
+	7450 4800 7000 4800
+Connection ~ 7450 4800
+Wire Wire Line
+	7000 4800 6550 4800
+Connection ~ 7000 4800
+Wire Wire Line
+	6550 4800 6100 4800
+Connection ~ 6550 4800
+Wire Wire Line
+	6100 4800 5650 4800
+Connection ~ 6100 4800
+Wire Wire Line
+	5650 4800 5200 4800
+Connection ~ 5650 4800
+Wire Wire Line
+	5200 4800 4750 4800
+Connection ~ 5200 4800
+$Comp
+L Device:R_Small R?
+U 1 1 60B882B0
+P 4400 4800
+F 0 "R?" V 4204 4800 50  0000 C CNN
+F 1 "R_Small" V 4295 4800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 4400 4800 50  0001 C CNN
+F 3 "~" H 4400 4800 50  0001 C CNN
+	1    4400 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 4800 4500 4800
+Connection ~ 4750 4800
+Wire Wire Line
+	5000 4500 4750 4500
+Wire Wire Line
+	5450 4500 5200 4500
+Wire Wire Line
+	5900 4500 5650 4500
+Wire Wire Line
+	6350 4500 6100 4500
+Wire Wire Line
+	6800 4500 6550 4500
+Wire Wire Line
+	7250 4500 7000 4500
+Wire Wire Line
+	7700 4500 7450 4500
+Wire Wire Line
+	8100 4500 7900 4500
+$Comp
+L Device:LED D?
+U 1 1 60B8F9B3
+P 4750 5100
+F 0 "D?" V 4789 4982 50  0000 R CNN
+F 1 "LED" V 4698 4982 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 4750 5100 50  0001 C CNN
+F 3 "~" H 4750 5100 50  0001 C CNN
+	1    4750 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B8F9B9
+P 5200 5100
+F 0 "D?" V 5239 4982 50  0000 R CNN
+F 1 "LED" V 5148 4982 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 5200 5100 50  0001 C CNN
+F 3 "~" H 5200 5100 50  0001 C CNN
+	1    5200 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B8F9BF
+P 5650 5100
+F 0 "D?" V 5689 4982 50  0000 R CNN
+F 1 "LED" V 5598 4982 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 5650 5100 50  0001 C CNN
+F 3 "~" H 5650 5100 50  0001 C CNN
+	1    5650 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B8F9C5
+P 6100 5100
+F 0 "D?" V 6139 4982 50  0000 R CNN
+F 1 "LED" V 6048 4982 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 6100 5100 50  0001 C CNN
+F 3 "~" H 6100 5100 50  0001 C CNN
+	1    6100 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B8F9CB
+P 6550 5100
+F 0 "D?" V 6589 4982 50  0000 R CNN
+F 1 "LED" V 6498 4982 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 6550 5100 50  0001 C CNN
+F 3 "~" H 6550 5100 50  0001 C CNN
+	1    6550 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B8F9D1
+P 7000 5100
+F 0 "D?" V 7039 4982 50  0000 R CNN
+F 1 "LED" V 6948 4982 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 7000 5100 50  0001 C CNN
+F 3 "~" H 7000 5100 50  0001 C CNN
+	1    7000 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B8F9D7
+P 7450 5100
+F 0 "D?" V 7489 4982 50  0000 R CNN
+F 1 "LED" V 7398 4982 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 7450 5100 50  0001 C CNN
+F 3 "~" H 7450 5100 50  0001 C CNN
+	1    7450 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B8F9DD
+P 7900 5100
+F 0 "D?" V 7939 4982 50  0000 R CNN
+F 1 "LED" V 7848 4982 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 7900 5100 50  0001 C CNN
+F 3 "~" H 7900 5100 50  0001 C CNN
+	1    7900 5100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7900 5250 7450 5250
+Wire Wire Line
+	7450 5250 7000 5250
+Connection ~ 7450 5250
+Wire Wire Line
+	7000 5250 6550 5250
+Connection ~ 7000 5250
+Wire Wire Line
+	6550 5250 6100 5250
+Connection ~ 6550 5250
+Wire Wire Line
+	6100 5250 5650 5250
+Connection ~ 6100 5250
+Wire Wire Line
+	5650 5250 5200 5250
+Connection ~ 5650 5250
+Wire Wire Line
+	5200 5250 4750 5250
+Connection ~ 5200 5250
+$Comp
+L Device:R_Small R?
+U 1 1 60B8F9F0
+P 4400 5250
+F 0 "R?" V 4204 5250 50  0000 C CNN
+F 1 "R_Small" V 4295 5250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 4400 5250 50  0001 C CNN
+F 3 "~" H 4400 5250 50  0001 C CNN
+	1    4400 5250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 5250 4500 5250
+Connection ~ 4750 5250
+Wire Wire Line
+	5000 4950 4750 4950
+Wire Wire Line
+	5450 4950 5200 4950
+Wire Wire Line
+	5900 4950 5650 4950
+Wire Wire Line
+	6350 4950 6100 4950
+Wire Wire Line
+	6800 4950 6550 4950
+Wire Wire Line
+	7250 4950 7000 4950
+Wire Wire Line
+	7700 4950 7450 4950
+Wire Wire Line
+	8100 4950 7900 4950
+$Comp
+L Device:LED D?
+U 1 1 60B9D40D
+P 4750 5550
+F 0 "D?" V 4789 5432 50  0000 R CNN
+F 1 "LED" V 4698 5432 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 4750 5550 50  0001 C CNN
+F 3 "~" H 4750 5550 50  0001 C CNN
+	1    4750 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B9D413
+P 5200 5550
+F 0 "D?" V 5239 5432 50  0000 R CNN
+F 1 "LED" V 5148 5432 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 5200 5550 50  0001 C CNN
+F 3 "~" H 5200 5550 50  0001 C CNN
+	1    5200 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B9D419
+P 5650 5550
+F 0 "D?" V 5689 5432 50  0000 R CNN
+F 1 "LED" V 5598 5432 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 5650 5550 50  0001 C CNN
+F 3 "~" H 5650 5550 50  0001 C CNN
+	1    5650 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B9D41F
+P 6100 5550
+F 0 "D?" V 6139 5432 50  0000 R CNN
+F 1 "LED" V 6048 5432 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 6100 5550 50  0001 C CNN
+F 3 "~" H 6100 5550 50  0001 C CNN
+	1    6100 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B9D425
+P 6550 5550
+F 0 "D?" V 6589 5432 50  0000 R CNN
+F 1 "LED" V 6498 5432 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 6550 5550 50  0001 C CNN
+F 3 "~" H 6550 5550 50  0001 C CNN
+	1    6550 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B9D42B
+P 7000 5550
+F 0 "D?" V 7039 5432 50  0000 R CNN
+F 1 "LED" V 6948 5432 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 7000 5550 50  0001 C CNN
+F 3 "~" H 7000 5550 50  0001 C CNN
+	1    7000 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B9D431
+P 7450 5550
+F 0 "D?" V 7489 5432 50  0000 R CNN
+F 1 "LED" V 7398 5432 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 7450 5550 50  0001 C CNN
+F 3 "~" H 7450 5550 50  0001 C CNN
+	1    7450 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B9D437
+P 7900 5550
+F 0 "D?" V 7939 5432 50  0000 R CNN
+F 1 "LED" V 7848 5432 50  0000 R CNN
+F 2 "Reverse_Mount_SMT_LED_PoC:0603_LED_Reverse" H 7900 5550 50  0001 C CNN
+F 3 "~" H 7900 5550 50  0001 C CNN
+	1    7900 5550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7900 5700 7450 5700
+Wire Wire Line
+	7450 5700 7000 5700
+Connection ~ 7450 5700
+Wire Wire Line
+	7000 5700 6550 5700
+Connection ~ 7000 5700
+Wire Wire Line
+	6550 5700 6100 5700
+Connection ~ 6550 5700
+Wire Wire Line
+	6100 5700 5650 5700
+Connection ~ 6100 5700
+Wire Wire Line
+	5650 5700 5200 5700
+Connection ~ 5650 5700
+Wire Wire Line
+	5200 5700 4750 5700
+Connection ~ 5200 5700
+$Comp
+L Device:R_Small R?
+U 1 1 60B9D44A
+P 4400 5700
+F 0 "R?" V 4204 5700 50  0000 C CNN
+F 1 "R_Small" V 4295 5700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 4400 5700 50  0001 C CNN
+F 3 "~" H 4400 5700 50  0001 C CNN
+	1    4400 5700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 5700 4500 5700
+Connection ~ 4750 5700
+Wire Wire Line
+	5000 5400 4750 5400
+Wire Wire Line
+	5450 5400 5200 5400
+Wire Wire Line
+	5900 5400 5650 5400
+Wire Wire Line
+	6350 5400 6100 5400
+Wire Wire Line
+	6800 5400 6550 5400
+Wire Wire Line
+	7250 5400 7000 5400
+Wire Wire Line
+	7700 5400 7450 5400
+Wire Wire Line
+	8100 5400 7900 5400
+Wire Wire Line
+	5000 2250 5000 2700
+Wire Wire Line
+	5000 2700 5000 3150
+Connection ~ 5000 2700
+Wire Wire Line
+	5000 3150 5000 3600
+Connection ~ 5000 3150
+Wire Wire Line
+	5000 3600 5000 4050
+Connection ~ 5000 3600
+Wire Wire Line
+	5000 4050 5000 4500
+Connection ~ 5000 4050
+Wire Wire Line
+	5000 4950 5000 5400
+Wire Wire Line
+	5000 4950 5000 4500
+Connection ~ 5000 4950
+Connection ~ 5000 4500
+Wire Wire Line
+	5450 5400 5450 4950
+Wire Wire Line
+	5450 4950 5450 4500
+Connection ~ 5450 4950
+Wire Wire Line
+	5450 4500 5450 4050
+Connection ~ 5450 4500
+Wire Wire Line
+	5450 4050 5450 3600
+Connection ~ 5450 4050
+Wire Wire Line
+	5450 3600 5450 3150
+Connection ~ 5450 3600
+Wire Wire Line
+	5450 3150 5450 2700
+Connection ~ 5450 3150
+Wire Wire Line
+	5450 2700 5450 2250
+Connection ~ 5450 2700
+Wire Wire Line
+	5900 2250 5900 2700
+Wire Wire Line
+	5900 2700 5900 3150
+Connection ~ 5900 2700
+Wire Wire Line
+	5900 3150 5900 3600
+Connection ~ 5900 3150
+Wire Wire Line
+	5900 3600 5900 4050
+Connection ~ 5900 3600
+Wire Wire Line
+	5900 4050 5900 4500
+Connection ~ 5900 4050
+Wire Wire Line
+	5900 4500 5900 4950
+Connection ~ 5900 4500
+Wire Wire Line
+	5900 5400 5900 4950
+Connection ~ 5900 4950
+Wire Wire Line
+	6350 5400 6350 4950
+Wire Wire Line
+	6350 4950 6350 4500
+Connection ~ 6350 4950
+Wire Wire Line
+	6350 4500 6350 4050
+Connection ~ 6350 4500
+Wire Wire Line
+	6350 4050 6350 3600
+Connection ~ 6350 4050
+Wire Wire Line
+	6350 3600 6350 3150
+Connection ~ 6350 3600
+Wire Wire Line
+	6350 3150 6350 2700
+Connection ~ 6350 3150
+Wire Wire Line
+	6350 2700 6350 2250
+Connection ~ 6350 2700
+Wire Wire Line
+	6800 2250 6800 2700
+Wire Wire Line
+	6800 2700 6800 3150
+Connection ~ 6800 2700
+Connection ~ 6800 3150
+Wire Wire Line
+	6800 3150 6800 3600
+Connection ~ 6800 3600
+Wire Wire Line
+	6800 3600 6800 4050
+Connection ~ 6800 4050
+Wire Wire Line
+	6800 4050 6800 4500
+Connection ~ 6800 4500
+Wire Wire Line
+	6800 4500 6800 4950
+Connection ~ 6800 4950
+Wire Wire Line
+	6800 4950 6800 5400
+Wire Wire Line
+	7250 2250 7250 2700
+Connection ~ 7250 2700
+Wire Wire Line
+	7250 2700 7250 3150
+Connection ~ 7250 3150
+Wire Wire Line
+	7250 3150 7250 3600
+Connection ~ 7250 3600
+Wire Wire Line
+	7250 3600 7250 4050
+Connection ~ 7250 4050
+Wire Wire Line
+	7250 4050 7250 4500
+Connection ~ 7250 4500
+Wire Wire Line
+	7250 4500 7250 4950
+Connection ~ 7250 4950
+Wire Wire Line
+	7250 4950 7250 5400
+Wire Wire Line
+	7700 2250 7700 2700
+Connection ~ 7700 2700
+Wire Wire Line
+	7700 2700 7700 3150
+Connection ~ 7700 3150
+Wire Wire Line
+	7700 3150 7700 3600
+Connection ~ 7700 3600
+Wire Wire Line
+	7700 3600 7700 4050
+Connection ~ 7700 4050
+Wire Wire Line
+	7700 4050 7700 4500
+Connection ~ 7700 4500
+Wire Wire Line
+	7700 4500 7700 4950
+Connection ~ 7700 4950
+Wire Wire Line
+	7700 4950 7700 5400
+Wire Wire Line
+	8100 2250 8100 2700
+Connection ~ 8100 2700
+Wire Wire Line
+	8100 2700 8100 3150
+Connection ~ 8100 3150
+Wire Wire Line
+	8100 3150 8100 3600
+Connection ~ 8100 3600
+Wire Wire Line
+	8100 3600 8100 4050
+Connection ~ 8100 4050
+Wire Wire Line
+	8100 4050 8100 4500
+Connection ~ 8100 4500
+Wire Wire Line
+	8100 4500 8100 4950
+Connection ~ 8100 4950
+Wire Wire Line
+	8100 4950 8100 5400
+$Comp
+L Connector:Conn_01x08_Male J?
+U 1 1 60CE926E
+P 5400 1300
+F 0 "J?" V 5235 1228 50  0000 C CNN
+F 1 "Conn_01x08_Male" V 5326 1228 50  0000 C CNN
+F 2 "" H 5400 1300 50  0001 C CNN
+F 3 "~" H 5400 1300 50  0001 C CNN
+	1    5400 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x08_Male J?
+U 1 1 60CEE20E
+P 3600 2850
+F 0 "J?" V 3435 2778 50  0000 C CNN
+F 1 "Conn_01x08_Male" V 3526 2778 50  0000 C CNN
+F 2 "" H 3600 2850 50  0001 C CNN
+F 3 "~" H 3600 2850 50  0001 C CNN
+	1    3600 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 2250 5000 1500
+Connection ~ 5000 2250
+Wire Wire Line
+	5450 2250 5450 2150
+Wire Wire Line
+	5450 2150 5100 2150
+Wire Wire Line
+	5100 2150 5100 1500
+Connection ~ 5450 2250
+Wire Wire Line
+	5200 1500 5200 2100
+Wire Wire Line
+	5200 2100 5900 2100
+Wire Wire Line
+	5900 2100 5900 2250
+Connection ~ 5900 2250
+Wire Wire Line
+	5300 1500 5300 2050
+Wire Wire Line
+	5300 2050 6350 2050
+Wire Wire Line
+	6350 2050 6350 2250
+Connection ~ 6350 2250
+Wire Wire Line
+	5400 1500 5400 2000
+Wire Wire Line
+	5400 2000 6800 2000
+Wire Wire Line
+	6800 2000 6800 2250
+Connection ~ 6800 2250
+Wire Wire Line
+	5500 1500 5500 1950
+Wire Wire Line
+	5500 1950 7250 1950
+Wire Wire Line
+	7250 1950 7250 2250
+Connection ~ 7250 2250
+Wire Wire Line
+	5600 1500 5600 1900
+Wire Wire Line
+	5600 1900 7700 1900
+Wire Wire Line
+	7700 1900 7700 2250
+Connection ~ 7700 2250
+Wire Wire Line
+	5700 1500 5700 1850
+Wire Wire Line
+	5700 1850 8100 1850
+Wire Wire Line
+	8100 1850 8100 2250
+Connection ~ 8100 2250
+Wire Wire Line
+	3800 2550 4300 2550
+Wire Wire Line
+	3800 2650 4200 2650
+Wire Wire Line
+	4200 2650 4200 3000
+Wire Wire Line
+	4200 3000 4300 3000
+Wire Wire Line
+	3800 2750 4150 2750
+Wire Wire Line
+	4150 2750 4150 3450
+Wire Wire Line
+	4150 3450 4300 3450
+Wire Wire Line
+	3800 2850 4100 2850
+Wire Wire Line
+	4100 2850 4100 3900
+Wire Wire Line
+	4100 3900 4300 3900
+Wire Wire Line
+	3800 2950 4050 2950
+Wire Wire Line
+	4050 2950 4050 4350
+Wire Wire Line
+	4050 4350 4300 4350
+Wire Wire Line
+	3800 3050 4000 3050
+Wire Wire Line
+	4000 3050 4000 4800
+Wire Wire Line
+	4000 4800 4300 4800
+Wire Wire Line
+	3800 3150 3950 3150
+Wire Wire Line
+	3950 3150 3950 5250
+Wire Wire Line
+	3950 5250 4300 5250
+Wire Wire Line
+	4300 5700 3900 5700
+Wire Wire Line
+	3900 5700 3900 3250
+Wire Wire Line
+	3900 3250 3800 3250
+$EndSCHEMATC
