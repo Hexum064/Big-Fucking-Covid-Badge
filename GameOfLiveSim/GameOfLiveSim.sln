@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1525
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfLiveSim", "GameOfLiveSim\GameOfLiveSim.csproj", "{CF2B7F05-2FD0-43DF-8B3F-F7B30C74A43E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF2B7F05-2FD0-43DF-8B3F-F7B30C74A43E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF2B7F05-2FD0-43DF-8B3F-F7B30C74A43E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF2B7F05-2FD0-43DF-8B3F-F7B30C74A43E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF2B7F05-2FD0-43DF-8B3F-F7B30C74A43E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5233BBF6-EC41-46B6-BA1C-723962B7C772}
+	EndGlobalSection
+EndGlobal

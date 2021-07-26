@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name ATTINY412-SSNR)(type Legacy)(uri "M:/My Documents/Google Drive/DC27 Big Fucking Badge/TestBoard/ATTINY412-SSNR.lib")(options "")(descr ""))
+  (lib (name NCS2211DR2G)(type Legacy)(uri "M:/My Documents/Google Drive/DC27 Big Fucking Badge/TestBoard/NCS2211DR2G.lib")(options "")(descr ""))
+  (lib (name TestBoard-rescue)(type Legacy)(uri "M:/My Documents/Google Drive/DC27 Big Fucking Badge/TestBoard/TestBoard-rescue.lib")(options "")(descr ""))
+  (lib (name AT25DF041A-SSH-B)(type Legacy)(uri "M:/My Documents/Google Drive/DC27 Big Fucking Badge/TestBoard/AT25DF041A-SSH-B.lib")(options "")(descr ""))
+  (lib (name TPS613221ADBVT)(type Legacy)(uri "M:/My Documents/Google Drive/DC27 Big Fucking Badge/TestBoard/TPS613221ADBVT.lib")(options "")(descr ""))
+  (lib (name MSS3-V-T_R)(type Legacy)(uri "M:/My Documents/Google Drive/DC27 Big Fucking Badge/TestBoard/MSS3-V-T_R.lib")(options "")(descr ""))
+  (lib (name 2468)(type Legacy)(uri "M:/My Documents/Google Drive/DC27 Big Fucking Badge/TestBoard/2468.lib")(options "")(descr ""))
+)

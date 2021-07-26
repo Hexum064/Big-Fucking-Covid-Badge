@@ -1,0 +1,3646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>M:\My Documents\Google Drive\BFB\Big Fucking Covid Badge\LED_Mounting_PoCs\Front_Mount_SMT_LED_PoCs\Front_Mount_SMT_LED_PoCs.sch</source>
+    <date>2021-06-16 13:24:00</date>
+    <tool>Eeschema (5.1.9)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Front_Mount_SMT_LED_PoCs.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C964EC</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CA0A27</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CA7E9F</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CA7ECF</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CB4F1D</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CB4F4D</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CB4F7D</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CB4FAD</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>R_Small</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CBC68B</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>R_Small</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CBD2CE</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>R_Small</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CBD471</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>R_Small</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CBD85C</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>R_Small</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CBDB14</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>R_Small</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CBDC44</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>R_Small</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CBDE3C</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>R_Small</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CBE024</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x08_Male</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x08_Male" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CBF33B</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x08_Male</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x08_Male" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CC0E9B</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CCF2D7</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CCF2DD</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CCF2E3</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CCF2E9</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CCF2EF</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CCF2F5</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CCF2FB</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CCF301</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CDB0DE</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CDB0E4</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CDB0EA</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CDB0F0</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CDB0F6</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CDB0FC</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CDB102</tstamp>
+    </comp>
+    <comp ref="D24">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CDB108</tstamp>
+    </comp>
+    <comp ref="D25">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CDB125</tstamp>
+    </comp>
+    <comp ref="D26">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CDB12B</tstamp>
+    </comp>
+    <comp ref="D27">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CDB131</tstamp>
+    </comp>
+    <comp ref="D28">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CDB137</tstamp>
+    </comp>
+    <comp ref="D29">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CDB13D</tstamp>
+    </comp>
+    <comp ref="D30">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CDB143</tstamp>
+    </comp>
+    <comp ref="D31">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CDB149</tstamp>
+    </comp>
+    <comp ref="D32">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CDB14F</tstamp>
+    </comp>
+    <comp ref="D33">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CE84A6</tstamp>
+    </comp>
+    <comp ref="D34">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CE84AC</tstamp>
+    </comp>
+    <comp ref="D35">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CE84B2</tstamp>
+    </comp>
+    <comp ref="D36">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CE84B8</tstamp>
+    </comp>
+    <comp ref="D37">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CE84BE</tstamp>
+    </comp>
+    <comp ref="D38">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CE84C4</tstamp>
+    </comp>
+    <comp ref="D39">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CE84CA</tstamp>
+    </comp>
+    <comp ref="D40">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CE84D0</tstamp>
+    </comp>
+    <comp ref="D41">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CE84ED</tstamp>
+    </comp>
+    <comp ref="D42">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CE84F3</tstamp>
+    </comp>
+    <comp ref="D43">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CE84F9</tstamp>
+    </comp>
+    <comp ref="D44">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CE84FF</tstamp>
+    </comp>
+    <comp ref="D45">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CE8505</tstamp>
+    </comp>
+    <comp ref="D46">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CE850B</tstamp>
+    </comp>
+    <comp ref="D47">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CE8511</tstamp>
+    </comp>
+    <comp ref="D48">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CE8517</tstamp>
+    </comp>
+    <comp ref="D49">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CE8534</tstamp>
+    </comp>
+    <comp ref="D50">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CE853A</tstamp>
+    </comp>
+    <comp ref="D51">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CE8540</tstamp>
+    </comp>
+    <comp ref="D52">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CE8546</tstamp>
+    </comp>
+    <comp ref="D53">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CE854C</tstamp>
+    </comp>
+    <comp ref="D54">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CE8552</tstamp>
+    </comp>
+    <comp ref="D55">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CE8558</tstamp>
+    </comp>
+    <comp ref="D56">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CE855E</tstamp>
+    </comp>
+    <comp ref="D57">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CE857B</tstamp>
+    </comp>
+    <comp ref="D58">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CE8581</tstamp>
+    </comp>
+    <comp ref="D59">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CE8587</tstamp>
+    </comp>
+    <comp ref="D60">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CE858D</tstamp>
+    </comp>
+    <comp ref="D61">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CE8593</tstamp>
+    </comp>
+    <comp ref="D62">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CE8599</tstamp>
+    </comp>
+    <comp ref="D63">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CE859F</tstamp>
+    </comp>
+    <comp ref="D64">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CE85A5</tstamp>
+    </comp>
+    <comp ref="D289">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AD80</tstamp>
+    </comp>
+    <comp ref="D290">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AD86</tstamp>
+    </comp>
+    <comp ref="D291">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AD8C</tstamp>
+    </comp>
+    <comp ref="D292">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AD92</tstamp>
+    </comp>
+    <comp ref="D293">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AD98</tstamp>
+    </comp>
+    <comp ref="D294">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AD9E</tstamp>
+    </comp>
+    <comp ref="D295">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ADA4</tstamp>
+    </comp>
+    <comp ref="D296">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ADAA</tstamp>
+    </comp>
+    <comp ref="D297">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ADB0</tstamp>
+    </comp>
+    <comp ref="D298">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ADB6</tstamp>
+    </comp>
+    <comp ref="D299">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ADBC</tstamp>
+    </comp>
+    <comp ref="D300">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ADC2</tstamp>
+    </comp>
+    <comp ref="D301">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ADC8</tstamp>
+    </comp>
+    <comp ref="D302">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ADCE</tstamp>
+    </comp>
+    <comp ref="D303">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ADD4</tstamp>
+    </comp>
+    <comp ref="D304">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ADDA</tstamp>
+    </comp>
+    <comp ref="D305">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ADE0</tstamp>
+    </comp>
+    <comp ref="D306">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ADE6</tstamp>
+    </comp>
+    <comp ref="D307">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ADEC</tstamp>
+    </comp>
+    <comp ref="D308">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ADF2</tstamp>
+    </comp>
+    <comp ref="D309">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ADF8</tstamp>
+    </comp>
+    <comp ref="D310">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ADFE</tstamp>
+    </comp>
+    <comp ref="D311">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AE04</tstamp>
+    </comp>
+    <comp ref="D312">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AE0A</tstamp>
+    </comp>
+    <comp ref="D313">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AE10</tstamp>
+    </comp>
+    <comp ref="D314">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AE16</tstamp>
+    </comp>
+    <comp ref="D315">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AE1C</tstamp>
+    </comp>
+    <comp ref="D316">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AE22</tstamp>
+    </comp>
+    <comp ref="D317">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AE28</tstamp>
+    </comp>
+    <comp ref="D318">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AE2E</tstamp>
+    </comp>
+    <comp ref="D319">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AE34</tstamp>
+    </comp>
+    <comp ref="D320">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AE3A</tstamp>
+    </comp>
+    <comp ref="D272">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AD1A</tstamp>
+    </comp>
+    <comp ref="D271">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AD14</tstamp>
+    </comp>
+    <comp ref="D270">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AD0E</tstamp>
+    </comp>
+    <comp ref="D269">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AD08</tstamp>
+    </comp>
+    <comp ref="D268">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AD02</tstamp>
+    </comp>
+    <comp ref="D267">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ACFC</tstamp>
+    </comp>
+    <comp ref="D266">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ACF6</tstamp>
+    </comp>
+    <comp ref="D265">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ACF0</tstamp>
+    </comp>
+    <comp ref="D264">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ACEA</tstamp>
+    </comp>
+    <comp ref="D263">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ACE4</tstamp>
+    </comp>
+    <comp ref="D262">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ACDE</tstamp>
+    </comp>
+    <comp ref="D261">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ACD8</tstamp>
+    </comp>
+    <comp ref="D260">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ACD2</tstamp>
+    </comp>
+    <comp ref="D259">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ACCC</tstamp>
+    </comp>
+    <comp ref="D258">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ACC6</tstamp>
+    </comp>
+    <comp ref="D257">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ACC0</tstamp>
+    </comp>
+    <comp ref="D256">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ACBA</tstamp>
+    </comp>
+    <comp ref="D255">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ACB4</tstamp>
+    </comp>
+    <comp ref="D254">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ACAE</tstamp>
+    </comp>
+    <comp ref="D253">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ACA8</tstamp>
+    </comp>
+    <comp ref="D252">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ACA2</tstamp>
+    </comp>
+    <comp ref="D251">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AC9C</tstamp>
+    </comp>
+    <comp ref="D250">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AC96</tstamp>
+    </comp>
+    <comp ref="D249">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AC90</tstamp>
+    </comp>
+    <comp ref="D248">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AC8A</tstamp>
+    </comp>
+    <comp ref="D247">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AC84</tstamp>
+    </comp>
+    <comp ref="D246">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AC7E</tstamp>
+    </comp>
+    <comp ref="D245">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AC78</tstamp>
+    </comp>
+    <comp ref="D244">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AC72</tstamp>
+    </comp>
+    <comp ref="D243">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AC6C</tstamp>
+    </comp>
+    <comp ref="D242">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AC66</tstamp>
+    </comp>
+    <comp ref="D241">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AC60</tstamp>
+    </comp>
+    <comp ref="D240">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AC5A</tstamp>
+    </comp>
+    <comp ref="D239">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AC54</tstamp>
+    </comp>
+    <comp ref="D238">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AC4E</tstamp>
+    </comp>
+    <comp ref="D237">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AC48</tstamp>
+    </comp>
+    <comp ref="D236">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AC42</tstamp>
+    </comp>
+    <comp ref="D235">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AC3C</tstamp>
+    </comp>
+    <comp ref="D234">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AC36</tstamp>
+    </comp>
+    <comp ref="D233">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AC30</tstamp>
+    </comp>
+    <comp ref="D232">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AC2A</tstamp>
+    </comp>
+    <comp ref="D231">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AC24</tstamp>
+    </comp>
+    <comp ref="D230">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AC1E</tstamp>
+    </comp>
+    <comp ref="D229">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AC18</tstamp>
+    </comp>
+    <comp ref="D228">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AC12</tstamp>
+    </comp>
+    <comp ref="D227">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AC0C</tstamp>
+    </comp>
+    <comp ref="D226">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AC06</tstamp>
+    </comp>
+    <comp ref="D225">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AC00</tstamp>
+    </comp>
+    <comp ref="D224">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ABFA</tstamp>
+    </comp>
+    <comp ref="D223">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ABF4</tstamp>
+    </comp>
+    <comp ref="D222">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ABEE</tstamp>
+    </comp>
+    <comp ref="D221">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ABE8</tstamp>
+    </comp>
+    <comp ref="D220">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ABE2</tstamp>
+    </comp>
+    <comp ref="D219">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ABDC</tstamp>
+    </comp>
+    <comp ref="D218">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ABD6</tstamp>
+    </comp>
+    <comp ref="D217">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ABD0</tstamp>
+    </comp>
+    <comp ref="D216">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ABCA</tstamp>
+    </comp>
+    <comp ref="D215">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ABC4</tstamp>
+    </comp>
+    <comp ref="D214">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ABBE</tstamp>
+    </comp>
+    <comp ref="D213">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ABB8</tstamp>
+    </comp>
+    <comp ref="D212">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ABB2</tstamp>
+    </comp>
+    <comp ref="D211">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ABAC</tstamp>
+    </comp>
+    <comp ref="D210">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ABA6</tstamp>
+    </comp>
+    <comp ref="D209">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4ABA0</tstamp>
+    </comp>
+    <comp ref="D208">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AB9A</tstamp>
+    </comp>
+    <comp ref="D207">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AB94</tstamp>
+    </comp>
+    <comp ref="D206">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AB8E</tstamp>
+    </comp>
+    <comp ref="D205">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AB88</tstamp>
+    </comp>
+    <comp ref="D204">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AB82</tstamp>
+    </comp>
+    <comp ref="D202">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AB76</tstamp>
+    </comp>
+    <comp ref="D201">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AB70</tstamp>
+    </comp>
+    <comp ref="D200">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AB6A</tstamp>
+    </comp>
+    <comp ref="D199">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AB64</tstamp>
+    </comp>
+    <comp ref="D198">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AB5E</tstamp>
+    </comp>
+    <comp ref="D197">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AB58</tstamp>
+    </comp>
+    <comp ref="D196">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AB52</tstamp>
+    </comp>
+    <comp ref="D195">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AB4C</tstamp>
+    </comp>
+    <comp ref="D194">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AB46</tstamp>
+    </comp>
+    <comp ref="D193">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AB40</tstamp>
+    </comp>
+    <comp ref="D192">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDB68</tstamp>
+    </comp>
+    <comp ref="D191">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDB62</tstamp>
+    </comp>
+    <comp ref="D190">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDB5C</tstamp>
+    </comp>
+    <comp ref="D189">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDB56</tstamp>
+    </comp>
+    <comp ref="D188">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDB50</tstamp>
+    </comp>
+    <comp ref="D187">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDB4A</tstamp>
+    </comp>
+    <comp ref="D186">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDB44</tstamp>
+    </comp>
+    <comp ref="D185">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDB3E</tstamp>
+    </comp>
+    <comp ref="D184">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDB38</tstamp>
+    </comp>
+    <comp ref="D183">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDB32</tstamp>
+    </comp>
+    <comp ref="D182">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDB2C</tstamp>
+    </comp>
+    <comp ref="D181">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDB26</tstamp>
+    </comp>
+    <comp ref="D180">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDB20</tstamp>
+    </comp>
+    <comp ref="D179">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDB1A</tstamp>
+    </comp>
+    <comp ref="D178">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDB14</tstamp>
+    </comp>
+    <comp ref="D177">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDB0E</tstamp>
+    </comp>
+    <comp ref="D176">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDB08</tstamp>
+    </comp>
+    <comp ref="D175">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDB02</tstamp>
+    </comp>
+    <comp ref="D174">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDAFC</tstamp>
+    </comp>
+    <comp ref="D173">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDAF6</tstamp>
+    </comp>
+    <comp ref="D172">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDAF0</tstamp>
+    </comp>
+    <comp ref="D171">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDAEA</tstamp>
+    </comp>
+    <comp ref="D170">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDAE4</tstamp>
+    </comp>
+    <comp ref="D169">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDADE</tstamp>
+    </comp>
+    <comp ref="D168">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDAD8</tstamp>
+    </comp>
+    <comp ref="D167">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDAD2</tstamp>
+    </comp>
+    <comp ref="D166">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDACC</tstamp>
+    </comp>
+    <comp ref="D165">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDAC6</tstamp>
+    </comp>
+    <comp ref="D164">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDAC0</tstamp>
+    </comp>
+    <comp ref="D163">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDABA</tstamp>
+    </comp>
+    <comp ref="D162">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDAB4</tstamp>
+    </comp>
+    <comp ref="D161">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDAAE</tstamp>
+    </comp>
+    <comp ref="D160">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDAA8</tstamp>
+    </comp>
+    <comp ref="D159">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDAA2</tstamp>
+    </comp>
+    <comp ref="D158">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDA9C</tstamp>
+    </comp>
+    <comp ref="D157">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDA96</tstamp>
+    </comp>
+    <comp ref="D156">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDA90</tstamp>
+    </comp>
+    <comp ref="D155">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDA8A</tstamp>
+    </comp>
+    <comp ref="D154">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDA84</tstamp>
+    </comp>
+    <comp ref="D153">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDA7E</tstamp>
+    </comp>
+    <comp ref="D152">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDA78</tstamp>
+    </comp>
+    <comp ref="D151">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDA72</tstamp>
+    </comp>
+    <comp ref="D150">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDA6C</tstamp>
+    </comp>
+    <comp ref="D149">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDA66</tstamp>
+    </comp>
+    <comp ref="D148">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDA60</tstamp>
+    </comp>
+    <comp ref="D147">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDA5A</tstamp>
+    </comp>
+    <comp ref="D146">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDA54</tstamp>
+    </comp>
+    <comp ref="D145">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDA4E</tstamp>
+    </comp>
+    <comp ref="D144">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDA48</tstamp>
+    </comp>
+    <comp ref="D143">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDA42</tstamp>
+    </comp>
+    <comp ref="D142">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDA3C</tstamp>
+    </comp>
+    <comp ref="D141">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDA36</tstamp>
+    </comp>
+    <comp ref="D140">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDA30</tstamp>
+    </comp>
+    <comp ref="D139">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDA2A</tstamp>
+    </comp>
+    <comp ref="D138">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDA24</tstamp>
+    </comp>
+    <comp ref="D137">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDA1E</tstamp>
+    </comp>
+    <comp ref="D136">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDA18</tstamp>
+    </comp>
+    <comp ref="D135">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDA12</tstamp>
+    </comp>
+    <comp ref="D134">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDA0C</tstamp>
+    </comp>
+    <comp ref="D133">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDA06</tstamp>
+    </comp>
+    <comp ref="D132">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDA00</tstamp>
+    </comp>
+    <comp ref="D131">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFD9FA</tstamp>
+    </comp>
+    <comp ref="D129">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFD9EE</tstamp>
+    </comp>
+    <comp ref="D128">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EC7DE4</tstamp>
+    </comp>
+    <comp ref="D126">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EC7DD8</tstamp>
+    </comp>
+    <comp ref="D125">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EC7DD2</tstamp>
+    </comp>
+    <comp ref="D124">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EC7DCC</tstamp>
+    </comp>
+    <comp ref="D123">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EC7DC6</tstamp>
+    </comp>
+    <comp ref="D122">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EC7DC0</tstamp>
+    </comp>
+    <comp ref="D121">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EC7DBA</tstamp>
+    </comp>
+    <comp ref="D120">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EC7DB4</tstamp>
+    </comp>
+    <comp ref="D119">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EC7DAE</tstamp>
+    </comp>
+    <comp ref="D118">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EC7DA8</tstamp>
+    </comp>
+    <comp ref="D117">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EC7DA2</tstamp>
+    </comp>
+    <comp ref="D116">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EC7D9C</tstamp>
+    </comp>
+    <comp ref="D115">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EC7D96</tstamp>
+    </comp>
+    <comp ref="D114">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EC7D90</tstamp>
+    </comp>
+    <comp ref="D113">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EC7D8A</tstamp>
+    </comp>
+    <comp ref="D112">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EB3B10</tstamp>
+    </comp>
+    <comp ref="D111">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EB3B0A</tstamp>
+    </comp>
+    <comp ref="D110">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EB3B04</tstamp>
+    </comp>
+    <comp ref="D109">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EB3AFE</tstamp>
+    </comp>
+    <comp ref="D108">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EB3AF8</tstamp>
+    </comp>
+    <comp ref="D107">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EB3AF2</tstamp>
+    </comp>
+    <comp ref="D106">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EB3AEC</tstamp>
+    </comp>
+    <comp ref="D105">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EB3AE6</tstamp>
+    </comp>
+    <comp ref="D104">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EB3AE0</tstamp>
+    </comp>
+    <comp ref="D103">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EB3ADA</tstamp>
+    </comp>
+    <comp ref="D102">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EB3AD4</tstamp>
+    </comp>
+    <comp ref="D101">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EB3ACE</tstamp>
+    </comp>
+    <comp ref="D100">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EB3AC8</tstamp>
+    </comp>
+    <comp ref="D99">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EB3AC2</tstamp>
+    </comp>
+    <comp ref="D98">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EB3ABC</tstamp>
+    </comp>
+    <comp ref="D97">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EB3AB6</tstamp>
+    </comp>
+    <comp ref="D96">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EA046A</tstamp>
+    </comp>
+    <comp ref="D95">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EA0464</tstamp>
+    </comp>
+    <comp ref="D94">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EA045E</tstamp>
+    </comp>
+    <comp ref="D93">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EA0458</tstamp>
+    </comp>
+    <comp ref="D92">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EA0452</tstamp>
+    </comp>
+    <comp ref="D91">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EA044C</tstamp>
+    </comp>
+    <comp ref="D90">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EA0446</tstamp>
+    </comp>
+    <comp ref="D89">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EA0440</tstamp>
+    </comp>
+    <comp ref="D88">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EA043A</tstamp>
+    </comp>
+    <comp ref="D87">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EA0434</tstamp>
+    </comp>
+    <comp ref="D86">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EA042E</tstamp>
+    </comp>
+    <comp ref="D85">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EA0428</tstamp>
+    </comp>
+    <comp ref="D84">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EA0422</tstamp>
+    </comp>
+    <comp ref="D83">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EA041C</tstamp>
+    </comp>
+    <comp ref="D82">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EA0416</tstamp>
+    </comp>
+    <comp ref="D81">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EA0410</tstamp>
+    </comp>
+    <comp ref="D80">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E7EB3E</tstamp>
+    </comp>
+    <comp ref="D79">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E7EB38</tstamp>
+    </comp>
+    <comp ref="D78">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E7EB32</tstamp>
+    </comp>
+    <comp ref="D77">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E7EB2C</tstamp>
+    </comp>
+    <comp ref="D76">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E7EB26</tstamp>
+    </comp>
+    <comp ref="D75">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E7EB20</tstamp>
+    </comp>
+    <comp ref="D74">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E7EB1A</tstamp>
+    </comp>
+    <comp ref="D73">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E7EB14</tstamp>
+    </comp>
+    <comp ref="D72">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E6BB3A</tstamp>
+    </comp>
+    <comp ref="D71">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E6BB34</tstamp>
+    </comp>
+    <comp ref="D70">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E6BB2E</tstamp>
+    </comp>
+    <comp ref="D69">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E6BB28</tstamp>
+    </comp>
+    <comp ref="D68">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E6A68B</tstamp>
+    </comp>
+    <comp ref="D67">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E6A2B0</tstamp>
+    </comp>
+    <comp ref="D66">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E6A055</tstamp>
+    </comp>
+    <comp ref="D65">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E19375</tstamp>
+    </comp>
+    <comp ref="D288">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AD7A</tstamp>
+    </comp>
+    <comp ref="D287">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AD74</tstamp>
+    </comp>
+    <comp ref="D286">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AD6E</tstamp>
+    </comp>
+    <comp ref="D285">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AD68</tstamp>
+    </comp>
+    <comp ref="D284">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AD62</tstamp>
+    </comp>
+    <comp ref="D283">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AD5C</tstamp>
+    </comp>
+    <comp ref="D282">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AD56</tstamp>
+    </comp>
+    <comp ref="D281">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AD50</tstamp>
+    </comp>
+    <comp ref="D280">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AD4A</tstamp>
+    </comp>
+    <comp ref="D279">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AD44</tstamp>
+    </comp>
+    <comp ref="D278">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AD3E</tstamp>
+    </comp>
+    <comp ref="D277">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AD38</tstamp>
+    </comp>
+    <comp ref="D276">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AD32</tstamp>
+    </comp>
+    <comp ref="D275">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AD2C</tstamp>
+    </comp>
+    <comp ref="D274">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AD26</tstamp>
+    </comp>
+    <comp ref="D273">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AD20</tstamp>
+    </comp>
+    <comp ref="D130">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFD9F4</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>HT16D33A</value>
+      <footprint>Housings_SSOP:SSOP-28_3.9x9.9mm_Pitch0.635mm</footprint>
+      <libsource lib="HT16D33A_B" part="HT16D33A" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6FB62F56</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x24_Male</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x12_Pitch2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x24_Male" description="Generic connector, single row, 01x24, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>762BE121</tstamp>
+    </comp>
+    <comp ref="D127">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EC7DDE</tstamp>
+    </comp>
+    <comp ref="D203">
+      <value>LED_Small</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4AB7C</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x08_Male">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x24_Male">
+      <description>Generic connector, single row, 01x24, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x24_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Small">
+      <description>Light emitting diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HT16D33A_B" part="HT16D33A">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HT16D33A</field>
+        <field name="Footprint">Housings_SSOP:SSOP-28_3.9x9.9mm_Pitch0.635mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CA15" type="output"/>
+        <pin num="2" name="CA16" type="output"/>
+        <pin num="3" name="CA17" type="output"/>
+        <pin num="4" name="CA18" type="output"/>
+        <pin num="5" name="CA19" type="output"/>
+        <pin num="6" name="VDD" type="power_in"/>
+        <pin num="7" name="CSB" type="input"/>
+        <pin num="8" name="CLK" type="input"/>
+        <pin num="9" name="DIO" type="input"/>
+        <pin num="10" name="SYNC" type="input"/>
+        <pin num="11" name="CA0" type="output"/>
+        <pin num="12" name="CA1" type="output"/>
+        <pin num="13" name="CA2" type="output"/>
+        <pin num="14" name="CA3" type="output"/>
+        <pin num="15" name="CA4" type="output"/>
+        <pin num="16" name="LEDVDD" type="power_in"/>
+        <pin num="17" name="CA5" type="output"/>
+        <pin num="18" name="CA6" type="output"/>
+        <pin num="19" name="CA7" type="output"/>
+        <pin num="20" name="CA8" type="output"/>
+        <pin num="21" name="CA9" type="output"/>
+        <pin num="22" name="VSS" type="power_in"/>
+        <pin num="23" name="CA10" type="output"/>
+        <pin num="24" name="CA11" type="output"/>
+        <pin num="25" name="CA12" type="output"/>
+        <pin num="26" name="CA13" type="output"/>
+        <pin num="27" name="CA14" type="output"/>
+        <pin num="28" name="LEDVDD" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="HT16D33A_B">
+      <uri>M:\My Documents\Google Drive\Circuit Schematic Parts\HT16D33A_B.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D101-Pad2)">
+      <node ref="J3" pin="12"/>
+      <node ref="D197" pin="2"/>
+      <node ref="U1" pin="17"/>
+      <node ref="D144" pin="1"/>
+      <node ref="D143" pin="1"/>
+      <node ref="D142" pin="1"/>
+      <node ref="D309" pin="2"/>
+      <node ref="D293" pin="2"/>
+      <node ref="D181" pin="2"/>
+      <node ref="D277" pin="2"/>
+      <node ref="D213" pin="2"/>
+      <node ref="D117" pin="2"/>
+      <node ref="D261" pin="2"/>
+      <node ref="D69" pin="2"/>
+      <node ref="D116" pin="1"/>
+      <node ref="D113" pin="1"/>
+      <node ref="D114" pin="1"/>
+      <node ref="D115" pin="1"/>
+      <node ref="D101" pin="2"/>
+      <node ref="D133" pin="2"/>
+      <node ref="D149" pin="2"/>
+      <node ref="D141" pin="1"/>
+      <node ref="D136" pin="1"/>
+      <node ref="D135" pin="1"/>
+      <node ref="D134" pin="1"/>
+      <node ref="D140" pin="1"/>
+      <node ref="D139" pin="1"/>
+      <node ref="D138" pin="1"/>
+      <node ref="D137" pin="1"/>
+      <node ref="D165" pin="2"/>
+      <node ref="D85" pin="2"/>
+      <node ref="D229" pin="2"/>
+      <node ref="D245" pin="2"/>
+    </net>
+    <net code="2" name="Net-(D100-Pad2)">
+      <node ref="D244" pin="2"/>
+      <node ref="D84" pin="2"/>
+      <node ref="D132" pin="2"/>
+      <node ref="U1" pin="15"/>
+      <node ref="D196" pin="2"/>
+      <node ref="D260" pin="2"/>
+      <node ref="D148" pin="2"/>
+      <node ref="D126" pin="1"/>
+      <node ref="D292" pin="2"/>
+      <node ref="D164" pin="2"/>
+      <node ref="D120" pin="1"/>
+      <node ref="D119" pin="1"/>
+      <node ref="D128" pin="1"/>
+      <node ref="D180" pin="2"/>
+      <node ref="D118" pin="1"/>
+      <node ref="D117" pin="1"/>
+      <node ref="D228" pin="2"/>
+      <node ref="D100" pin="2"/>
+      <node ref="D99" pin="1"/>
+      <node ref="D98" pin="1"/>
+      <node ref="D97" pin="1"/>
+      <node ref="D125" pin="1"/>
+      <node ref="D124" pin="1"/>
+      <node ref="D308" pin="2"/>
+      <node ref="D123" pin="1"/>
+      <node ref="D122" pin="1"/>
+      <node ref="D121" pin="1"/>
+      <node ref="D68" pin="2"/>
+      <node ref="J3" pin="11"/>
+      <node ref="D276" pin="2"/>
+      <node ref="D116" pin="2"/>
+      <node ref="D212" pin="2"/>
+      <node ref="D127" pin="1"/>
+    </net>
+    <net code="3" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="4" name="Net-(D103-Pad2)">
+      <node ref="D169" pin="1"/>
+      <node ref="D71" pin="2"/>
+      <node ref="D167" pin="2"/>
+      <node ref="D263" pin="2"/>
+      <node ref="D168" pin="1"/>
+      <node ref="D119" pin="2"/>
+      <node ref="D183" pin="2"/>
+      <node ref="D295" pin="2"/>
+      <node ref="D172" pin="1"/>
+      <node ref="D174" pin="1"/>
+      <node ref="D311" pin="2"/>
+      <node ref="D147" pin="1"/>
+      <node ref="D135" pin="2"/>
+      <node ref="D148" pin="1"/>
+      <node ref="D151" pin="2"/>
+      <node ref="D87" pin="2"/>
+      <node ref="D173" pin="1"/>
+      <node ref="D171" pin="1"/>
+      <node ref="D170" pin="1"/>
+      <node ref="J3" pin="14"/>
+      <node ref="D176" pin="1"/>
+      <node ref="D175" pin="1"/>
+      <node ref="D199" pin="2"/>
+      <node ref="U1" pin="19"/>
+      <node ref="D145" pin="1"/>
+      <node ref="D146" pin="1"/>
+      <node ref="D150" pin="1"/>
+      <node ref="D149" pin="1"/>
+      <node ref="D215" pin="2"/>
+      <node ref="D103" pin="2"/>
+      <node ref="D247" pin="2"/>
+      <node ref="D231" pin="2"/>
+      <node ref="D279" pin="2"/>
+    </net>
+    <net code="5" name="Net-(D110-Pad2)">
+      <node ref="D206" pin="2"/>
+      <node ref="D269" pin="1"/>
+      <node ref="D222" pin="2"/>
+      <node ref="D287" pin="1"/>
+      <node ref="D126" pin="2"/>
+      <node ref="D286" pin="2"/>
+      <node ref="D257" pin="1"/>
+      <node ref="D266" pin="1"/>
+      <node ref="D260" pin="1"/>
+      <node ref="D259" pin="1"/>
+      <node ref="D258" pin="1"/>
+      <node ref="D190" pin="2"/>
+      <node ref="D267" pin="1"/>
+      <node ref="D270" pin="2"/>
+      <node ref="D268" pin="1"/>
+      <node ref="D264" pin="1"/>
+      <node ref="D288" pin="1"/>
+      <node ref="D261" pin="1"/>
+      <node ref="D265" pin="1"/>
+      <node ref="D158" pin="2"/>
+      <node ref="D263" pin="1"/>
+      <node ref="J3" pin="21"/>
+      <node ref="D302" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="D262" pin="1"/>
+      <node ref="D238" pin="2"/>
+      <node ref="D94" pin="2"/>
+      <node ref="D142" pin="2"/>
+      <node ref="D110" pin="2"/>
+      <node ref="D254" pin="2"/>
+      <node ref="D174" pin="2"/>
+      <node ref="D78" pin="2"/>
+      <node ref="D318" pin="2"/>
+    </net>
+    <net code="6" name="Net-(U1-Pad21)">
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="J3" pin="7"/>
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="8" name="Net-(U1-Pad24)">
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="9" name="Net-(J3-Pad3)">
+      <node ref="U1" pin="8"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="10" name="Net-(D109-Pad2)">
+      <node ref="D246" pin="1"/>
+      <node ref="D189" pin="2"/>
+      <node ref="D245" pin="1"/>
+      <node ref="D248" pin="1"/>
+      <node ref="D249" pin="1"/>
+      <node ref="D205" pin="2"/>
+      <node ref="D221" pin="2"/>
+      <node ref="D244" pin="1"/>
+      <node ref="D241" pin="1"/>
+      <node ref="D242" pin="1"/>
+      <node ref="D285" pin="2"/>
+      <node ref="D173" pin="2"/>
+      <node ref="D252" pin="1"/>
+      <node ref="D93" pin="2"/>
+      <node ref="D317" pin="2"/>
+      <node ref="D125" pin="2"/>
+      <node ref="D253" pin="2"/>
+      <node ref="D77" pin="2"/>
+      <node ref="D247" pin="1"/>
+      <node ref="D251" pin="1"/>
+      <node ref="D237" pin="2"/>
+      <node ref="D109" pin="2"/>
+      <node ref="D272" pin="1"/>
+      <node ref="D271" pin="1"/>
+      <node ref="D270" pin="1"/>
+      <node ref="D269" pin="2"/>
+      <node ref="D243" pin="1"/>
+      <node ref="J3" pin="20"/>
+      <node ref="D141" pin="2"/>
+      <node ref="D250" pin="1"/>
+      <node ref="D157" pin="2"/>
+      <node ref="D301" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="11" name="Net-(D111-Pad2)">
+      <node ref="D175" pin="2"/>
+      <node ref="D191" pin="2"/>
+      <node ref="D279" pin="1"/>
+      <node ref="D278" pin="1"/>
+      <node ref="J3" pin="22"/>
+      <node ref="D207" pin="2"/>
+      <node ref="D143" pin="2"/>
+      <node ref="D304" pin="1"/>
+      <node ref="D111" pin="2"/>
+      <node ref="D271" pin="2"/>
+      <node ref="D255" pin="2"/>
+      <node ref="D273" pin="1"/>
+      <node ref="D95" pin="2"/>
+      <node ref="D239" pin="2"/>
+      <node ref="D285" pin="1"/>
+      <node ref="D284" pin="1"/>
+      <node ref="D319" pin="2"/>
+      <node ref="D283" pin="1"/>
+      <node ref="D282" pin="1"/>
+      <node ref="D280" pin="1"/>
+      <node ref="D303" pin="2"/>
+      <node ref="D159" pin="2"/>
+      <node ref="D127" pin="2"/>
+      <node ref="D281" pin="1"/>
+      <node ref="D287" pin="2"/>
+      <node ref="D223" pin="2"/>
+      <node ref="D286" pin="1"/>
+      <node ref="D274" pin="1"/>
+      <node ref="D277" pin="1"/>
+      <node ref="D275" pin="1"/>
+      <node ref="D276" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="D79" pin="2"/>
+    </net>
+    <net code="12" name="Net-(D112-Pad2)">
+      <node ref="J3" pin="23"/>
+      <node ref="D240" pin="2"/>
+      <node ref="D320" pin="2"/>
+      <node ref="D295" pin="1"/>
+      <node ref="D176" pin="2"/>
+      <node ref="D293" pin="1"/>
+      <node ref="D296" pin="1"/>
+      <node ref="D297" pin="1"/>
+      <node ref="D298" pin="1"/>
+      <node ref="D224" pin="2"/>
+      <node ref="D292" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="D291" pin="1"/>
+      <node ref="D290" pin="1"/>
+      <node ref="D294" pin="1"/>
+      <node ref="D304" pin="2"/>
+      <node ref="D303" pin="1"/>
+      <node ref="D288" pin="2"/>
+      <node ref="D302" pin="1"/>
+      <node ref="D301" pin="1"/>
+      <node ref="D300" pin="1"/>
+      <node ref="D299" pin="1"/>
+      <node ref="D289" pin="1"/>
+      <node ref="D256" pin="2"/>
+      <node ref="D272" pin="2"/>
+      <node ref="D160" pin="2"/>
+      <node ref="D112" pin="2"/>
+      <node ref="D128" pin="2"/>
+      <node ref="D96" pin="2"/>
+      <node ref="D208" pin="2"/>
+      <node ref="D192" pin="2"/>
+      <node ref="D80" pin="2"/>
+      <node ref="D144" pin="2"/>
+    </net>
+    <net code="13" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="14" name="Net-(J3-Pad6)">
+      <node ref="J3" pin="6"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="15" name="Net-(J3-Pad5)">
+      <node ref="U1" pin="16"/>
+      <node ref="J3" pin="5"/>
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="16" name="Net-(J3-Pad4)">
+      <node ref="U1" pin="7"/>
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="17" name="Net-(J3-Pad2)">
+      <node ref="U1" pin="9"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="18" name="Net-(D106-Pad2)">
+      <node ref="D234" pin="2"/>
+      <node ref="D250" pin="2"/>
+      <node ref="D298" pin="2"/>
+      <node ref="D314" pin="2"/>
+      <node ref="D201" pin="1"/>
+      <node ref="D122" pin="2"/>
+      <node ref="D282" pin="2"/>
+      <node ref="D106" pin="2"/>
+      <node ref="D200" pin="1"/>
+      <node ref="D138" pin="2"/>
+      <node ref="D220" pin="1"/>
+      <node ref="D199" pin="1"/>
+      <node ref="D90" pin="2"/>
+      <node ref="D186" pin="2"/>
+      <node ref="D202" pin="2"/>
+      <node ref="U1" pin="25"/>
+      <node ref="D221" pin="1"/>
+      <node ref="D218" pin="2"/>
+      <node ref="D170" pin="2"/>
+      <node ref="D195" pin="1"/>
+      <node ref="D194" pin="1"/>
+      <node ref="J3" pin="17"/>
+      <node ref="D197" pin="1"/>
+      <node ref="D198" pin="1"/>
+      <node ref="D196" pin="1"/>
+      <node ref="D224" pin="1"/>
+      <node ref="D219" pin="1"/>
+      <node ref="D193" pin="1"/>
+      <node ref="D74" pin="2"/>
+      <node ref="D154" pin="2"/>
+      <node ref="D266" pin="2"/>
+      <node ref="D223" pin="1"/>
+      <node ref="D222" pin="1"/>
+    </net>
+    <net code="19" name="Net-(D107-Pad2)">
+      <node ref="D123" pin="2"/>
+      <node ref="D75" pin="2"/>
+      <node ref="D283" pin="2"/>
+      <node ref="D203" pin="2"/>
+      <node ref="D155" pin="2"/>
+      <node ref="D267" pin="2"/>
+      <node ref="J3" pin="18"/>
+      <node ref="D211" pin="1"/>
+      <node ref="D238" pin="1"/>
+      <node ref="D171" pin="2"/>
+      <node ref="D239" pin="1"/>
+      <node ref="D240" pin="1"/>
+      <node ref="D214" pin="1"/>
+      <node ref="D107" pin="2"/>
+      <node ref="D215" pin="1"/>
+      <node ref="D237" pin="1"/>
+      <node ref="D213" pin="1"/>
+      <node ref="D210" pin="1"/>
+      <node ref="D91" pin="2"/>
+      <node ref="D216" pin="1"/>
+      <node ref="D236" pin="1"/>
+      <node ref="D209" pin="1"/>
+      <node ref="D212" pin="1"/>
+      <node ref="U1" pin="26"/>
+      <node ref="D187" pin="2"/>
+      <node ref="D218" pin="1"/>
+      <node ref="D219" pin="2"/>
+      <node ref="D139" pin="2"/>
+      <node ref="D217" pin="1"/>
+      <node ref="D251" pin="2"/>
+      <node ref="D315" pin="2"/>
+      <node ref="D235" pin="2"/>
+      <node ref="D299" pin="2"/>
+    </net>
+    <net code="20" name="Net-(D108-Pad2)">
+      <node ref="D204" pin="2"/>
+      <node ref="D229" pin="1"/>
+      <node ref="D230" pin="1"/>
+      <node ref="D234" pin="1"/>
+      <node ref="D236" pin="2"/>
+      <node ref="D235" pin="1"/>
+      <node ref="D188" pin="2"/>
+      <node ref="D228" pin="1"/>
+      <node ref="D256" pin="1"/>
+      <node ref="D233" pin="1"/>
+      <node ref="D254" pin="1"/>
+      <node ref="D252" pin="2"/>
+      <node ref="D220" pin="2"/>
+      <node ref="D300" pin="2"/>
+      <node ref="D156" pin="2"/>
+      <node ref="D268" pin="2"/>
+      <node ref="D231" pin="1"/>
+      <node ref="D316" pin="2"/>
+      <node ref="D255" pin="1"/>
+      <node ref="D253" pin="1"/>
+      <node ref="D172" pin="2"/>
+      <node ref="D140" pin="2"/>
+      <node ref="D227" pin="1"/>
+      <node ref="D226" pin="1"/>
+      <node ref="D225" pin="1"/>
+      <node ref="D232" pin="1"/>
+      <node ref="D284" pin="2"/>
+      <node ref="D124" pin="2"/>
+      <node ref="D92" pin="2"/>
+      <node ref="U1" pin="27"/>
+      <node ref="J3" pin="19"/>
+      <node ref="D76" pin="2"/>
+      <node ref="D108" pin="2"/>
+    </net>
+    <net code="21" name="Net-(D105-Pad2)">
+      <node ref="D73" pin="2"/>
+      <node ref="D204" pin="1"/>
+      <node ref="D313" pin="2"/>
+      <node ref="D281" pin="2"/>
+      <node ref="D105" pin="2"/>
+      <node ref="D203" pin="1"/>
+      <node ref="J3" pin="16"/>
+      <node ref="D179" pin="1"/>
+      <node ref="D178" pin="1"/>
+      <node ref="D177" pin="1"/>
+      <node ref="D217" pin="2"/>
+      <node ref="D249" pin="2"/>
+      <node ref="D202" pin="1"/>
+      <node ref="D121" pin="2"/>
+      <node ref="D181" pin="1"/>
+      <node ref="D182" pin="1"/>
+      <node ref="D137" pin="2"/>
+      <node ref="D205" pin="1"/>
+      <node ref="D185" pin="2"/>
+      <node ref="D233" pin="2"/>
+      <node ref="D169" pin="2"/>
+      <node ref="D297" pin="2"/>
+      <node ref="D206" pin="1"/>
+      <node ref="D89" pin="2"/>
+      <node ref="D184" pin="1"/>
+      <node ref="D183" pin="1"/>
+      <node ref="D265" pin="2"/>
+      <node ref="D208" pin="1"/>
+      <node ref="U1" pin="23"/>
+      <node ref="D201" pin="2"/>
+      <node ref="D153" pin="2"/>
+      <node ref="D180" pin="1"/>
+      <node ref="D207" pin="1"/>
+    </net>
+    <net code="22" name="Net-(D104-Pad2)">
+      <node ref="D280" pin="2"/>
+      <node ref="U1" pin="20"/>
+      <node ref="D187" pin="1"/>
+      <node ref="D188" pin="1"/>
+      <node ref="D136" pin="2"/>
+      <node ref="D168" pin="2"/>
+      <node ref="D88" pin="2"/>
+      <node ref="D152" pin="2"/>
+      <node ref="D166" pin="1"/>
+      <node ref="D167" pin="1"/>
+      <node ref="D296" pin="2"/>
+      <node ref="D184" pin="2"/>
+      <node ref="D161" pin="1"/>
+      <node ref="D162" pin="1"/>
+      <node ref="D165" pin="1"/>
+      <node ref="D163" pin="1"/>
+      <node ref="D164" pin="1"/>
+      <node ref="D104" pin="2"/>
+      <node ref="D312" pin="2"/>
+      <node ref="D248" pin="2"/>
+      <node ref="D120" pin="2"/>
+      <node ref="D72" pin="2"/>
+      <node ref="D264" pin="2"/>
+      <node ref="D200" pin="2"/>
+      <node ref="D232" pin="2"/>
+      <node ref="D186" pin="1"/>
+      <node ref="D192" pin="1"/>
+      <node ref="D191" pin="1"/>
+      <node ref="D190" pin="1"/>
+      <node ref="D216" pin="2"/>
+      <node ref="D189" pin="1"/>
+      <node ref="J3" pin="15"/>
+      <node ref="D185" pin="1"/>
+    </net>
+    <net code="23" name="Net-(D12-Pad1)">
+      <node ref="D44" pin="1"/>
+      <node ref="D20" pin="1"/>
+      <node ref="D28" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="D60" pin="1"/>
+      <node ref="D36" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D52" pin="1"/>
+    </net>
+    <net code="24" name="Net-(D13-Pad1)">
+      <node ref="D5" pin="1"/>
+      <node ref="D21" pin="1"/>
+      <node ref="D13" pin="1"/>
+      <node ref="D45" pin="1"/>
+      <node ref="D53" pin="1"/>
+      <node ref="D37" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="D61" pin="1"/>
+      <node ref="D29" pin="1"/>
+    </net>
+    <net code="25" name="Net-(D11-Pad1)">
+      <node ref="D51" pin="1"/>
+      <node ref="D11" pin="1"/>
+      <node ref="D19" pin="1"/>
+      <node ref="D35" pin="1"/>
+      <node ref="D27" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="D43" pin="1"/>
+      <node ref="D59" pin="1"/>
+    </net>
+    <net code="26" name="Net-(D14-Pad1)">
+      <node ref="D46" pin="1"/>
+      <node ref="D62" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="D14" pin="1"/>
+      <node ref="D38" pin="1"/>
+      <node ref="D54" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="D30" pin="1"/>
+      <node ref="D22" pin="1"/>
+    </net>
+    <net code="27" name="Net-(D15-Pad1)">
+      <node ref="D39" pin="1"/>
+      <node ref="D55" pin="1"/>
+      <node ref="D15" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="D63" pin="1"/>
+      <node ref="D23" pin="1"/>
+      <node ref="D47" pin="1"/>
+      <node ref="D31" pin="1"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="28" name="Net-(D10-Pad1)">
+      <node ref="D26" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D18" pin="1"/>
+      <node ref="D50" pin="1"/>
+      <node ref="D58" pin="1"/>
+      <node ref="D42" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="D34" pin="1"/>
+    </net>
+    <net code="29" name="Net-(D57-Pad2)">
+      <node ref="D61" pin="2"/>
+      <node ref="D62" pin="2"/>
+      <node ref="D63" pin="2"/>
+      <node ref="D64" pin="2"/>
+      <node ref="D57" pin="2"/>
+      <node ref="D60" pin="2"/>
+      <node ref="D59" pin="2"/>
+      <node ref="J2" pin="1"/>
+      <node ref="D58" pin="2"/>
+    </net>
+    <net code="30" name="Net-(D1-Pad1)">
+      <node ref="D17" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D25" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="D57" pin="1"/>
+      <node ref="D33" pin="1"/>
+      <node ref="D41" pin="1"/>
+      <node ref="D49" pin="1"/>
+    </net>
+    <net code="31" name="Net-(D102-Pad2)">
+      <node ref="D102" pin="2"/>
+      <node ref="D182" pin="2"/>
+      <node ref="D131" pin="1"/>
+      <node ref="D129" pin="1"/>
+      <node ref="D118" pin="2"/>
+      <node ref="D70" pin="2"/>
+      <node ref="D262" pin="2"/>
+      <node ref="D230" pin="2"/>
+      <node ref="D246" pin="2"/>
+      <node ref="D156" pin="1"/>
+      <node ref="D214" pin="2"/>
+      <node ref="D278" pin="2"/>
+      <node ref="D134" pin="2"/>
+      <node ref="D150" pin="2"/>
+      <node ref="U1" pin="18"/>
+      <node ref="D198" pin="2"/>
+      <node ref="D133" pin="1"/>
+      <node ref="D130" pin="1"/>
+      <node ref="D157" pin="1"/>
+      <node ref="D158" pin="1"/>
+      <node ref="D159" pin="1"/>
+      <node ref="D160" pin="1"/>
+      <node ref="D151" pin="1"/>
+      <node ref="D86" pin="2"/>
+      <node ref="D152" pin="1"/>
+      <node ref="J3" pin="13"/>
+      <node ref="D154" pin="1"/>
+      <node ref="D155" pin="1"/>
+      <node ref="D153" pin="1"/>
+      <node ref="D166" pin="2"/>
+      <node ref="D132" pin="1"/>
+      <node ref="D294" pin="2"/>
+      <node ref="D310" pin="2"/>
+    </net>
+    <net code="32" name="Net-(D305-Pad1)">
+      <node ref="D317" pin="1"/>
+      <node ref="D316" pin="1"/>
+      <node ref="D308" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="J3" pin="24"/>
+      <node ref="D314" pin="1"/>
+      <node ref="D312" pin="1"/>
+      <node ref="D311" pin="1"/>
+      <node ref="D310" pin="1"/>
+      <node ref="D309" pin="1"/>
+      <node ref="D305" pin="1"/>
+      <node ref="D313" pin="1"/>
+      <node ref="D306" pin="1"/>
+      <node ref="D320" pin="1"/>
+      <node ref="D319" pin="1"/>
+      <node ref="D318" pin="1"/>
+      <node ref="D307" pin="1"/>
+      <node ref="D315" pin="1"/>
+    </net>
+    <net code="33" name="Net-(J1-Pad2)">
+      <node ref="R2" pin="1"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="34" name="Net-(J1-Pad3)">
+      <node ref="R3" pin="1"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="35" name="Net-(J1-Pad4)">
+      <node ref="R4" pin="1"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="36" name="Net-(J1-Pad5)">
+      <node ref="J1" pin="5"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="37" name="Net-(J1-Pad6)">
+      <node ref="R6" pin="1"/>
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="38" name="Net-(J1-Pad7)">
+      <node ref="R7" pin="1"/>
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="39" name="Net-(J1-Pad8)">
+      <node ref="J1" pin="8"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="40" name="Net-(D16-Pad1)">
+      <node ref="D8" pin="1"/>
+      <node ref="D32" pin="1"/>
+      <node ref="D16" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="D48" pin="1"/>
+      <node ref="D40" pin="1"/>
+      <node ref="D64" pin="1"/>
+      <node ref="D56" pin="1"/>
+      <node ref="D24" pin="1"/>
+    </net>
+    <net code="41" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="42" name="Net-(D10-Pad2)">
+      <node ref="D16" pin="2"/>
+      <node ref="D15" pin="2"/>
+      <node ref="D12" pin="2"/>
+      <node ref="D13" pin="2"/>
+      <node ref="D14" pin="2"/>
+      <node ref="J2" pin="7"/>
+      <node ref="D9" pin="2"/>
+      <node ref="D11" pin="2"/>
+      <node ref="D10" pin="2"/>
+    </net>
+    <net code="43" name="Net-(D17-Pad2)">
+      <node ref="D20" pin="2"/>
+      <node ref="D24" pin="2"/>
+      <node ref="J2" pin="6"/>
+      <node ref="D23" pin="2"/>
+      <node ref="D22" pin="2"/>
+      <node ref="D21" pin="2"/>
+      <node ref="D17" pin="2"/>
+      <node ref="D18" pin="2"/>
+      <node ref="D19" pin="2"/>
+    </net>
+    <net code="44" name="Net-(D1-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="D7" pin="2"/>
+      <node ref="D8" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="D4" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="45" name="Net-(D41-Pad2)">
+      <node ref="D45" pin="2"/>
+      <node ref="D46" pin="2"/>
+      <node ref="D47" pin="2"/>
+      <node ref="D48" pin="2"/>
+      <node ref="D41" pin="2"/>
+      <node ref="D42" pin="2"/>
+      <node ref="D43" pin="2"/>
+      <node ref="J2" pin="3"/>
+      <node ref="D44" pin="2"/>
+    </net>
+    <net code="46" name="Net-(D49-Pad2)">
+      <node ref="D49" pin="2"/>
+      <node ref="D50" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="D56" pin="2"/>
+      <node ref="D55" pin="2"/>
+      <node ref="D54" pin="2"/>
+      <node ref="D53" pin="2"/>
+      <node ref="D51" pin="2"/>
+      <node ref="D52" pin="2"/>
+    </net>
+    <net code="47" name="Net-(D25-Pad2)">
+      <node ref="D29" pin="2"/>
+      <node ref="D28" pin="2"/>
+      <node ref="D30" pin="2"/>
+      <node ref="D31" pin="2"/>
+      <node ref="D32" pin="2"/>
+      <node ref="J2" pin="5"/>
+      <node ref="D25" pin="2"/>
+      <node ref="D27" pin="2"/>
+      <node ref="D26" pin="2"/>
+    </net>
+    <net code="48" name="Net-(D33-Pad2)">
+      <node ref="J2" pin="4"/>
+      <node ref="D37" pin="2"/>
+      <node ref="D38" pin="2"/>
+      <node ref="D39" pin="2"/>
+      <node ref="D40" pin="2"/>
+      <node ref="D35" pin="2"/>
+      <node ref="D33" pin="2"/>
+      <node ref="D36" pin="2"/>
+      <node ref="D34" pin="2"/>
+    </net>
+    <net code="49" name="Net-(D113-Pad2)">
+      <node ref="D78" pin="1"/>
+      <node ref="D79" pin="1"/>
+      <node ref="D113" pin="2"/>
+      <node ref="D129" pin="2"/>
+      <node ref="D161" pin="2"/>
+      <node ref="D70" pin="1"/>
+      <node ref="D69" pin="1"/>
+      <node ref="D68" pin="1"/>
+      <node ref="D67" pin="1"/>
+      <node ref="D241" pin="2"/>
+      <node ref="D76" pin="1"/>
+      <node ref="D77" pin="1"/>
+      <node ref="D145" pin="2"/>
+      <node ref="D225" pin="2"/>
+      <node ref="U1" pin="12"/>
+      <node ref="D97" pin="2"/>
+      <node ref="D75" pin="1"/>
+      <node ref="J3" pin="8"/>
+      <node ref="D177" pin="2"/>
+      <node ref="D81" pin="2"/>
+      <node ref="D80" pin="1"/>
+      <node ref="D65" pin="2"/>
+      <node ref="D66" pin="1"/>
+      <node ref="D209" pin="2"/>
+      <node ref="D289" pin="2"/>
+      <node ref="D74" pin="1"/>
+      <node ref="D193" pin="2"/>
+      <node ref="D305" pin="2"/>
+      <node ref="D273" pin="2"/>
+      <node ref="D72" pin="1"/>
+      <node ref="D73" pin="1"/>
+      <node ref="D257" pin="2"/>
+      <node ref="D71" pin="1"/>
+    </net>
+    <net code="50" name="Net-(D100-Pad1)">
+      <node ref="D110" pin="1"/>
+      <node ref="D109" pin="1"/>
+      <node ref="D195" pin="2"/>
+      <node ref="D102" pin="1"/>
+      <node ref="D83" pin="2"/>
+      <node ref="D101" pin="1"/>
+      <node ref="D103" pin="1"/>
+      <node ref="D104" pin="1"/>
+      <node ref="U1" pin="14"/>
+      <node ref="D105" pin="1"/>
+      <node ref="D243" pin="2"/>
+      <node ref="D147" pin="2"/>
+      <node ref="D227" pin="2"/>
+      <node ref="D81" pin="1"/>
+      <node ref="D211" pin="2"/>
+      <node ref="D275" pin="2"/>
+      <node ref="D108" pin="1"/>
+      <node ref="D115" pin="2"/>
+      <node ref="D131" pin="2"/>
+      <node ref="D259" pin="2"/>
+      <node ref="D179" pin="2"/>
+      <node ref="J3" pin="10"/>
+      <node ref="D291" pin="2"/>
+      <node ref="D67" pin="2"/>
+      <node ref="D107" pin="1"/>
+      <node ref="D111" pin="1"/>
+      <node ref="D112" pin="1"/>
+      <node ref="D100" pin="1"/>
+      <node ref="D307" pin="2"/>
+      <node ref="D163" pin="2"/>
+      <node ref="D99" pin="2"/>
+      <node ref="D106" pin="1"/>
+      <node ref="D82" pin="1"/>
+    </net>
+    <net code="51" name="Net-(D114-Pad2)">
+      <node ref="D85" pin="1"/>
+      <node ref="D306" pin="2"/>
+      <node ref="D290" pin="2"/>
+      <node ref="D83" pin="1"/>
+      <node ref="D66" pin="2"/>
+      <node ref="D65" pin="1"/>
+      <node ref="D130" pin="2"/>
+      <node ref="D84" pin="1"/>
+      <node ref="D194" pin="2"/>
+      <node ref="D86" pin="1"/>
+      <node ref="D258" pin="2"/>
+      <node ref="D89" pin="1"/>
+      <node ref="D90" pin="1"/>
+      <node ref="D98" pin="2"/>
+      <node ref="D82" pin="2"/>
+      <node ref="D95" pin="1"/>
+      <node ref="D94" pin="1"/>
+      <node ref="D96" pin="1"/>
+      <node ref="D93" pin="1"/>
+      <node ref="D88" pin="1"/>
+      <node ref="D91" pin="1"/>
+      <node ref="D92" pin="1"/>
+      <node ref="D146" pin="2"/>
+      <node ref="D162" pin="2"/>
+      <node ref="D178" pin="2"/>
+      <node ref="D210" pin="2"/>
+      <node ref="D114" pin="2"/>
+      <node ref="D242" pin="2"/>
+      <node ref="D87" pin="1"/>
+      <node ref="U1" pin="13"/>
+      <node ref="D226" pin="2"/>
+      <node ref="J3" pin="9"/>
+      <node ref="D274" pin="2"/>
+    </net>
+  </nets>
+</export>
