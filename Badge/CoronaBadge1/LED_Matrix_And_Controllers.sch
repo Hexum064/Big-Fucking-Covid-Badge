@@ -1,0 +1,22362 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A1 33110 23386
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	3050 4400 3050 4600
+Wire Wire Line
+	3000 4900 3000 4500
+Wire Wire Line
+	2950 4600 2950 5200
+Wire Wire Line
+	2900 4700 2900 5450
+$Comp
+L HT16D33A_B:HT16D33B U?
+U 1 1 7AD96C0C
+P 2100 3650
+AR Path="/7AD96C0C" Ref="U?"  Part="1" 
+AR Path="/61F40005/7AD96C0C" Ref="U?"  Part="1" 
+AR Path="/7AD7E6BD/7AD96C0C" Ref="U3"  Part="1" 
+F 0 "U3" H 2100 3650 50  0000 C CNN
+F 1 "HT16D33B" H 2100 3550 50  0000 C CNN
+F 2 "Housings_SSOP:SSOP-28_3.9x9.9mm_Pitch0.635mm" H 2100 3200 50  0001 C CNN
+F 3 "" H 2100 3200 50  0001 C CNN
+	1    2100 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 2900 2850 2900
+Wire Wire Line
+	2950 3000 2850 3000
+Wire Wire Line
+	2950 1000 2950 3000
+Wire Wire Line
+	3000 3100 2850 3100
+Wire Wire Line
+	3000 1300 3000 3100
+Wire Wire Line
+	3050 3200 2850 3200
+Wire Wire Line
+	3050 1600 3050 3200
+Wire Wire Line
+	3100 3300 2850 3300
+Wire Wire Line
+	3150 3400 2850 3400
+Wire Wire Line
+	3150 2200 3150 3400
+Wire Wire Line
+	3200 3500 2850 3500
+Wire Wire Line
+	3200 2500 3200 3500
+Wire Wire Line
+	3250 3600 2850 3600
+Wire Wire Line
+	3250 2800 3250 3600
+Wire Wire Line
+	3300 3800 2850 3800
+Wire Wire Line
+	3300 3100 3300 3800
+Wire Wire Line
+	3350 3400 3350 4000
+Wire Wire Line
+	3400 4100 2850 4100
+Wire Wire Line
+	3450 4200 2850 4200
+Wire Wire Line
+	3450 4000 3450 4200
+Wire Wire Line
+	1950 2500 2050 2500
+Connection ~ 2050 2500
+$Comp
+L power:GND #PWR?
+U 1 1 7AD96C2C
+P 2050 4950
+AR Path="/7AD96C2C" Ref="#PWR?"  Part="1" 
+AR Path="/61F40005/7AD96C2C" Ref="#PWR?"  Part="1" 
+AR Path="/7AD7E6BD/7AD96C2C" Ref="#PWR024"  Part="1" 
+F 0 "#PWR024" H 2050 4700 50  0001 C CNN
+F 1 "GND" H 2055 4777 50  0000 C CNN
+F 2 "" H 2050 4950 50  0001 C CNN
+F 3 "" H 2050 4950 50  0001 C CNN
+	1    2050 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 2500 2150 2100
+Wire Wire Line
+	2850 4700 2900 4700
+Wire Wire Line
+	2850 4600 2950 4600
+Wire Wire Line
+	2850 4500 3000 4500
+Wire Wire Line
+	2850 4400 3050 4400
+$Comp
+L Device:C_Small C?
+U 1 1 7AD96C43
+P 1650 2200
+AR Path="/7AD96C43" Ref="C?"  Part="1" 
+AR Path="/61F40005/7AD96C43" Ref="C?"  Part="1" 
+AR Path="/7AD7E6BD/7AD96C43" Ref="C4"  Part="1" 
+F 0 "C4" H 1742 2246 50  0000 L CNN
+F 1 ".1uF" H 1742 2155 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 1650 2200 50  0001 C CNN
+F 3 "~" H 1650 2200 50  0001 C CNN
+	1    1650 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 7AD96C49
+P 2400 2200
+AR Path="/7AD96C49" Ref="C?"  Part="1" 
+AR Path="/61F40005/7AD96C49" Ref="C?"  Part="1" 
+AR Path="/7AD7E6BD/7AD96C49" Ref="C5"  Part="1" 
+F 0 "C5" H 2492 2246 50  0000 L CNN
+F 1 ".1uF" H 2492 2155 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2400 2200 50  0001 C CNN
+F 3 "~" H 2400 2200 50  0001 C CNN
+	1    2400 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 2100 2050 2100
+Wire Wire Line
+	2050 2100 2050 2500
+Wire Wire Line
+	2400 2100 2150 2100
+$Comp
+L power:GND #PWR?
+U 1 1 7AD96C52
+P 1650 2400
+AR Path="/7AD96C52" Ref="#PWR?"  Part="1" 
+AR Path="/61F40005/7AD96C52" Ref="#PWR?"  Part="1" 
+AR Path="/7AD7E6BD/7AD96C52" Ref="#PWR019"  Part="1" 
+F 0 "#PWR019" H 1650 2150 50  0001 C CNN
+F 1 "GND" H 1655 2227 50  0000 C CNN
+F 2 "" H 1650 2400 50  0001 C CNN
+F 3 "" H 1650 2400 50  0001 C CNN
+	1    1650 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 7AD96C58
+P 2400 2400
+AR Path="/7AD96C58" Ref="#PWR?"  Part="1" 
+AR Path="/61F40005/7AD96C58" Ref="#PWR?"  Part="1" 
+AR Path="/7AD7E6BD/7AD96C58" Ref="#PWR020"  Part="1" 
+F 0 "#PWR020" H 2400 2150 50  0001 C CNN
+F 1 "GND" H 2405 2227 50  0000 C CNN
+F 2 "" H 2400 2400 50  0001 C CNN
+F 3 "" H 2400 2400 50  0001 C CNN
+	1    2400 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 2400 1650 2300
+Wire Wire Line
+	2400 2400 2400 2300
+$Comp
+L power:+3.3V #PWR?
+U 1 1 7AD96C60
+P 2050 1550
+AR Path="/7AD96C60" Ref="#PWR?"  Part="1" 
+AR Path="/61F40005/7AD96C60" Ref="#PWR?"  Part="1" 
+AR Path="/7AD7E6BD/7AD96C60" Ref="#PWR017"  Part="1" 
+F 0 "#PWR017" H 2050 1400 50  0001 C CNN
+F 1 "+3.3V" H 2065 1723 50  0000 C CNN
+F 2 "" H 2050 1550 50  0001 C CNN
+F 3 "" H 2050 1550 50  0001 C CNN
+	1    2050 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 2100 2050 1800
+Wire Wire Line
+	2050 1800 2150 1800
+Wire Wire Line
+	2150 1800 2150 2100
+Connection ~ 2050 2100
+Connection ~ 2150 2100
+Wire Wire Line
+	2050 1550 2050 1800
+Connection ~ 2050 1800
+$Comp
+L power:GND #PWR?
+U 1 1 7AD96C6D
+P 600 2800
+AR Path="/7AD96C6D" Ref="#PWR?"  Part="1" 
+AR Path="/61F40005/7AD96C6D" Ref="#PWR?"  Part="1" 
+AR Path="/7AD7E6BD/7AD96C6D" Ref="#PWR023"  Part="1" 
+F 0 "#PWR023" H 600 2550 50  0001 C CNN
+F 1 "GND" H 605 2627 50  0000 C CNN
+F 2 "" H 600 2800 50  0001 C CNN
+F 3 "" H 600 2800 50  0001 C CNN
+	1    600  2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 2800 600  2800
+Text GLabel 1050 2900 0    50   Input ~ 0
+SCL
+Text GLabel 1050 3000 0    50   BiDi ~ 0
+SDA
+Wire Wire Line
+	1050 2900 1300 2900
+Wire Wire Line
+	1050 3000 1300 3000
+Wire Wire Line
+	2900 700  2900 2900
+Wire Wire Line
+	2850 4000 3350 4000
+Wire Wire Line
+	11900 2400 12000 2400
+Connection ~ 9600 1500
+Wire Wire Line
+	9500 1500 9600 1500
+Wire Wire Line
+	8300 3000 8400 3000
+Wire Wire Line
+	7100 1800 7200 1800
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15A7F
+P 8900 3800
+AR Path="/7AF15A7F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15A7F" Ref="D329"  Part="1" 
+F 0 "D329" V 8946 3730 50  0000 R CNN
+F 1 "LED_Small" V 8855 3730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8900 3800 50  0001 C CNN
+F 3 "~" V 8900 3800 50  0001 C CNN
+	1    8900 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15A85
+P 5900 5000
+AR Path="/7AF15A85" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15A85" Ref="D452"  Part="1" 
+F 0 "D452" V 5946 4930 50  0000 R CNN
+F 1 "LED_Small" V 5855 4930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5900 5000 50  0001 C CNN
+F 3 "~" V 5900 5000 50  0001 C CNN
+	1    5900 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4200 5100 4200 5400
+Wire Wire Line
+	4700 5100 4200 5100
+Connection ~ 4200 5100
+Wire Wire Line
+	4200 4800 4200 5100
+Wire Wire Line
+	4700 4800 4200 4800
+Connection ~ 4200 4800
+Wire Wire Line
+	4200 4500 4200 4800
+Wire Wire Line
+	4700 4500 4200 4500
+Connection ~ 4200 4500
+Wire Wire Line
+	4200 4200 4200 4500
+Wire Wire Line
+	4700 4200 4200 4200
+Connection ~ 4200 4200
+Wire Wire Line
+	4200 3900 4200 4200
+Wire Wire Line
+	4700 3900 4200 3900
+Connection ~ 4200 3900
+Wire Wire Line
+	4200 3600 4200 3900
+Wire Wire Line
+	4700 3600 4200 3600
+Connection ~ 4200 3600
+Wire Wire Line
+	4200 3300 4200 3600
+Wire Wire Line
+	4700 3300 4200 3300
+Connection ~ 4200 3300
+Wire Wire Line
+	4200 3000 4200 3300
+Wire Wire Line
+	4700 3000 4200 3000
+Connection ~ 4200 3000
+Wire Wire Line
+	4200 2700 4200 3000
+Wire Wire Line
+	4700 2700 4200 2700
+Connection ~ 4200 2700
+Wire Wire Line
+	4200 2400 4200 2700
+Wire Wire Line
+	4700 2400 4200 2400
+Connection ~ 4200 2400
+Wire Wire Line
+	4200 2100 4200 2400
+Wire Wire Line
+	4700 2100 4200 2100
+Connection ~ 4200 2100
+Wire Wire Line
+	4200 1800 4200 2100
+Wire Wire Line
+	4700 1800 4200 1800
+Connection ~ 4200 1800
+Wire Wire Line
+	4200 1500 4200 1800
+Wire Wire Line
+	4700 1500 4200 1500
+Wire Wire Line
+	4700 1200 4800 1200
+Wire Wire Line
+	4800 1200 4800 900 
+Connection ~ 4800 1200
+Wire Wire Line
+	5300 1200 5400 1200
+Wire Wire Line
+	5400 1200 5400 1500
+Connection ~ 5400 1500
+Wire Wire Line
+	5300 1500 5400 1500
+Wire Wire Line
+	5300 1800 4800 1800
+Connection ~ 4800 1800
+Wire Wire Line
+	4800 2100 4800 1800
+Wire Wire Line
+	5300 2100 4800 2100
+Connection ~ 4800 2100
+Wire Wire Line
+	4800 2400 4800 2100
+Wire Wire Line
+	5300 2400 4800 2400
+Connection ~ 4800 2400
+Wire Wire Line
+	4800 2700 4800 2400
+Wire Wire Line
+	5300 2700 4800 2700
+Connection ~ 4800 2700
+Wire Wire Line
+	4800 3000 4800 2700
+Wire Wire Line
+	5300 3000 4800 3000
+Connection ~ 4800 3000
+Wire Wire Line
+	4800 3300 4800 3000
+Wire Wire Line
+	5300 3300 4800 3300
+Connection ~ 4800 3300
+Wire Wire Line
+	4800 3600 4800 3300
+Wire Wire Line
+	5300 3600 4800 3600
+Connection ~ 4800 3600
+Wire Wire Line
+	4800 3900 4800 3600
+Wire Wire Line
+	5300 3900 4800 3900
+Connection ~ 4800 3900
+Wire Wire Line
+	4800 4200 4800 3900
+Wire Wire Line
+	5300 4200 4800 4200
+Connection ~ 4800 4200
+Wire Wire Line
+	4800 4500 4800 4200
+Wire Wire Line
+	5300 4500 4800 4500
+Connection ~ 4800 4500
+Wire Wire Line
+	4800 4800 4800 4500
+Wire Wire Line
+	5300 4800 4800 4800
+Connection ~ 4800 4800
+Wire Wire Line
+	4800 5100 4800 4800
+Wire Wire Line
+	5300 5100 4800 5100
+Wire Wire Line
+	5400 5100 5400 5400
+Connection ~ 5400 5100
+Wire Wire Line
+	5900 5100 5400 5100
+Wire Wire Line
+	5400 4800 5400 5100
+Connection ~ 5400 4800
+Wire Wire Line
+	5900 4800 5400 4800
+Wire Wire Line
+	5400 4500 5400 4800
+Connection ~ 5400 4500
+Wire Wire Line
+	5900 4500 5400 4500
+Wire Wire Line
+	5400 4200 5400 4500
+Connection ~ 5400 4200
+Wire Wire Line
+	5900 4200 5400 4200
+Wire Wire Line
+	5400 3900 5400 4200
+Connection ~ 5400 3900
+Wire Wire Line
+	5400 3900 5900 3900
+Wire Wire Line
+	5400 3600 5400 3900
+Connection ~ 5400 3600
+Wire Wire Line
+	5900 3600 5400 3600
+Wire Wire Line
+	5400 3300 5400 3600
+Connection ~ 5400 3300
+Wire Wire Line
+	5400 3300 5900 3300
+Wire Wire Line
+	5400 3000 5400 3300
+Connection ~ 5400 3000
+Wire Wire Line
+	5900 3000 5400 3000
+Wire Wire Line
+	5400 2700 5400 3000
+Connection ~ 5400 2700
+Wire Wire Line
+	5900 2700 5400 2700
+Wire Wire Line
+	5400 2400 5400 2700
+Connection ~ 5400 2400
+Wire Wire Line
+	5900 2400 5400 2400
+Wire Wire Line
+	5400 2100 5400 2400
+Connection ~ 5400 2100
+Wire Wire Line
+	5900 2100 5400 2100
+Wire Wire Line
+	6000 1800 5900 1800
+Connection ~ 6000 1800
+Wire Wire Line
+	6000 1500 6000 1800
+Wire Wire Line
+	6000 1500 5900 1500
+Connection ~ 6000 1500
+Wire Wire Line
+	6000 1200 6000 1500
+Wire Wire Line
+	5900 1200 6000 1200
+Connection ~ 6000 1200
+Wire Wire Line
+	6000 900  6000 1200
+Wire Wire Line
+	6500 1200 6600 1200
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15B05
+P 6500 1100
+AR Path="/7AF15B05" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15B05" Ref="D37"  Part="1" 
+F 0 "D37" V 6546 1030 50  0000 R CNN
+F 1 "LED_Small" V 6455 1030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 6500 1100 50  0001 C CNN
+F 3 "~" V 6500 1100 50  0001 C CNN
+	1    6500 1100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6500 1000
+Wire Wire Line
+	6600 1200 6600 1500
+Connection ~ 6600 1500
+Wire Wire Line
+	6500 1500 6600 1500
+Wire Wire Line
+	6600 1500 6600 1800
+Connection ~ 6600 1800
+Wire Wire Line
+	6500 1800 6600 1800
+Wire Wire Line
+	6600 1800 6600 2100
+Connection ~ 6600 2100
+Wire Wire Line
+	6500 2100 6600 2100
+Wire Wire Line
+	6000 2400 6500 2400
+Connection ~ 6000 2400
+Wire Wire Line
+	6000 2700 6000 2400
+Wire Wire Line
+	6500 2700 6000 2700
+Connection ~ 6000 2700
+Wire Wire Line
+	6000 3000 6000 2700
+Wire Wire Line
+	6500 3000 6000 3000
+Connection ~ 6000 3000
+Wire Wire Line
+	6000 3300 6000 3000
+Wire Wire Line
+	6500 3300 6000 3300
+Connection ~ 6000 3300
+Wire Wire Line
+	6000 3600 6000 3300
+Wire Wire Line
+	6500 3600 6000 3600
+Connection ~ 6000 3600
+Wire Wire Line
+	6000 3900 6000 3600
+Wire Wire Line
+	6500 3900 6000 3900
+Connection ~ 6000 3900
+Wire Wire Line
+	6000 4200 6000 3900
+Wire Wire Line
+	6500 4200 6000 4200
+Connection ~ 6000 4200
+Wire Wire Line
+	6000 4500 6000 4200
+Wire Wire Line
+	6500 4500 6000 4500
+Connection ~ 6000 4500
+Wire Wire Line
+	6000 4800 6000 4500
+Wire Wire Line
+	6500 4800 6000 4800
+Connection ~ 6000 4800
+Wire Wire Line
+	6000 5100 6000 4800
+Wire Wire Line
+	6500 5100 6000 5100
+Wire Wire Line
+	6600 5100 6600 5400
+Connection ~ 6600 5100
+Wire Wire Line
+	7100 5100 6600 5100
+Wire Wire Line
+	6600 4800 6600 5100
+Connection ~ 6600 4800
+Wire Wire Line
+	7100 4800 6600 4800
+Wire Wire Line
+	6600 4500 6600 4800
+Connection ~ 6600 4500
+Wire Wire Line
+	7100 4500 6600 4500
+Wire Wire Line
+	6600 4200 6600 4500
+Connection ~ 6600 4200
+Wire Wire Line
+	7100 4200 6600 4200
+Wire Wire Line
+	6600 3900 6600 4200
+Connection ~ 6600 3900
+Wire Wire Line
+	7100 3900 6600 3900
+Wire Wire Line
+	6600 3600 6600 3900
+Connection ~ 6600 3600
+Wire Wire Line
+	7100 3600 6600 3600
+Wire Wire Line
+	6600 3300 6600 3600
+Connection ~ 6600 3300
+Wire Wire Line
+	7100 3300 6600 3300
+Wire Wire Line
+	6600 3000 6600 3300
+Connection ~ 6600 3000
+Wire Wire Line
+	7100 3000 6600 3000
+Wire Wire Line
+	6600 2700 6600 3000
+Connection ~ 6600 2700
+Wire Wire Line
+	7100 2700 6600 2700
+Connection ~ 7200 2400
+Wire Wire Line
+	7100 2400 7200 2400
+Wire Wire Line
+	7200 2400 7200 2100
+Connection ~ 7200 2100
+Wire Wire Line
+	7100 2100 7200 2100
+Wire Wire Line
+	7200 2100 7200 1800
+Connection ~ 7200 1800
+Wire Wire Line
+	7100 1500 7200 1500
+Wire Wire Line
+	7200 1800 7200 1500
+Connection ~ 7200 1500
+Wire Wire Line
+	7200 1500 7200 1200
+Wire Wire Line
+	7200 1200 7200 900 
+Connection ~ 7200 1200
+Wire Wire Line
+	7100 1200 7200 1200
+Wire Wire Line
+	7700 1200 7800 1200
+Wire Wire Line
+	7800 1200 7800 1500
+Connection ~ 7800 1500
+Wire Wire Line
+	7700 1500 7800 1500
+Wire Wire Line
+	7800 1500 7800 1800
+Connection ~ 7800 1800
+Wire Wire Line
+	7700 1800 7800 1800
+Wire Wire Line
+	7800 1800 7800 2100
+Connection ~ 7800 2100
+Wire Wire Line
+	7700 2100 7800 2100
+Wire Wire Line
+	7800 2100 7800 2400
+Connection ~ 7800 2400
+Wire Wire Line
+	7700 2400 7800 2400
+Wire Wire Line
+	7800 2400 7800 2700
+Connection ~ 7800 2700
+Wire Wire Line
+	7700 2700 7800 2700
+Wire Wire Line
+	7700 3000 7200 3000
+Connection ~ 7200 3000
+Wire Wire Line
+	7200 3300 7200 3000
+Wire Wire Line
+	7700 3300 7200 3300
+Connection ~ 7200 3300
+Wire Wire Line
+	7200 3600 7200 3300
+Wire Wire Line
+	7700 3600 7200 3600
+Connection ~ 7200 3600
+Wire Wire Line
+	7200 3900 7200 3600
+Wire Wire Line
+	7700 3900 7200 3900
+Connection ~ 7200 3900
+Wire Wire Line
+	7200 4200 7200 3900
+Wire Wire Line
+	7700 4200 7200 4200
+Connection ~ 7200 4200
+Wire Wire Line
+	7200 4500 7200 4200
+Wire Wire Line
+	7700 4500 7200 4500
+Connection ~ 7200 4500
+Wire Wire Line
+	7200 4800 7200 4500
+Wire Wire Line
+	7700 4800 7200 4800
+Connection ~ 7200 4800
+Wire Wire Line
+	7200 5100 7200 4800
+Wire Wire Line
+	7700 5100 7200 5100
+Wire Wire Line
+	7800 5100 7800 5400
+Connection ~ 7800 5100
+Wire Wire Line
+	8300 5100 7800 5100
+Wire Wire Line
+	7800 4800 7800 5100
+Connection ~ 7800 4800
+Wire Wire Line
+	8300 4800 7800 4800
+Wire Wire Line
+	7800 4500 7800 4800
+Connection ~ 7800 4500
+Wire Wire Line
+	8300 4500 7800 4500
+Wire Wire Line
+	7800 4200 7800 4500
+Connection ~ 7800 4200
+Wire Wire Line
+	8300 4200 7800 4200
+Wire Wire Line
+	7800 3900 8300 3900
+Wire Wire Line
+	7800 3900 7800 4200
+Connection ~ 7800 3900
+Wire Wire Line
+	7800 3600 7800 3900
+Connection ~ 7800 3600
+Wire Wire Line
+	8300 3600 7800 3600
+Wire Wire Line
+	7800 3300 7800 3600
+Connection ~ 7800 3300
+Wire Wire Line
+	8300 3300 7800 3300
+Connection ~ 8400 3000
+Wire Wire Line
+	8400 2700 8400 3000
+Connection ~ 8400 2700
+Wire Wire Line
+	8300 2700 8400 2700
+Wire Wire Line
+	8400 2400 8400 2700
+Connection ~ 8400 2400
+Wire Wire Line
+	8300 2400 8400 2400
+Wire Wire Line
+	8400 2100 8400 2400
+Connection ~ 8400 2100
+Wire Wire Line
+	8300 2100 8400 2100
+Wire Wire Line
+	8400 1800 8400 2100
+Connection ~ 8400 1800
+Wire Wire Line
+	8300 1800 8400 1800
+Wire Wire Line
+	8400 1500 8400 1800
+Connection ~ 8400 1500
+Wire Wire Line
+	8300 1500 8400 1500
+Wire Wire Line
+	8400 1500 8400 1200
+Wire Wire Line
+	8400 1200 8400 900 
+Connection ~ 8400 1200
+Wire Wire Line
+	8300 1200 8400 1200
+Wire Wire Line
+	8400 4800 8900 4800
+Wire Wire Line
+	8900 1200 9000 1200
+Wire Wire Line
+	9000 1200 9000 1500
+Connection ~ 9000 1500
+Wire Wire Line
+	8900 1500 9000 1500
+Wire Wire Line
+	9000 1500 9000 1800
+Connection ~ 9000 1800
+Wire Wire Line
+	8900 1800 9000 1800
+Wire Wire Line
+	9000 1800 9000 2100
+Connection ~ 9000 2100
+Wire Wire Line
+	8900 2100 9000 2100
+Wire Wire Line
+	9000 2100 9000 2400
+Connection ~ 9000 2400
+Wire Wire Line
+	8900 2400 9000 2400
+Wire Wire Line
+	9000 2400 9000 2700
+Connection ~ 9000 2700
+Wire Wire Line
+	8900 2700 9000 2700
+Wire Wire Line
+	9000 2700 9000 3000
+Connection ~ 9000 3000
+Wire Wire Line
+	8900 3000 9000 3000
+Wire Wire Line
+	9000 3000 9000 3300
+Connection ~ 9000 3300
+Wire Wire Line
+	8900 3300 9000 3300
+Wire Wire Line
+	8900 3600 8400 3600
+Connection ~ 8400 3600
+Wire Wire Line
+	8400 3900 8400 3600
+Wire Wire Line
+	8900 3900 8400 3900
+Connection ~ 8400 3900
+Wire Wire Line
+	8400 4200 8400 3900
+Wire Wire Line
+	8900 4200 8400 4200
+Connection ~ 8400 4200
+Wire Wire Line
+	8400 4500 8400 4200
+Wire Wire Line
+	8900 4500 8400 4500
+Connection ~ 8400 4500
+Wire Wire Line
+	8400 4800 8400 4500
+Connection ~ 8400 4800
+Wire Wire Line
+	8400 5100 8400 4800
+Wire Wire Line
+	8900 5100 8400 5100
+Wire Wire Line
+	9000 5100 9000 5400
+Connection ~ 9000 5100
+Wire Wire Line
+	9500 5100 9000 5100
+Wire Wire Line
+	9000 4800 9000 5100
+Connection ~ 9000 4800
+Wire Wire Line
+	9500 4800 9000 4800
+Wire Wire Line
+	9000 4500 9000 4800
+Connection ~ 9000 4500
+Wire Wire Line
+	9500 4500 9000 4500
+Wire Wire Line
+	9000 4200 9000 4500
+Connection ~ 9000 4200
+Wire Wire Line
+	9500 4200 9000 4200
+Wire Wire Line
+	9000 3900 9000 4200
+Connection ~ 9000 3900
+Wire Wire Line
+	9500 3900 9000 3900
+Connection ~ 9600 3600
+Wire Wire Line
+	9600 3600 9500 3600
+Wire Wire Line
+	9600 3300 9600 3600
+Connection ~ 9600 3300
+Wire Wire Line
+	9600 3300 9500 3300
+Wire Wire Line
+	9600 3000 9600 3300
+Connection ~ 9600 3000
+Wire Wire Line
+	9600 3000 9500 3000
+Wire Wire Line
+	9600 2700 9600 3000
+Connection ~ 9600 2700
+Wire Wire Line
+	9600 2700 9500 2700
+Wire Wire Line
+	9600 2700 9600 2400
+Connection ~ 9600 2400
+Wire Wire Line
+	9600 2400 9500 2400
+Wire Wire Line
+	9600 2400 9600 2100
+Connection ~ 9600 2100
+Wire Wire Line
+	9600 2100 9500 2100
+Wire Wire Line
+	9600 2100 9600 1800
+Wire Wire Line
+	9600 1800 9600 1500
+Connection ~ 9600 1800
+Wire Wire Line
+	9600 1800 9500 1800
+Wire Wire Line
+	9600 1500 9600 1200
+Wire Wire Line
+	9600 1200 9600 900 
+Connection ~ 9600 1200
+Wire Wire Line
+	9600 1200 9500 1200
+Wire Wire Line
+	10100 1200 10200 1200
+Wire Wire Line
+	10200 1200 10200 1500
+Connection ~ 10200 1500
+Wire Wire Line
+	10100 1500 10200 1500
+Wire Wire Line
+	10200 1500 10200 1800
+Connection ~ 10200 1800
+Wire Wire Line
+	10100 1800 10200 1800
+Wire Wire Line
+	10200 1800 10200 2100
+Connection ~ 10200 2100
+Wire Wire Line
+	10100 2100 10200 2100
+Wire Wire Line
+	10200 2100 10200 2400
+Connection ~ 10200 2400
+Wire Wire Line
+	10100 2400 10200 2400
+Wire Wire Line
+	10200 2400 10200 2700
+Connection ~ 10200 2700
+Wire Wire Line
+	10100 2700 10200 2700
+Wire Wire Line
+	10200 2700 10200 3000
+Connection ~ 10200 3000
+Wire Wire Line
+	10100 3000 10200 3000
+Wire Wire Line
+	10200 3000 10200 3300
+Connection ~ 10200 3300
+Wire Wire Line
+	10100 3300 10200 3300
+Wire Wire Line
+	10200 3300 10200 3600
+Connection ~ 10200 3600
+Wire Wire Line
+	10100 3600 10200 3600
+Wire Wire Line
+	10200 3600 10200 3900
+Connection ~ 10200 3900
+Wire Wire Line
+	10100 3900 10200 3900
+Wire Wire Line
+	10100 4200 9600 4200
+Connection ~ 9600 4200
+Wire Wire Line
+	9600 4500 9600 4200
+Wire Wire Line
+	10100 4500 9600 4500
+Connection ~ 9600 4500
+Wire Wire Line
+	9600 4800 9600 4500
+Wire Wire Line
+	10100 4800 9600 4800
+Connection ~ 9600 4800
+Wire Wire Line
+	9600 5100 9600 4800
+Wire Wire Line
+	10100 5100 9600 5100
+Wire Wire Line
+	10200 5100 10200 5400
+Connection ~ 10200 5100
+Wire Wire Line
+	10700 5100 10200 5100
+Wire Wire Line
+	10200 4800 10200 5100
+Connection ~ 10200 4800
+Wire Wire Line
+	10700 4800 10200 4800
+Wire Wire Line
+	10200 4500 10200 4800
+Connection ~ 10200 4500
+Wire Wire Line
+	10700 4500 10200 4500
+Connection ~ 10800 4200
+Wire Wire Line
+	10700 4200 10800 4200
+Connection ~ 11400 4500
+Wire Wire Line
+	11300 4500 11400 4500
+Wire Wire Line
+	10800 4200 10800 3900
+Connection ~ 10800 3900
+Wire Wire Line
+	10700 3900 10800 3900
+Wire Wire Line
+	10800 3900 10800 3600
+Connection ~ 10800 3600
+Wire Wire Line
+	10700 3600 10800 3600
+Wire Wire Line
+	10800 3600 10800 3300
+Connection ~ 10800 3300
+Wire Wire Line
+	10700 3300 10800 3300
+Wire Wire Line
+	10800 3300 10800 3000
+Connection ~ 10800 3000
+Wire Wire Line
+	10700 3000 10800 3000
+Wire Wire Line
+	10800 3000 10800 2700
+Connection ~ 10800 2700
+Wire Wire Line
+	10700 2700 10800 2700
+Wire Wire Line
+	10800 2700 10800 2400
+Connection ~ 10800 2400
+Wire Wire Line
+	10700 2400 10800 2400
+Wire Wire Line
+	10800 2400 10800 2100
+Connection ~ 10800 2100
+Wire Wire Line
+	10700 2100 10800 2100
+Wire Wire Line
+	10800 2100 10800 1800
+Connection ~ 10800 1800
+Wire Wire Line
+	10700 1800 10800 1800
+Wire Wire Line
+	10800 1800 10800 1500
+Connection ~ 10800 1500
+Wire Wire Line
+	10700 1500 10800 1500
+Wire Wire Line
+	10800 1500 10800 1200
+Wire Wire Line
+	10800 1200 10800 900 
+Connection ~ 10800 1200
+Wire Wire Line
+	10700 1200 10800 1200
+Wire Wire Line
+	11300 1200 11400 1200
+Wire Wire Line
+	11400 1200 11400 1500
+Connection ~ 11400 1500
+Wire Wire Line
+	11300 1500 11400 1500
+Wire Wire Line
+	11400 1500 11400 1800
+Connection ~ 11400 1800
+Wire Wire Line
+	11300 1800 11400 1800
+Wire Wire Line
+	11300 2100 11400 2100
+Wire Wire Line
+	11400 1800 11400 2100
+Connection ~ 11400 2100
+Wire Wire Line
+	11400 2100 11400 2400
+Connection ~ 11400 2400
+Wire Wire Line
+	11300 2400 11400 2400
+Wire Wire Line
+	11400 2400 11400 2700
+Connection ~ 11400 2700
+Wire Wire Line
+	11300 2700 11400 2700
+Wire Wire Line
+	11400 2700 11400 3000
+Connection ~ 11400 3000
+Wire Wire Line
+	11300 3000 11400 3000
+Wire Wire Line
+	11400 3000 11400 3300
+Connection ~ 11400 3300
+Wire Wire Line
+	11300 3300 11400 3300
+Wire Wire Line
+	11400 3300 11400 3600
+Connection ~ 11400 3600
+Wire Wire Line
+	11300 3600 11400 3600
+Connection ~ 11400 1200
+Wire Wire Line
+	11400 900  11400 1200
+Wire Wire Line
+	11400 3600 11400 3900
+Connection ~ 11400 3900
+Wire Wire Line
+	11300 3900 11400 3900
+Wire Wire Line
+	11400 4500 11400 4200
+Wire Wire Line
+	11400 3900 11400 4200
+Connection ~ 11400 4200
+Wire Wire Line
+	11300 4200 11400 4200
+Wire Wire Line
+	11300 4800 10800 4800
+Connection ~ 10800 4800
+Wire Wire Line
+	10800 5100 10800 4800
+Wire Wire Line
+	11300 5100 10800 5100
+Wire Wire Line
+	11900 5100 11400 5100
+Wire Wire Line
+	11900 4800 12000 4800
+Wire Wire Line
+	12000 4800 12000 4500
+Connection ~ 12000 4500
+Wire Wire Line
+	11900 4500 12000 4500
+Wire Wire Line
+	12000 4500 12000 4200
+Connection ~ 12000 4200
+Wire Wire Line
+	11900 4200 12000 4200
+Wire Wire Line
+	12000 4200 12000 3900
+Connection ~ 12000 3900
+Wire Wire Line
+	11900 3900 12000 3900
+Wire Wire Line
+	12000 3900 12000 3600
+Connection ~ 12000 3600
+Wire Wire Line
+	11900 3600 12000 3600
+Wire Wire Line
+	12000 3600 12000 3300
+Connection ~ 12000 3300
+Wire Wire Line
+	11900 3300 12000 3300
+Wire Wire Line
+	12000 3300 12000 3000
+Connection ~ 12000 3000
+Wire Wire Line
+	11900 3000 12000 3000
+Wire Wire Line
+	12000 3000 12000 2700
+Connection ~ 12000 2700
+Wire Wire Line
+	11900 2700 12000 2700
+Wire Wire Line
+	12000 2700 12000 2400
+Connection ~ 12000 2400
+Wire Wire Line
+	12000 2400 12000 2100
+Connection ~ 12000 2100
+Wire Wire Line
+	11900 2100 12000 2100
+Wire Wire Line
+	12000 2100 12000 1800
+Connection ~ 12000 1800
+Wire Wire Line
+	11900 1800 12000 1800
+Wire Wire Line
+	12000 1800 12000 1500
+Connection ~ 12000 1500
+Wire Wire Line
+	11900 1500 12000 1500
+Wire Wire Line
+	12000 1500 12000 1200
+Wire Wire Line
+	12000 1200 12000 900 
+Connection ~ 12000 1200
+Wire Wire Line
+	11900 1200 12000 1200
+Connection ~ 12000 4800
+Wire Wire Line
+	12000 4900 12000 4800
+Connection ~ 12000 4900
+Wire Wire Line
+	11400 5100 11400 4600
+Wire Wire Line
+	11400 4600 11400 4500
+Connection ~ 11400 4600
+Wire Wire Line
+	10800 4300 10800 4800
+Wire Wire Line
+	10800 4300 10800 4200
+Connection ~ 10800 4300
+Wire Wire Line
+	10200 3900 10200 4000
+Wire Wire Line
+	10200 4000 10200 4500
+Connection ~ 10200 4000
+Wire Wire Line
+	9600 3600 9600 3700
+Wire Wire Line
+	9600 4200 9600 3700
+Connection ~ 9600 3700
+Wire Wire Line
+	9000 3300 9000 3400
+Wire Wire Line
+	9000 3400 9000 3900
+Connection ~ 9000 3400
+Wire Wire Line
+	8400 3000 8400 3100
+Wire Wire Line
+	8400 3600 8400 3100
+Connection ~ 8400 3100
+Wire Wire Line
+	7800 2700 7800 2800
+Wire Wire Line
+	7800 2800 7800 3300
+Connection ~ 7800 2800
+Wire Wire Line
+	7200 3000 7200 2500
+Wire Wire Line
+	7200 2500 7200 2400
+Connection ~ 7200 2500
+Wire Wire Line
+	6600 2100 6600 2200
+Wire Wire Line
+	6600 2200 6600 2700
+Connection ~ 6600 2200
+Wire Wire Line
+	6000 1800 6000 1900
+Wire Wire Line
+	6000 2400 6000 1900
+Connection ~ 6000 1900
+Wire Wire Line
+	5400 1500 5400 1600
+Wire Wire Line
+	5400 1600 5400 2100
+Connection ~ 5400 1600
+Wire Wire Line
+	4800 1800 4800 1300
+Wire Wire Line
+	4800 1300 4800 1200
+Connection ~ 4800 1300
+Connection ~ 4200 1500
+Wire Wire Line
+	4200 1000 4200 1500
+Wire Wire Line
+	4100 1200 4000 1200
+Wire Wire Line
+	4000 1200 4000 1500
+Connection ~ 4000 1500
+Wire Wire Line
+	4100 1500 4000 1500
+Wire Wire Line
+	4000 1800 4100 1800
+Wire Wire Line
+	4000 1500 4000 1800
+Connection ~ 4000 1800
+Connection ~ 4000 1200
+Wire Wire Line
+	4000 700  4000 1200
+Wire Wire Line
+	4000 1800 4000 2100
+Connection ~ 4000 2100
+Wire Wire Line
+	4100 2100 4000 2100
+Wire Wire Line
+	4000 2100 4000 2400
+Connection ~ 4000 2400
+Wire Wire Line
+	4100 2400 4000 2400
+Wire Wire Line
+	4000 2400 4000 2700
+Connection ~ 4000 2700
+Wire Wire Line
+	4000 2700 4100 2700
+Wire Wire Line
+	4000 2700 4000 3000
+Connection ~ 4000 3000
+Wire Wire Line
+	4100 3000 4000 3000
+Wire Wire Line
+	4000 3000 4000 3300
+Connection ~ 4000 3300
+Wire Wire Line
+	4000 3300 4100 3300
+Wire Wire Line
+	4000 3300 4000 3600
+Connection ~ 4000 3600
+Wire Wire Line
+	4100 3600 4000 3600
+Wire Wire Line
+	4000 3600 4000 3900
+Connection ~ 4000 3900
+Wire Wire Line
+	4100 3900 4000 3900
+Wire Wire Line
+	4000 3900 4000 4200
+Connection ~ 4000 4200
+Wire Wire Line
+	4000 4200 4100 4200
+Wire Wire Line
+	4000 4200 4000 4500
+Connection ~ 4000 4500
+Wire Wire Line
+	4100 4500 4000 4500
+Wire Wire Line
+	4000 4500 4000 4800
+Connection ~ 4000 4800
+Wire Wire Line
+	4000 4800 4100 4800
+Wire Wire Line
+	4000 4800 4000 5100
+Wire Wire Line
+	4000 5100 4000 5400
+Connection ~ 4000 5100
+Wire Wire Line
+	4100 5100 4000 5100
+Wire Wire Line
+	4000 5400 4100 5400
+Wire Wire Line
+	4200 5400 4700 5400
+Connection ~ 4200 1000
+Wire Wire Line
+	4200 900  4200 1000
+Wire Wire Line
+	4100 900  4200 900 
+Wire Wire Line
+	4800 900  4700 900 
+Connection ~ 4800 5100
+Wire Wire Line
+	4800 5400 4800 5100
+Wire Wire Line
+	5300 5400 4800 5400
+Wire Wire Line
+	5400 5400 5900 5400
+Connection ~ 5400 1200
+Wire Wire Line
+	5400 900  5400 1200
+Wire Wire Line
+	5300 900  5400 900 
+Wire Wire Line
+	6000 900  5900 900 
+Connection ~ 6000 5100
+Wire Wire Line
+	6000 5400 6000 5100
+Wire Wire Line
+	6500 5400 6000 5400
+Wire Wire Line
+	6600 5400 7100 5400
+Connection ~ 6600 1200
+Wire Wire Line
+	6600 900  6600 1200
+Wire Wire Line
+	6500 900  6600 900 
+Wire Wire Line
+	7200 900  7100 900 
+Connection ~ 7200 5100
+Wire Wire Line
+	7200 5400 7200 5100
+Wire Wire Line
+	7700 5400 7200 5400
+Wire Wire Line
+	7800 5400 8300 5400
+Connection ~ 7800 1200
+Wire Wire Line
+	7800 900  7800 1200
+Wire Wire Line
+	7700 900  7800 900 
+Wire Wire Line
+	8400 900  8300 900 
+Connection ~ 8400 5100
+Wire Wire Line
+	8400 5400 8400 5100
+Wire Wire Line
+	8900 5400 8400 5400
+Wire Wire Line
+	9000 5400 9500 5400
+Connection ~ 9000 1200
+Wire Wire Line
+	9000 900  9000 1200
+Wire Wire Line
+	8900 900  9000 900 
+Wire Wire Line
+	9600 900  9500 900 
+Connection ~ 9600 5100
+Wire Wire Line
+	9600 5400 9600 5100
+Wire Wire Line
+	10100 5400 9600 5400
+Wire Wire Line
+	10200 5400 10700 5400
+Connection ~ 10200 1200
+Wire Wire Line
+	10200 900  10200 1200
+Wire Wire Line
+	10100 900  10200 900 
+Wire Wire Line
+	10800 900  10700 900 
+Connection ~ 10800 5100
+Wire Wire Line
+	10800 5400 10800 5100
+Wire Wire Line
+	11300 5400 10800 5400
+Wire Wire Line
+	11400 900  11300 900 
+Connection ~ 11400 5100
+Wire Wire Line
+	11400 5400 11400 5100
+Wire Wire Line
+	11900 5400 11400 5400
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15D20
+P 11900 800
+AR Path="/7AF15D20" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15D20" Ref="D14"  Part="1" 
+F 0 "D14" V 11946 730 50  0000 R CNN
+F 1 "LED_Small" V 11855 730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11900 800 50  0001 C CNN
+F 3 "~" V 11900 800 50  0001 C CNN
+	1    11900 800 
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11900 700 
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15D27
+P 11900 1100
+AR Path="/7AF15D27" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15D27" Ref="D46"  Part="1" 
+F 0 "D46" V 11946 1030 50  0000 R CNN
+F 1 "LED_Small" V 11855 1030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11900 1100 50  0001 C CNN
+F 3 "~" V 11900 1100 50  0001 C CNN
+	1    11900 1100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11900 1000
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15D2E
+P 11900 1400
+AR Path="/7AF15D2E" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15D2E" Ref="D78"  Part="1" 
+F 0 "D78" V 11946 1330 50  0000 R CNN
+F 1 "LED_Small" V 11855 1330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11900 1400 50  0001 C CNN
+F 3 "~" V 11900 1400 50  0001 C CNN
+	1    11900 1400
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11900 1300
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15D35
+P 11900 1700
+AR Path="/7AF15D35" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15D35" Ref="D110"  Part="1" 
+F 0 "D110" V 11946 1630 50  0000 R CNN
+F 1 "LED_Small" V 11855 1630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11900 1700 50  0001 C CNN
+F 3 "~" V 11900 1700 50  0001 C CNN
+	1    11900 1700
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11900 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15D3C
+P 11900 2000
+AR Path="/7AF15D3C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15D3C" Ref="D142"  Part="1" 
+F 0 "D142" V 11946 1930 50  0000 R CNN
+F 1 "LED_Small" V 11855 1930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11900 2000 50  0001 C CNN
+F 3 "~" V 11900 2000 50  0001 C CNN
+	1    11900 2000
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11900 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15D43
+P 11900 2300
+AR Path="/7AF15D43" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15D43" Ref="D174"  Part="1" 
+F 0 "D174" V 11946 2230 50  0000 R CNN
+F 1 "LED_Small" V 11855 2230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11900 2300 50  0001 C CNN
+F 3 "~" V 11900 2300 50  0001 C CNN
+	1    11900 2300
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11900 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15D4A
+P 11900 2600
+AR Path="/7AF15D4A" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15D4A" Ref="D206"  Part="1" 
+F 0 "D206" V 11946 2530 50  0000 R CNN
+F 1 "LED_Small" V 11855 2530 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11900 2600 50  0001 C CNN
+F 3 "~" V 11900 2600 50  0001 C CNN
+	1    11900 2600
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11900 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15D51
+P 11900 2900
+AR Path="/7AF15D51" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15D51" Ref="D238"  Part="1" 
+F 0 "D238" V 11946 2830 50  0000 R CNN
+F 1 "LED_Small" V 11855 2830 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11900 2900 50  0001 C CNN
+F 3 "~" V 11900 2900 50  0001 C CNN
+	1    11900 2900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11900 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15D58
+P 11900 3200
+AR Path="/7AF15D58" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15D58" Ref="D270"  Part="1" 
+F 0 "D270" V 11946 3130 50  0000 R CNN
+F 1 "LED_Small" V 11855 3130 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11900 3200 50  0001 C CNN
+F 3 "~" V 11900 3200 50  0001 C CNN
+	1    11900 3200
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11900 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15D5F
+P 11900 3500
+AR Path="/7AF15D5F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15D5F" Ref="D302"  Part="1" 
+F 0 "D302" V 11946 3430 50  0000 R CNN
+F 1 "LED_Small" V 11855 3430 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11900 3500 50  0001 C CNN
+F 3 "~" V 11900 3500 50  0001 C CNN
+	1    11900 3500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11900 3400
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15D66
+P 11900 3800
+AR Path="/7AF15D66" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15D66" Ref="D334"  Part="1" 
+F 0 "D334" V 11946 3730 50  0000 R CNN
+F 1 "LED_Small" V 11855 3730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11900 3800 50  0001 C CNN
+F 3 "~" V 11900 3800 50  0001 C CNN
+	1    11900 3800
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11900 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15D6D
+P 11900 4100
+AR Path="/7AF15D6D" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15D6D" Ref="D366"  Part="1" 
+F 0 "D366" V 11946 4030 50  0000 R CNN
+F 1 "LED_Small" V 11855 4030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11900 4100 50  0001 C CNN
+F 3 "~" V 11900 4100 50  0001 C CNN
+	1    11900 4100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11900 4000
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15D74
+P 11900 4400
+AR Path="/7AF15D74" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15D74" Ref="D398"  Part="1" 
+F 0 "D398" V 11946 4330 50  0000 R CNN
+F 1 "LED_Small" V 11855 4330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11900 4400 50  0001 C CNN
+F 3 "~" V 11900 4400 50  0001 C CNN
+	1    11900 4400
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11900 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15D7B
+P 11900 4700
+AR Path="/7AF15D7B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15D7B" Ref="D430"  Part="1" 
+F 0 "D430" V 11946 4630 50  0000 R CNN
+F 1 "LED_Small" V 11855 4630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11900 4700 50  0001 C CNN
+F 3 "~" V 11900 4700 50  0001 C CNN
+	1    11900 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11400 4600 11900 4600
+Connection ~ 11900 4600
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15D83
+P 11900 5000
+AR Path="/7AF15D83" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15D83" Ref="D462"  Part="1" 
+F 0 "D462" V 11946 4930 50  0000 R CNN
+F 1 "LED_Small" V 11855 4930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11900 5000 50  0001 C CNN
+F 3 "~" V 11900 5000 50  0001 C CNN
+	1    11900 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12000 4900 11900 4900
+Connection ~ 11900 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15D8B
+P 11900 5300
+AR Path="/7AF15D8B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15D8B" Ref="D494"  Part="1" 
+F 0 "D494" V 11946 5230 50  0000 R CNN
+F 1 "LED_Small" V 11855 5230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11900 5300 50  0001 C CNN
+F 3 "~" V 11900 5300 50  0001 C CNN
+	1    11900 5300
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11900 5200
+Wire Wire Line
+	12000 900  11900 900 
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15D93
+P 4100 800
+AR Path="/7AF15D93" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15D93" Ref="D1"  Part="1" 
+F 0 "D1" V 4146 730 50  0000 R CNN
+F 1 "LED_Small" V 4055 730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4100 800 50  0001 C CNN
+F 3 "~" V 4100 800 50  0001 C CNN
+	1    4100 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4000 700  4100 700 
+Connection ~ 4100 700 
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15D9B
+P 4100 1100
+AR Path="/7AF15D9B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15D9B" Ref="D33"  Part="1" 
+F 0 "D33" V 4146 1030 50  0000 R CNN
+F 1 "LED_Small" V 4055 1030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4100 1100 50  0001 C CNN
+F 3 "~" V 4100 1100 50  0001 C CNN
+	1    4100 1100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4100 1000
+Wire Wire Line
+	4100 1000 4200 1000
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15DA4
+P 4100 1400
+AR Path="/7AF15DA4" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15DA4" Ref="D65"  Part="1" 
+F 0 "D65" V 4146 1330 50  0000 R CNN
+F 1 "LED_Small" V 4055 1330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4100 1400 50  0001 C CNN
+F 3 "~" V 4100 1400 50  0001 C CNN
+	1    4100 1400
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4100 1300
+Wire Wire Line
+	4100 1300 4700 1300
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15DAD
+P 4100 1700
+AR Path="/7AF15DAD" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15DAD" Ref="D97"  Part="1" 
+F 0 "D97" V 4146 1630 50  0000 R CNN
+F 1 "LED_Small" V 4055 1630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4100 1700 50  0001 C CNN
+F 3 "~" V 4100 1700 50  0001 C CNN
+	1    4100 1700
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4100 1600
+Wire Wire Line
+	4100 1600 4700 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15DB6
+P 4100 2000
+AR Path="/7AF15DB6" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15DB6" Ref="D129"  Part="1" 
+F 0 "D129" V 4146 1930 50  0000 R CNN
+F 1 "LED_Small" V 4055 1930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4100 2000 50  0001 C CNN
+F 3 "~" V 4100 2000 50  0001 C CNN
+	1    4100 2000
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4100 1900
+Wire Wire Line
+	4100 1900 4700 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15DBF
+P 4100 2300
+AR Path="/7AF15DBF" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15DBF" Ref="D161"  Part="1" 
+F 0 "D161" V 4146 2230 50  0000 R CNN
+F 1 "LED_Small" V 4055 2230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4100 2300 50  0001 C CNN
+F 3 "~" V 4100 2300 50  0001 C CNN
+	1    4100 2300
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4100 2200
+Wire Wire Line
+	4100 2200 4700 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15DC8
+P 4100 2600
+AR Path="/7AF15DC8" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15DC8" Ref="D193"  Part="1" 
+F 0 "D193" V 4146 2530 50  0000 R CNN
+F 1 "LED_Small" V 4055 2530 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4100 2600 50  0001 C CNN
+F 3 "~" V 4100 2600 50  0001 C CNN
+	1    4100 2600
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4100 2500
+Wire Wire Line
+	4100 2500 4700 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15DD1
+P 4100 2900
+AR Path="/7AF15DD1" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15DD1" Ref="D225"  Part="1" 
+F 0 "D225" V 4146 2830 50  0000 R CNN
+F 1 "LED_Small" V 4055 2830 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4100 2900 50  0001 C CNN
+F 3 "~" V 4100 2900 50  0001 C CNN
+	1    4100 2900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4100 2800
+Wire Wire Line
+	4100 2800 4700 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15DDA
+P 4100 3200
+AR Path="/7AF15DDA" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15DDA" Ref="D257"  Part="1" 
+F 0 "D257" V 4146 3130 50  0000 R CNN
+F 1 "LED_Small" V 4055 3130 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4100 3200 50  0001 C CNN
+F 3 "~" V 4100 3200 50  0001 C CNN
+	1    4100 3200
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4100 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15DE2
+P 4100 3500
+AR Path="/7AF15DE2" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15DE2" Ref="D289"  Part="1" 
+F 0 "D289" V 4146 3430 50  0000 R CNN
+F 1 "LED_Small" V 4055 3430 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4100 3500 50  0001 C CNN
+F 3 "~" V 4100 3500 50  0001 C CNN
+	1    4100 3500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4100 3400
+Wire Wire Line
+	4100 3400 4700 3400
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15DEB
+P 4100 3800
+AR Path="/7AF15DEB" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15DEB" Ref="D321"  Part="1" 
+F 0 "D321" V 4146 3730 50  0000 R CNN
+F 1 "LED_Small" V 4055 3730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4100 3800 50  0001 C CNN
+F 3 "~" V 4100 3800 50  0001 C CNN
+	1    4100 3800
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4100 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15DF3
+P 4100 4100
+AR Path="/7AF15DF3" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15DF3" Ref="D353"  Part="1" 
+F 0 "D353" V 4146 4030 50  0000 R CNN
+F 1 "LED_Small" V 4055 4030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4100 4100 50  0001 C CNN
+F 3 "~" V 4100 4100 50  0001 C CNN
+	1    4100 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 4000 4700 4000
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15DFC
+P 4100 4400
+AR Path="/7AF15DFC" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15DFC" Ref="D385"  Part="1" 
+F 0 "D385" V 4146 4330 50  0000 R CNN
+F 1 "LED_Small" V 4055 4330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4100 4400 50  0001 C CNN
+F 3 "~" V 4100 4400 50  0001 C CNN
+	1    4100 4400
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4100 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15E04
+P 4100 4700
+AR Path="/7AF15E04" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15E04" Ref="D417"  Part="1" 
+F 0 "D417" V 4146 4630 50  0000 R CNN
+F 1 "LED_Small" V 4055 4630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4100 4700 50  0001 C CNN
+F 3 "~" V 4100 4700 50  0001 C CNN
+	1    4100 4700
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4100 4600
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15E0C
+P 4100 5000
+AR Path="/7AF15E0C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15E0C" Ref="D449"  Part="1" 
+F 0 "D449" V 4146 4930 50  0000 R CNN
+F 1 "LED_Small" V 4055 4930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4100 5000 50  0001 C CNN
+F 3 "~" V 4100 5000 50  0001 C CNN
+	1    4100 5000
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4100 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15E14
+P 4100 5300
+AR Path="/7AF15E14" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15E14" Ref="D481"  Part="1" 
+F 0 "D481" V 4146 5230 50  0000 R CNN
+F 1 "LED_Small" V 4055 5230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4100 5300 50  0001 C CNN
+F 3 "~" V 4100 5300 50  0001 C CNN
+	1    4100 5300
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4100 5200
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15E1C
+P 4700 800
+AR Path="/7AF15E1C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15E1C" Ref="D2"  Part="1" 
+F 0 "D2" V 4746 730 50  0000 R CNN
+F 1 "LED_Small" V 4655 730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4700 800 50  0001 C CNN
+F 3 "~" V 4700 800 50  0001 C CNN
+	1    4700 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 700  4700 700 
+Connection ~ 4700 700 
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15E24
+P 4700 1100
+AR Path="/7AF15E24" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15E24" Ref="D34"  Part="1" 
+F 0 "D34" V 4746 1030 50  0000 R CNN
+F 1 "LED_Small" V 4655 1030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4700 1100 50  0001 C CNN
+F 3 "~" V 4700 1100 50  0001 C CNN
+	1    4700 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4200 1000 4700 1000
+Connection ~ 4700 1000
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15E2C
+P 4700 1400
+AR Path="/7AF15E2C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15E2C" Ref="D66"  Part="1" 
+F 0 "D66" V 4746 1330 50  0000 R CNN
+F 1 "LED_Small" V 4655 1330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4700 1400 50  0001 C CNN
+F 3 "~" V 4700 1400 50  0001 C CNN
+	1    4700 1400
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4700 1300
+Wire Wire Line
+	4700 1300 4800 1300
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15E34
+P 4700 1700
+AR Path="/7AF15E34" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15E34" Ref="D98"  Part="1" 
+F 0 "D98" V 4746 1630 50  0000 R CNN
+F 1 "LED_Small" V 4655 1630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4700 1700 50  0001 C CNN
+F 3 "~" V 4700 1700 50  0001 C CNN
+	1    4700 1700
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4700 1600
+Wire Wire Line
+	4700 1600 5300 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15E3C
+P 4700 2000
+AR Path="/7AF15E3C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15E3C" Ref="D130"  Part="1" 
+F 0 "D130" V 4746 1930 50  0000 R CNN
+F 1 "LED_Small" V 4655 1930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4700 2000 50  0001 C CNN
+F 3 "~" V 4700 2000 50  0001 C CNN
+	1    4700 2000
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4700 1900
+Wire Wire Line
+	4700 1900 5300 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15E44
+P 4700 2300
+AR Path="/7AF15E44" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15E44" Ref="D162"  Part="1" 
+F 0 "D162" V 4746 2230 50  0000 R CNN
+F 1 "LED_Small" V 4655 2230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4700 2300 50  0001 C CNN
+F 3 "~" V 4700 2300 50  0001 C CNN
+	1    4700 2300
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4700 2200
+Wire Wire Line
+	4700 2200 5300 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15E4C
+P 4700 2600
+AR Path="/7AF15E4C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15E4C" Ref="D194"  Part="1" 
+F 0 "D194" V 4746 2530 50  0000 R CNN
+F 1 "LED_Small" V 4655 2530 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4700 2600 50  0001 C CNN
+F 3 "~" V 4700 2600 50  0001 C CNN
+	1    4700 2600
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4700 2500
+Wire Wire Line
+	4700 2500 5300 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15E54
+P 4700 2900
+AR Path="/7AF15E54" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15E54" Ref="D226"  Part="1" 
+F 0 "D226" V 4746 2830 50  0000 R CNN
+F 1 "LED_Small" V 4655 2830 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4700 2900 50  0001 C CNN
+F 3 "~" V 4700 2900 50  0001 C CNN
+	1    4700 2900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4700 2800
+Wire Wire Line
+	4700 2800 5300 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15E5C
+P 4700 3200
+AR Path="/7AF15E5C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15E5C" Ref="D258"  Part="1" 
+F 0 "D258" V 4746 3130 50  0000 R CNN
+F 1 "LED_Small" V 4655 3130 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4700 3200 50  0001 C CNN
+F 3 "~" V 4700 3200 50  0001 C CNN
+	1    4700 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 3100 4100 3100
+Connection ~ 4700 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15E64
+P 4700 3500
+AR Path="/7AF15E64" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15E64" Ref="D290"  Part="1" 
+F 0 "D290" V 4746 3430 50  0000 R CNN
+F 1 "LED_Small" V 4655 3430 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4700 3500 50  0001 C CNN
+F 3 "~" V 4700 3500 50  0001 C CNN
+	1    4700 3500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4700 3400
+Wire Wire Line
+	4700 3400 5300 3400
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15E6C
+P 4700 3800
+AR Path="/7AF15E6C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15E6C" Ref="D322"  Part="1" 
+F 0 "D322" V 4746 3730 50  0000 R CNN
+F 1 "LED_Small" V 4655 3730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4700 3800 50  0001 C CNN
+F 3 "~" V 4700 3800 50  0001 C CNN
+	1    4700 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 3700 4100 3700
+Connection ~ 4700 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15E74
+P 4700 4100
+AR Path="/7AF15E74" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15E74" Ref="D354"  Part="1" 
+F 0 "D354" V 4746 4030 50  0000 R CNN
+F 1 "LED_Small" V 4655 4030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4700 4100 50  0001 C CNN
+F 3 "~" V 4700 4100 50  0001 C CNN
+	1    4700 4100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4700 4000
+Wire Wire Line
+	4700 4000 5300 4000
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15E7C
+P 4700 4400
+AR Path="/7AF15E7C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15E7C" Ref="D386"  Part="1" 
+F 0 "D386" V 4746 4330 50  0000 R CNN
+F 1 "LED_Small" V 4655 4330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4700 4400 50  0001 C CNN
+F 3 "~" V 4700 4400 50  0001 C CNN
+	1    4700 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 4300 4100 4300
+Connection ~ 4700 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15E84
+P 4700 4700
+AR Path="/7AF15E84" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15E84" Ref="D418"  Part="1" 
+F 0 "D418" V 4746 4630 50  0000 R CNN
+F 1 "LED_Small" V 4655 4630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4700 4700 50  0001 C CNN
+F 3 "~" V 4700 4700 50  0001 C CNN
+	1    4700 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 4600 4700 4600
+Connection ~ 4700 4600
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15E8C
+P 4700 5000
+AR Path="/7AF15E8C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15E8C" Ref="D450"  Part="1" 
+F 0 "D450" V 4746 4930 50  0000 R CNN
+F 1 "LED_Small" V 4655 4930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4700 5000 50  0001 C CNN
+F 3 "~" V 4700 5000 50  0001 C CNN
+	1    4700 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 4900 4100 4900
+Connection ~ 4700 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15E94
+P 4700 5300
+AR Path="/7AF15E94" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15E94" Ref="D482"  Part="1" 
+F 0 "D482" V 4746 5230 50  0000 R CNN
+F 1 "LED_Small" V 4655 5230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4700 5300 50  0001 C CNN
+F 3 "~" V 4700 5300 50  0001 C CNN
+	1    4700 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 5200 4700 5200
+Connection ~ 4700 5200
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15E9C
+P 5300 800
+AR Path="/7AF15E9C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15E9C" Ref="D3"  Part="1" 
+F 0 "D3" V 5346 730 50  0000 R CNN
+F 1 "LED_Small" V 5255 730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5300 800 50  0001 C CNN
+F 3 "~" V 5300 800 50  0001 C CNN
+	1    5300 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 700  5300 700 
+Connection ~ 5300 700 
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15EA4
+P 5300 1100
+AR Path="/7AF15EA4" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15EA4" Ref="D35"  Part="1" 
+F 0 "D35" V 5346 1030 50  0000 R CNN
+F 1 "LED_Small" V 5255 1030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5300 1100 50  0001 C CNN
+F 3 "~" V 5300 1100 50  0001 C CNN
+	1    5300 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 1000 5300 1000
+Connection ~ 5300 1000
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15EAC
+P 5300 1400
+AR Path="/7AF15EAC" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15EAC" Ref="D67"  Part="1" 
+F 0 "D67" V 5346 1330 50  0000 R CNN
+F 1 "LED_Small" V 5255 1330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5300 1400 50  0001 C CNN
+F 3 "~" V 5300 1400 50  0001 C CNN
+	1    5300 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4800 1300 5300 1300
+Connection ~ 5300 1300
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15EB4
+P 5300 1700
+AR Path="/7AF15EB4" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15EB4" Ref="D99"  Part="1" 
+F 0 "D99" V 5346 1630 50  0000 R CNN
+F 1 "LED_Small" V 5255 1630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5300 1700 50  0001 C CNN
+F 3 "~" V 5300 1700 50  0001 C CNN
+	1    5300 1700
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5300 1600
+Wire Wire Line
+	5300 1600 5400 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15EBC
+P 5300 2000
+AR Path="/7AF15EBC" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15EBC" Ref="D131"  Part="1" 
+F 0 "D131" V 5346 1930 50  0000 R CNN
+F 1 "LED_Small" V 5255 1930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5300 2000 50  0001 C CNN
+F 3 "~" V 5300 2000 50  0001 C CNN
+	1    5300 2000
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5300 1900
+Wire Wire Line
+	5300 1900 5900 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15EC4
+P 5300 2300
+AR Path="/7AF15EC4" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15EC4" Ref="D163"  Part="1" 
+F 0 "D163" V 5346 2230 50  0000 R CNN
+F 1 "LED_Small" V 5255 2230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5300 2300 50  0001 C CNN
+F 3 "~" V 5300 2300 50  0001 C CNN
+	1    5300 2300
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5300 2200
+Wire Wire Line
+	5300 2200 5900 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15ECC
+P 5300 2600
+AR Path="/7AF15ECC" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15ECC" Ref="D195"  Part="1" 
+F 0 "D195" V 5346 2530 50  0000 R CNN
+F 1 "LED_Small" V 5255 2530 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5300 2600 50  0001 C CNN
+F 3 "~" V 5300 2600 50  0001 C CNN
+	1    5300 2600
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5300 2500
+Wire Wire Line
+	5300 2500 5900 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15ED4
+P 5300 2900
+AR Path="/7AF15ED4" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15ED4" Ref="D227"  Part="1" 
+F 0 "D227" V 5346 2830 50  0000 R CNN
+F 1 "LED_Small" V 5255 2830 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5300 2900 50  0001 C CNN
+F 3 "~" V 5300 2900 50  0001 C CNN
+	1    5300 2900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5300 2800
+Wire Wire Line
+	5300 2800 5900 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15EDC
+P 5300 3200
+AR Path="/7AF15EDC" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15EDC" Ref="D259"  Part="1" 
+F 0 "D259" V 5346 3130 50  0000 R CNN
+F 1 "LED_Small" V 5255 3130 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5300 3200 50  0001 C CNN
+F 3 "~" V 5300 3200 50  0001 C CNN
+	1    5300 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 3100 4700 3100
+Connection ~ 5300 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15EE4
+P 5300 3500
+AR Path="/7AF15EE4" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15EE4" Ref="D291"  Part="1" 
+F 0 "D291" V 5346 3430 50  0000 R CNN
+F 1 "LED_Small" V 5255 3430 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5300 3500 50  0001 C CNN
+F 3 "~" V 5300 3500 50  0001 C CNN
+	1    5300 3500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5300 3400
+Wire Wire Line
+	5300 3400 5900 3400
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15EEC
+P 5300 3800
+AR Path="/7AF15EEC" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15EEC" Ref="D323"  Part="1" 
+F 0 "D323" V 5346 3730 50  0000 R CNN
+F 1 "LED_Small" V 5255 3730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5300 3800 50  0001 C CNN
+F 3 "~" V 5300 3800 50  0001 C CNN
+	1    5300 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 3700 4700 3700
+Connection ~ 5300 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15EF4
+P 5300 4100
+AR Path="/7AF15EF4" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15EF4" Ref="D355"  Part="1" 
+F 0 "D355" V 5346 4030 50  0000 R CNN
+F 1 "LED_Small" V 5255 4030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5300 4100 50  0001 C CNN
+F 3 "~" V 5300 4100 50  0001 C CNN
+	1    5300 4100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5300 4000
+Wire Wire Line
+	5300 4000 5900 4000
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15EFC
+P 5300 4400
+AR Path="/7AF15EFC" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15EFC" Ref="D387"  Part="1" 
+F 0 "D387" V 5346 4330 50  0000 R CNN
+F 1 "LED_Small" V 5255 4330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5300 4400 50  0001 C CNN
+F 3 "~" V 5300 4400 50  0001 C CNN
+	1    5300 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 4300 4700 4300
+Connection ~ 5300 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15F04
+P 5300 4700
+AR Path="/7AF15F04" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15F04" Ref="D419"  Part="1" 
+F 0 "D419" V 5346 4630 50  0000 R CNN
+F 1 "LED_Small" V 5255 4630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5300 4700 50  0001 C CNN
+F 3 "~" V 5300 4700 50  0001 C CNN
+	1    5300 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 4600 5300 4600
+Connection ~ 5300 4600
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15F0C
+P 5300 5000
+AR Path="/7AF15F0C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15F0C" Ref="D451"  Part="1" 
+F 0 "D451" V 5346 4930 50  0000 R CNN
+F 1 "LED_Small" V 5255 4930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5300 5000 50  0001 C CNN
+F 3 "~" V 5300 5000 50  0001 C CNN
+	1    5300 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 4900 4700 4900
+Connection ~ 5300 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15F14
+P 5300 5300
+AR Path="/7AF15F14" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15F14" Ref="D483"  Part="1" 
+F 0 "D483" V 5346 5230 50  0000 R CNN
+F 1 "LED_Small" V 5255 5230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5300 5300 50  0001 C CNN
+F 3 "~" V 5300 5300 50  0001 C CNN
+	1    5300 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 5200 5300 5200
+Connection ~ 5300 5200
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15F1C
+P 5900 800
+AR Path="/7AF15F1C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15F1C" Ref="D4"  Part="1" 
+F 0 "D4" V 5946 730 50  0000 R CNN
+F 1 "LED_Small" V 5855 730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5900 800 50  0001 C CNN
+F 3 "~" V 5900 800 50  0001 C CNN
+	1    5900 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 700  5900 700 
+Connection ~ 5900 700 
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15F24
+P 5900 1100
+AR Path="/7AF15F24" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15F24" Ref="D36"  Part="1" 
+F 0 "D36" V 5946 1030 50  0000 R CNN
+F 1 "LED_Small" V 5855 1030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5900 1100 50  0001 C CNN
+F 3 "~" V 5900 1100 50  0001 C CNN
+	1    5900 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5900 1000 6500 1000
+Wire Wire Line
+	5300 1000 5900 1000
+Connection ~ 5900 1000
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15F2D
+P 5900 1400
+AR Path="/7AF15F2D" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15F2D" Ref="D68"  Part="1" 
+F 0 "D68" V 5946 1330 50  0000 R CNN
+F 1 "LED_Small" V 5855 1330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5900 1400 50  0001 C CNN
+F 3 "~" V 5900 1400 50  0001 C CNN
+	1    5900 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 1300 5900 1300
+Connection ~ 5900 1300
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15F35
+P 5900 1700
+AR Path="/7AF15F35" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15F35" Ref="D100"  Part="1" 
+F 0 "D100" V 5946 1630 50  0000 R CNN
+F 1 "LED_Small" V 5855 1630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5900 1700 50  0001 C CNN
+F 3 "~" V 5900 1700 50  0001 C CNN
+	1    5900 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 1600 5900 1600
+Connection ~ 5900 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15F3D
+P 5900 2000
+AR Path="/7AF15F3D" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15F3D" Ref="D132"  Part="1" 
+F 0 "D132" V 5946 1930 50  0000 R CNN
+F 1 "LED_Small" V 5855 1930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5900 2000 50  0001 C CNN
+F 3 "~" V 5900 2000 50  0001 C CNN
+	1    5900 2000
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5900 1900
+Wire Wire Line
+	5900 1900 6000 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15F45
+P 5900 2300
+AR Path="/7AF15F45" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15F45" Ref="D164"  Part="1" 
+F 0 "D164" V 5946 2230 50  0000 R CNN
+F 1 "LED_Small" V 5855 2230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5900 2300 50  0001 C CNN
+F 3 "~" V 5900 2300 50  0001 C CNN
+	1    5900 2300
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5900 2200
+Wire Wire Line
+	5900 2200 6500 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15F4D
+P 5900 2600
+AR Path="/7AF15F4D" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15F4D" Ref="D196"  Part="1" 
+F 0 "D196" V 5946 2530 50  0000 R CNN
+F 1 "LED_Small" V 5855 2530 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5900 2600 50  0001 C CNN
+F 3 "~" V 5900 2600 50  0001 C CNN
+	1    5900 2600
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5900 2500
+Wire Wire Line
+	5900 2500 6500 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15F55
+P 5900 2900
+AR Path="/7AF15F55" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15F55" Ref="D228"  Part="1" 
+F 0 "D228" V 5946 2830 50  0000 R CNN
+F 1 "LED_Small" V 5855 2830 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5900 2900 50  0001 C CNN
+F 3 "~" V 5900 2900 50  0001 C CNN
+	1    5900 2900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5900 2800
+Wire Wire Line
+	5900 2800 6500 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15F5D
+P 5900 3200
+AR Path="/7AF15F5D" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15F5D" Ref="D260"  Part="1" 
+F 0 "D260" V 5946 3130 50  0000 R CNN
+F 1 "LED_Small" V 5855 3130 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5900 3200 50  0001 C CNN
+F 3 "~" V 5900 3200 50  0001 C CNN
+	1    5900 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5900 3100 5300 3100
+Connection ~ 5900 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15F65
+P 5900 3500
+AR Path="/7AF15F65" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15F65" Ref="D292"  Part="1" 
+F 0 "D292" V 5946 3430 50  0000 R CNN
+F 1 "LED_Small" V 5855 3430 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5900 3500 50  0001 C CNN
+F 3 "~" V 5900 3500 50  0001 C CNN
+	1    5900 3500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5900 3400
+Wire Wire Line
+	5900 3400 6500 3400
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15F6D
+P 5900 3800
+AR Path="/7AF15F6D" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15F6D" Ref="D324"  Part="1" 
+F 0 "D324" V 5946 3730 50  0000 R CNN
+F 1 "LED_Small" V 5855 3730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5900 3800 50  0001 C CNN
+F 3 "~" V 5900 3800 50  0001 C CNN
+	1    5900 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5900 3700 5300 3700
+Connection ~ 5900 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15F75
+P 5900 4100
+AR Path="/7AF15F75" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15F75" Ref="D356"  Part="1" 
+F 0 "D356" V 5946 4030 50  0000 R CNN
+F 1 "LED_Small" V 5855 4030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5900 4100 50  0001 C CNN
+F 3 "~" V 5900 4100 50  0001 C CNN
+	1    5900 4100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5900 4000
+Wire Wire Line
+	5900 4000 6500 4000
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15F7D
+P 5900 4400
+AR Path="/7AF15F7D" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15F7D" Ref="D388"  Part="1" 
+F 0 "D388" V 5946 4330 50  0000 R CNN
+F 1 "LED_Small" V 5855 4330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5900 4400 50  0001 C CNN
+F 3 "~" V 5900 4400 50  0001 C CNN
+	1    5900 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5900 4300 5300 4300
+Connection ~ 5900 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15F85
+P 5900 4700
+AR Path="/7AF15F85" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15F85" Ref="D420"  Part="1" 
+F 0 "D420" V 5946 4630 50  0000 R CNN
+F 1 "LED_Small" V 5855 4630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5900 4700 50  0001 C CNN
+F 3 "~" V 5900 4700 50  0001 C CNN
+	1    5900 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 4600 5900 4600
+Connection ~ 5900 4600
+Wire Wire Line
+	5900 4900 5300 4900
+Connection ~ 5900 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15F8F
+P 5900 5300
+AR Path="/7AF15F8F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15F8F" Ref="D484"  Part="1" 
+F 0 "D484" V 5946 5230 50  0000 R CNN
+F 1 "LED_Small" V 5855 5230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5900 5300 50  0001 C CNN
+F 3 "~" V 5900 5300 50  0001 C CNN
+	1    5900 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 5200 5900 5200
+Connection ~ 5900 5200
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15F97
+P 6500 800
+AR Path="/7AF15F97" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15F97" Ref="D5"  Part="1" 
+F 0 "D5" V 6546 730 50  0000 R CNN
+F 1 "LED_Small" V 6455 730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 6500 800 50  0001 C CNN
+F 3 "~" V 6500 800 50  0001 C CNN
+	1    6500 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5900 700  6500 700 
+Connection ~ 6500 700 
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15F9F
+P 6500 1400
+AR Path="/7AF15F9F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15F9F" Ref="D69"  Part="1" 
+F 0 "D69" V 6546 1330 50  0000 R CNN
+F 1 "LED_Small" V 6455 1330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 6500 1400 50  0001 C CNN
+F 3 "~" V 6500 1400 50  0001 C CNN
+	1    6500 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5900 1300 6500 1300
+Connection ~ 6500 1300
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15FA7
+P 6500 1700
+AR Path="/7AF15FA7" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15FA7" Ref="D101"  Part="1" 
+F 0 "D101" V 6546 1630 50  0000 R CNN
+F 1 "LED_Small" V 6455 1630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 6500 1700 50  0001 C CNN
+F 3 "~" V 6500 1700 50  0001 C CNN
+	1    6500 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5900 1600 6500 1600
+Connection ~ 6500 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15FAF
+P 6500 2000
+AR Path="/7AF15FAF" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15FAF" Ref="D133"  Part="1" 
+F 0 "D133" V 6546 1930 50  0000 R CNN
+F 1 "LED_Small" V 6455 1930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 6500 2000 50  0001 C CNN
+F 3 "~" V 6500 2000 50  0001 C CNN
+	1    6500 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6000 1900 6500 1900
+Connection ~ 6500 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15FB7
+P 6500 2300
+AR Path="/7AF15FB7" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15FB7" Ref="D165"  Part="1" 
+F 0 "D165" V 6546 2230 50  0000 R CNN
+F 1 "LED_Small" V 6455 2230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 6500 2300 50  0001 C CNN
+F 3 "~" V 6500 2300 50  0001 C CNN
+	1    6500 2300
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6500 2200
+Wire Wire Line
+	6500 2200 6600 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15FBF
+P 6500 2600
+AR Path="/7AF15FBF" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15FBF" Ref="D197"  Part="1" 
+F 0 "D197" V 6546 2530 50  0000 R CNN
+F 1 "LED_Small" V 6455 2530 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 6500 2600 50  0001 C CNN
+F 3 "~" V 6500 2600 50  0001 C CNN
+	1    6500 2600
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6500 2500
+Wire Wire Line
+	6500 2500 7100 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15FC7
+P 6500 2900
+AR Path="/7AF15FC7" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15FC7" Ref="D229"  Part="1" 
+F 0 "D229" V 6546 2830 50  0000 R CNN
+F 1 "LED_Small" V 6455 2830 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 6500 2900 50  0001 C CNN
+F 3 "~" V 6500 2900 50  0001 C CNN
+	1    6500 2900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6500 2800
+Wire Wire Line
+	6500 2800 7100 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15FCF
+P 6500 3200
+AR Path="/7AF15FCF" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15FCF" Ref="D261"  Part="1" 
+F 0 "D261" V 6546 3130 50  0000 R CNN
+F 1 "LED_Small" V 6455 3130 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 6500 3200 50  0001 C CNN
+F 3 "~" V 6500 3200 50  0001 C CNN
+	1    6500 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 3100 5900 3100
+Connection ~ 6500 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15FD7
+P 6500 3500
+AR Path="/7AF15FD7" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15FD7" Ref="D293"  Part="1" 
+F 0 "D293" V 6546 3430 50  0000 R CNN
+F 1 "LED_Small" V 6455 3430 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 6500 3500 50  0001 C CNN
+F 3 "~" V 6500 3500 50  0001 C CNN
+	1    6500 3500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6500 3400
+Wire Wire Line
+	6500 3400 7100 3400
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15FDF
+P 6500 3800
+AR Path="/7AF15FDF" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15FDF" Ref="D325"  Part="1" 
+F 0 "D325" V 6546 3730 50  0000 R CNN
+F 1 "LED_Small" V 6455 3730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 6500 3800 50  0001 C CNN
+F 3 "~" V 6500 3800 50  0001 C CNN
+	1    6500 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 3700 5900 3700
+Connection ~ 6500 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15FE7
+P 6500 4100
+AR Path="/7AF15FE7" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15FE7" Ref="D357"  Part="1" 
+F 0 "D357" V 6546 4030 50  0000 R CNN
+F 1 "LED_Small" V 6455 4030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 6500 4100 50  0001 C CNN
+F 3 "~" V 6500 4100 50  0001 C CNN
+	1    6500 4100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6500 4000
+Wire Wire Line
+	6500 4000 7100 4000
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15FEF
+P 6500 4400
+AR Path="/7AF15FEF" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15FEF" Ref="D389"  Part="1" 
+F 0 "D389" V 6546 4330 50  0000 R CNN
+F 1 "LED_Small" V 6455 4330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 6500 4400 50  0001 C CNN
+F 3 "~" V 6500 4400 50  0001 C CNN
+	1    6500 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 4300 5900 4300
+Connection ~ 6500 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15FF7
+P 6500 4700
+AR Path="/7AF15FF7" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15FF7" Ref="D421"  Part="1" 
+F 0 "D421" V 6546 4630 50  0000 R CNN
+F 1 "LED_Small" V 6455 4630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 6500 4700 50  0001 C CNN
+F 3 "~" V 6500 4700 50  0001 C CNN
+	1    6500 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5900 4600 6500 4600
+Connection ~ 6500 4600
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF15FFF
+P 6500 5000
+AR Path="/7AF15FFF" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF15FFF" Ref="D453"  Part="1" 
+F 0 "D453" V 6546 4930 50  0000 R CNN
+F 1 "LED_Small" V 6455 4930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 6500 5000 50  0001 C CNN
+F 3 "~" V 6500 5000 50  0001 C CNN
+	1    6500 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 4900 5900 4900
+Connection ~ 6500 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16007
+P 6500 5300
+AR Path="/7AF16007" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16007" Ref="D485"  Part="1" 
+F 0 "D485" V 6546 5230 50  0000 R CNN
+F 1 "LED_Small" V 6455 5230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 6500 5300 50  0001 C CNN
+F 3 "~" V 6500 5300 50  0001 C CNN
+	1    6500 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5900 5200 6500 5200
+Connection ~ 6500 5200
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1600F
+P 7100 800
+AR Path="/7AF1600F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1600F" Ref="D6"  Part="1" 
+F 0 "D6" V 7146 730 50  0000 R CNN
+F 1 "LED_Small" V 7055 730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7100 800 50  0001 C CNN
+F 3 "~" V 7100 800 50  0001 C CNN
+	1    7100 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 700  7100 700 
+Connection ~ 7100 700 
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16017
+P 7100 1100
+AR Path="/7AF16017" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16017" Ref="D38"  Part="1" 
+F 0 "D38" V 7146 1030 50  0000 R CNN
+F 1 "LED_Small" V 7055 1030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7100 1100 50  0001 C CNN
+F 3 "~" V 7100 1100 50  0001 C CNN
+	1    7100 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 1000 7100 1000
+Connection ~ 7100 1000
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1601F
+P 7100 1400
+AR Path="/7AF1601F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1601F" Ref="D70"  Part="1" 
+F 0 "D70" V 7146 1330 50  0000 R CNN
+F 1 "LED_Small" V 7055 1330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7100 1400 50  0001 C CNN
+F 3 "~" V 7100 1400 50  0001 C CNN
+	1    7100 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 1300 7100 1300
+Connection ~ 7100 1300
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16027
+P 7100 1700
+AR Path="/7AF16027" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16027" Ref="D102"  Part="1" 
+F 0 "D102" V 7146 1630 50  0000 R CNN
+F 1 "LED_Small" V 7055 1630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7100 1700 50  0001 C CNN
+F 3 "~" V 7100 1700 50  0001 C CNN
+	1    7100 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 1600 7100 1600
+Connection ~ 7100 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1602F
+P 7100 2000
+AR Path="/7AF1602F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1602F" Ref="D134"  Part="1" 
+F 0 "D134" V 7146 1930 50  0000 R CNN
+F 1 "LED_Small" V 7055 1930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7100 2000 50  0001 C CNN
+F 3 "~" V 7100 2000 50  0001 C CNN
+	1    7100 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 1900 7100 1900
+Connection ~ 7100 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16037
+P 7100 2300
+AR Path="/7AF16037" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16037" Ref="D166"  Part="1" 
+F 0 "D166" V 7146 2230 50  0000 R CNN
+F 1 "LED_Small" V 7055 2230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7100 2300 50  0001 C CNN
+F 3 "~" V 7100 2300 50  0001 C CNN
+	1    7100 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6600 2200 7100 2200
+Connection ~ 7100 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1603F
+P 7100 2600
+AR Path="/7AF1603F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1603F" Ref="D198"  Part="1" 
+F 0 "D198" V 7146 2530 50  0000 R CNN
+F 1 "LED_Small" V 7055 2530 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7100 2600 50  0001 C CNN
+F 3 "~" V 7100 2600 50  0001 C CNN
+	1    7100 2600
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7100 2500
+Wire Wire Line
+	7100 2500 7200 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16047
+P 7100 2900
+AR Path="/7AF16047" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16047" Ref="D230"  Part="1" 
+F 0 "D230" V 7146 2830 50  0000 R CNN
+F 1 "LED_Small" V 7055 2830 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7100 2900 50  0001 C CNN
+F 3 "~" V 7100 2900 50  0001 C CNN
+	1    7100 2900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7100 2800
+Wire Wire Line
+	7100 2800 7700 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1604F
+P 7100 3200
+AR Path="/7AF1604F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1604F" Ref="D262"  Part="1" 
+F 0 "D262" V 7146 3130 50  0000 R CNN
+F 1 "LED_Small" V 7055 3130 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7100 3200 50  0001 C CNN
+F 3 "~" V 7100 3200 50  0001 C CNN
+	1    7100 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 3100 6500 3100
+Connection ~ 7100 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16057
+P 7100 3500
+AR Path="/7AF16057" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16057" Ref="D294"  Part="1" 
+F 0 "D294" V 7146 3430 50  0000 R CNN
+F 1 "LED_Small" V 7055 3430 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7100 3500 50  0001 C CNN
+F 3 "~" V 7100 3500 50  0001 C CNN
+	1    7100 3500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7100 3400
+Wire Wire Line
+	7100 3400 7700 3400
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1605F
+P 7100 3800
+AR Path="/7AF1605F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1605F" Ref="D326"  Part="1" 
+F 0 "D326" V 7146 3730 50  0000 R CNN
+F 1 "LED_Small" V 7055 3730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7100 3800 50  0001 C CNN
+F 3 "~" V 7100 3800 50  0001 C CNN
+	1    7100 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 3700 6500 3700
+Connection ~ 7100 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16067
+P 7100 4100
+AR Path="/7AF16067" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16067" Ref="D358"  Part="1" 
+F 0 "D358" V 7146 4030 50  0000 R CNN
+F 1 "LED_Small" V 7055 4030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7100 4100 50  0001 C CNN
+F 3 "~" V 7100 4100 50  0001 C CNN
+	1    7100 4100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7100 4000
+Wire Wire Line
+	7100 4000 7700 4000
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1606F
+P 7100 4400
+AR Path="/7AF1606F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1606F" Ref="D390"  Part="1" 
+F 0 "D390" V 7146 4330 50  0000 R CNN
+F 1 "LED_Small" V 7055 4330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7100 4400 50  0001 C CNN
+F 3 "~" V 7100 4400 50  0001 C CNN
+	1    7100 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 4300 6500 4300
+Connection ~ 7100 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16077
+P 7100 4700
+AR Path="/7AF16077" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16077" Ref="D422"  Part="1" 
+F 0 "D422" V 7146 4630 50  0000 R CNN
+F 1 "LED_Small" V 7055 4630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7100 4700 50  0001 C CNN
+F 3 "~" V 7100 4700 50  0001 C CNN
+	1    7100 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 4600 7100 4600
+Connection ~ 7100 4600
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1607F
+P 7100 5000
+AR Path="/7AF1607F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1607F" Ref="D454"  Part="1" 
+F 0 "D454" V 7146 4930 50  0000 R CNN
+F 1 "LED_Small" V 7055 4930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7100 5000 50  0001 C CNN
+F 3 "~" V 7100 5000 50  0001 C CNN
+	1    7100 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 4900 6500 4900
+Connection ~ 7100 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16087
+P 7100 5300
+AR Path="/7AF16087" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16087" Ref="D486"  Part="1" 
+F 0 "D486" V 7146 5230 50  0000 R CNN
+F 1 "LED_Small" V 7055 5230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7100 5300 50  0001 C CNN
+F 3 "~" V 7100 5300 50  0001 C CNN
+	1    7100 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 5200 7100 5200
+Connection ~ 7100 5200
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1608F
+P 7700 800
+AR Path="/7AF1608F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1608F" Ref="D7"  Part="1" 
+F 0 "D7" V 7746 730 50  0000 R CNN
+F 1 "LED_Small" V 7655 730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7700 800 50  0001 C CNN
+F 3 "~" V 7700 800 50  0001 C CNN
+	1    7700 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 700  7700 700 
+Connection ~ 7700 700 
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16097
+P 7700 1100
+AR Path="/7AF16097" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16097" Ref="D39"  Part="1" 
+F 0 "D39" V 7746 1030 50  0000 R CNN
+F 1 "LED_Small" V 7655 1030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7700 1100 50  0001 C CNN
+F 3 "~" V 7700 1100 50  0001 C CNN
+	1    7700 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 1000 7700 1000
+Connection ~ 7700 1000
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1609F
+P 7700 1400
+AR Path="/7AF1609F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1609F" Ref="D71"  Part="1" 
+F 0 "D71" V 7746 1330 50  0000 R CNN
+F 1 "LED_Small" V 7655 1330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7700 1400 50  0001 C CNN
+F 3 "~" V 7700 1400 50  0001 C CNN
+	1    7700 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 1300 7700 1300
+Connection ~ 7700 1300
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF160A7
+P 7700 1700
+AR Path="/7AF160A7" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF160A7" Ref="D103"  Part="1" 
+F 0 "D103" V 7746 1630 50  0000 R CNN
+F 1 "LED_Small" V 7655 1630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7700 1700 50  0001 C CNN
+F 3 "~" V 7700 1700 50  0001 C CNN
+	1    7700 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 1600 7700 1600
+Connection ~ 7700 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF160AF
+P 7700 2000
+AR Path="/7AF160AF" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF160AF" Ref="D135"  Part="1" 
+F 0 "D135" V 7746 1930 50  0000 R CNN
+F 1 "LED_Small" V 7655 1930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7700 2000 50  0001 C CNN
+F 3 "~" V 7700 2000 50  0001 C CNN
+	1    7700 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 1900 7700 1900
+Connection ~ 7700 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF160B7
+P 7700 2300
+AR Path="/7AF160B7" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF160B7" Ref="D167"  Part="1" 
+F 0 "D167" V 7746 2230 50  0000 R CNN
+F 1 "LED_Small" V 7655 2230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7700 2300 50  0001 C CNN
+F 3 "~" V 7700 2300 50  0001 C CNN
+	1    7700 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 2200 7700 2200
+Connection ~ 7700 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF160BF
+P 7700 2600
+AR Path="/7AF160BF" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF160BF" Ref="D199"  Part="1" 
+F 0 "D199" V 7746 2530 50  0000 R CNN
+F 1 "LED_Small" V 7655 2530 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7700 2600 50  0001 C CNN
+F 3 "~" V 7700 2600 50  0001 C CNN
+	1    7700 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7200 2500 7700 2500
+Connection ~ 7700 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF160C7
+P 7700 2900
+AR Path="/7AF160C7" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF160C7" Ref="D231"  Part="1" 
+F 0 "D231" V 7746 2830 50  0000 R CNN
+F 1 "LED_Small" V 7655 2830 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7700 2900 50  0001 C CNN
+F 3 "~" V 7700 2900 50  0001 C CNN
+	1    7700 2900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7700 2800
+Wire Wire Line
+	7700 2800 7800 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF160CF
+P 7700 3200
+AR Path="/7AF160CF" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF160CF" Ref="D263"  Part="1" 
+F 0 "D263" V 7746 3130 50  0000 R CNN
+F 1 "LED_Small" V 7655 3130 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7700 3200 50  0001 C CNN
+F 3 "~" V 7700 3200 50  0001 C CNN
+	1    7700 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7700 3100 7100 3100
+Connection ~ 7700 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF160D7
+P 7700 3500
+AR Path="/7AF160D7" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF160D7" Ref="D295"  Part="1" 
+F 0 "D295" V 7746 3430 50  0000 R CNN
+F 1 "LED_Small" V 7655 3430 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7700 3500 50  0001 C CNN
+F 3 "~" V 7700 3500 50  0001 C CNN
+	1    7700 3500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7700 3400
+Wire Wire Line
+	7700 3400 8300 3400
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF160DF
+P 7700 3800
+AR Path="/7AF160DF" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF160DF" Ref="D327"  Part="1" 
+F 0 "D327" V 7746 3730 50  0000 R CNN
+F 1 "LED_Small" V 7655 3730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7700 3800 50  0001 C CNN
+F 3 "~" V 7700 3800 50  0001 C CNN
+	1    7700 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7700 3700 7100 3700
+Connection ~ 7700 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF160E7
+P 7700 4100
+AR Path="/7AF160E7" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF160E7" Ref="D359"  Part="1" 
+F 0 "D359" V 7746 4030 50  0000 R CNN
+F 1 "LED_Small" V 7655 4030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7700 4100 50  0001 C CNN
+F 3 "~" V 7700 4100 50  0001 C CNN
+	1    7700 4100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7700 4000
+Wire Wire Line
+	7700 4000 8300 4000
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF160EF
+P 7700 4400
+AR Path="/7AF160EF" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF160EF" Ref="D391"  Part="1" 
+F 0 "D391" V 7746 4330 50  0000 R CNN
+F 1 "LED_Small" V 7655 4330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7700 4400 50  0001 C CNN
+F 3 "~" V 7700 4400 50  0001 C CNN
+	1    7700 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7700 4300 7100 4300
+Connection ~ 7700 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF160F7
+P 7700 4700
+AR Path="/7AF160F7" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF160F7" Ref="D423"  Part="1" 
+F 0 "D423" V 7746 4630 50  0000 R CNN
+F 1 "LED_Small" V 7655 4630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7700 4700 50  0001 C CNN
+F 3 "~" V 7700 4700 50  0001 C CNN
+	1    7700 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 4600 7700 4600
+Connection ~ 7700 4600
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF160FF
+P 7700 5000
+AR Path="/7AF160FF" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF160FF" Ref="D455"  Part="1" 
+F 0 "D455" V 7746 4930 50  0000 R CNN
+F 1 "LED_Small" V 7655 4930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7700 5000 50  0001 C CNN
+F 3 "~" V 7700 5000 50  0001 C CNN
+	1    7700 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7700 4900 7100 4900
+Connection ~ 7700 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16107
+P 7700 5300
+AR Path="/7AF16107" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16107" Ref="D487"  Part="1" 
+F 0 "D487" V 7746 5230 50  0000 R CNN
+F 1 "LED_Small" V 7655 5230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7700 5300 50  0001 C CNN
+F 3 "~" V 7700 5300 50  0001 C CNN
+	1    7700 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 5200 7700 5200
+Connection ~ 7700 5200
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1610F
+P 8300 800
+AR Path="/7AF1610F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1610F" Ref="D8"  Part="1" 
+F 0 "D8" V 8346 730 50  0000 R CNN
+F 1 "LED_Small" V 8255 730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8300 800 50  0001 C CNN
+F 3 "~" V 8300 800 50  0001 C CNN
+	1    8300 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7700 700  8300 700 
+Connection ~ 8300 700 
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16117
+P 8300 1100
+AR Path="/7AF16117" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16117" Ref="D40"  Part="1" 
+F 0 "D40" V 8346 1030 50  0000 R CNN
+F 1 "LED_Small" V 8255 1030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8300 1100 50  0001 C CNN
+F 3 "~" V 8300 1100 50  0001 C CNN
+	1    8300 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7700 1000 8300 1000
+Connection ~ 8300 1000
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1611F
+P 8300 1400
+AR Path="/7AF1611F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1611F" Ref="D72"  Part="1" 
+F 0 "D72" V 8346 1330 50  0000 R CNN
+F 1 "LED_Small" V 8255 1330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8300 1400 50  0001 C CNN
+F 3 "~" V 8300 1400 50  0001 C CNN
+	1    8300 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7700 1300 8300 1300
+Connection ~ 8300 1300
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16127
+P 8300 1700
+AR Path="/7AF16127" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16127" Ref="D104"  Part="1" 
+F 0 "D104" V 8346 1630 50  0000 R CNN
+F 1 "LED_Small" V 8255 1630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8300 1700 50  0001 C CNN
+F 3 "~" V 8300 1700 50  0001 C CNN
+	1    8300 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7700 1600 8300 1600
+Connection ~ 8300 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1612F
+P 8300 2000
+AR Path="/7AF1612F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1612F" Ref="D136"  Part="1" 
+F 0 "D136" V 8346 1930 50  0000 R CNN
+F 1 "LED_Small" V 8255 1930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8300 2000 50  0001 C CNN
+F 3 "~" V 8300 2000 50  0001 C CNN
+	1    8300 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7700 1900 8300 1900
+Connection ~ 8300 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16137
+P 8300 2300
+AR Path="/7AF16137" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16137" Ref="D168"  Part="1" 
+F 0 "D168" V 8346 2230 50  0000 R CNN
+F 1 "LED_Small" V 8255 2230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8300 2300 50  0001 C CNN
+F 3 "~" V 8300 2300 50  0001 C CNN
+	1    8300 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7700 2200 8300 2200
+Connection ~ 8300 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1613F
+P 8300 2600
+AR Path="/7AF1613F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1613F" Ref="D200"  Part="1" 
+F 0 "D200" V 8346 2530 50  0000 R CNN
+F 1 "LED_Small" V 8255 2530 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8300 2600 50  0001 C CNN
+F 3 "~" V 8300 2600 50  0001 C CNN
+	1    8300 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7700 2500 8300 2500
+Connection ~ 8300 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16147
+P 8300 2900
+AR Path="/7AF16147" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16147" Ref="D232"  Part="1" 
+F 0 "D232" V 8346 2830 50  0000 R CNN
+F 1 "LED_Small" V 8255 2830 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8300 2900 50  0001 C CNN
+F 3 "~" V 8300 2900 50  0001 C CNN
+	1    8300 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7800 2800 8300 2800
+Connection ~ 8300 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1614F
+P 8300 3200
+AR Path="/7AF1614F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1614F" Ref="D264"  Part="1" 
+F 0 "D264" V 8346 3130 50  0000 R CNN
+F 1 "LED_Small" V 8255 3130 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8300 3200 50  0001 C CNN
+F 3 "~" V 8300 3200 50  0001 C CNN
+	1    8300 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8400 3100 8300 3100
+Wire Wire Line
+	8300 3100 7700 3100
+Connection ~ 8300 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16158
+P 8300 3500
+AR Path="/7AF16158" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16158" Ref="D296"  Part="1" 
+F 0 "D296" V 8346 3430 50  0000 R CNN
+F 1 "LED_Small" V 8255 3430 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8300 3500 50  0001 C CNN
+F 3 "~" V 8300 3500 50  0001 C CNN
+	1    8300 3500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8300 3400
+Wire Wire Line
+	8300 3400 8900 3400
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16160
+P 8300 3800
+AR Path="/7AF16160" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16160" Ref="D328"  Part="1" 
+F 0 "D328" V 8346 3730 50  0000 R CNN
+F 1 "LED_Small" V 8255 3730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8300 3800 50  0001 C CNN
+F 3 "~" V 8300 3800 50  0001 C CNN
+	1    8300 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8300 3700 7700 3700
+Connection ~ 8300 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16168
+P 8300 4100
+AR Path="/7AF16168" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16168" Ref="D360"  Part="1" 
+F 0 "D360" V 8346 4030 50  0000 R CNN
+F 1 "LED_Small" V 8255 4030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8300 4100 50  0001 C CNN
+F 3 "~" V 8300 4100 50  0001 C CNN
+	1    8300 4100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8300 4000
+Wire Wire Line
+	8300 4000 8900 4000
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16170
+P 8300 4400
+AR Path="/7AF16170" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16170" Ref="D392"  Part="1" 
+F 0 "D392" V 8346 4330 50  0000 R CNN
+F 1 "LED_Small" V 8255 4330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8300 4400 50  0001 C CNN
+F 3 "~" V 8300 4400 50  0001 C CNN
+	1    8300 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8300 4300 7700 4300
+Connection ~ 8300 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16178
+P 8300 4700
+AR Path="/7AF16178" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16178" Ref="D424"  Part="1" 
+F 0 "D424" V 8346 4630 50  0000 R CNN
+F 1 "LED_Small" V 8255 4630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8300 4700 50  0001 C CNN
+F 3 "~" V 8300 4700 50  0001 C CNN
+	1    8300 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7700 4600 8300 4600
+Connection ~ 8300 4600
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16180
+P 8300 5000
+AR Path="/7AF16180" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16180" Ref="D456"  Part="1" 
+F 0 "D456" V 8346 4930 50  0000 R CNN
+F 1 "LED_Small" V 8255 4930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8300 5000 50  0001 C CNN
+F 3 "~" V 8300 5000 50  0001 C CNN
+	1    8300 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8300 4900 7700 4900
+Connection ~ 8300 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16188
+P 8300 5300
+AR Path="/7AF16188" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16188" Ref="D488"  Part="1" 
+F 0 "D488" V 8346 5230 50  0000 R CNN
+F 1 "LED_Small" V 8255 5230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8300 5300 50  0001 C CNN
+F 3 "~" V 8300 5300 50  0001 C CNN
+	1    8300 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7700 5200 8300 5200
+Connection ~ 8300 5200
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16190
+P 8900 800
+AR Path="/7AF16190" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16190" Ref="D9"  Part="1" 
+F 0 "D9" V 8946 730 50  0000 R CNN
+F 1 "LED_Small" V 8855 730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8900 800 50  0001 C CNN
+F 3 "~" V 8900 800 50  0001 C CNN
+	1    8900 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8300 700  8900 700 
+Connection ~ 8900 700 
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16198
+P 8900 1100
+AR Path="/7AF16198" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16198" Ref="D41"  Part="1" 
+F 0 "D41" V 8946 1030 50  0000 R CNN
+F 1 "LED_Small" V 8855 1030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8900 1100 50  0001 C CNN
+F 3 "~" V 8900 1100 50  0001 C CNN
+	1    8900 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8300 1000 8900 1000
+Connection ~ 8900 1000
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF161A0
+P 8900 1400
+AR Path="/7AF161A0" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF161A0" Ref="D73"  Part="1" 
+F 0 "D73" V 8946 1330 50  0000 R CNN
+F 1 "LED_Small" V 8855 1330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8900 1400 50  0001 C CNN
+F 3 "~" V 8900 1400 50  0001 C CNN
+	1    8900 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8300 1300 8900 1300
+Connection ~ 8900 1300
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF161A8
+P 8900 1700
+AR Path="/7AF161A8" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF161A8" Ref="D105"  Part="1" 
+F 0 "D105" V 8946 1630 50  0000 R CNN
+F 1 "LED_Small" V 8855 1630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8900 1700 50  0001 C CNN
+F 3 "~" V 8900 1700 50  0001 C CNN
+	1    8900 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8300 1600 8900 1600
+Connection ~ 8900 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF161B0
+P 8900 2000
+AR Path="/7AF161B0" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF161B0" Ref="D137"  Part="1" 
+F 0 "D137" V 8946 1930 50  0000 R CNN
+F 1 "LED_Small" V 8855 1930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8900 2000 50  0001 C CNN
+F 3 "~" V 8900 2000 50  0001 C CNN
+	1    8900 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8300 1900 8900 1900
+Connection ~ 8900 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF161B8
+P 8900 2300
+AR Path="/7AF161B8" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF161B8" Ref="D169"  Part="1" 
+F 0 "D169" V 8946 2230 50  0000 R CNN
+F 1 "LED_Small" V 8855 2230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8900 2300 50  0001 C CNN
+F 3 "~" V 8900 2300 50  0001 C CNN
+	1    8900 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8300 2200 8900 2200
+Connection ~ 8900 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF161C0
+P 8900 2600
+AR Path="/7AF161C0" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF161C0" Ref="D201"  Part="1" 
+F 0 "D201" V 8946 2530 50  0000 R CNN
+F 1 "LED_Small" V 8855 2530 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8900 2600 50  0001 C CNN
+F 3 "~" V 8900 2600 50  0001 C CNN
+	1    8900 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8300 2500 8900 2500
+Connection ~ 8900 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF161C8
+P 8900 2900
+AR Path="/7AF161C8" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF161C8" Ref="D233"  Part="1" 
+F 0 "D233" V 8946 2830 50  0000 R CNN
+F 1 "LED_Small" V 8855 2830 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8900 2900 50  0001 C CNN
+F 3 "~" V 8900 2900 50  0001 C CNN
+	1    8900 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8300 2800 8900 2800
+Connection ~ 8900 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF161D0
+P 8900 3200
+AR Path="/7AF161D0" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF161D0" Ref="D265"  Part="1" 
+F 0 "D265" V 8946 3130 50  0000 R CNN
+F 1 "LED_Small" V 8855 3130 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8900 3200 50  0001 C CNN
+F 3 "~" V 8900 3200 50  0001 C CNN
+	1    8900 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8900 3100 8400 3100
+Connection ~ 8900 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF161D8
+P 8900 3500
+AR Path="/7AF161D8" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF161D8" Ref="D297"  Part="1" 
+F 0 "D297" V 8946 3430 50  0000 R CNN
+F 1 "LED_Small" V 8855 3430 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8900 3500 50  0001 C CNN
+F 3 "~" V 8900 3500 50  0001 C CNN
+	1    8900 3500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8900 3400
+Wire Wire Line
+	8900 3400 9000 3400
+Wire Wire Line
+	8900 3700 8300 3700
+Connection ~ 8900 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF161E2
+P 8900 4100
+AR Path="/7AF161E2" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF161E2" Ref="D361"  Part="1" 
+F 0 "D361" V 8946 4030 50  0000 R CNN
+F 1 "LED_Small" V 8855 4030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8900 4100 50  0001 C CNN
+F 3 "~" V 8900 4100 50  0001 C CNN
+	1    8900 4100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8900 4000
+Wire Wire Line
+	8900 4000 9500 4000
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF161EA
+P 8900 4400
+AR Path="/7AF161EA" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF161EA" Ref="D393"  Part="1" 
+F 0 "D393" V 8946 4330 50  0000 R CNN
+F 1 "LED_Small" V 8855 4330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8900 4400 50  0001 C CNN
+F 3 "~" V 8900 4400 50  0001 C CNN
+	1    8900 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8900 4300 8300 4300
+Connection ~ 8900 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF161F2
+P 8900 4700
+AR Path="/7AF161F2" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF161F2" Ref="D425"  Part="1" 
+F 0 "D425" V 8946 4630 50  0000 R CNN
+F 1 "LED_Small" V 8855 4630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8900 4700 50  0001 C CNN
+F 3 "~" V 8900 4700 50  0001 C CNN
+	1    8900 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8300 4600 8900 4600
+Connection ~ 8900 4600
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF161FA
+P 8900 5000
+AR Path="/7AF161FA" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF161FA" Ref="D457"  Part="1" 
+F 0 "D457" V 8946 4930 50  0000 R CNN
+F 1 "LED_Small" V 8855 4930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8900 5000 50  0001 C CNN
+F 3 "~" V 8900 5000 50  0001 C CNN
+	1    8900 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8900 4900 8300 4900
+Connection ~ 8900 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16202
+P 8900 5300
+AR Path="/7AF16202" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16202" Ref="D489"  Part="1" 
+F 0 "D489" V 8946 5230 50  0000 R CNN
+F 1 "LED_Small" V 8855 5230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8900 5300 50  0001 C CNN
+F 3 "~" V 8900 5300 50  0001 C CNN
+	1    8900 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8300 5200 8900 5200
+Connection ~ 8900 5200
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1620A
+P 9500 800
+AR Path="/7AF1620A" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1620A" Ref="D10"  Part="1" 
+F 0 "D10" V 9546 730 50  0000 R CNN
+F 1 "LED_Small" V 9455 730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 9500 800 50  0001 C CNN
+F 3 "~" V 9500 800 50  0001 C CNN
+	1    9500 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8900 700  9500 700 
+Connection ~ 9500 700 
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16212
+P 9500 1100
+AR Path="/7AF16212" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16212" Ref="D42"  Part="1" 
+F 0 "D42" V 9546 1030 50  0000 R CNN
+F 1 "LED_Small" V 9455 1030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 9500 1100 50  0001 C CNN
+F 3 "~" V 9500 1100 50  0001 C CNN
+	1    9500 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8900 1000 9500 1000
+Connection ~ 9500 1000
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1621A
+P 9500 1400
+AR Path="/7AF1621A" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1621A" Ref="D74"  Part="1" 
+F 0 "D74" V 9546 1330 50  0000 R CNN
+F 1 "LED_Small" V 9455 1330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 9500 1400 50  0001 C CNN
+F 3 "~" V 9500 1400 50  0001 C CNN
+	1    9500 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8900 1300 9500 1300
+Connection ~ 9500 1300
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16222
+P 9500 1700
+AR Path="/7AF16222" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16222" Ref="D106"  Part="1" 
+F 0 "D106" V 9546 1630 50  0000 R CNN
+F 1 "LED_Small" V 9455 1630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 9500 1700 50  0001 C CNN
+F 3 "~" V 9500 1700 50  0001 C CNN
+	1    9500 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8900 1600 9500 1600
+Connection ~ 9500 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1622A
+P 9500 2000
+AR Path="/7AF1622A" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1622A" Ref="D138"  Part="1" 
+F 0 "D138" V 9546 1930 50  0000 R CNN
+F 1 "LED_Small" V 9455 1930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 9500 2000 50  0001 C CNN
+F 3 "~" V 9500 2000 50  0001 C CNN
+	1    9500 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8900 1900 9500 1900
+Connection ~ 9500 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16232
+P 9500 2300
+AR Path="/7AF16232" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16232" Ref="D170"  Part="1" 
+F 0 "D170" V 9546 2230 50  0000 R CNN
+F 1 "LED_Small" V 9455 2230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 9500 2300 50  0001 C CNN
+F 3 "~" V 9500 2300 50  0001 C CNN
+	1    9500 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8900 2200 9500 2200
+Connection ~ 9500 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1623A
+P 9500 2600
+AR Path="/7AF1623A" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1623A" Ref="D202"  Part="1" 
+F 0 "D202" V 9546 2530 50  0000 R CNN
+F 1 "LED_Small" V 9455 2530 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 9500 2600 50  0001 C CNN
+F 3 "~" V 9500 2600 50  0001 C CNN
+	1    9500 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8900 2500 9500 2500
+Connection ~ 9500 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16242
+P 9500 2900
+AR Path="/7AF16242" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16242" Ref="D234"  Part="1" 
+F 0 "D234" V 9546 2830 50  0000 R CNN
+F 1 "LED_Small" V 9455 2830 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 9500 2900 50  0001 C CNN
+F 3 "~" V 9500 2900 50  0001 C CNN
+	1    9500 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8900 2800 9500 2800
+Connection ~ 9500 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1624A
+P 9500 3200
+AR Path="/7AF1624A" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1624A" Ref="D266"  Part="1" 
+F 0 "D266" V 9546 3130 50  0000 R CNN
+F 1 "LED_Small" V 9455 3130 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 9500 3200 50  0001 C CNN
+F 3 "~" V 9500 3200 50  0001 C CNN
+	1    9500 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 3100 8900 3100
+Connection ~ 9500 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16252
+P 9500 3500
+AR Path="/7AF16252" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16252" Ref="D298"  Part="1" 
+F 0 "D298" V 9546 3430 50  0000 R CNN
+F 1 "LED_Small" V 9455 3430 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 9500 3500 50  0001 C CNN
+F 3 "~" V 9500 3500 50  0001 C CNN
+	1    9500 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9000 3400 9500 3400
+Connection ~ 9500 3400
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1625A
+P 9500 3800
+AR Path="/7AF1625A" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1625A" Ref="D330"  Part="1" 
+F 0 "D330" V 9546 3730 50  0000 R CNN
+F 1 "LED_Small" V 9455 3730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 9500 3800 50  0001 C CNN
+F 3 "~" V 9500 3800 50  0001 C CNN
+	1    9500 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9600 3700 9500 3700
+Wire Wire Line
+	9500 3700 8900 3700
+Connection ~ 9500 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16263
+P 9500 4100
+AR Path="/7AF16263" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16263" Ref="D362"  Part="1" 
+F 0 "D362" V 9546 4030 50  0000 R CNN
+F 1 "LED_Small" V 9455 4030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 9500 4100 50  0001 C CNN
+F 3 "~" V 9500 4100 50  0001 C CNN
+	1    9500 4100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9500 4000
+Wire Wire Line
+	9500 4000 10100 4000
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1626B
+P 9500 4400
+AR Path="/7AF1626B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1626B" Ref="D394"  Part="1" 
+F 0 "D394" V 9546 4330 50  0000 R CNN
+F 1 "LED_Small" V 9455 4330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 9500 4400 50  0001 C CNN
+F 3 "~" V 9500 4400 50  0001 C CNN
+	1    9500 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 4300 8900 4300
+Connection ~ 9500 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16273
+P 9500 4700
+AR Path="/7AF16273" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16273" Ref="D426"  Part="1" 
+F 0 "D426" V 9546 4630 50  0000 R CNN
+F 1 "LED_Small" V 9455 4630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 9500 4700 50  0001 C CNN
+F 3 "~" V 9500 4700 50  0001 C CNN
+	1    9500 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8900 4600 9500 4600
+Connection ~ 9500 4600
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1627B
+P 9500 5000
+AR Path="/7AF1627B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1627B" Ref="D458"  Part="1" 
+F 0 "D458" V 9546 4930 50  0000 R CNN
+F 1 "LED_Small" V 9455 4930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 9500 5000 50  0001 C CNN
+F 3 "~" V 9500 5000 50  0001 C CNN
+	1    9500 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 4900 8900 4900
+Connection ~ 9500 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16283
+P 9500 5300
+AR Path="/7AF16283" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16283" Ref="D490"  Part="1" 
+F 0 "D490" V 9546 5230 50  0000 R CNN
+F 1 "LED_Small" V 9455 5230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 9500 5300 50  0001 C CNN
+F 3 "~" V 9500 5300 50  0001 C CNN
+	1    9500 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8900 5200 9500 5200
+Connection ~ 9500 5200
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1628B
+P 10100 800
+AR Path="/7AF1628B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1628B" Ref="D11"  Part="1" 
+F 0 "D11" V 10146 730 50  0000 R CNN
+F 1 "LED_Small" V 10055 730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10100 800 50  0001 C CNN
+F 3 "~" V 10100 800 50  0001 C CNN
+	1    10100 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 700  10100 700 
+Connection ~ 10100 700 
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16293
+P 10100 1100
+AR Path="/7AF16293" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16293" Ref="D43"  Part="1" 
+F 0 "D43" V 10146 1030 50  0000 R CNN
+F 1 "LED_Small" V 10055 1030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10100 1100 50  0001 C CNN
+F 3 "~" V 10100 1100 50  0001 C CNN
+	1    10100 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 1000 10100 1000
+Connection ~ 10100 1000
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1629B
+P 10100 1400
+AR Path="/7AF1629B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1629B" Ref="D75"  Part="1" 
+F 0 "D75" V 10146 1330 50  0000 R CNN
+F 1 "LED_Small" V 10055 1330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10100 1400 50  0001 C CNN
+F 3 "~" V 10100 1400 50  0001 C CNN
+	1    10100 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 1300 10100 1300
+Connection ~ 10100 1300
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF162A3
+P 10100 1700
+AR Path="/7AF162A3" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF162A3" Ref="D107"  Part="1" 
+F 0 "D107" V 10146 1630 50  0000 R CNN
+F 1 "LED_Small" V 10055 1630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10100 1700 50  0001 C CNN
+F 3 "~" V 10100 1700 50  0001 C CNN
+	1    10100 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 1600 10100 1600
+Connection ~ 10100 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF162AB
+P 10100 2000
+AR Path="/7AF162AB" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF162AB" Ref="D139"  Part="1" 
+F 0 "D139" V 10146 1930 50  0000 R CNN
+F 1 "LED_Small" V 10055 1930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10100 2000 50  0001 C CNN
+F 3 "~" V 10100 2000 50  0001 C CNN
+	1    10100 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 1900 10100 1900
+Connection ~ 10100 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF162B3
+P 10100 2300
+AR Path="/7AF162B3" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF162B3" Ref="D171"  Part="1" 
+F 0 "D171" V 10146 2230 50  0000 R CNN
+F 1 "LED_Small" V 10055 2230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10100 2300 50  0001 C CNN
+F 3 "~" V 10100 2300 50  0001 C CNN
+	1    10100 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 2200 10100 2200
+Connection ~ 10100 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF162BB
+P 10100 2600
+AR Path="/7AF162BB" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF162BB" Ref="D203"  Part="1" 
+F 0 "D203" V 10146 2530 50  0000 R CNN
+F 1 "LED_Small" V 10055 2530 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10100 2600 50  0001 C CNN
+F 3 "~" V 10100 2600 50  0001 C CNN
+	1    10100 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 2500 10100 2500
+Connection ~ 10100 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF162C3
+P 10100 2900
+AR Path="/7AF162C3" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF162C3" Ref="D235"  Part="1" 
+F 0 "D235" V 10146 2830 50  0000 R CNN
+F 1 "LED_Small" V 10055 2830 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10100 2900 50  0001 C CNN
+F 3 "~" V 10100 2900 50  0001 C CNN
+	1    10100 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 2800 10100 2800
+Connection ~ 10100 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF162CB
+P 10100 3200
+AR Path="/7AF162CB" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF162CB" Ref="D267"  Part="1" 
+F 0 "D267" V 10146 3130 50  0000 R CNN
+F 1 "LED_Small" V 10055 3130 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10100 3200 50  0001 C CNN
+F 3 "~" V 10100 3200 50  0001 C CNN
+	1    10100 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10100 3100 9500 3100
+Connection ~ 10100 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF162D3
+P 10100 3500
+AR Path="/7AF162D3" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF162D3" Ref="D299"  Part="1" 
+F 0 "D299" V 10146 3430 50  0000 R CNN
+F 1 "LED_Small" V 10055 3430 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10100 3500 50  0001 C CNN
+F 3 "~" V 10100 3500 50  0001 C CNN
+	1    10100 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 3400 10100 3400
+Connection ~ 10100 3400
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF162DB
+P 10100 3800
+AR Path="/7AF162DB" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF162DB" Ref="D331"  Part="1" 
+F 0 "D331" V 10146 3730 50  0000 R CNN
+F 1 "LED_Small" V 10055 3730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10100 3800 50  0001 C CNN
+F 3 "~" V 10100 3800 50  0001 C CNN
+	1    10100 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10100 3700 9600 3700
+Connection ~ 10100 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF162E3
+P 10100 4100
+AR Path="/7AF162E3" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF162E3" Ref="D363"  Part="1" 
+F 0 "D363" V 10146 4030 50  0000 R CNN
+F 1 "LED_Small" V 10055 4030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10100 4100 50  0001 C CNN
+F 3 "~" V 10100 4100 50  0001 C CNN
+	1    10100 4100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 10100 4000
+Wire Wire Line
+	10100 4000 10200 4000
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF162EB
+P 10100 4400
+AR Path="/7AF162EB" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF162EB" Ref="D395"  Part="1" 
+F 0 "D395" V 10146 4330 50  0000 R CNN
+F 1 "LED_Small" V 10055 4330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10100 4400 50  0001 C CNN
+F 3 "~" V 10100 4400 50  0001 C CNN
+	1    10100 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10100 4300 9500 4300
+Connection ~ 10100 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF162F3
+P 10100 4700
+AR Path="/7AF162F3" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF162F3" Ref="D427"  Part="1" 
+F 0 "D427" V 10146 4630 50  0000 R CNN
+F 1 "LED_Small" V 10055 4630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10100 4700 50  0001 C CNN
+F 3 "~" V 10100 4700 50  0001 C CNN
+	1    10100 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 4600 10100 4600
+Connection ~ 10100 4600
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF162FB
+P 10100 5000
+AR Path="/7AF162FB" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF162FB" Ref="D459"  Part="1" 
+F 0 "D459" V 10146 4930 50  0000 R CNN
+F 1 "LED_Small" V 10055 4930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10100 5000 50  0001 C CNN
+F 3 "~" V 10100 5000 50  0001 C CNN
+	1    10100 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10100 4900 9500 4900
+Connection ~ 10100 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16303
+P 10100 5300
+AR Path="/7AF16303" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16303" Ref="D491"  Part="1" 
+F 0 "D491" V 10146 5230 50  0000 R CNN
+F 1 "LED_Small" V 10055 5230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10100 5300 50  0001 C CNN
+F 3 "~" V 10100 5300 50  0001 C CNN
+	1    10100 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 5200 10100 5200
+Connection ~ 10100 5200
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1630B
+P 10700 800
+AR Path="/7AF1630B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1630B" Ref="D12"  Part="1" 
+F 0 "D12" V 10746 730 50  0000 R CNN
+F 1 "LED_Small" V 10655 730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10700 800 50  0001 C CNN
+F 3 "~" V 10700 800 50  0001 C CNN
+	1    10700 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10100 700  10700 700 
+Connection ~ 10700 700 
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16313
+P 10700 1100
+AR Path="/7AF16313" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16313" Ref="D44"  Part="1" 
+F 0 "D44" V 10746 1030 50  0000 R CNN
+F 1 "LED_Small" V 10655 1030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10700 1100 50  0001 C CNN
+F 3 "~" V 10700 1100 50  0001 C CNN
+	1    10700 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10100 1000 10700 1000
+Connection ~ 10700 1000
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1631B
+P 10700 1400
+AR Path="/7AF1631B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1631B" Ref="D76"  Part="1" 
+F 0 "D76" V 10746 1330 50  0000 R CNN
+F 1 "LED_Small" V 10655 1330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10700 1400 50  0001 C CNN
+F 3 "~" V 10700 1400 50  0001 C CNN
+	1    10700 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10100 1300 10700 1300
+Connection ~ 10700 1300
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16323
+P 10700 1700
+AR Path="/7AF16323" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16323" Ref="D108"  Part="1" 
+F 0 "D108" V 10746 1630 50  0000 R CNN
+F 1 "LED_Small" V 10655 1630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10700 1700 50  0001 C CNN
+F 3 "~" V 10700 1700 50  0001 C CNN
+	1    10700 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10100 1600 10700 1600
+Connection ~ 10700 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1632B
+P 10700 2000
+AR Path="/7AF1632B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1632B" Ref="D140"  Part="1" 
+F 0 "D140" V 10746 1930 50  0000 R CNN
+F 1 "LED_Small" V 10655 1930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10700 2000 50  0001 C CNN
+F 3 "~" V 10700 2000 50  0001 C CNN
+	1    10700 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10100 1900 10700 1900
+Connection ~ 10700 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16333
+P 10700 2300
+AR Path="/7AF16333" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16333" Ref="D172"  Part="1" 
+F 0 "D172" V 10746 2230 50  0000 R CNN
+F 1 "LED_Small" V 10655 2230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10700 2300 50  0001 C CNN
+F 3 "~" V 10700 2300 50  0001 C CNN
+	1    10700 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10100 2200 10700 2200
+Connection ~ 10700 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1633B
+P 10700 2600
+AR Path="/7AF1633B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1633B" Ref="D204"  Part="1" 
+F 0 "D204" V 10746 2530 50  0000 R CNN
+F 1 "LED_Small" V 10655 2530 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10700 2600 50  0001 C CNN
+F 3 "~" V 10700 2600 50  0001 C CNN
+	1    10700 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10100 2500 10700 2500
+Connection ~ 10700 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16343
+P 10700 2900
+AR Path="/7AF16343" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16343" Ref="D236"  Part="1" 
+F 0 "D236" V 10746 2830 50  0000 R CNN
+F 1 "LED_Small" V 10655 2830 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10700 2900 50  0001 C CNN
+F 3 "~" V 10700 2900 50  0001 C CNN
+	1    10700 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10100 2800 10700 2800
+Connection ~ 10700 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1634B
+P 10700 3200
+AR Path="/7AF1634B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1634B" Ref="D268"  Part="1" 
+F 0 "D268" V 10746 3130 50  0000 R CNN
+F 1 "LED_Small" V 10655 3130 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10700 3200 50  0001 C CNN
+F 3 "~" V 10700 3200 50  0001 C CNN
+	1    10700 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10700 3100 10100 3100
+Connection ~ 10700 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16353
+P 10700 3500
+AR Path="/7AF16353" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16353" Ref="D300"  Part="1" 
+F 0 "D300" V 10746 3430 50  0000 R CNN
+F 1 "LED_Small" V 10655 3430 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10700 3500 50  0001 C CNN
+F 3 "~" V 10700 3500 50  0001 C CNN
+	1    10700 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10100 3400 10700 3400
+Connection ~ 10700 3400
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1635B
+P 10700 3800
+AR Path="/7AF1635B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1635B" Ref="D332"  Part="1" 
+F 0 "D332" V 10746 3730 50  0000 R CNN
+F 1 "LED_Small" V 10655 3730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10700 3800 50  0001 C CNN
+F 3 "~" V 10700 3800 50  0001 C CNN
+	1    10700 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10700 3700 10100 3700
+Connection ~ 10700 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16363
+P 10700 4100
+AR Path="/7AF16363" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16363" Ref="D364"  Part="1" 
+F 0 "D364" V 10746 4030 50  0000 R CNN
+F 1 "LED_Small" V 10655 4030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10700 4100 50  0001 C CNN
+F 3 "~" V 10700 4100 50  0001 C CNN
+	1    10700 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10200 4000 10700 4000
+Connection ~ 10700 4000
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1636B
+P 10700 4400
+AR Path="/7AF1636B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1636B" Ref="D396"  Part="1" 
+F 0 "D396" V 10746 4330 50  0000 R CNN
+F 1 "LED_Small" V 10655 4330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10700 4400 50  0001 C CNN
+F 3 "~" V 10700 4400 50  0001 C CNN
+	1    10700 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10800 4300 10700 4300
+Wire Wire Line
+	10700 4300 10100 4300
+Connection ~ 10700 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16374
+P 10700 4700
+AR Path="/7AF16374" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16374" Ref="D428"  Part="1" 
+F 0 "D428" V 10746 4630 50  0000 R CNN
+F 1 "LED_Small" V 10655 4630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10700 4700 50  0001 C CNN
+F 3 "~" V 10700 4700 50  0001 C CNN
+	1    10700 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10100 4600 10700 4600
+Connection ~ 10700 4600
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1637C
+P 10700 5000
+AR Path="/7AF1637C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1637C" Ref="D460"  Part="1" 
+F 0 "D460" V 10746 4930 50  0000 R CNN
+F 1 "LED_Small" V 10655 4930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10700 5000 50  0001 C CNN
+F 3 "~" V 10700 5000 50  0001 C CNN
+	1    10700 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10700 4900 10100 4900
+Connection ~ 10700 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16384
+P 10700 5300
+AR Path="/7AF16384" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16384" Ref="D492"  Part="1" 
+F 0 "D492" V 10746 5230 50  0000 R CNN
+F 1 "LED_Small" V 10655 5230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10700 5300 50  0001 C CNN
+F 3 "~" V 10700 5300 50  0001 C CNN
+	1    10700 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10100 5200 10700 5200
+Connection ~ 10700 5200
+Wire Wire Line
+	11300 700  11900 700 
+Wire Wire Line
+	10700 700  11300 700 
+Connection ~ 11300 700 
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1638F
+P 11300 800
+AR Path="/7AF1638F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1638F" Ref="D13"  Part="1" 
+F 0 "D13" V 11346 730 50  0000 R CNN
+F 1 "LED_Small" V 11255 730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11300 800 50  0001 C CNN
+F 3 "~" V 11300 800 50  0001 C CNN
+	1    11300 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11300 1000 11900 1000
+Wire Wire Line
+	10700 1000 11300 1000
+Connection ~ 11300 1000
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16398
+P 11300 1100
+AR Path="/7AF16398" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16398" Ref="D45"  Part="1" 
+F 0 "D45" V 11346 1030 50  0000 R CNN
+F 1 "LED_Small" V 11255 1030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11300 1100 50  0001 C CNN
+F 3 "~" V 11300 1100 50  0001 C CNN
+	1    11300 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11300 1300 11900 1300
+Wire Wire Line
+	10700 1300 11300 1300
+Connection ~ 11300 1300
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF163A1
+P 11300 1400
+AR Path="/7AF163A1" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF163A1" Ref="D77"  Part="1" 
+F 0 "D77" V 11346 1330 50  0000 R CNN
+F 1 "LED_Small" V 11255 1330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11300 1400 50  0001 C CNN
+F 3 "~" V 11300 1400 50  0001 C CNN
+	1    11300 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11300 1600 11900 1600
+Wire Wire Line
+	10700 1600 11300 1600
+Connection ~ 11300 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF163AA
+P 11300 1700
+AR Path="/7AF163AA" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF163AA" Ref="D109"  Part="1" 
+F 0 "D109" V 11346 1630 50  0000 R CNN
+F 1 "LED_Small" V 11255 1630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11300 1700 50  0001 C CNN
+F 3 "~" V 11300 1700 50  0001 C CNN
+	1    11300 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11300 1900 11900 1900
+Wire Wire Line
+	10700 1900 11300 1900
+Connection ~ 11300 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF163B3
+P 11300 2000
+AR Path="/7AF163B3" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF163B3" Ref="D141"  Part="1" 
+F 0 "D141" V 11346 1930 50  0000 R CNN
+F 1 "LED_Small" V 11255 1930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11300 2000 50  0001 C CNN
+F 3 "~" V 11300 2000 50  0001 C CNN
+	1    11300 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11300 2200 11900 2200
+Wire Wire Line
+	10700 2200 11300 2200
+Connection ~ 11300 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF163BC
+P 11300 2300
+AR Path="/7AF163BC" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF163BC" Ref="D173"  Part="1" 
+F 0 "D173" V 11346 2230 50  0000 R CNN
+F 1 "LED_Small" V 11255 2230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11300 2300 50  0001 C CNN
+F 3 "~" V 11300 2300 50  0001 C CNN
+	1    11300 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11300 2500 11900 2500
+Wire Wire Line
+	10700 2500 11300 2500
+Connection ~ 11300 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF163C5
+P 11300 2600
+AR Path="/7AF163C5" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF163C5" Ref="D205"  Part="1" 
+F 0 "D205" V 11346 2530 50  0000 R CNN
+F 1 "LED_Small" V 11255 2530 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11300 2600 50  0001 C CNN
+F 3 "~" V 11300 2600 50  0001 C CNN
+	1    11300 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11300 2800 11900 2800
+Wire Wire Line
+	10700 2800 11300 2800
+Connection ~ 11300 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF163CE
+P 11300 2900
+AR Path="/7AF163CE" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF163CE" Ref="D237"  Part="1" 
+F 0 "D237" V 11346 2830 50  0000 R CNN
+F 1 "LED_Small" V 11255 2830 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11300 2900 50  0001 C CNN
+F 3 "~" V 11300 2900 50  0001 C CNN
+	1    11300 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11900 3100 11300 3100
+Wire Wire Line
+	11300 3100 10700 3100
+Connection ~ 11300 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF163D7
+P 11300 3200
+AR Path="/7AF163D7" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF163D7" Ref="D269"  Part="1" 
+F 0 "D269" V 11346 3130 50  0000 R CNN
+F 1 "LED_Small" V 11255 3130 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11300 3200 50  0001 C CNN
+F 3 "~" V 11300 3200 50  0001 C CNN
+	1    11300 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11300 3400 11900 3400
+Wire Wire Line
+	10700 3400 11300 3400
+Connection ~ 11300 3400
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF163E0
+P 11300 3500
+AR Path="/7AF163E0" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF163E0" Ref="D301"  Part="1" 
+F 0 "D301" V 11346 3430 50  0000 R CNN
+F 1 "LED_Small" V 11255 3430 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11300 3500 50  0001 C CNN
+F 3 "~" V 11300 3500 50  0001 C CNN
+	1    11300 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11900 3700 11300 3700
+Wire Wire Line
+	11300 3700 10700 3700
+Connection ~ 11300 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF163E9
+P 11300 3800
+AR Path="/7AF163E9" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF163E9" Ref="D333"  Part="1" 
+F 0 "D333" V 11346 3730 50  0000 R CNN
+F 1 "LED_Small" V 11255 3730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11300 3800 50  0001 C CNN
+F 3 "~" V 11300 3800 50  0001 C CNN
+	1    11300 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11300 4000 11900 4000
+Wire Wire Line
+	10700 4000 11300 4000
+Connection ~ 11300 4000
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF163F2
+P 11300 4100
+AR Path="/7AF163F2" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF163F2" Ref="D365"  Part="1" 
+F 0 "D365" V 11346 4030 50  0000 R CNN
+F 1 "LED_Small" V 11255 4030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11300 4100 50  0001 C CNN
+F 3 "~" V 11300 4100 50  0001 C CNN
+	1    11300 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11900 4300 11300 4300
+Wire Wire Line
+	11300 4300 10800 4300
+Connection ~ 11300 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF163FB
+P 11300 4400
+AR Path="/7AF163FB" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF163FB" Ref="D397"  Part="1" 
+F 0 "D397" V 11346 4330 50  0000 R CNN
+F 1 "LED_Small" V 11255 4330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11300 4400 50  0001 C CNN
+F 3 "~" V 11300 4400 50  0001 C CNN
+	1    11300 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11300 4600 11400 4600
+Wire Wire Line
+	10700 4600 11300 4600
+Connection ~ 11300 4600
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16404
+P 11300 4700
+AR Path="/7AF16404" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16404" Ref="D429"  Part="1" 
+F 0 "D429" V 11346 4630 50  0000 R CNN
+F 1 "LED_Small" V 11255 4630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11300 4700 50  0001 C CNN
+F 3 "~" V 11300 4700 50  0001 C CNN
+	1    11300 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11900 4900 11300 4900
+Wire Wire Line
+	11300 4900 10700 4900
+Connection ~ 11300 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1640D
+P 11300 5000
+AR Path="/7AF1640D" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1640D" Ref="D461"  Part="1" 
+F 0 "D461" V 11346 4930 50  0000 R CNN
+F 1 "LED_Small" V 11255 4930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11300 5000 50  0001 C CNN
+F 3 "~" V 11300 5000 50  0001 C CNN
+	1    11300 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11300 5200 11900 5200
+Wire Wire Line
+	10700 5200 11300 5200
+Connection ~ 11300 5200
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16416
+P 11300 5300
+AR Path="/7AF16416" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16416" Ref="D493"  Part="1" 
+F 0 "D493" V 11346 5230 50  0000 R CNN
+F 1 "LED_Small" V 11255 5230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11300 5300 50  0001 C CNN
+F 3 "~" V 11300 5300 50  0001 C CNN
+	1    11300 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12000 5400 12000 4900
+Wire Wire Line
+	12000 5400 12500 5400
+Wire Wire Line
+	12500 1800 12600 1800
+Connection ~ 12600 1800
+Wire Wire Line
+	12600 2100 12600 1800
+Wire Wire Line
+	12500 2100 12600 2100
+Connection ~ 12600 2100
+Wire Wire Line
+	12600 2400 12600 2100
+Wire Wire Line
+	12500 2400 12600 2400
+Connection ~ 12600 2400
+Wire Wire Line
+	12600 2700 12600 2400
+Wire Wire Line
+	12500 2700 12600 2700
+Connection ~ 12600 2700
+Wire Wire Line
+	12600 3000 12600 2700
+Wire Wire Line
+	12500 3000 12600 3000
+Connection ~ 12600 3000
+Wire Wire Line
+	12600 3300 12600 3000
+Wire Wire Line
+	12500 3300 12600 3300
+Connection ~ 12600 3300
+Wire Wire Line
+	12600 3600 12600 3300
+Wire Wire Line
+	12500 3600 12600 3600
+Connection ~ 12600 3600
+Wire Wire Line
+	12600 3900 12600 3600
+Wire Wire Line
+	12500 3900 12600 3900
+Connection ~ 12600 3900
+Wire Wire Line
+	12600 4200 12600 3900
+Wire Wire Line
+	12500 4200 12600 4200
+Connection ~ 12600 4200
+Wire Wire Line
+	12600 4500 12600 4200
+Wire Wire Line
+	12500 4500 12600 4500
+Connection ~ 12600 4500
+Wire Wire Line
+	12600 4800 12600 4500
+Wire Wire Line
+	12500 4800 12600 4800
+Connection ~ 12600 4800
+Wire Wire Line
+	12600 5100 12600 4800
+Wire Wire Line
+	12500 5100 12600 5100
+Wire Wire Line
+	12600 1800 12600 1500
+Connection ~ 12600 1500
+Wire Wire Line
+	12500 1500 12600 1500
+Wire Wire Line
+	12600 1500 12600 1200
+Wire Wire Line
+	12600 1200 12600 900 
+Connection ~ 12600 1200
+Wire Wire Line
+	12500 1200 12600 1200
+Wire Wire Line
+	12600 900  12500 900 
+Connection ~ 12600 5100
+Wire Wire Line
+	12600 5200 13100 5200
+Connection ~ 12600 5200
+Wire Wire Line
+	12600 5200 12600 5100
+Wire Wire Line
+	13100 5400 13200 5400
+Wire Wire Line
+	13200 5400 13200 5100
+Connection ~ 13200 5100
+Wire Wire Line
+	13100 5100 13200 5100
+Wire Wire Line
+	13200 5100 13200 4800
+Connection ~ 13200 4800
+Wire Wire Line
+	13100 4800 13200 4800
+Wire Wire Line
+	13200 4800 13200 4500
+Connection ~ 13200 4500
+Wire Wire Line
+	13100 4500 13200 4500
+Wire Wire Line
+	13200 4500 13200 4200
+Connection ~ 13200 4200
+Wire Wire Line
+	13100 4200 13200 4200
+Wire Wire Line
+	13200 4200 13200 3900
+Connection ~ 13200 3900
+Wire Wire Line
+	13100 3900 13200 3900
+Wire Wire Line
+	13200 3900 13200 3600
+Connection ~ 13200 3600
+Wire Wire Line
+	13100 3600 13200 3600
+Wire Wire Line
+	13200 3600 13200 3300
+Connection ~ 13200 3300
+Wire Wire Line
+	13100 3300 13200 3300
+Wire Wire Line
+	13200 3300 13200 3000
+Connection ~ 13200 3000
+Wire Wire Line
+	13100 3000 13200 3000
+Wire Wire Line
+	13200 3000 13200 2700
+Connection ~ 13200 2700
+Wire Wire Line
+	13100 2700 13200 2700
+Wire Wire Line
+	13200 2700 13200 2400
+Connection ~ 13200 2400
+Wire Wire Line
+	13100 2400 13200 2400
+Wire Wire Line
+	13200 2400 13200 2100
+Connection ~ 13200 2100
+Wire Wire Line
+	13100 2100 13200 2100
+Wire Wire Line
+	13200 2100 13200 1800
+Connection ~ 13200 1800
+Wire Wire Line
+	13100 1800 13200 1800
+Wire Wire Line
+	13200 1800 13200 1500
+Connection ~ 13200 1500
+Wire Wire Line
+	13100 1500 13200 1500
+Wire Wire Line
+	13200 1500 13200 1200
+Wire Wire Line
+	13200 1200 13200 900 
+Connection ~ 13200 1200
+Wire Wire Line
+	13100 1200 13200 1200
+Wire Wire Line
+	13200 900  13100 900 
+Connection ~ 13200 5400
+Wire Wire Line
+	13200 5450 13200 5400
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1647B
+P 13100 5300
+AR Path="/7AF1647B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1647B" Ref="D496"  Part="1" 
+F 0 "D496" V 13146 5230 50  0000 R CNN
+F 1 "LED_Small" V 13055 5230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 13100 5300 50  0001 C CNN
+F 3 "~" V 13100 5300 50  0001 C CNN
+	1    13100 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16481
+P 13100 5000
+AR Path="/7AF16481" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16481" Ref="D464"  Part="1" 
+F 0 "D464" V 13146 4930 50  0000 R CNN
+F 1 "LED_Small" V 13055 4930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 13100 5000 50  0001 C CNN
+F 3 "~" V 13100 5000 50  0001 C CNN
+	1    13100 5000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16487
+P 13100 4700
+AR Path="/7AF16487" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16487" Ref="D432"  Part="1" 
+F 0 "D432" V 13146 4630 50  0000 R CNN
+F 1 "LED_Small" V 13055 4630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 13100 4700 50  0001 C CNN
+F 3 "~" V 13100 4700 50  0001 C CNN
+	1    13100 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1648D
+P 13100 4400
+AR Path="/7AF1648D" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1648D" Ref="D400"  Part="1" 
+F 0 "D400" V 13146 4330 50  0000 R CNN
+F 1 "LED_Small" V 13055 4330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 13100 4400 50  0001 C CNN
+F 3 "~" V 13100 4400 50  0001 C CNN
+	1    13100 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16493
+P 13100 4100
+AR Path="/7AF16493" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16493" Ref="D368"  Part="1" 
+F 0 "D368" V 13146 4030 50  0000 R CNN
+F 1 "LED_Small" V 13055 4030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 13100 4100 50  0001 C CNN
+F 3 "~" V 13100 4100 50  0001 C CNN
+	1    13100 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16499
+P 13100 3800
+AR Path="/7AF16499" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16499" Ref="D336"  Part="1" 
+F 0 "D336" V 13146 3730 50  0000 R CNN
+F 1 "LED_Small" V 13055 3730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 13100 3800 50  0001 C CNN
+F 3 "~" V 13100 3800 50  0001 C CNN
+	1    13100 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1649F
+P 13100 3500
+AR Path="/7AF1649F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1649F" Ref="D304"  Part="1" 
+F 0 "D304" V 13146 3430 50  0000 R CNN
+F 1 "LED_Small" V 13055 3430 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 13100 3500 50  0001 C CNN
+F 3 "~" V 13100 3500 50  0001 C CNN
+	1    13100 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF164A5
+P 13100 3200
+AR Path="/7AF164A5" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF164A5" Ref="D272"  Part="1" 
+F 0 "D272" V 13146 3130 50  0000 R CNN
+F 1 "LED_Small" V 13055 3130 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 13100 3200 50  0001 C CNN
+F 3 "~" V 13100 3200 50  0001 C CNN
+	1    13100 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF164AB
+P 13100 2900
+AR Path="/7AF164AB" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF164AB" Ref="D240"  Part="1" 
+F 0 "D240" V 13146 2830 50  0000 R CNN
+F 1 "LED_Small" V 13055 2830 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 13100 2900 50  0001 C CNN
+F 3 "~" V 13100 2900 50  0001 C CNN
+	1    13100 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF164B1
+P 13100 2600
+AR Path="/7AF164B1" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF164B1" Ref="D208"  Part="1" 
+F 0 "D208" V 13146 2530 50  0000 R CNN
+F 1 "LED_Small" V 13055 2530 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 13100 2600 50  0001 C CNN
+F 3 "~" V 13100 2600 50  0001 C CNN
+	1    13100 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF164B7
+P 13100 2300
+AR Path="/7AF164B7" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF164B7" Ref="D176"  Part="1" 
+F 0 "D176" V 13146 2230 50  0000 R CNN
+F 1 "LED_Small" V 13055 2230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 13100 2300 50  0001 C CNN
+F 3 "~" V 13100 2300 50  0001 C CNN
+	1    13100 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF164BD
+P 13100 2000
+AR Path="/7AF164BD" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF164BD" Ref="D144"  Part="1" 
+F 0 "D144" V 13146 1930 50  0000 R CNN
+F 1 "LED_Small" V 13055 1930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 13100 2000 50  0001 C CNN
+F 3 "~" V 13100 2000 50  0001 C CNN
+	1    13100 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF164C3
+P 13100 1700
+AR Path="/7AF164C3" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF164C3" Ref="D112"  Part="1" 
+F 0 "D112" V 13146 1630 50  0000 R CNN
+F 1 "LED_Small" V 13055 1630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 13100 1700 50  0001 C CNN
+F 3 "~" V 13100 1700 50  0001 C CNN
+	1    13100 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF164C9
+P 13100 1400
+AR Path="/7AF164C9" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF164C9" Ref="D80"  Part="1" 
+F 0 "D80" V 13146 1330 50  0000 R CNN
+F 1 "LED_Small" V 13055 1330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 13100 1400 50  0001 C CNN
+F 3 "~" V 13100 1400 50  0001 C CNN
+	1    13100 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF164CF
+P 13100 1100
+AR Path="/7AF164CF" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF164CF" Ref="D48"  Part="1" 
+F 0 "D48" V 13146 1030 50  0000 R CNN
+F 1 "LED_Small" V 13055 1030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 13100 1100 50  0001 C CNN
+F 3 "~" V 13100 1100 50  0001 C CNN
+	1    13100 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF164D5
+P 13100 800
+AR Path="/7AF164D5" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF164D5" Ref="D16"  Part="1" 
+F 0 "D16" V 13146 730 50  0000 R CNN
+F 1 "LED_Small" V 13055 730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 13100 800 50  0001 C CNN
+F 3 "~" V 13100 800 50  0001 C CNN
+	1    13100 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11900 5200 12500 5200
+Wire Wire Line
+	12500 5200 12600 5200
+Connection ~ 12500 5200
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF164DE
+P 12500 5300
+AR Path="/7AF164DE" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF164DE" Ref="D495"  Part="1" 
+F 0 "D495" V 12546 5230 50  0000 R CNN
+F 1 "LED_Small" V 12455 5230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 12500 5300 50  0001 C CNN
+F 3 "~" V 12500 5300 50  0001 C CNN
+	1    12500 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12500 4900 12000 4900
+Wire Wire Line
+	13100 4900 12500 4900
+Connection ~ 12500 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF164E7
+P 12500 5000
+AR Path="/7AF164E7" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF164E7" Ref="D463"  Part="1" 
+F 0 "D463" V 12546 4930 50  0000 R CNN
+F 1 "LED_Small" V 12455 4930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 12500 5000 50  0001 C CNN
+F 3 "~" V 12500 5000 50  0001 C CNN
+	1    12500 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11900 4600 12500 4600
+Wire Wire Line
+	12500 4600 13100 4600
+Connection ~ 12500 4600
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF164F0
+P 12500 4700
+AR Path="/7AF164F0" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF164F0" Ref="D431"  Part="1" 
+F 0 "D431" V 12546 4630 50  0000 R CNN
+F 1 "LED_Small" V 12455 4630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 12500 4700 50  0001 C CNN
+F 3 "~" V 12500 4700 50  0001 C CNN
+	1    12500 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12500 4300 11900 4300
+Wire Wire Line
+	13100 4300 12500 4300
+Connection ~ 12500 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF164F9
+P 12500 4400
+AR Path="/7AF164F9" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF164F9" Ref="D399"  Part="1" 
+F 0 "D399" V 12546 4330 50  0000 R CNN
+F 1 "LED_Small" V 12455 4330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 12500 4400 50  0001 C CNN
+F 3 "~" V 12500 4400 50  0001 C CNN
+	1    12500 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11900 4000 12500 4000
+Wire Wire Line
+	12500 4000 13100 4000
+Connection ~ 12500 4000
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16502
+P 12500 4100
+AR Path="/7AF16502" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16502" Ref="D367"  Part="1" 
+F 0 "D367" V 12546 4030 50  0000 R CNN
+F 1 "LED_Small" V 12455 4030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 12500 4100 50  0001 C CNN
+F 3 "~" V 12500 4100 50  0001 C CNN
+	1    12500 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12500 3700 11900 3700
+Wire Wire Line
+	13100 3700 12500 3700
+Connection ~ 12500 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1650B
+P 12500 3800
+AR Path="/7AF1650B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1650B" Ref="D335"  Part="1" 
+F 0 "D335" V 12546 3730 50  0000 R CNN
+F 1 "LED_Small" V 12455 3730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 12500 3800 50  0001 C CNN
+F 3 "~" V 12500 3800 50  0001 C CNN
+	1    12500 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11900 3400 12500 3400
+Wire Wire Line
+	12500 3400 13100 3400
+Connection ~ 12500 3400
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16514
+P 12500 3500
+AR Path="/7AF16514" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16514" Ref="D303"  Part="1" 
+F 0 "D303" V 12546 3430 50  0000 R CNN
+F 1 "LED_Small" V 12455 3430 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 12500 3500 50  0001 C CNN
+F 3 "~" V 12500 3500 50  0001 C CNN
+	1    12500 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12500 3100 11900 3100
+Wire Wire Line
+	12500 3100 13100 3100
+Connection ~ 12500 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1651D
+P 12500 3200
+AR Path="/7AF1651D" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1651D" Ref="D271"  Part="1" 
+F 0 "D271" V 12546 3130 50  0000 R CNN
+F 1 "LED_Small" V 12455 3130 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 12500 3200 50  0001 C CNN
+F 3 "~" V 12500 3200 50  0001 C CNN
+	1    12500 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11900 2800 12500 2800
+Wire Wire Line
+	12500 2800 13100 2800
+Connection ~ 12500 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16526
+P 12500 2900
+AR Path="/7AF16526" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16526" Ref="D239"  Part="1" 
+F 0 "D239" V 12546 2830 50  0000 R CNN
+F 1 "LED_Small" V 12455 2830 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 12500 2900 50  0001 C CNN
+F 3 "~" V 12500 2900 50  0001 C CNN
+	1    12500 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11900 2500 12500 2500
+Wire Wire Line
+	12500 2500 13100 2500
+Connection ~ 12500 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1652F
+P 12500 2600
+AR Path="/7AF1652F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1652F" Ref="D207"  Part="1" 
+F 0 "D207" V 12546 2530 50  0000 R CNN
+F 1 "LED_Small" V 12455 2530 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 12500 2600 50  0001 C CNN
+F 3 "~" V 12500 2600 50  0001 C CNN
+	1    12500 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11900 2200 12500 2200
+Wire Wire Line
+	12500 2200 13100 2200
+Connection ~ 12500 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16538
+P 12500 2300
+AR Path="/7AF16538" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16538" Ref="D175"  Part="1" 
+F 0 "D175" V 12546 2230 50  0000 R CNN
+F 1 "LED_Small" V 12455 2230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 12500 2300 50  0001 C CNN
+F 3 "~" V 12500 2300 50  0001 C CNN
+	1    12500 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11900 1900 12500 1900
+Wire Wire Line
+	12500 1900 13100 1900
+Connection ~ 12500 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16541
+P 12500 2000
+AR Path="/7AF16541" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16541" Ref="D143"  Part="1" 
+F 0 "D143" V 12546 1930 50  0000 R CNN
+F 1 "LED_Small" V 12455 1930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 12500 2000 50  0001 C CNN
+F 3 "~" V 12500 2000 50  0001 C CNN
+	1    12500 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11900 1600 12500 1600
+Wire Wire Line
+	12500 1600 13100 1600
+Connection ~ 12500 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1654A
+P 12500 1700
+AR Path="/7AF1654A" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1654A" Ref="D111"  Part="1" 
+F 0 "D111" V 12546 1630 50  0000 R CNN
+F 1 "LED_Small" V 12455 1630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 12500 1700 50  0001 C CNN
+F 3 "~" V 12500 1700 50  0001 C CNN
+	1    12500 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11900 1300 12500 1300
+Wire Wire Line
+	12500 1300 13100 1300
+Connection ~ 12500 1300
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16553
+P 12500 1400
+AR Path="/7AF16553" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16553" Ref="D79"  Part="1" 
+F 0 "D79" V 12546 1330 50  0000 R CNN
+F 1 "LED_Small" V 12455 1330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 12500 1400 50  0001 C CNN
+F 3 "~" V 12500 1400 50  0001 C CNN
+	1    12500 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11900 1000 12500 1000
+Wire Wire Line
+	12500 1000 13100 1000
+Connection ~ 12500 1000
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF1655C
+P 12500 1100
+AR Path="/7AF1655C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF1655C" Ref="D47"  Part="1" 
+F 0 "D47" V 12546 1030 50  0000 R CNN
+F 1 "LED_Small" V 12455 1030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 12500 1100 50  0001 C CNN
+F 3 "~" V 12500 1100 50  0001 C CNN
+	1    12500 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11900 700  12500 700 
+Wire Wire Line
+	12500 700  13100 700 
+Connection ~ 12500 700 
+$Comp
+L Device:LED_Small D?
+U 1 1 7AF16565
+P 12500 800
+AR Path="/7AF16565" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7AF16565" Ref="D15"  Part="1" 
+F 0 "D15" V 12546 730 50  0000 R CNN
+F 1 "LED_Small" V 12455 730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 12500 800 50  0001 C CNN
+F 3 "~" V 12500 800 50  0001 C CNN
+	1    12500 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2850 4300 4100 4300
+Wire Wire Line
+	3150 2200 4100 2200
+Wire Wire Line
+	3200 2500 4100 2500
+Wire Wire Line
+	3250 2800 4100 2800
+Wire Wire Line
+	3300 3100 4100 3100
+Wire Wire Line
+	3350 3400 4100 3400
+Wire Wire Line
+	3400 3700 4100 3700
+Wire Wire Line
+	3050 4600 4100 4600
+Wire Wire Line
+	3000 4900 4100 4900
+Wire Wire Line
+	2950 5200 4100 5200
+Wire Wire Line
+	4000 700  2900 700 
+Connection ~ 4000 700 
+Wire Wire Line
+	2950 1000 4100 1000
+Wire Wire Line
+	3000 1300 4100 1300
+Wire Wire Line
+	3050 1600 4100 1600
+Wire Wire Line
+	3100 1900 4100 1900
+Wire Wire Line
+	3400 3700 3400 4100
+Wire Wire Line
+	3450 4000 4100 4000
+Connection ~ 4100 4000
+Wire Wire Line
+	2900 5450 13200 5450
+Wire Wire Line
+	16650 4400 16650 4600
+Wire Wire Line
+	16600 4900 16600 4500
+Wire Wire Line
+	16550 4600 16550 5200
+Wire Wire Line
+	16500 4700 16500 5450
+$Comp
+L HT16D33A_B:HT16D33B U?
+U 1 1 7B6281F1
+P 15700 3650
+AR Path="/7B6281F1" Ref="U?"  Part="1" 
+AR Path="/61F40005/7B6281F1" Ref="U?"  Part="1" 
+AR Path="/7AD7E6BD/7B6281F1" Ref="U4"  Part="1" 
+F 0 "U4" H 15700 3650 50  0000 C CNN
+F 1 "HT16D33B" H 15700 3550 50  0000 C CNN
+F 2 "Housings_SSOP:SSOP-28_3.9x9.9mm_Pitch0.635mm" H 15700 3200 50  0001 C CNN
+F 3 "" H 15700 3200 50  0001 C CNN
+	1    15700 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16500 2900 16450 2900
+Wire Wire Line
+	16550 3000 16450 3000
+Wire Wire Line
+	16550 1000 16550 3000
+Wire Wire Line
+	16600 3100 16450 3100
+Wire Wire Line
+	16600 1300 16600 3100
+Wire Wire Line
+	16650 3200 16450 3200
+Wire Wire Line
+	16650 1600 16650 3200
+Wire Wire Line
+	16700 3300 16450 3300
+Wire Wire Line
+	16700 1900 16700 3300
+Wire Wire Line
+	16750 3400 16450 3400
+Wire Wire Line
+	16750 2200 16750 3400
+Wire Wire Line
+	16800 3500 16450 3500
+Wire Wire Line
+	16800 2500 16800 3500
+Wire Wire Line
+	16850 3600 16450 3600
+Wire Wire Line
+	16850 2800 16850 3600
+Wire Wire Line
+	16900 3800 16450 3800
+Wire Wire Line
+	16900 3100 16900 3800
+Wire Wire Line
+	16950 3400 16950 4000
+Wire Wire Line
+	17000 4100 16450 4100
+Wire Wire Line
+	17050 4200 16450 4200
+Wire Wire Line
+	17050 4000 17050 4200
+Wire Wire Line
+	15550 2500 15650 2500
+Connection ~ 15650 2500
+$Comp
+L power:GND #PWR?
+U 1 1 7B62820E
+P 15650 4950
+AR Path="/7B62820E" Ref="#PWR?"  Part="1" 
+AR Path="/61F40005/7B62820E" Ref="#PWR?"  Part="1" 
+AR Path="/7AD7E6BD/7B62820E" Ref="#PWR025"  Part="1" 
+F 0 "#PWR025" H 15650 4700 50  0001 C CNN
+F 1 "GND" H 15655 4777 50  0000 C CNN
+F 2 "" H 15650 4950 50  0001 C CNN
+F 3 "" H 15650 4950 50  0001 C CNN
+	1    15650 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15750 2500 15750 2100
+Wire Wire Line
+	16450 4700 16500 4700
+Wire Wire Line
+	16450 4600 16550 4600
+Wire Wire Line
+	16450 4500 16600 4500
+Wire Wire Line
+	16450 4400 16650 4400
+$Comp
+L Device:C_Small C?
+U 1 1 7B628219
+P 15250 2200
+AR Path="/7B628219" Ref="C?"  Part="1" 
+AR Path="/61F40005/7B628219" Ref="C?"  Part="1" 
+AR Path="/7AD7E6BD/7B628219" Ref="C6"  Part="1" 
+F 0 "C6" H 15342 2246 50  0000 L CNN
+F 1 ".1uF" H 15342 2155 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 15250 2200 50  0001 C CNN
+F 3 "~" H 15250 2200 50  0001 C CNN
+	1    15250 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 7B62821F
+P 16000 2200
+AR Path="/7B62821F" Ref="C?"  Part="1" 
+AR Path="/61F40005/7B62821F" Ref="C?"  Part="1" 
+AR Path="/7AD7E6BD/7B62821F" Ref="C7"  Part="1" 
+F 0 "C7" H 16092 2246 50  0000 L CNN
+F 1 ".1uF" H 16092 2155 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 16000 2200 50  0001 C CNN
+F 3 "~" H 16000 2200 50  0001 C CNN
+	1    16000 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15250 2100 15650 2100
+Wire Wire Line
+	15650 2100 15650 2500
+Wire Wire Line
+	16000 2100 15750 2100
+$Comp
+L power:GND #PWR?
+U 1 1 7B628228
+P 15250 2400
+AR Path="/7B628228" Ref="#PWR?"  Part="1" 
+AR Path="/61F40005/7B628228" Ref="#PWR?"  Part="1" 
+AR Path="/7AD7E6BD/7B628228" Ref="#PWR021"  Part="1" 
+F 0 "#PWR021" H 15250 2150 50  0001 C CNN
+F 1 "GND" H 15255 2227 50  0000 C CNN
+F 2 "" H 15250 2400 50  0001 C CNN
+F 3 "" H 15250 2400 50  0001 C CNN
+	1    15250 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 7B62822E
+P 16000 2400
+AR Path="/7B62822E" Ref="#PWR?"  Part="1" 
+AR Path="/61F40005/7B62822E" Ref="#PWR?"  Part="1" 
+AR Path="/7AD7E6BD/7B62822E" Ref="#PWR022"  Part="1" 
+F 0 "#PWR022" H 16000 2150 50  0001 C CNN
+F 1 "GND" H 16005 2227 50  0000 C CNN
+F 2 "" H 16000 2400 50  0001 C CNN
+F 3 "" H 16000 2400 50  0001 C CNN
+	1    16000 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15250 2400 15250 2300
+Wire Wire Line
+	16000 2400 16000 2300
+$Comp
+L power:+3.3V #PWR?
+U 1 1 7B628236
+P 15650 1550
+AR Path="/7B628236" Ref="#PWR?"  Part="1" 
+AR Path="/61F40005/7B628236" Ref="#PWR?"  Part="1" 
+AR Path="/7AD7E6BD/7B628236" Ref="#PWR018"  Part="1" 
+F 0 "#PWR018" H 15650 1400 50  0001 C CNN
+F 1 "+3.3V" H 15665 1723 50  0000 C CNN
+F 2 "" H 15650 1550 50  0001 C CNN
+F 3 "" H 15650 1550 50  0001 C CNN
+	1    15650 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15650 2100 15650 1800
+Wire Wire Line
+	15650 1800 15750 1800
+Wire Wire Line
+	15750 1800 15750 2100
+Connection ~ 15650 2100
+Connection ~ 15750 2100
+Wire Wire Line
+	15650 1550 15650 1800
+Connection ~ 15650 1800
+Wire Wire Line
+	14900 2800 14850 2800
+Text GLabel 14650 2900 0    50   Input ~ 0
+SCL
+Text GLabel 14650 3000 0    50   BiDi ~ 0
+SDA
+Wire Wire Line
+	14650 2900 14850 2900
+Wire Wire Line
+	14650 3000 14900 3000
+Wire Wire Line
+	16500 700  16500 2900
+Wire Wire Line
+	16450 4000 16950 4000
+Wire Wire Line
+	25500 2400 25600 2400
+Connection ~ 23200 1500
+Wire Wire Line
+	23100 1500 23200 1500
+Wire Wire Line
+	21900 3000 22000 3000
+Wire Wire Line
+	20700 1800 20800 1800
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628255
+P 22500 3800
+AR Path="/7B628255" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628255" Ref="D345"  Part="1" 
+F 0 "D345" V 22546 3730 50  0000 R CNN
+F 1 "LED_Small" V 22455 3730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 22500 3800 50  0001 C CNN
+F 3 "~" V 22500 3800 50  0001 C CNN
+	1    22500 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B62825B
+P 19500 5000
+AR Path="/7B62825B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B62825B" Ref="D468"  Part="1" 
+F 0 "D468" V 19546 4930 50  0000 R CNN
+F 1 "LED_Small" V 19455 4930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 19500 5000 50  0001 C CNN
+F 3 "~" V 19500 5000 50  0001 C CNN
+	1    19500 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	17800 5100 17800 5400
+Wire Wire Line
+	18300 5100 17800 5100
+Connection ~ 17800 5100
+Wire Wire Line
+	17800 4800 17800 5100
+Wire Wire Line
+	18300 4800 17800 4800
+Connection ~ 17800 4800
+Wire Wire Line
+	17800 4500 17800 4800
+Wire Wire Line
+	18300 4500 17800 4500
+Connection ~ 17800 4500
+Wire Wire Line
+	17800 4200 17800 4500
+Wire Wire Line
+	18300 4200 17800 4200
+Connection ~ 17800 4200
+Wire Wire Line
+	17800 3900 17800 4200
+Wire Wire Line
+	18300 3900 17800 3900
+Connection ~ 17800 3900
+Wire Wire Line
+	17800 3600 17800 3900
+Wire Wire Line
+	18300 3600 17800 3600
+Connection ~ 17800 3600
+Wire Wire Line
+	17800 3300 17800 3600
+Wire Wire Line
+	18300 3300 17800 3300
+Connection ~ 17800 3300
+Wire Wire Line
+	17800 3000 17800 3300
+Wire Wire Line
+	18300 3000 17800 3000
+Connection ~ 17800 3000
+Wire Wire Line
+	17800 2700 17800 3000
+Wire Wire Line
+	18300 2700 17800 2700
+Connection ~ 17800 2700
+Wire Wire Line
+	17800 2400 17800 2700
+Wire Wire Line
+	18300 2400 17800 2400
+Connection ~ 17800 2400
+Wire Wire Line
+	17800 2100 17800 2400
+Wire Wire Line
+	18300 2100 17800 2100
+Connection ~ 17800 2100
+Wire Wire Line
+	17800 1800 17800 2100
+Wire Wire Line
+	18300 1800 17800 1800
+Connection ~ 17800 1800
+Wire Wire Line
+	17800 1500 17800 1800
+Wire Wire Line
+	18300 1500 17800 1500
+Wire Wire Line
+	18300 1200 18400 1200
+Wire Wire Line
+	18400 1200 18400 900 
+Connection ~ 18400 1200
+Wire Wire Line
+	18900 1200 19000 1200
+Wire Wire Line
+	19000 1200 19000 1500
+Connection ~ 19000 1500
+Wire Wire Line
+	18900 1500 19000 1500
+Wire Wire Line
+	18900 1800 18400 1800
+Connection ~ 18400 1800
+Wire Wire Line
+	18400 2100 18400 1800
+Wire Wire Line
+	18900 2100 18400 2100
+Connection ~ 18400 2100
+Wire Wire Line
+	18400 2400 18400 2100
+Wire Wire Line
+	18900 2400 18400 2400
+Connection ~ 18400 2400
+Wire Wire Line
+	18400 2700 18400 2400
+Wire Wire Line
+	18900 2700 18400 2700
+Connection ~ 18400 2700
+Wire Wire Line
+	18400 3000 18400 2700
+Wire Wire Line
+	18900 3000 18400 3000
+Connection ~ 18400 3000
+Wire Wire Line
+	18400 3300 18400 3000
+Wire Wire Line
+	18900 3300 18400 3300
+Connection ~ 18400 3300
+Wire Wire Line
+	18400 3600 18400 3300
+Wire Wire Line
+	18900 3600 18400 3600
+Connection ~ 18400 3600
+Wire Wire Line
+	18400 3900 18400 3600
+Wire Wire Line
+	18900 3900 18400 3900
+Connection ~ 18400 3900
+Wire Wire Line
+	18400 4200 18400 3900
+Wire Wire Line
+	18900 4200 18400 4200
+Connection ~ 18400 4200
+Wire Wire Line
+	18400 4500 18400 4200
+Wire Wire Line
+	18900 4500 18400 4500
+Connection ~ 18400 4500
+Wire Wire Line
+	18400 4800 18400 4500
+Wire Wire Line
+	18900 4800 18400 4800
+Connection ~ 18400 4800
+Wire Wire Line
+	18400 5100 18400 4800
+Wire Wire Line
+	18900 5100 18400 5100
+Wire Wire Line
+	19000 5100 19000 5400
+Connection ~ 19000 5100
+Wire Wire Line
+	19500 5100 19000 5100
+Wire Wire Line
+	19000 4800 19000 5100
+Connection ~ 19000 4800
+Wire Wire Line
+	19500 4800 19000 4800
+Wire Wire Line
+	19000 4500 19000 4800
+Connection ~ 19000 4500
+Wire Wire Line
+	19500 4500 19000 4500
+Wire Wire Line
+	19000 4200 19000 4500
+Connection ~ 19000 4200
+Wire Wire Line
+	19500 4200 19000 4200
+Wire Wire Line
+	19000 3900 19000 4200
+Connection ~ 19000 3900
+Wire Wire Line
+	19000 3900 19500 3900
+Wire Wire Line
+	19000 3600 19000 3900
+Connection ~ 19000 3600
+Wire Wire Line
+	19500 3600 19000 3600
+Wire Wire Line
+	19000 3300 19000 3600
+Connection ~ 19000 3300
+Wire Wire Line
+	19000 3300 19500 3300
+Wire Wire Line
+	19000 3000 19000 3300
+Connection ~ 19000 3000
+Wire Wire Line
+	19500 3000 19000 3000
+Wire Wire Line
+	19000 2700 19000 3000
+Connection ~ 19000 2700
+Wire Wire Line
+	19500 2700 19000 2700
+Wire Wire Line
+	19000 2400 19000 2700
+Connection ~ 19000 2400
+Wire Wire Line
+	19500 2400 19000 2400
+Wire Wire Line
+	19000 2100 19000 2400
+Connection ~ 19000 2100
+Wire Wire Line
+	19500 2100 19000 2100
+Wire Wire Line
+	19600 1800 19500 1800
+Connection ~ 19600 1800
+Wire Wire Line
+	19600 1500 19600 1800
+Wire Wire Line
+	19600 1500 19500 1500
+Connection ~ 19600 1500
+Wire Wire Line
+	19600 1200 19600 1500
+Wire Wire Line
+	19500 1200 19600 1200
+Connection ~ 19600 1200
+Wire Wire Line
+	19600 900  19600 1200
+Wire Wire Line
+	20100 1200 20200 1200
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6282DB
+P 20100 1100
+AR Path="/7B6282DB" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6282DB" Ref="D53"  Part="1" 
+F 0 "D53" V 20146 1030 50  0000 R CNN
+F 1 "LED_Small" V 20055 1030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20100 1100 50  0001 C CNN
+F 3 "~" V 20100 1100 50  0001 C CNN
+	1    20100 1100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 20100 1000
+Wire Wire Line
+	20200 1200 20200 1500
+Connection ~ 20200 1500
+Wire Wire Line
+	20100 1500 20200 1500
+Wire Wire Line
+	20200 1500 20200 1800
+Connection ~ 20200 1800
+Wire Wire Line
+	20100 1800 20200 1800
+Wire Wire Line
+	20200 1800 20200 2100
+Connection ~ 20200 2100
+Wire Wire Line
+	20100 2100 20200 2100
+Wire Wire Line
+	19600 2400 20100 2400
+Connection ~ 19600 2400
+Wire Wire Line
+	19600 2700 19600 2400
+Wire Wire Line
+	20100 2700 19600 2700
+Connection ~ 19600 2700
+Wire Wire Line
+	19600 3000 19600 2700
+Wire Wire Line
+	20100 3000 19600 3000
+Connection ~ 19600 3000
+Wire Wire Line
+	19600 3300 19600 3000
+Wire Wire Line
+	20100 3300 19600 3300
+Connection ~ 19600 3300
+Wire Wire Line
+	19600 3600 19600 3300
+Wire Wire Line
+	20100 3600 19600 3600
+Connection ~ 19600 3600
+Wire Wire Line
+	19600 3900 19600 3600
+Wire Wire Line
+	20100 3900 19600 3900
+Connection ~ 19600 3900
+Wire Wire Line
+	19600 4200 19600 3900
+Wire Wire Line
+	20100 4200 19600 4200
+Connection ~ 19600 4200
+Wire Wire Line
+	19600 4500 19600 4200
+Wire Wire Line
+	20100 4500 19600 4500
+Connection ~ 19600 4500
+Wire Wire Line
+	19600 4800 19600 4500
+Wire Wire Line
+	20100 4800 19600 4800
+Connection ~ 19600 4800
+Wire Wire Line
+	19600 5100 19600 4800
+Wire Wire Line
+	20100 5100 19600 5100
+Wire Wire Line
+	20200 5100 20200 5400
+Connection ~ 20200 5100
+Wire Wire Line
+	20700 5100 20200 5100
+Wire Wire Line
+	20200 4800 20200 5100
+Connection ~ 20200 4800
+Wire Wire Line
+	20700 4800 20200 4800
+Wire Wire Line
+	20200 4500 20200 4800
+Connection ~ 20200 4500
+Wire Wire Line
+	20700 4500 20200 4500
+Wire Wire Line
+	20200 4200 20200 4500
+Connection ~ 20200 4200
+Wire Wire Line
+	20700 4200 20200 4200
+Wire Wire Line
+	20200 3900 20200 4200
+Connection ~ 20200 3900
+Wire Wire Line
+	20700 3900 20200 3900
+Wire Wire Line
+	20200 3600 20200 3900
+Connection ~ 20200 3600
+Wire Wire Line
+	20700 3600 20200 3600
+Wire Wire Line
+	20200 3300 20200 3600
+Connection ~ 20200 3300
+Wire Wire Line
+	20700 3300 20200 3300
+Wire Wire Line
+	20200 3000 20200 3300
+Connection ~ 20200 3000
+Wire Wire Line
+	20700 3000 20200 3000
+Wire Wire Line
+	20200 2700 20200 3000
+Connection ~ 20200 2700
+Wire Wire Line
+	20700 2700 20200 2700
+Connection ~ 20800 2400
+Wire Wire Line
+	20700 2400 20800 2400
+Wire Wire Line
+	20800 2400 20800 2100
+Connection ~ 20800 2100
+Wire Wire Line
+	20700 2100 20800 2100
+Wire Wire Line
+	20800 2100 20800 1800
+Connection ~ 20800 1800
+Wire Wire Line
+	20700 1500 20800 1500
+Wire Wire Line
+	20800 1800 20800 1500
+Connection ~ 20800 1500
+Wire Wire Line
+	20800 1500 20800 1200
+Wire Wire Line
+	20800 1200 20800 900 
+Connection ~ 20800 1200
+Wire Wire Line
+	20700 1200 20800 1200
+Wire Wire Line
+	21300 1200 21400 1200
+Wire Wire Line
+	21400 1200 21400 1500
+Connection ~ 21400 1500
+Wire Wire Line
+	21300 1500 21400 1500
+Wire Wire Line
+	21400 1500 21400 1800
+Connection ~ 21400 1800
+Wire Wire Line
+	21300 1800 21400 1800
+Wire Wire Line
+	21400 1800 21400 2100
+Connection ~ 21400 2100
+Wire Wire Line
+	21300 2100 21400 2100
+Wire Wire Line
+	21400 2100 21400 2400
+Connection ~ 21400 2400
+Wire Wire Line
+	21300 2400 21400 2400
+Wire Wire Line
+	21400 2400 21400 2700
+Connection ~ 21400 2700
+Wire Wire Line
+	21300 2700 21400 2700
+Wire Wire Line
+	21300 3000 20800 3000
+Connection ~ 20800 3000
+Wire Wire Line
+	20800 3300 20800 3000
+Wire Wire Line
+	21300 3300 20800 3300
+Connection ~ 20800 3300
+Wire Wire Line
+	20800 3600 20800 3300
+Wire Wire Line
+	21300 3600 20800 3600
+Connection ~ 20800 3600
+Wire Wire Line
+	20800 3900 20800 3600
+Wire Wire Line
+	21300 3900 20800 3900
+Connection ~ 20800 3900
+Wire Wire Line
+	20800 4200 20800 3900
+Wire Wire Line
+	21300 4200 20800 4200
+Connection ~ 20800 4200
+Wire Wire Line
+	20800 4500 20800 4200
+Wire Wire Line
+	21300 4500 20800 4500
+Connection ~ 20800 4500
+Wire Wire Line
+	20800 4800 20800 4500
+Wire Wire Line
+	21300 4800 20800 4800
+Connection ~ 20800 4800
+Wire Wire Line
+	20800 5100 20800 4800
+Wire Wire Line
+	21300 5100 20800 5100
+Wire Wire Line
+	21400 5100 21400 5400
+Connection ~ 21400 5100
+Wire Wire Line
+	21900 5100 21400 5100
+Wire Wire Line
+	21400 4800 21400 5100
+Connection ~ 21400 4800
+Wire Wire Line
+	21900 4800 21400 4800
+Wire Wire Line
+	21400 4500 21400 4800
+Connection ~ 21400 4500
+Wire Wire Line
+	21900 4500 21400 4500
+Wire Wire Line
+	21400 4200 21400 4500
+Connection ~ 21400 4200
+Wire Wire Line
+	21900 4200 21400 4200
+Wire Wire Line
+	21400 3900 21900 3900
+Wire Wire Line
+	21400 3900 21400 4200
+Connection ~ 21400 3900
+Wire Wire Line
+	21400 3600 21400 3900
+Connection ~ 21400 3600
+Wire Wire Line
+	21900 3600 21400 3600
+Wire Wire Line
+	21400 3300 21400 3600
+Connection ~ 21400 3300
+Wire Wire Line
+	21900 3300 21400 3300
+Connection ~ 22000 3000
+Wire Wire Line
+	22000 2700 22000 3000
+Connection ~ 22000 2700
+Wire Wire Line
+	21900 2700 22000 2700
+Wire Wire Line
+	22000 2400 22000 2700
+Connection ~ 22000 2400
+Wire Wire Line
+	21900 2400 22000 2400
+Wire Wire Line
+	22000 2100 22000 2400
+Connection ~ 22000 2100
+Wire Wire Line
+	21900 2100 22000 2100
+Wire Wire Line
+	22000 1800 22000 2100
+Connection ~ 22000 1800
+Wire Wire Line
+	21900 1800 22000 1800
+Wire Wire Line
+	22000 1500 22000 1800
+Connection ~ 22000 1500
+Wire Wire Line
+	21900 1500 22000 1500
+Wire Wire Line
+	22000 1500 22000 1200
+Wire Wire Line
+	22000 1200 22000 900 
+Connection ~ 22000 1200
+Wire Wire Line
+	21900 1200 22000 1200
+Wire Wire Line
+	22000 4800 22500 4800
+Wire Wire Line
+	22500 1200 22600 1200
+Wire Wire Line
+	22600 1200 22600 1500
+Connection ~ 22600 1500
+Wire Wire Line
+	22500 1500 22600 1500
+Wire Wire Line
+	22600 1500 22600 1800
+Connection ~ 22600 1800
+Wire Wire Line
+	22500 1800 22600 1800
+Wire Wire Line
+	22600 1800 22600 2100
+Connection ~ 22600 2100
+Wire Wire Line
+	22500 2100 22600 2100
+Wire Wire Line
+	22600 2100 22600 2400
+Connection ~ 22600 2400
+Wire Wire Line
+	22500 2400 22600 2400
+Wire Wire Line
+	22600 2400 22600 2700
+Connection ~ 22600 2700
+Wire Wire Line
+	22500 2700 22600 2700
+Wire Wire Line
+	22600 2700 22600 3000
+Connection ~ 22600 3000
+Wire Wire Line
+	22500 3000 22600 3000
+Wire Wire Line
+	22600 3000 22600 3300
+Connection ~ 22600 3300
+Wire Wire Line
+	22500 3300 22600 3300
+Wire Wire Line
+	22500 3600 22000 3600
+Connection ~ 22000 3600
+Wire Wire Line
+	22000 3900 22000 3600
+Wire Wire Line
+	22500 3900 22000 3900
+Connection ~ 22000 3900
+Wire Wire Line
+	22000 4200 22000 3900
+Wire Wire Line
+	22500 4200 22000 4200
+Connection ~ 22000 4200
+Wire Wire Line
+	22000 4500 22000 4200
+Wire Wire Line
+	22500 4500 22000 4500
+Connection ~ 22000 4500
+Wire Wire Line
+	22000 4800 22000 4500
+Connection ~ 22000 4800
+Wire Wire Line
+	22000 5100 22000 4800
+Wire Wire Line
+	22500 5100 22000 5100
+Wire Wire Line
+	22600 5100 22600 5400
+Connection ~ 22600 5100
+Wire Wire Line
+	23100 5100 22600 5100
+Wire Wire Line
+	22600 4800 22600 5100
+Connection ~ 22600 4800
+Wire Wire Line
+	23100 4800 22600 4800
+Wire Wire Line
+	22600 4500 22600 4800
+Connection ~ 22600 4500
+Wire Wire Line
+	23100 4500 22600 4500
+Wire Wire Line
+	22600 4200 22600 4500
+Connection ~ 22600 4200
+Wire Wire Line
+	23100 4200 22600 4200
+Wire Wire Line
+	22600 3900 22600 4200
+Connection ~ 22600 3900
+Wire Wire Line
+	23100 3900 22600 3900
+Connection ~ 23200 3600
+Wire Wire Line
+	23200 3600 23100 3600
+Wire Wire Line
+	23200 3300 23200 3600
+Connection ~ 23200 3300
+Wire Wire Line
+	23200 3300 23100 3300
+Wire Wire Line
+	23200 3000 23200 3300
+Connection ~ 23200 3000
+Wire Wire Line
+	23200 3000 23100 3000
+Wire Wire Line
+	23200 2700 23200 3000
+Connection ~ 23200 2700
+Wire Wire Line
+	23200 2700 23100 2700
+Wire Wire Line
+	23200 2700 23200 2400
+Connection ~ 23200 2400
+Wire Wire Line
+	23200 2400 23100 2400
+Wire Wire Line
+	23200 2400 23200 2100
+Connection ~ 23200 2100
+Wire Wire Line
+	23200 2100 23100 2100
+Wire Wire Line
+	23200 2100 23200 1800
+Wire Wire Line
+	23200 1800 23200 1500
+Connection ~ 23200 1800
+Wire Wire Line
+	23200 1800 23100 1800
+Wire Wire Line
+	23200 1500 23200 1200
+Wire Wire Line
+	23200 1200 23200 900 
+Connection ~ 23200 1200
+Wire Wire Line
+	23200 1200 23100 1200
+Wire Wire Line
+	23700 1200 23800 1200
+Wire Wire Line
+	23800 1200 23800 1500
+Connection ~ 23800 1500
+Wire Wire Line
+	23700 1500 23800 1500
+Wire Wire Line
+	23800 1500 23800 1800
+Connection ~ 23800 1800
+Wire Wire Line
+	23700 1800 23800 1800
+Wire Wire Line
+	23800 1800 23800 2100
+Connection ~ 23800 2100
+Wire Wire Line
+	23700 2100 23800 2100
+Wire Wire Line
+	23800 2100 23800 2400
+Connection ~ 23800 2400
+Wire Wire Line
+	23700 2400 23800 2400
+Wire Wire Line
+	23800 2400 23800 2700
+Connection ~ 23800 2700
+Wire Wire Line
+	23700 2700 23800 2700
+Wire Wire Line
+	23800 2700 23800 3000
+Connection ~ 23800 3000
+Wire Wire Line
+	23700 3000 23800 3000
+Wire Wire Line
+	23800 3000 23800 3300
+Connection ~ 23800 3300
+Wire Wire Line
+	23700 3300 23800 3300
+Wire Wire Line
+	23800 3300 23800 3600
+Connection ~ 23800 3600
+Wire Wire Line
+	23700 3600 23800 3600
+Wire Wire Line
+	23800 3600 23800 3900
+Connection ~ 23800 3900
+Wire Wire Line
+	23700 3900 23800 3900
+Wire Wire Line
+	23700 4200 23200 4200
+Connection ~ 23200 4200
+Wire Wire Line
+	23200 4500 23200 4200
+Wire Wire Line
+	23700 4500 23200 4500
+Connection ~ 23200 4500
+Wire Wire Line
+	23200 4800 23200 4500
+Wire Wire Line
+	23700 4800 23200 4800
+Connection ~ 23200 4800
+Wire Wire Line
+	23200 5100 23200 4800
+Wire Wire Line
+	23700 5100 23200 5100
+Wire Wire Line
+	23800 5100 23800 5400
+Connection ~ 23800 5100
+Wire Wire Line
+	24300 5100 23800 5100
+Wire Wire Line
+	23800 4800 23800 5100
+Connection ~ 23800 4800
+Wire Wire Line
+	24300 4800 23800 4800
+Wire Wire Line
+	23800 4500 23800 4800
+Connection ~ 23800 4500
+Wire Wire Line
+	24300 4500 23800 4500
+Connection ~ 24400 4200
+Wire Wire Line
+	24300 4200 24400 4200
+Connection ~ 25000 4500
+Wire Wire Line
+	24900 4500 25000 4500
+Wire Wire Line
+	24400 4200 24400 3900
+Connection ~ 24400 3900
+Wire Wire Line
+	24300 3900 24400 3900
+Wire Wire Line
+	24400 3900 24400 3600
+Connection ~ 24400 3600
+Wire Wire Line
+	24300 3600 24400 3600
+Wire Wire Line
+	24400 3600 24400 3300
+Connection ~ 24400 3300
+Wire Wire Line
+	24300 3300 24400 3300
+Wire Wire Line
+	24400 3300 24400 3000
+Connection ~ 24400 3000
+Wire Wire Line
+	24300 3000 24400 3000
+Wire Wire Line
+	24400 3000 24400 2700
+Connection ~ 24400 2700
+Wire Wire Line
+	24300 2700 24400 2700
+Wire Wire Line
+	24400 2700 24400 2400
+Connection ~ 24400 2400
+Wire Wire Line
+	24300 2400 24400 2400
+Wire Wire Line
+	24400 2400 24400 2100
+Connection ~ 24400 2100
+Wire Wire Line
+	24300 2100 24400 2100
+Wire Wire Line
+	24400 2100 24400 1800
+Connection ~ 24400 1800
+Wire Wire Line
+	24300 1800 24400 1800
+Wire Wire Line
+	24400 1800 24400 1500
+Connection ~ 24400 1500
+Wire Wire Line
+	24300 1500 24400 1500
+Wire Wire Line
+	24400 1500 24400 1200
+Wire Wire Line
+	24400 1200 24400 900 
+Connection ~ 24400 1200
+Wire Wire Line
+	24300 1200 24400 1200
+Wire Wire Line
+	24900 1200 25000 1200
+Wire Wire Line
+	25000 1200 25000 1500
+Connection ~ 25000 1500
+Wire Wire Line
+	24900 1500 25000 1500
+Wire Wire Line
+	25000 1500 25000 1800
+Connection ~ 25000 1800
+Wire Wire Line
+	24900 1800 25000 1800
+Wire Wire Line
+	24900 2100 25000 2100
+Wire Wire Line
+	25000 1800 25000 2100
+Connection ~ 25000 2100
+Wire Wire Line
+	25000 2100 25000 2400
+Connection ~ 25000 2400
+Wire Wire Line
+	24900 2400 25000 2400
+Wire Wire Line
+	25000 2400 25000 2700
+Connection ~ 25000 2700
+Wire Wire Line
+	24900 2700 25000 2700
+Wire Wire Line
+	25000 2700 25000 3000
+Connection ~ 25000 3000
+Wire Wire Line
+	24900 3000 25000 3000
+Wire Wire Line
+	25000 3000 25000 3300
+Connection ~ 25000 3300
+Wire Wire Line
+	24900 3300 25000 3300
+Wire Wire Line
+	25000 3300 25000 3600
+Connection ~ 25000 3600
+Wire Wire Line
+	24900 3600 25000 3600
+Connection ~ 25000 1200
+Wire Wire Line
+	25000 900  25000 1200
+Wire Wire Line
+	25000 3600 25000 3900
+Connection ~ 25000 3900
+Wire Wire Line
+	24900 3900 25000 3900
+Wire Wire Line
+	25000 4500 25000 4200
+Wire Wire Line
+	25000 3900 25000 4200
+Connection ~ 25000 4200
+Wire Wire Line
+	24900 4200 25000 4200
+Wire Wire Line
+	24900 4800 24400 4800
+Connection ~ 24400 4800
+Wire Wire Line
+	24400 5100 24400 4800
+Wire Wire Line
+	24900 5100 24400 5100
+Wire Wire Line
+	25500 5100 25000 5100
+Wire Wire Line
+	25500 4800 25600 4800
+Wire Wire Line
+	25600 4800 25600 4500
+Connection ~ 25600 4500
+Wire Wire Line
+	25500 4500 25600 4500
+Wire Wire Line
+	25600 4500 25600 4200
+Connection ~ 25600 4200
+Wire Wire Line
+	25500 4200 25600 4200
+Wire Wire Line
+	25600 4200 25600 3900
+Connection ~ 25600 3900
+Wire Wire Line
+	25500 3900 25600 3900
+Wire Wire Line
+	25600 3900 25600 3600
+Connection ~ 25600 3600
+Wire Wire Line
+	25500 3600 25600 3600
+Wire Wire Line
+	25600 3600 25600 3300
+Connection ~ 25600 3300
+Wire Wire Line
+	25500 3300 25600 3300
+Wire Wire Line
+	25600 3300 25600 3000
+Connection ~ 25600 3000
+Wire Wire Line
+	25500 3000 25600 3000
+Wire Wire Line
+	25600 3000 25600 2700
+Connection ~ 25600 2700
+Wire Wire Line
+	25500 2700 25600 2700
+Wire Wire Line
+	25600 2700 25600 2400
+Connection ~ 25600 2400
+Wire Wire Line
+	25600 2400 25600 2100
+Connection ~ 25600 2100
+Wire Wire Line
+	25500 2100 25600 2100
+Wire Wire Line
+	25600 2100 25600 1800
+Connection ~ 25600 1800
+Wire Wire Line
+	25500 1800 25600 1800
+Wire Wire Line
+	25600 1800 25600 1500
+Connection ~ 25600 1500
+Wire Wire Line
+	25500 1500 25600 1500
+Wire Wire Line
+	25600 1500 25600 1200
+Wire Wire Line
+	25600 1200 25600 900 
+Connection ~ 25600 1200
+Wire Wire Line
+	25500 1200 25600 1200
+Connection ~ 25600 4800
+Wire Wire Line
+	25600 4900 25600 4800
+Connection ~ 25600 4900
+Wire Wire Line
+	25000 5100 25000 4600
+Wire Wire Line
+	25000 4600 25000 4500
+Connection ~ 25000 4600
+Wire Wire Line
+	24400 4300 24400 4800
+Wire Wire Line
+	24400 4300 24400 4200
+Connection ~ 24400 4300
+Wire Wire Line
+	23800 3900 23800 4000
+Wire Wire Line
+	23800 4000 23800 4500
+Connection ~ 23800 4000
+Wire Wire Line
+	23200 3600 23200 3700
+Wire Wire Line
+	23200 4200 23200 3700
+Connection ~ 23200 3700
+Wire Wire Line
+	22600 3300 22600 3400
+Wire Wire Line
+	22600 3400 22600 3900
+Connection ~ 22600 3400
+Wire Wire Line
+	22000 3000 22000 3100
+Wire Wire Line
+	22000 3600 22000 3100
+Connection ~ 22000 3100
+Wire Wire Line
+	21400 2700 21400 2800
+Wire Wire Line
+	21400 2800 21400 3300
+Connection ~ 21400 2800
+Wire Wire Line
+	20800 3000 20800 2500
+Wire Wire Line
+	20800 2500 20800 2400
+Connection ~ 20800 2500
+Wire Wire Line
+	20200 2100 20200 2200
+Wire Wire Line
+	20200 2200 20200 2700
+Connection ~ 20200 2200
+Wire Wire Line
+	19600 1800 19600 1900
+Wire Wire Line
+	19600 2400 19600 1900
+Connection ~ 19600 1900
+Wire Wire Line
+	19000 1500 19000 1600
+Wire Wire Line
+	19000 1600 19000 2100
+Connection ~ 19000 1600
+Wire Wire Line
+	18400 1800 18400 1300
+Wire Wire Line
+	18400 1300 18400 1200
+Connection ~ 18400 1300
+Connection ~ 17800 1500
+Wire Wire Line
+	17800 1000 17800 1500
+Wire Wire Line
+	17700 1200 17600 1200
+Wire Wire Line
+	17600 1200 17600 1500
+Connection ~ 17600 1500
+Wire Wire Line
+	17700 1500 17600 1500
+Wire Wire Line
+	17600 1800 17700 1800
+Wire Wire Line
+	17600 1500 17600 1800
+Connection ~ 17600 1800
+Connection ~ 17600 1200
+Wire Wire Line
+	17600 700  17600 1200
+Wire Wire Line
+	17600 1800 17600 2100
+Connection ~ 17600 2100
+Wire Wire Line
+	17700 2100 17600 2100
+Wire Wire Line
+	17600 2100 17600 2400
+Connection ~ 17600 2400
+Wire Wire Line
+	17700 2400 17600 2400
+Wire Wire Line
+	17600 2400 17600 2700
+Connection ~ 17600 2700
+Wire Wire Line
+	17600 2700 17700 2700
+Wire Wire Line
+	17600 2700 17600 3000
+Connection ~ 17600 3000
+Wire Wire Line
+	17700 3000 17600 3000
+Wire Wire Line
+	17600 3000 17600 3300
+Connection ~ 17600 3300
+Wire Wire Line
+	17600 3300 17700 3300
+Wire Wire Line
+	17600 3300 17600 3600
+Connection ~ 17600 3600
+Wire Wire Line
+	17700 3600 17600 3600
+Wire Wire Line
+	17600 3600 17600 3900
+Connection ~ 17600 3900
+Wire Wire Line
+	17700 3900 17600 3900
+Wire Wire Line
+	17600 3900 17600 4200
+Connection ~ 17600 4200
+Wire Wire Line
+	17600 4200 17700 4200
+Wire Wire Line
+	17600 4200 17600 4500
+Connection ~ 17600 4500
+Wire Wire Line
+	17700 4500 17600 4500
+Wire Wire Line
+	17600 4500 17600 4800
+Connection ~ 17600 4800
+Wire Wire Line
+	17600 4800 17700 4800
+Wire Wire Line
+	17600 4800 17600 5100
+Wire Wire Line
+	17600 5100 17600 5400
+Connection ~ 17600 5100
+Wire Wire Line
+	17700 5100 17600 5100
+Wire Wire Line
+	17600 5400 17700 5400
+Wire Wire Line
+	17800 5400 18300 5400
+Connection ~ 17800 1000
+Wire Wire Line
+	17800 900  17800 1000
+Wire Wire Line
+	17700 900  17800 900 
+Wire Wire Line
+	18400 900  18300 900 
+Connection ~ 18400 5100
+Wire Wire Line
+	18400 5400 18400 5100
+Wire Wire Line
+	18900 5400 18400 5400
+Wire Wire Line
+	19000 5400 19500 5400
+Connection ~ 19000 1200
+Wire Wire Line
+	19000 900  19000 1200
+Wire Wire Line
+	18900 900  19000 900 
+Wire Wire Line
+	19600 900  19500 900 
+Connection ~ 19600 5100
+Wire Wire Line
+	19600 5400 19600 5100
+Wire Wire Line
+	20100 5400 19600 5400
+Wire Wire Line
+	20200 5400 20700 5400
+Connection ~ 20200 1200
+Wire Wire Line
+	20200 900  20200 1200
+Wire Wire Line
+	20100 900  20200 900 
+Wire Wire Line
+	20800 900  20700 900 
+Connection ~ 20800 5100
+Wire Wire Line
+	20800 5400 20800 5100
+Wire Wire Line
+	21300 5400 20800 5400
+Wire Wire Line
+	21400 5400 21900 5400
+Connection ~ 21400 1200
+Wire Wire Line
+	21400 900  21400 1200
+Wire Wire Line
+	21300 900  21400 900 
+Wire Wire Line
+	22000 900  21900 900 
+Connection ~ 22000 5100
+Wire Wire Line
+	22000 5400 22000 5100
+Wire Wire Line
+	22500 5400 22000 5400
+Wire Wire Line
+	22600 5400 23100 5400
+Connection ~ 22600 1200
+Wire Wire Line
+	22600 900  22600 1200
+Wire Wire Line
+	22500 900  22600 900 
+Wire Wire Line
+	23200 900  23100 900 
+Connection ~ 23200 5100
+Wire Wire Line
+	23200 5400 23200 5100
+Wire Wire Line
+	23700 5400 23200 5400
+Wire Wire Line
+	23800 5400 24300 5400
+Connection ~ 23800 1200
+Wire Wire Line
+	23800 900  23800 1200
+Wire Wire Line
+	23700 900  23800 900 
+Wire Wire Line
+	24400 900  24300 900 
+Connection ~ 24400 5100
+Wire Wire Line
+	24400 5400 24400 5100
+Wire Wire Line
+	24900 5400 24400 5400
+Wire Wire Line
+	25000 900  24900 900 
+Connection ~ 25000 5100
+Wire Wire Line
+	25000 5400 25000 5100
+Wire Wire Line
+	25500 5400 25000 5400
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6284F4
+P 25500 800
+AR Path="/7B6284F4" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6284F4" Ref="D30"  Part="1" 
+F 0 "D30" V 25546 730 50  0000 R CNN
+F 1 "LED_Small" V 25455 730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 25500 800 50  0001 C CNN
+F 3 "~" V 25500 800 50  0001 C CNN
+	1    25500 800 
+	0    -1   -1   0   
+$EndComp
+Connection ~ 25500 700 
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6284FB
+P 25500 1100
+AR Path="/7B6284FB" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6284FB" Ref="D62"  Part="1" 
+F 0 "D62" V 25546 1030 50  0000 R CNN
+F 1 "LED_Small" V 25455 1030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 25500 1100 50  0001 C CNN
+F 3 "~" V 25500 1100 50  0001 C CNN
+	1    25500 1100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 25500 1000
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628502
+P 25500 1400
+AR Path="/7B628502" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628502" Ref="D94"  Part="1" 
+F 0 "D94" V 25546 1330 50  0000 R CNN
+F 1 "LED_Small" V 25455 1330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 25500 1400 50  0001 C CNN
+F 3 "~" V 25500 1400 50  0001 C CNN
+	1    25500 1400
+	0    -1   -1   0   
+$EndComp
+Connection ~ 25500 1300
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628509
+P 25500 1700
+AR Path="/7B628509" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628509" Ref="D126"  Part="1" 
+F 0 "D126" V 25546 1630 50  0000 R CNN
+F 1 "LED_Small" V 25455 1630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 25500 1700 50  0001 C CNN
+F 3 "~" V 25500 1700 50  0001 C CNN
+	1    25500 1700
+	0    -1   -1   0   
+$EndComp
+Connection ~ 25500 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628510
+P 25500 2000
+AR Path="/7B628510" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628510" Ref="D158"  Part="1" 
+F 0 "D158" V 25546 1930 50  0000 R CNN
+F 1 "LED_Small" V 25455 1930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 25500 2000 50  0001 C CNN
+F 3 "~" V 25500 2000 50  0001 C CNN
+	1    25500 2000
+	0    -1   -1   0   
+$EndComp
+Connection ~ 25500 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628517
+P 25500 2300
+AR Path="/7B628517" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628517" Ref="D190"  Part="1" 
+F 0 "D190" V 25546 2230 50  0000 R CNN
+F 1 "LED_Small" V 25455 2230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 25500 2300 50  0001 C CNN
+F 3 "~" V 25500 2300 50  0001 C CNN
+	1    25500 2300
+	0    -1   -1   0   
+$EndComp
+Connection ~ 25500 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 7B62851E
+P 25500 2600
+AR Path="/7B62851E" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B62851E" Ref="D222"  Part="1" 
+F 0 "D222" V 25546 2530 50  0000 R CNN
+F 1 "LED_Small" V 25455 2530 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 25500 2600 50  0001 C CNN
+F 3 "~" V 25500 2600 50  0001 C CNN
+	1    25500 2600
+	0    -1   -1   0   
+$EndComp
+Connection ~ 25500 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628525
+P 25500 2900
+AR Path="/7B628525" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628525" Ref="D254"  Part="1" 
+F 0 "D254" V 25546 2830 50  0000 R CNN
+F 1 "LED_Small" V 25455 2830 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 25500 2900 50  0001 C CNN
+F 3 "~" V 25500 2900 50  0001 C CNN
+	1    25500 2900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 25500 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 7B62852C
+P 25500 3200
+AR Path="/7B62852C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B62852C" Ref="D286"  Part="1" 
+F 0 "D286" V 25546 3130 50  0000 R CNN
+F 1 "LED_Small" V 25455 3130 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 25500 3200 50  0001 C CNN
+F 3 "~" V 25500 3200 50  0001 C CNN
+	1    25500 3200
+	0    -1   -1   0   
+$EndComp
+Connection ~ 25500 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628533
+P 25500 3500
+AR Path="/7B628533" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628533" Ref="D318"  Part="1" 
+F 0 "D318" V 25546 3430 50  0000 R CNN
+F 1 "LED_Small" V 25455 3430 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 25500 3500 50  0001 C CNN
+F 3 "~" V 25500 3500 50  0001 C CNN
+	1    25500 3500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 25500 3400
+$Comp
+L Device:LED_Small D?
+U 1 1 7B62853A
+P 25500 3800
+AR Path="/7B62853A" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B62853A" Ref="D350"  Part="1" 
+F 0 "D350" V 25546 3730 50  0000 R CNN
+F 1 "LED_Small" V 25455 3730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 25500 3800 50  0001 C CNN
+F 3 "~" V 25500 3800 50  0001 C CNN
+	1    25500 3800
+	0    -1   -1   0   
+$EndComp
+Connection ~ 25500 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628541
+P 25500 4100
+AR Path="/7B628541" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628541" Ref="D382"  Part="1" 
+F 0 "D382" V 25546 4030 50  0000 R CNN
+F 1 "LED_Small" V 25455 4030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 25500 4100 50  0001 C CNN
+F 3 "~" V 25500 4100 50  0001 C CNN
+	1    25500 4100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 25500 4000
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628548
+P 25500 4400
+AR Path="/7B628548" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628548" Ref="D414"  Part="1" 
+F 0 "D414" V 25546 4330 50  0000 R CNN
+F 1 "LED_Small" V 25455 4330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 25500 4400 50  0001 C CNN
+F 3 "~" V 25500 4400 50  0001 C CNN
+	1    25500 4400
+	0    -1   -1   0   
+$EndComp
+Connection ~ 25500 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 7B62854F
+P 25500 4700
+AR Path="/7B62854F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B62854F" Ref="D446"  Part="1" 
+F 0 "D446" V 25546 4630 50  0000 R CNN
+F 1 "LED_Small" V 25455 4630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 25500 4700 50  0001 C CNN
+F 3 "~" V 25500 4700 50  0001 C CNN
+	1    25500 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	25000 4600 25500 4600
+Connection ~ 25500 4600
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628557
+P 25500 5000
+AR Path="/7B628557" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628557" Ref="D478"  Part="1" 
+F 0 "D478" V 25546 4930 50  0000 R CNN
+F 1 "LED_Small" V 25455 4930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 25500 5000 50  0001 C CNN
+F 3 "~" V 25500 5000 50  0001 C CNN
+	1    25500 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	25600 4900 25500 4900
+Connection ~ 25500 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 7B62855F
+P 25500 5300
+AR Path="/7B62855F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B62855F" Ref="D510"  Part="1" 
+F 0 "D510" V 25546 5230 50  0000 R CNN
+F 1 "LED_Small" V 25455 5230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 25500 5300 50  0001 C CNN
+F 3 "~" V 25500 5300 50  0001 C CNN
+	1    25500 5300
+	0    -1   -1   0   
+$EndComp
+Connection ~ 25500 5200
+Wire Wire Line
+	25600 900  25500 900 
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628567
+P 17700 800
+AR Path="/7B628567" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628567" Ref="D17"  Part="1" 
+F 0 "D17" V 17746 730 50  0000 R CNN
+F 1 "LED_Small" V 17655 730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 17700 800 50  0001 C CNN
+F 3 "~" V 17700 800 50  0001 C CNN
+	1    17700 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	17600 700  17700 700 
+Connection ~ 17700 700 
+$Comp
+L Device:LED_Small D?
+U 1 1 7B62856F
+P 17700 1100
+AR Path="/7B62856F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B62856F" Ref="D49"  Part="1" 
+F 0 "D49" V 17746 1030 50  0000 R CNN
+F 1 "LED_Small" V 17655 1030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 17700 1100 50  0001 C CNN
+F 3 "~" V 17700 1100 50  0001 C CNN
+	1    17700 1100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 17700 1000
+Wire Wire Line
+	17700 1000 17800 1000
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628577
+P 17700 1400
+AR Path="/7B628577" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628577" Ref="D81"  Part="1" 
+F 0 "D81" V 17746 1330 50  0000 R CNN
+F 1 "LED_Small" V 17655 1330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 17700 1400 50  0001 C CNN
+F 3 "~" V 17700 1400 50  0001 C CNN
+	1    17700 1400
+	0    -1   -1   0   
+$EndComp
+Connection ~ 17700 1300
+Wire Wire Line
+	17700 1300 18300 1300
+$Comp
+L Device:LED_Small D?
+U 1 1 7B62857F
+P 17700 1700
+AR Path="/7B62857F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B62857F" Ref="D113"  Part="1" 
+F 0 "D113" V 17746 1630 50  0000 R CNN
+F 1 "LED_Small" V 17655 1630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 17700 1700 50  0001 C CNN
+F 3 "~" V 17700 1700 50  0001 C CNN
+	1    17700 1700
+	0    -1   -1   0   
+$EndComp
+Connection ~ 17700 1600
+Wire Wire Line
+	17700 1600 18300 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628587
+P 17700 2000
+AR Path="/7B628587" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628587" Ref="D145"  Part="1" 
+F 0 "D145" V 17746 1930 50  0000 R CNN
+F 1 "LED_Small" V 17655 1930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 17700 2000 50  0001 C CNN
+F 3 "~" V 17700 2000 50  0001 C CNN
+	1    17700 2000
+	0    -1   -1   0   
+$EndComp
+Connection ~ 17700 1900
+Wire Wire Line
+	17700 1900 18300 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 7B62858F
+P 17700 2300
+AR Path="/7B62858F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B62858F" Ref="D177"  Part="1" 
+F 0 "D177" V 17746 2230 50  0000 R CNN
+F 1 "LED_Small" V 17655 2230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 17700 2300 50  0001 C CNN
+F 3 "~" V 17700 2300 50  0001 C CNN
+	1    17700 2300
+	0    -1   -1   0   
+$EndComp
+Connection ~ 17700 2200
+Wire Wire Line
+	17700 2200 18300 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628597
+P 17700 2600
+AR Path="/7B628597" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628597" Ref="D209"  Part="1" 
+F 0 "D209" V 17746 2530 50  0000 R CNN
+F 1 "LED_Small" V 17655 2530 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 17700 2600 50  0001 C CNN
+F 3 "~" V 17700 2600 50  0001 C CNN
+	1    17700 2600
+	0    -1   -1   0   
+$EndComp
+Connection ~ 17700 2500
+Wire Wire Line
+	17700 2500 18300 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 7B62859F
+P 17700 2900
+AR Path="/7B62859F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B62859F" Ref="D241"  Part="1" 
+F 0 "D241" V 17746 2830 50  0000 R CNN
+F 1 "LED_Small" V 17655 2830 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 17700 2900 50  0001 C CNN
+F 3 "~" V 17700 2900 50  0001 C CNN
+	1    17700 2900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 17700 2800
+Wire Wire Line
+	17700 2800 18300 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6285A7
+P 17700 3200
+AR Path="/7B6285A7" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6285A7" Ref="D273"  Part="1" 
+F 0 "D273" V 17746 3130 50  0000 R CNN
+F 1 "LED_Small" V 17655 3130 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 17700 3200 50  0001 C CNN
+F 3 "~" V 17700 3200 50  0001 C CNN
+	1    17700 3200
+	0    -1   -1   0   
+$EndComp
+Connection ~ 17700 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6285AE
+P 17700 3500
+AR Path="/7B6285AE" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6285AE" Ref="D305"  Part="1" 
+F 0 "D305" V 17746 3430 50  0000 R CNN
+F 1 "LED_Small" V 17655 3430 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 17700 3500 50  0001 C CNN
+F 3 "~" V 17700 3500 50  0001 C CNN
+	1    17700 3500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 17700 3400
+Wire Wire Line
+	17700 3400 18300 3400
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6285B6
+P 17700 3800
+AR Path="/7B6285B6" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6285B6" Ref="D337"  Part="1" 
+F 0 "D337" V 17746 3730 50  0000 R CNN
+F 1 "LED_Small" V 17655 3730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 17700 3800 50  0001 C CNN
+F 3 "~" V 17700 3800 50  0001 C CNN
+	1    17700 3800
+	0    -1   -1   0   
+$EndComp
+Connection ~ 17700 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6285BD
+P 17700 4100
+AR Path="/7B6285BD" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6285BD" Ref="D369"  Part="1" 
+F 0 "D369" V 17746 4030 50  0000 R CNN
+F 1 "LED_Small" V 17655 4030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 17700 4100 50  0001 C CNN
+F 3 "~" V 17700 4100 50  0001 C CNN
+	1    17700 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	17700 4000 18300 4000
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6285C4
+P 17700 4400
+AR Path="/7B6285C4" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6285C4" Ref="D401"  Part="1" 
+F 0 "D401" V 17746 4330 50  0000 R CNN
+F 1 "LED_Small" V 17655 4330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 17700 4400 50  0001 C CNN
+F 3 "~" V 17700 4400 50  0001 C CNN
+	1    17700 4400
+	0    -1   -1   0   
+$EndComp
+Connection ~ 17700 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6285CB
+P 17700 4700
+AR Path="/7B6285CB" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6285CB" Ref="D433"  Part="1" 
+F 0 "D433" V 17746 4630 50  0000 R CNN
+F 1 "LED_Small" V 17655 4630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 17700 4700 50  0001 C CNN
+F 3 "~" V 17700 4700 50  0001 C CNN
+	1    17700 4700
+	0    -1   -1   0   
+$EndComp
+Connection ~ 17700 4600
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6285D2
+P 17700 5000
+AR Path="/7B6285D2" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6285D2" Ref="D465"  Part="1" 
+F 0 "D465" V 17746 4930 50  0000 R CNN
+F 1 "LED_Small" V 17655 4930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 17700 5000 50  0001 C CNN
+F 3 "~" V 17700 5000 50  0001 C CNN
+	1    17700 5000
+	0    -1   -1   0   
+$EndComp
+Connection ~ 17700 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6285D9
+P 17700 5300
+AR Path="/7B6285D9" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6285D9" Ref="D497"  Part="1" 
+F 0 "D497" V 17746 5230 50  0000 R CNN
+F 1 "LED_Small" V 17655 5230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 17700 5300 50  0001 C CNN
+F 3 "~" V 17700 5300 50  0001 C CNN
+	1    17700 5300
+	0    -1   -1   0   
+$EndComp
+Connection ~ 17700 5200
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6285E0
+P 18300 800
+AR Path="/7B6285E0" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6285E0" Ref="D18"  Part="1" 
+F 0 "D18" V 18346 730 50  0000 R CNN
+F 1 "LED_Small" V 18255 730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18300 800 50  0001 C CNN
+F 3 "~" V 18300 800 50  0001 C CNN
+	1    18300 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	17700 700  18300 700 
+Connection ~ 18300 700 
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6285E8
+P 18300 1100
+AR Path="/7B6285E8" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6285E8" Ref="D50"  Part="1" 
+F 0 "D50" V 18346 1030 50  0000 R CNN
+F 1 "LED_Small" V 18255 1030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18300 1100 50  0001 C CNN
+F 3 "~" V 18300 1100 50  0001 C CNN
+	1    18300 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	17800 1000 18300 1000
+Connection ~ 18300 1000
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6285F0
+P 18300 1400
+AR Path="/7B6285F0" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6285F0" Ref="D82"  Part="1" 
+F 0 "D82" V 18346 1330 50  0000 R CNN
+F 1 "LED_Small" V 18255 1330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18300 1400 50  0001 C CNN
+F 3 "~" V 18300 1400 50  0001 C CNN
+	1    18300 1400
+	0    -1   -1   0   
+$EndComp
+Connection ~ 18300 1300
+Wire Wire Line
+	18300 1300 18400 1300
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6285F8
+P 18300 1700
+AR Path="/7B6285F8" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6285F8" Ref="D114"  Part="1" 
+F 0 "D114" V 18346 1630 50  0000 R CNN
+F 1 "LED_Small" V 18255 1630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18300 1700 50  0001 C CNN
+F 3 "~" V 18300 1700 50  0001 C CNN
+	1    18300 1700
+	0    -1   -1   0   
+$EndComp
+Connection ~ 18300 1600
+Wire Wire Line
+	18300 1600 18900 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628600
+P 18300 2000
+AR Path="/7B628600" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628600" Ref="D146"  Part="1" 
+F 0 "D146" V 18346 1930 50  0000 R CNN
+F 1 "LED_Small" V 18255 1930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18300 2000 50  0001 C CNN
+F 3 "~" V 18300 2000 50  0001 C CNN
+	1    18300 2000
+	0    -1   -1   0   
+$EndComp
+Connection ~ 18300 1900
+Wire Wire Line
+	18300 1900 18900 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628608
+P 18300 2300
+AR Path="/7B628608" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628608" Ref="D178"  Part="1" 
+F 0 "D178" V 18346 2230 50  0000 R CNN
+F 1 "LED_Small" V 18255 2230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18300 2300 50  0001 C CNN
+F 3 "~" V 18300 2300 50  0001 C CNN
+	1    18300 2300
+	0    -1   -1   0   
+$EndComp
+Connection ~ 18300 2200
+Wire Wire Line
+	18300 2200 18900 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628610
+P 18300 2600
+AR Path="/7B628610" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628610" Ref="D210"  Part="1" 
+F 0 "D210" V 18346 2530 50  0000 R CNN
+F 1 "LED_Small" V 18255 2530 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18300 2600 50  0001 C CNN
+F 3 "~" V 18300 2600 50  0001 C CNN
+	1    18300 2600
+	0    -1   -1   0   
+$EndComp
+Connection ~ 18300 2500
+Wire Wire Line
+	18300 2500 18900 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628618
+P 18300 2900
+AR Path="/7B628618" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628618" Ref="D242"  Part="1" 
+F 0 "D242" V 18346 2830 50  0000 R CNN
+F 1 "LED_Small" V 18255 2830 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18300 2900 50  0001 C CNN
+F 3 "~" V 18300 2900 50  0001 C CNN
+	1    18300 2900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 18300 2800
+Wire Wire Line
+	18300 2800 18900 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628620
+P 18300 3200
+AR Path="/7B628620" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628620" Ref="D274"  Part="1" 
+F 0 "D274" V 18346 3130 50  0000 R CNN
+F 1 "LED_Small" V 18255 3130 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18300 3200 50  0001 C CNN
+F 3 "~" V 18300 3200 50  0001 C CNN
+	1    18300 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18300 3100 17700 3100
+Connection ~ 18300 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628628
+P 18300 3500
+AR Path="/7B628628" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628628" Ref="D306"  Part="1" 
+F 0 "D306" V 18346 3430 50  0000 R CNN
+F 1 "LED_Small" V 18255 3430 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18300 3500 50  0001 C CNN
+F 3 "~" V 18300 3500 50  0001 C CNN
+	1    18300 3500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 18300 3400
+Wire Wire Line
+	18300 3400 18900 3400
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628630
+P 18300 3800
+AR Path="/7B628630" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628630" Ref="D338"  Part="1" 
+F 0 "D338" V 18346 3730 50  0000 R CNN
+F 1 "LED_Small" V 18255 3730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18300 3800 50  0001 C CNN
+F 3 "~" V 18300 3800 50  0001 C CNN
+	1    18300 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18300 3700 17700 3700
+Connection ~ 18300 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628638
+P 18300 4100
+AR Path="/7B628638" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628638" Ref="D370"  Part="1" 
+F 0 "D370" V 18346 4030 50  0000 R CNN
+F 1 "LED_Small" V 18255 4030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18300 4100 50  0001 C CNN
+F 3 "~" V 18300 4100 50  0001 C CNN
+	1    18300 4100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 18300 4000
+Wire Wire Line
+	18300 4000 18900 4000
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628640
+P 18300 4400
+AR Path="/7B628640" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628640" Ref="D402"  Part="1" 
+F 0 "D402" V 18346 4330 50  0000 R CNN
+F 1 "LED_Small" V 18255 4330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18300 4400 50  0001 C CNN
+F 3 "~" V 18300 4400 50  0001 C CNN
+	1    18300 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18300 4300 17700 4300
+Connection ~ 18300 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628648
+P 18300 4700
+AR Path="/7B628648" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628648" Ref="D434"  Part="1" 
+F 0 "D434" V 18346 4630 50  0000 R CNN
+F 1 "LED_Small" V 18255 4630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18300 4700 50  0001 C CNN
+F 3 "~" V 18300 4700 50  0001 C CNN
+	1    18300 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	17700 4600 18300 4600
+Connection ~ 18300 4600
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628650
+P 18300 5000
+AR Path="/7B628650" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628650" Ref="D466"  Part="1" 
+F 0 "D466" V 18346 4930 50  0000 R CNN
+F 1 "LED_Small" V 18255 4930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18300 5000 50  0001 C CNN
+F 3 "~" V 18300 5000 50  0001 C CNN
+	1    18300 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18300 4900 17700 4900
+Connection ~ 18300 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628658
+P 18300 5300
+AR Path="/7B628658" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628658" Ref="D498"  Part="1" 
+F 0 "D498" V 18346 5230 50  0000 R CNN
+F 1 "LED_Small" V 18255 5230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18300 5300 50  0001 C CNN
+F 3 "~" V 18300 5300 50  0001 C CNN
+	1    18300 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	17700 5200 18300 5200
+Connection ~ 18300 5200
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628660
+P 18900 800
+AR Path="/7B628660" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628660" Ref="D19"  Part="1" 
+F 0 "D19" V 18946 730 50  0000 R CNN
+F 1 "LED_Small" V 18855 730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18900 800 50  0001 C CNN
+F 3 "~" V 18900 800 50  0001 C CNN
+	1    18900 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18300 700  18900 700 
+Connection ~ 18900 700 
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628668
+P 18900 1100
+AR Path="/7B628668" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628668" Ref="D51"  Part="1" 
+F 0 "D51" V 18946 1030 50  0000 R CNN
+F 1 "LED_Small" V 18855 1030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18900 1100 50  0001 C CNN
+F 3 "~" V 18900 1100 50  0001 C CNN
+	1    18900 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18300 1000 18900 1000
+Connection ~ 18900 1000
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628670
+P 18900 1400
+AR Path="/7B628670" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628670" Ref="D83"  Part="1" 
+F 0 "D83" V 18946 1330 50  0000 R CNN
+F 1 "LED_Small" V 18855 1330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18900 1400 50  0001 C CNN
+F 3 "~" V 18900 1400 50  0001 C CNN
+	1    18900 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18400 1300 18900 1300
+Connection ~ 18900 1300
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628678
+P 18900 1700
+AR Path="/7B628678" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628678" Ref="D115"  Part="1" 
+F 0 "D115" V 18946 1630 50  0000 R CNN
+F 1 "LED_Small" V 18855 1630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18900 1700 50  0001 C CNN
+F 3 "~" V 18900 1700 50  0001 C CNN
+	1    18900 1700
+	0    -1   -1   0   
+$EndComp
+Connection ~ 18900 1600
+Wire Wire Line
+	18900 1600 19000 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628680
+P 18900 2000
+AR Path="/7B628680" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628680" Ref="D147"  Part="1" 
+F 0 "D147" V 18946 1930 50  0000 R CNN
+F 1 "LED_Small" V 18855 1930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18900 2000 50  0001 C CNN
+F 3 "~" V 18900 2000 50  0001 C CNN
+	1    18900 2000
+	0    -1   -1   0   
+$EndComp
+Connection ~ 18900 1900
+Wire Wire Line
+	18900 1900 19500 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628688
+P 18900 2300
+AR Path="/7B628688" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628688" Ref="D179"  Part="1" 
+F 0 "D179" V 18946 2230 50  0000 R CNN
+F 1 "LED_Small" V 18855 2230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18900 2300 50  0001 C CNN
+F 3 "~" V 18900 2300 50  0001 C CNN
+	1    18900 2300
+	0    -1   -1   0   
+$EndComp
+Connection ~ 18900 2200
+Wire Wire Line
+	18900 2200 19500 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628690
+P 18900 2600
+AR Path="/7B628690" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628690" Ref="D211"  Part="1" 
+F 0 "D211" V 18946 2530 50  0000 R CNN
+F 1 "LED_Small" V 18855 2530 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18900 2600 50  0001 C CNN
+F 3 "~" V 18900 2600 50  0001 C CNN
+	1    18900 2600
+	0    -1   -1   0   
+$EndComp
+Connection ~ 18900 2500
+Wire Wire Line
+	18900 2500 19500 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628698
+P 18900 2900
+AR Path="/7B628698" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628698" Ref="D243"  Part="1" 
+F 0 "D243" V 18946 2830 50  0000 R CNN
+F 1 "LED_Small" V 18855 2830 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18900 2900 50  0001 C CNN
+F 3 "~" V 18900 2900 50  0001 C CNN
+	1    18900 2900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 18900 2800
+Wire Wire Line
+	18900 2800 19500 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6286A0
+P 18900 3200
+AR Path="/7B6286A0" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6286A0" Ref="D275"  Part="1" 
+F 0 "D275" V 18946 3130 50  0000 R CNN
+F 1 "LED_Small" V 18855 3130 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18900 3200 50  0001 C CNN
+F 3 "~" V 18900 3200 50  0001 C CNN
+	1    18900 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18900 3100 18300 3100
+Connection ~ 18900 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6286A8
+P 18900 3500
+AR Path="/7B6286A8" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6286A8" Ref="D307"  Part="1" 
+F 0 "D307" V 18946 3430 50  0000 R CNN
+F 1 "LED_Small" V 18855 3430 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18900 3500 50  0001 C CNN
+F 3 "~" V 18900 3500 50  0001 C CNN
+	1    18900 3500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 18900 3400
+Wire Wire Line
+	18900 3400 19500 3400
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6286B0
+P 18900 3800
+AR Path="/7B6286B0" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6286B0" Ref="D339"  Part="1" 
+F 0 "D339" V 18946 3730 50  0000 R CNN
+F 1 "LED_Small" V 18855 3730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18900 3800 50  0001 C CNN
+F 3 "~" V 18900 3800 50  0001 C CNN
+	1    18900 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18900 3700 18300 3700
+Connection ~ 18900 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6286B8
+P 18900 4100
+AR Path="/7B6286B8" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6286B8" Ref="D371"  Part="1" 
+F 0 "D371" V 18946 4030 50  0000 R CNN
+F 1 "LED_Small" V 18855 4030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18900 4100 50  0001 C CNN
+F 3 "~" V 18900 4100 50  0001 C CNN
+	1    18900 4100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 18900 4000
+Wire Wire Line
+	18900 4000 19500 4000
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6286C0
+P 18900 4400
+AR Path="/7B6286C0" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6286C0" Ref="D403"  Part="1" 
+F 0 "D403" V 18946 4330 50  0000 R CNN
+F 1 "LED_Small" V 18855 4330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18900 4400 50  0001 C CNN
+F 3 "~" V 18900 4400 50  0001 C CNN
+	1    18900 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18900 4300 18300 4300
+Connection ~ 18900 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6286C8
+P 18900 4700
+AR Path="/7B6286C8" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6286C8" Ref="D435"  Part="1" 
+F 0 "D435" V 18946 4630 50  0000 R CNN
+F 1 "LED_Small" V 18855 4630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18900 4700 50  0001 C CNN
+F 3 "~" V 18900 4700 50  0001 C CNN
+	1    18900 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18300 4600 18900 4600
+Connection ~ 18900 4600
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6286D0
+P 18900 5000
+AR Path="/7B6286D0" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6286D0" Ref="D467"  Part="1" 
+F 0 "D467" V 18946 4930 50  0000 R CNN
+F 1 "LED_Small" V 18855 4930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18900 5000 50  0001 C CNN
+F 3 "~" V 18900 5000 50  0001 C CNN
+	1    18900 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18900 4900 18300 4900
+Connection ~ 18900 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6286D8
+P 18900 5300
+AR Path="/7B6286D8" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6286D8" Ref="D499"  Part="1" 
+F 0 "D499" V 18946 5230 50  0000 R CNN
+F 1 "LED_Small" V 18855 5230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18900 5300 50  0001 C CNN
+F 3 "~" V 18900 5300 50  0001 C CNN
+	1    18900 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18300 5200 18900 5200
+Connection ~ 18900 5200
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6286E0
+P 19500 800
+AR Path="/7B6286E0" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6286E0" Ref="D20"  Part="1" 
+F 0 "D20" V 19546 730 50  0000 R CNN
+F 1 "LED_Small" V 19455 730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 19500 800 50  0001 C CNN
+F 3 "~" V 19500 800 50  0001 C CNN
+	1    19500 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18900 700  19500 700 
+Connection ~ 19500 700 
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6286E8
+P 19500 1100
+AR Path="/7B6286E8" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6286E8" Ref="D52"  Part="1" 
+F 0 "D52" V 19546 1030 50  0000 R CNN
+F 1 "LED_Small" V 19455 1030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 19500 1100 50  0001 C CNN
+F 3 "~" V 19500 1100 50  0001 C CNN
+	1    19500 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19500 1000 20100 1000
+Wire Wire Line
+	18900 1000 19500 1000
+Connection ~ 19500 1000
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6286F1
+P 19500 1400
+AR Path="/7B6286F1" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6286F1" Ref="D84"  Part="1" 
+F 0 "D84" V 19546 1330 50  0000 R CNN
+F 1 "LED_Small" V 19455 1330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 19500 1400 50  0001 C CNN
+F 3 "~" V 19500 1400 50  0001 C CNN
+	1    19500 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18900 1300 19500 1300
+Connection ~ 19500 1300
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6286F9
+P 19500 1700
+AR Path="/7B6286F9" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6286F9" Ref="D116"  Part="1" 
+F 0 "D116" V 19546 1630 50  0000 R CNN
+F 1 "LED_Small" V 19455 1630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 19500 1700 50  0001 C CNN
+F 3 "~" V 19500 1700 50  0001 C CNN
+	1    19500 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19000 1600 19500 1600
+Connection ~ 19500 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628701
+P 19500 2000
+AR Path="/7B628701" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628701" Ref="D148"  Part="1" 
+F 0 "D148" V 19546 1930 50  0000 R CNN
+F 1 "LED_Small" V 19455 1930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 19500 2000 50  0001 C CNN
+F 3 "~" V 19500 2000 50  0001 C CNN
+	1    19500 2000
+	0    -1   -1   0   
+$EndComp
+Connection ~ 19500 1900
+Wire Wire Line
+	19500 1900 19600 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628709
+P 19500 2300
+AR Path="/7B628709" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628709" Ref="D180"  Part="1" 
+F 0 "D180" V 19546 2230 50  0000 R CNN
+F 1 "LED_Small" V 19455 2230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 19500 2300 50  0001 C CNN
+F 3 "~" V 19500 2300 50  0001 C CNN
+	1    19500 2300
+	0    -1   -1   0   
+$EndComp
+Connection ~ 19500 2200
+Wire Wire Line
+	19500 2200 20100 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628711
+P 19500 2600
+AR Path="/7B628711" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628711" Ref="D212"  Part="1" 
+F 0 "D212" V 19546 2530 50  0000 R CNN
+F 1 "LED_Small" V 19455 2530 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 19500 2600 50  0001 C CNN
+F 3 "~" V 19500 2600 50  0001 C CNN
+	1    19500 2600
+	0    -1   -1   0   
+$EndComp
+Connection ~ 19500 2500
+Wire Wire Line
+	19500 2500 20100 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628719
+P 19500 2900
+AR Path="/7B628719" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628719" Ref="D244"  Part="1" 
+F 0 "D244" V 19546 2830 50  0000 R CNN
+F 1 "LED_Small" V 19455 2830 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 19500 2900 50  0001 C CNN
+F 3 "~" V 19500 2900 50  0001 C CNN
+	1    19500 2900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 19500 2800
+Wire Wire Line
+	19500 2800 20100 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628721
+P 19500 3200
+AR Path="/7B628721" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628721" Ref="D276"  Part="1" 
+F 0 "D276" V 19546 3130 50  0000 R CNN
+F 1 "LED_Small" V 19455 3130 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 19500 3200 50  0001 C CNN
+F 3 "~" V 19500 3200 50  0001 C CNN
+	1    19500 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19500 3100 18900 3100
+Connection ~ 19500 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628729
+P 19500 3500
+AR Path="/7B628729" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628729" Ref="D308"  Part="1" 
+F 0 "D308" V 19546 3430 50  0000 R CNN
+F 1 "LED_Small" V 19455 3430 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 19500 3500 50  0001 C CNN
+F 3 "~" V 19500 3500 50  0001 C CNN
+	1    19500 3500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 19500 3400
+Wire Wire Line
+	19500 3400 20100 3400
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628731
+P 19500 3800
+AR Path="/7B628731" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628731" Ref="D340"  Part="1" 
+F 0 "D340" V 19546 3730 50  0000 R CNN
+F 1 "LED_Small" V 19455 3730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 19500 3800 50  0001 C CNN
+F 3 "~" V 19500 3800 50  0001 C CNN
+	1    19500 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19500 3700 18900 3700
+Connection ~ 19500 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628739
+P 19500 4100
+AR Path="/7B628739" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628739" Ref="D372"  Part="1" 
+F 0 "D372" V 19546 4030 50  0000 R CNN
+F 1 "LED_Small" V 19455 4030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 19500 4100 50  0001 C CNN
+F 3 "~" V 19500 4100 50  0001 C CNN
+	1    19500 4100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 19500 4000
+Wire Wire Line
+	19500 4000 20100 4000
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628741
+P 19500 4400
+AR Path="/7B628741" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628741" Ref="D404"  Part="1" 
+F 0 "D404" V 19546 4330 50  0000 R CNN
+F 1 "LED_Small" V 19455 4330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 19500 4400 50  0001 C CNN
+F 3 "~" V 19500 4400 50  0001 C CNN
+	1    19500 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19500 4300 18900 4300
+Connection ~ 19500 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628749
+P 19500 4700
+AR Path="/7B628749" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628749" Ref="D436"  Part="1" 
+F 0 "D436" V 19546 4630 50  0000 R CNN
+F 1 "LED_Small" V 19455 4630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 19500 4700 50  0001 C CNN
+F 3 "~" V 19500 4700 50  0001 C CNN
+	1    19500 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18900 4600 19500 4600
+Connection ~ 19500 4600
+Wire Wire Line
+	19500 4900 18900 4900
+Connection ~ 19500 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628753
+P 19500 5300
+AR Path="/7B628753" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628753" Ref="D500"  Part="1" 
+F 0 "D500" V 19546 5230 50  0000 R CNN
+F 1 "LED_Small" V 19455 5230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 19500 5300 50  0001 C CNN
+F 3 "~" V 19500 5300 50  0001 C CNN
+	1    19500 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18900 5200 19500 5200
+Connection ~ 19500 5200
+$Comp
+L Device:LED_Small D?
+U 1 1 7B62875B
+P 20100 800
+AR Path="/7B62875B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B62875B" Ref="D21"  Part="1" 
+F 0 "D21" V 20146 730 50  0000 R CNN
+F 1 "LED_Small" V 20055 730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20100 800 50  0001 C CNN
+F 3 "~" V 20100 800 50  0001 C CNN
+	1    20100 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19500 700  20100 700 
+Connection ~ 20100 700 
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628763
+P 20100 1400
+AR Path="/7B628763" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628763" Ref="D85"  Part="1" 
+F 0 "D85" V 20146 1330 50  0000 R CNN
+F 1 "LED_Small" V 20055 1330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20100 1400 50  0001 C CNN
+F 3 "~" V 20100 1400 50  0001 C CNN
+	1    20100 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19500 1300 20100 1300
+Connection ~ 20100 1300
+$Comp
+L Device:LED_Small D?
+U 1 1 7B62876B
+P 20100 1700
+AR Path="/7B62876B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B62876B" Ref="D117"  Part="1" 
+F 0 "D117" V 20146 1630 50  0000 R CNN
+F 1 "LED_Small" V 20055 1630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20100 1700 50  0001 C CNN
+F 3 "~" V 20100 1700 50  0001 C CNN
+	1    20100 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19500 1600 20100 1600
+Connection ~ 20100 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628773
+P 20100 2000
+AR Path="/7B628773" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628773" Ref="D149"  Part="1" 
+F 0 "D149" V 20146 1930 50  0000 R CNN
+F 1 "LED_Small" V 20055 1930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20100 2000 50  0001 C CNN
+F 3 "~" V 20100 2000 50  0001 C CNN
+	1    20100 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19600 1900 20100 1900
+Connection ~ 20100 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 7B62877B
+P 20100 2300
+AR Path="/7B62877B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B62877B" Ref="D181"  Part="1" 
+F 0 "D181" V 20146 2230 50  0000 R CNN
+F 1 "LED_Small" V 20055 2230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20100 2300 50  0001 C CNN
+F 3 "~" V 20100 2300 50  0001 C CNN
+	1    20100 2300
+	0    -1   -1   0   
+$EndComp
+Connection ~ 20100 2200
+Wire Wire Line
+	20100 2200 20200 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628783
+P 20100 2600
+AR Path="/7B628783" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628783" Ref="D213"  Part="1" 
+F 0 "D213" V 20146 2530 50  0000 R CNN
+F 1 "LED_Small" V 20055 2530 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20100 2600 50  0001 C CNN
+F 3 "~" V 20100 2600 50  0001 C CNN
+	1    20100 2600
+	0    -1   -1   0   
+$EndComp
+Connection ~ 20100 2500
+Wire Wire Line
+	20100 2500 20700 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 7B62878B
+P 20100 2900
+AR Path="/7B62878B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B62878B" Ref="D245"  Part="1" 
+F 0 "D245" V 20146 2830 50  0000 R CNN
+F 1 "LED_Small" V 20055 2830 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20100 2900 50  0001 C CNN
+F 3 "~" V 20100 2900 50  0001 C CNN
+	1    20100 2900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 20100 2800
+Wire Wire Line
+	20100 2800 20700 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628793
+P 20100 3200
+AR Path="/7B628793" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628793" Ref="D277"  Part="1" 
+F 0 "D277" V 20146 3130 50  0000 R CNN
+F 1 "LED_Small" V 20055 3130 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20100 3200 50  0001 C CNN
+F 3 "~" V 20100 3200 50  0001 C CNN
+	1    20100 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20100 3100 19500 3100
+Connection ~ 20100 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 7B62879B
+P 20100 3500
+AR Path="/7B62879B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B62879B" Ref="D309"  Part="1" 
+F 0 "D309" V 20146 3430 50  0000 R CNN
+F 1 "LED_Small" V 20055 3430 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20100 3500 50  0001 C CNN
+F 3 "~" V 20100 3500 50  0001 C CNN
+	1    20100 3500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 20100 3400
+Wire Wire Line
+	20100 3400 20700 3400
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6287A3
+P 20100 3800
+AR Path="/7B6287A3" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6287A3" Ref="D341"  Part="1" 
+F 0 "D341" V 20146 3730 50  0000 R CNN
+F 1 "LED_Small" V 20055 3730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20100 3800 50  0001 C CNN
+F 3 "~" V 20100 3800 50  0001 C CNN
+	1    20100 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20100 3700 19500 3700
+Connection ~ 20100 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6287AB
+P 20100 4100
+AR Path="/7B6287AB" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6287AB" Ref="D373"  Part="1" 
+F 0 "D373" V 20146 4030 50  0000 R CNN
+F 1 "LED_Small" V 20055 4030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20100 4100 50  0001 C CNN
+F 3 "~" V 20100 4100 50  0001 C CNN
+	1    20100 4100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 20100 4000
+Wire Wire Line
+	20100 4000 20700 4000
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6287B3
+P 20100 4400
+AR Path="/7B6287B3" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6287B3" Ref="D405"  Part="1" 
+F 0 "D405" V 20146 4330 50  0000 R CNN
+F 1 "LED_Small" V 20055 4330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20100 4400 50  0001 C CNN
+F 3 "~" V 20100 4400 50  0001 C CNN
+	1    20100 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20100 4300 19500 4300
+Connection ~ 20100 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6287BB
+P 20100 4700
+AR Path="/7B6287BB" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6287BB" Ref="D437"  Part="1" 
+F 0 "D437" V 20146 4630 50  0000 R CNN
+F 1 "LED_Small" V 20055 4630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20100 4700 50  0001 C CNN
+F 3 "~" V 20100 4700 50  0001 C CNN
+	1    20100 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19500 4600 20100 4600
+Connection ~ 20100 4600
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6287C3
+P 20100 5000
+AR Path="/7B6287C3" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6287C3" Ref="D469"  Part="1" 
+F 0 "D469" V 20146 4930 50  0000 R CNN
+F 1 "LED_Small" V 20055 4930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20100 5000 50  0001 C CNN
+F 3 "~" V 20100 5000 50  0001 C CNN
+	1    20100 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20100 4900 19500 4900
+Connection ~ 20100 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6287CB
+P 20100 5300
+AR Path="/7B6287CB" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6287CB" Ref="D501"  Part="1" 
+F 0 "D501" V 20146 5230 50  0000 R CNN
+F 1 "LED_Small" V 20055 5230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20100 5300 50  0001 C CNN
+F 3 "~" V 20100 5300 50  0001 C CNN
+	1    20100 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19500 5200 20100 5200
+Connection ~ 20100 5200
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6287D3
+P 20700 800
+AR Path="/7B6287D3" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6287D3" Ref="D22"  Part="1" 
+F 0 "D22" V 20746 730 50  0000 R CNN
+F 1 "LED_Small" V 20655 730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20700 800 50  0001 C CNN
+F 3 "~" V 20700 800 50  0001 C CNN
+	1    20700 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20100 700  20700 700 
+Connection ~ 20700 700 
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6287DB
+P 20700 1100
+AR Path="/7B6287DB" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6287DB" Ref="D54"  Part="1" 
+F 0 "D54" V 20746 1030 50  0000 R CNN
+F 1 "LED_Small" V 20655 1030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20700 1100 50  0001 C CNN
+F 3 "~" V 20700 1100 50  0001 C CNN
+	1    20700 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20100 1000 20700 1000
+Connection ~ 20700 1000
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6287E3
+P 20700 1400
+AR Path="/7B6287E3" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6287E3" Ref="D86"  Part="1" 
+F 0 "D86" V 20746 1330 50  0000 R CNN
+F 1 "LED_Small" V 20655 1330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20700 1400 50  0001 C CNN
+F 3 "~" V 20700 1400 50  0001 C CNN
+	1    20700 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20100 1300 20700 1300
+Connection ~ 20700 1300
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6287EB
+P 20700 1700
+AR Path="/7B6287EB" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6287EB" Ref="D118"  Part="1" 
+F 0 "D118" V 20746 1630 50  0000 R CNN
+F 1 "LED_Small" V 20655 1630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20700 1700 50  0001 C CNN
+F 3 "~" V 20700 1700 50  0001 C CNN
+	1    20700 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20100 1600 20700 1600
+Connection ~ 20700 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6287F3
+P 20700 2000
+AR Path="/7B6287F3" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6287F3" Ref="D150"  Part="1" 
+F 0 "D150" V 20746 1930 50  0000 R CNN
+F 1 "LED_Small" V 20655 1930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20700 2000 50  0001 C CNN
+F 3 "~" V 20700 2000 50  0001 C CNN
+	1    20700 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20100 1900 20700 1900
+Connection ~ 20700 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6287FB
+P 20700 2300
+AR Path="/7B6287FB" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6287FB" Ref="D182"  Part="1" 
+F 0 "D182" V 20746 2230 50  0000 R CNN
+F 1 "LED_Small" V 20655 2230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20700 2300 50  0001 C CNN
+F 3 "~" V 20700 2300 50  0001 C CNN
+	1    20700 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20200 2200 20700 2200
+Connection ~ 20700 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628803
+P 20700 2600
+AR Path="/7B628803" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628803" Ref="D214"  Part="1" 
+F 0 "D214" V 20746 2530 50  0000 R CNN
+F 1 "LED_Small" V 20655 2530 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20700 2600 50  0001 C CNN
+F 3 "~" V 20700 2600 50  0001 C CNN
+	1    20700 2600
+	0    -1   -1   0   
+$EndComp
+Connection ~ 20700 2500
+Wire Wire Line
+	20700 2500 20800 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 7B62880B
+P 20700 2900
+AR Path="/7B62880B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B62880B" Ref="D246"  Part="1" 
+F 0 "D246" V 20746 2830 50  0000 R CNN
+F 1 "LED_Small" V 20655 2830 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20700 2900 50  0001 C CNN
+F 3 "~" V 20700 2900 50  0001 C CNN
+	1    20700 2900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 20700 2800
+Wire Wire Line
+	20700 2800 21300 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628813
+P 20700 3200
+AR Path="/7B628813" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628813" Ref="D278"  Part="1" 
+F 0 "D278" V 20746 3130 50  0000 R CNN
+F 1 "LED_Small" V 20655 3130 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20700 3200 50  0001 C CNN
+F 3 "~" V 20700 3200 50  0001 C CNN
+	1    20700 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20700 3100 20100 3100
+Connection ~ 20700 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 7B62881B
+P 20700 3500
+AR Path="/7B62881B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B62881B" Ref="D310"  Part="1" 
+F 0 "D310" V 20746 3430 50  0000 R CNN
+F 1 "LED_Small" V 20655 3430 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20700 3500 50  0001 C CNN
+F 3 "~" V 20700 3500 50  0001 C CNN
+	1    20700 3500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 20700 3400
+Wire Wire Line
+	20700 3400 21300 3400
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628823
+P 20700 3800
+AR Path="/7B628823" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628823" Ref="D342"  Part="1" 
+F 0 "D342" V 20746 3730 50  0000 R CNN
+F 1 "LED_Small" V 20655 3730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20700 3800 50  0001 C CNN
+F 3 "~" V 20700 3800 50  0001 C CNN
+	1    20700 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20700 3700 20100 3700
+Connection ~ 20700 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 7B62882B
+P 20700 4100
+AR Path="/7B62882B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B62882B" Ref="D374"  Part="1" 
+F 0 "D374" V 20746 4030 50  0000 R CNN
+F 1 "LED_Small" V 20655 4030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20700 4100 50  0001 C CNN
+F 3 "~" V 20700 4100 50  0001 C CNN
+	1    20700 4100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 20700 4000
+Wire Wire Line
+	20700 4000 21300 4000
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628833
+P 20700 4400
+AR Path="/7B628833" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628833" Ref="D406"  Part="1" 
+F 0 "D406" V 20746 4330 50  0000 R CNN
+F 1 "LED_Small" V 20655 4330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20700 4400 50  0001 C CNN
+F 3 "~" V 20700 4400 50  0001 C CNN
+	1    20700 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20700 4300 20100 4300
+Connection ~ 20700 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 7B62883B
+P 20700 4700
+AR Path="/7B62883B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B62883B" Ref="D438"  Part="1" 
+F 0 "D438" V 20746 4630 50  0000 R CNN
+F 1 "LED_Small" V 20655 4630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20700 4700 50  0001 C CNN
+F 3 "~" V 20700 4700 50  0001 C CNN
+	1    20700 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20100 4600 20700 4600
+Connection ~ 20700 4600
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628843
+P 20700 5000
+AR Path="/7B628843" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628843" Ref="D470"  Part="1" 
+F 0 "D470" V 20746 4930 50  0000 R CNN
+F 1 "LED_Small" V 20655 4930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20700 5000 50  0001 C CNN
+F 3 "~" V 20700 5000 50  0001 C CNN
+	1    20700 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20700 4900 20100 4900
+Connection ~ 20700 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 7B62884B
+P 20700 5300
+AR Path="/7B62884B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B62884B" Ref="D502"  Part="1" 
+F 0 "D502" V 20746 5230 50  0000 R CNN
+F 1 "LED_Small" V 20655 5230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20700 5300 50  0001 C CNN
+F 3 "~" V 20700 5300 50  0001 C CNN
+	1    20700 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20100 5200 20700 5200
+Connection ~ 20700 5200
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628853
+P 21300 800
+AR Path="/7B628853" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628853" Ref="D23"  Part="1" 
+F 0 "D23" V 21346 730 50  0000 R CNN
+F 1 "LED_Small" V 21255 730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21300 800 50  0001 C CNN
+F 3 "~" V 21300 800 50  0001 C CNN
+	1    21300 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20700 700  21300 700 
+Connection ~ 21300 700 
+$Comp
+L Device:LED_Small D?
+U 1 1 7B62885B
+P 21300 1100
+AR Path="/7B62885B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B62885B" Ref="D55"  Part="1" 
+F 0 "D55" V 21346 1030 50  0000 R CNN
+F 1 "LED_Small" V 21255 1030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21300 1100 50  0001 C CNN
+F 3 "~" V 21300 1100 50  0001 C CNN
+	1    21300 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20700 1000 21300 1000
+Connection ~ 21300 1000
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628863
+P 21300 1400
+AR Path="/7B628863" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628863" Ref="D87"  Part="1" 
+F 0 "D87" V 21346 1330 50  0000 R CNN
+F 1 "LED_Small" V 21255 1330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21300 1400 50  0001 C CNN
+F 3 "~" V 21300 1400 50  0001 C CNN
+	1    21300 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20700 1300 21300 1300
+Connection ~ 21300 1300
+$Comp
+L Device:LED_Small D?
+U 1 1 7B62886B
+P 21300 1700
+AR Path="/7B62886B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B62886B" Ref="D119"  Part="1" 
+F 0 "D119" V 21346 1630 50  0000 R CNN
+F 1 "LED_Small" V 21255 1630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21300 1700 50  0001 C CNN
+F 3 "~" V 21300 1700 50  0001 C CNN
+	1    21300 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20700 1600 21300 1600
+Connection ~ 21300 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628873
+P 21300 2000
+AR Path="/7B628873" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628873" Ref="D151"  Part="1" 
+F 0 "D151" V 21346 1930 50  0000 R CNN
+F 1 "LED_Small" V 21255 1930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21300 2000 50  0001 C CNN
+F 3 "~" V 21300 2000 50  0001 C CNN
+	1    21300 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20700 1900 21300 1900
+Connection ~ 21300 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 7B62887B
+P 21300 2300
+AR Path="/7B62887B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B62887B" Ref="D183"  Part="1" 
+F 0 "D183" V 21346 2230 50  0000 R CNN
+F 1 "LED_Small" V 21255 2230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21300 2300 50  0001 C CNN
+F 3 "~" V 21300 2300 50  0001 C CNN
+	1    21300 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20700 2200 21300 2200
+Connection ~ 21300 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628883
+P 21300 2600
+AR Path="/7B628883" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628883" Ref="D215"  Part="1" 
+F 0 "D215" V 21346 2530 50  0000 R CNN
+F 1 "LED_Small" V 21255 2530 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21300 2600 50  0001 C CNN
+F 3 "~" V 21300 2600 50  0001 C CNN
+	1    21300 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20800 2500 21300 2500
+Connection ~ 21300 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 7B62888B
+P 21300 2900
+AR Path="/7B62888B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B62888B" Ref="D247"  Part="1" 
+F 0 "D247" V 21346 2830 50  0000 R CNN
+F 1 "LED_Small" V 21255 2830 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21300 2900 50  0001 C CNN
+F 3 "~" V 21300 2900 50  0001 C CNN
+	1    21300 2900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 21300 2800
+Wire Wire Line
+	21300 2800 21400 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628893
+P 21300 3200
+AR Path="/7B628893" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628893" Ref="D279"  Part="1" 
+F 0 "D279" V 21346 3130 50  0000 R CNN
+F 1 "LED_Small" V 21255 3130 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21300 3200 50  0001 C CNN
+F 3 "~" V 21300 3200 50  0001 C CNN
+	1    21300 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21300 3100 20700 3100
+Connection ~ 21300 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 7B62889B
+P 21300 3500
+AR Path="/7B62889B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B62889B" Ref="D311"  Part="1" 
+F 0 "D311" V 21346 3430 50  0000 R CNN
+F 1 "LED_Small" V 21255 3430 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21300 3500 50  0001 C CNN
+F 3 "~" V 21300 3500 50  0001 C CNN
+	1    21300 3500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 21300 3400
+Wire Wire Line
+	21300 3400 21900 3400
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6288A3
+P 21300 3800
+AR Path="/7B6288A3" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6288A3" Ref="D343"  Part="1" 
+F 0 "D343" V 21346 3730 50  0000 R CNN
+F 1 "LED_Small" V 21255 3730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21300 3800 50  0001 C CNN
+F 3 "~" V 21300 3800 50  0001 C CNN
+	1    21300 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21300 3700 20700 3700
+Connection ~ 21300 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6288AB
+P 21300 4100
+AR Path="/7B6288AB" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6288AB" Ref="D375"  Part="1" 
+F 0 "D375" V 21346 4030 50  0000 R CNN
+F 1 "LED_Small" V 21255 4030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21300 4100 50  0001 C CNN
+F 3 "~" V 21300 4100 50  0001 C CNN
+	1    21300 4100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 21300 4000
+Wire Wire Line
+	21300 4000 21900 4000
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6288B3
+P 21300 4400
+AR Path="/7B6288B3" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6288B3" Ref="D407"  Part="1" 
+F 0 "D407" V 21346 4330 50  0000 R CNN
+F 1 "LED_Small" V 21255 4330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21300 4400 50  0001 C CNN
+F 3 "~" V 21300 4400 50  0001 C CNN
+	1    21300 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21300 4300 20700 4300
+Connection ~ 21300 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6288BB
+P 21300 4700
+AR Path="/7B6288BB" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6288BB" Ref="D439"  Part="1" 
+F 0 "D439" V 21346 4630 50  0000 R CNN
+F 1 "LED_Small" V 21255 4630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21300 4700 50  0001 C CNN
+F 3 "~" V 21300 4700 50  0001 C CNN
+	1    21300 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20700 4600 21300 4600
+Connection ~ 21300 4600
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6288C3
+P 21300 5000
+AR Path="/7B6288C3" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6288C3" Ref="D471"  Part="1" 
+F 0 "D471" V 21346 4930 50  0000 R CNN
+F 1 "LED_Small" V 21255 4930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21300 5000 50  0001 C CNN
+F 3 "~" V 21300 5000 50  0001 C CNN
+	1    21300 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21300 4900 20700 4900
+Connection ~ 21300 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6288CB
+P 21300 5300
+AR Path="/7B6288CB" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6288CB" Ref="D503"  Part="1" 
+F 0 "D503" V 21346 5230 50  0000 R CNN
+F 1 "LED_Small" V 21255 5230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21300 5300 50  0001 C CNN
+F 3 "~" V 21300 5300 50  0001 C CNN
+	1    21300 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20700 5200 21300 5200
+Connection ~ 21300 5200
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6288D3
+P 21900 800
+AR Path="/7B6288D3" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6288D3" Ref="D24"  Part="1" 
+F 0 "D24" V 21946 730 50  0000 R CNN
+F 1 "LED_Small" V 21855 730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21900 800 50  0001 C CNN
+F 3 "~" V 21900 800 50  0001 C CNN
+	1    21900 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21300 700  21900 700 
+Connection ~ 21900 700 
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6288DB
+P 21900 1100
+AR Path="/7B6288DB" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6288DB" Ref="D56"  Part="1" 
+F 0 "D56" V 21946 1030 50  0000 R CNN
+F 1 "LED_Small" V 21855 1030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21900 1100 50  0001 C CNN
+F 3 "~" V 21900 1100 50  0001 C CNN
+	1    21900 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21300 1000 21900 1000
+Connection ~ 21900 1000
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6288E3
+P 21900 1400
+AR Path="/7B6288E3" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6288E3" Ref="D88"  Part="1" 
+F 0 "D88" V 21946 1330 50  0000 R CNN
+F 1 "LED_Small" V 21855 1330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21900 1400 50  0001 C CNN
+F 3 "~" V 21900 1400 50  0001 C CNN
+	1    21900 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21300 1300 21900 1300
+Connection ~ 21900 1300
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6288EB
+P 21900 1700
+AR Path="/7B6288EB" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6288EB" Ref="D120"  Part="1" 
+F 0 "D120" V 21946 1630 50  0000 R CNN
+F 1 "LED_Small" V 21855 1630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21900 1700 50  0001 C CNN
+F 3 "~" V 21900 1700 50  0001 C CNN
+	1    21900 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21300 1600 21900 1600
+Connection ~ 21900 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6288F3
+P 21900 2000
+AR Path="/7B6288F3" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6288F3" Ref="D152"  Part="1" 
+F 0 "D152" V 21946 1930 50  0000 R CNN
+F 1 "LED_Small" V 21855 1930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21900 2000 50  0001 C CNN
+F 3 "~" V 21900 2000 50  0001 C CNN
+	1    21900 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21300 1900 21900 1900
+Connection ~ 21900 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6288FB
+P 21900 2300
+AR Path="/7B6288FB" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6288FB" Ref="D184"  Part="1" 
+F 0 "D184" V 21946 2230 50  0000 R CNN
+F 1 "LED_Small" V 21855 2230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21900 2300 50  0001 C CNN
+F 3 "~" V 21900 2300 50  0001 C CNN
+	1    21900 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21300 2200 21900 2200
+Connection ~ 21900 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628903
+P 21900 2600
+AR Path="/7B628903" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628903" Ref="D216"  Part="1" 
+F 0 "D216" V 21946 2530 50  0000 R CNN
+F 1 "LED_Small" V 21855 2530 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21900 2600 50  0001 C CNN
+F 3 "~" V 21900 2600 50  0001 C CNN
+	1    21900 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21300 2500 21900 2500
+Connection ~ 21900 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 7B62890B
+P 21900 2900
+AR Path="/7B62890B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B62890B" Ref="D248"  Part="1" 
+F 0 "D248" V 21946 2830 50  0000 R CNN
+F 1 "LED_Small" V 21855 2830 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21900 2900 50  0001 C CNN
+F 3 "~" V 21900 2900 50  0001 C CNN
+	1    21900 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21400 2800 21900 2800
+Connection ~ 21900 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628913
+P 21900 3200
+AR Path="/7B628913" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628913" Ref="D280"  Part="1" 
+F 0 "D280" V 21946 3130 50  0000 R CNN
+F 1 "LED_Small" V 21855 3130 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21900 3200 50  0001 C CNN
+F 3 "~" V 21900 3200 50  0001 C CNN
+	1    21900 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22000 3100 21900 3100
+Wire Wire Line
+	21900 3100 21300 3100
+Connection ~ 21900 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 7B62891C
+P 21900 3500
+AR Path="/7B62891C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B62891C" Ref="D312"  Part="1" 
+F 0 "D312" V 21946 3430 50  0000 R CNN
+F 1 "LED_Small" V 21855 3430 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21900 3500 50  0001 C CNN
+F 3 "~" V 21900 3500 50  0001 C CNN
+	1    21900 3500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 21900 3400
+Wire Wire Line
+	21900 3400 22500 3400
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628924
+P 21900 3800
+AR Path="/7B628924" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628924" Ref="D344"  Part="1" 
+F 0 "D344" V 21946 3730 50  0000 R CNN
+F 1 "LED_Small" V 21855 3730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21900 3800 50  0001 C CNN
+F 3 "~" V 21900 3800 50  0001 C CNN
+	1    21900 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21900 3700 21300 3700
+Connection ~ 21900 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 7B62892C
+P 21900 4100
+AR Path="/7B62892C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B62892C" Ref="D376"  Part="1" 
+F 0 "D376" V 21946 4030 50  0000 R CNN
+F 1 "LED_Small" V 21855 4030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21900 4100 50  0001 C CNN
+F 3 "~" V 21900 4100 50  0001 C CNN
+	1    21900 4100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 21900 4000
+Wire Wire Line
+	21900 4000 22500 4000
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628934
+P 21900 4400
+AR Path="/7B628934" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628934" Ref="D408"  Part="1" 
+F 0 "D408" V 21946 4330 50  0000 R CNN
+F 1 "LED_Small" V 21855 4330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21900 4400 50  0001 C CNN
+F 3 "~" V 21900 4400 50  0001 C CNN
+	1    21900 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21900 4300 21300 4300
+Connection ~ 21900 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 7B62893C
+P 21900 4700
+AR Path="/7B62893C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B62893C" Ref="D440"  Part="1" 
+F 0 "D440" V 21946 4630 50  0000 R CNN
+F 1 "LED_Small" V 21855 4630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21900 4700 50  0001 C CNN
+F 3 "~" V 21900 4700 50  0001 C CNN
+	1    21900 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21300 4600 21900 4600
+Connection ~ 21900 4600
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628944
+P 21900 5000
+AR Path="/7B628944" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628944" Ref="D472"  Part="1" 
+F 0 "D472" V 21946 4930 50  0000 R CNN
+F 1 "LED_Small" V 21855 4930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21900 5000 50  0001 C CNN
+F 3 "~" V 21900 5000 50  0001 C CNN
+	1    21900 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21900 4900 21300 4900
+Connection ~ 21900 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 7B62894C
+P 21900 5300
+AR Path="/7B62894C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B62894C" Ref="D504"  Part="1" 
+F 0 "D504" V 21946 5230 50  0000 R CNN
+F 1 "LED_Small" V 21855 5230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21900 5300 50  0001 C CNN
+F 3 "~" V 21900 5300 50  0001 C CNN
+	1    21900 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21300 5200 21900 5200
+Connection ~ 21900 5200
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628954
+P 22500 800
+AR Path="/7B628954" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628954" Ref="D25"  Part="1" 
+F 0 "D25" V 22546 730 50  0000 R CNN
+F 1 "LED_Small" V 22455 730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 22500 800 50  0001 C CNN
+F 3 "~" V 22500 800 50  0001 C CNN
+	1    22500 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21900 700  22500 700 
+Connection ~ 22500 700 
+$Comp
+L Device:LED_Small D?
+U 1 1 7B62895C
+P 22500 1100
+AR Path="/7B62895C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B62895C" Ref="D57"  Part="1" 
+F 0 "D57" V 22546 1030 50  0000 R CNN
+F 1 "LED_Small" V 22455 1030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 22500 1100 50  0001 C CNN
+F 3 "~" V 22500 1100 50  0001 C CNN
+	1    22500 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21900 1000 22500 1000
+Connection ~ 22500 1000
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628964
+P 22500 1400
+AR Path="/7B628964" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628964" Ref="D89"  Part="1" 
+F 0 "D89" V 22546 1330 50  0000 R CNN
+F 1 "LED_Small" V 22455 1330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 22500 1400 50  0001 C CNN
+F 3 "~" V 22500 1400 50  0001 C CNN
+	1    22500 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21900 1300 22500 1300
+Connection ~ 22500 1300
+$Comp
+L Device:LED_Small D?
+U 1 1 7B62896C
+P 22500 1700
+AR Path="/7B62896C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B62896C" Ref="D121"  Part="1" 
+F 0 "D121" V 22546 1630 50  0000 R CNN
+F 1 "LED_Small" V 22455 1630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 22500 1700 50  0001 C CNN
+F 3 "~" V 22500 1700 50  0001 C CNN
+	1    22500 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21900 1600 22500 1600
+Connection ~ 22500 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628974
+P 22500 2000
+AR Path="/7B628974" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628974" Ref="D153"  Part="1" 
+F 0 "D153" V 22546 1930 50  0000 R CNN
+F 1 "LED_Small" V 22455 1930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 22500 2000 50  0001 C CNN
+F 3 "~" V 22500 2000 50  0001 C CNN
+	1    22500 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21900 1900 22500 1900
+Connection ~ 22500 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 7B62897C
+P 22500 2300
+AR Path="/7B62897C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B62897C" Ref="D185"  Part="1" 
+F 0 "D185" V 22546 2230 50  0000 R CNN
+F 1 "LED_Small" V 22455 2230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 22500 2300 50  0001 C CNN
+F 3 "~" V 22500 2300 50  0001 C CNN
+	1    22500 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21900 2200 22500 2200
+Connection ~ 22500 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628984
+P 22500 2600
+AR Path="/7B628984" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628984" Ref="D217"  Part="1" 
+F 0 "D217" V 22546 2530 50  0000 R CNN
+F 1 "LED_Small" V 22455 2530 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 22500 2600 50  0001 C CNN
+F 3 "~" V 22500 2600 50  0001 C CNN
+	1    22500 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21900 2500 22500 2500
+Connection ~ 22500 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 7B62898C
+P 22500 2900
+AR Path="/7B62898C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B62898C" Ref="D249"  Part="1" 
+F 0 "D249" V 22546 2830 50  0000 R CNN
+F 1 "LED_Small" V 22455 2830 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 22500 2900 50  0001 C CNN
+F 3 "~" V 22500 2900 50  0001 C CNN
+	1    22500 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21900 2800 22500 2800
+Connection ~ 22500 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628994
+P 22500 3200
+AR Path="/7B628994" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628994" Ref="D281"  Part="1" 
+F 0 "D281" V 22546 3130 50  0000 R CNN
+F 1 "LED_Small" V 22455 3130 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 22500 3200 50  0001 C CNN
+F 3 "~" V 22500 3200 50  0001 C CNN
+	1    22500 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22500 3100 22000 3100
+Connection ~ 22500 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 7B62899C
+P 22500 3500
+AR Path="/7B62899C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B62899C" Ref="D313"  Part="1" 
+F 0 "D313" V 22546 3430 50  0000 R CNN
+F 1 "LED_Small" V 22455 3430 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 22500 3500 50  0001 C CNN
+F 3 "~" V 22500 3500 50  0001 C CNN
+	1    22500 3500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 22500 3400
+Wire Wire Line
+	22500 3400 22600 3400
+Wire Wire Line
+	22500 3700 21900 3700
+Connection ~ 22500 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6289A6
+P 22500 4100
+AR Path="/7B6289A6" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6289A6" Ref="D377"  Part="1" 
+F 0 "D377" V 22546 4030 50  0000 R CNN
+F 1 "LED_Small" V 22455 4030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 22500 4100 50  0001 C CNN
+F 3 "~" V 22500 4100 50  0001 C CNN
+	1    22500 4100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 22500 4000
+Wire Wire Line
+	22500 4000 23100 4000
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6289AE
+P 22500 4400
+AR Path="/7B6289AE" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6289AE" Ref="D409"  Part="1" 
+F 0 "D409" V 22546 4330 50  0000 R CNN
+F 1 "LED_Small" V 22455 4330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 22500 4400 50  0001 C CNN
+F 3 "~" V 22500 4400 50  0001 C CNN
+	1    22500 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22500 4300 21900 4300
+Connection ~ 22500 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6289B6
+P 22500 4700
+AR Path="/7B6289B6" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6289B6" Ref="D441"  Part="1" 
+F 0 "D441" V 22546 4630 50  0000 R CNN
+F 1 "LED_Small" V 22455 4630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 22500 4700 50  0001 C CNN
+F 3 "~" V 22500 4700 50  0001 C CNN
+	1    22500 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21900 4600 22500 4600
+Connection ~ 22500 4600
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6289BE
+P 22500 5000
+AR Path="/7B6289BE" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6289BE" Ref="D473"  Part="1" 
+F 0 "D473" V 22546 4930 50  0000 R CNN
+F 1 "LED_Small" V 22455 4930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 22500 5000 50  0001 C CNN
+F 3 "~" V 22500 5000 50  0001 C CNN
+	1    22500 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22500 4900 21900 4900
+Connection ~ 22500 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6289C6
+P 22500 5300
+AR Path="/7B6289C6" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6289C6" Ref="D505"  Part="1" 
+F 0 "D505" V 22546 5230 50  0000 R CNN
+F 1 "LED_Small" V 22455 5230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 22500 5300 50  0001 C CNN
+F 3 "~" V 22500 5300 50  0001 C CNN
+	1    22500 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21900 5200 22500 5200
+Connection ~ 22500 5200
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6289CE
+P 23100 800
+AR Path="/7B6289CE" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6289CE" Ref="D26"  Part="1" 
+F 0 "D26" V 23146 730 50  0000 R CNN
+F 1 "LED_Small" V 23055 730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23100 800 50  0001 C CNN
+F 3 "~" V 23100 800 50  0001 C CNN
+	1    23100 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22500 700  23100 700 
+Connection ~ 23100 700 
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6289D6
+P 23100 1100
+AR Path="/7B6289D6" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6289D6" Ref="D58"  Part="1" 
+F 0 "D58" V 23146 1030 50  0000 R CNN
+F 1 "LED_Small" V 23055 1030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23100 1100 50  0001 C CNN
+F 3 "~" V 23100 1100 50  0001 C CNN
+	1    23100 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22500 1000 23100 1000
+Connection ~ 23100 1000
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6289DE
+P 23100 1400
+AR Path="/7B6289DE" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6289DE" Ref="D90"  Part="1" 
+F 0 "D90" V 23146 1330 50  0000 R CNN
+F 1 "LED_Small" V 23055 1330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23100 1400 50  0001 C CNN
+F 3 "~" V 23100 1400 50  0001 C CNN
+	1    23100 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22500 1300 23100 1300
+Connection ~ 23100 1300
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6289E6
+P 23100 1700
+AR Path="/7B6289E6" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6289E6" Ref="D122"  Part="1" 
+F 0 "D122" V 23146 1630 50  0000 R CNN
+F 1 "LED_Small" V 23055 1630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23100 1700 50  0001 C CNN
+F 3 "~" V 23100 1700 50  0001 C CNN
+	1    23100 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22500 1600 23100 1600
+Connection ~ 23100 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6289EE
+P 23100 2000
+AR Path="/7B6289EE" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6289EE" Ref="D154"  Part="1" 
+F 0 "D154" V 23146 1930 50  0000 R CNN
+F 1 "LED_Small" V 23055 1930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23100 2000 50  0001 C CNN
+F 3 "~" V 23100 2000 50  0001 C CNN
+	1    23100 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22500 1900 23100 1900
+Connection ~ 23100 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6289F6
+P 23100 2300
+AR Path="/7B6289F6" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6289F6" Ref="D186"  Part="1" 
+F 0 "D186" V 23146 2230 50  0000 R CNN
+F 1 "LED_Small" V 23055 2230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23100 2300 50  0001 C CNN
+F 3 "~" V 23100 2300 50  0001 C CNN
+	1    23100 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22500 2200 23100 2200
+Connection ~ 23100 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 7B6289FE
+P 23100 2600
+AR Path="/7B6289FE" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B6289FE" Ref="D218"  Part="1" 
+F 0 "D218" V 23146 2530 50  0000 R CNN
+F 1 "LED_Small" V 23055 2530 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23100 2600 50  0001 C CNN
+F 3 "~" V 23100 2600 50  0001 C CNN
+	1    23100 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22500 2500 23100 2500
+Connection ~ 23100 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628A06
+P 23100 2900
+AR Path="/7B628A06" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628A06" Ref="D250"  Part="1" 
+F 0 "D250" V 23146 2830 50  0000 R CNN
+F 1 "LED_Small" V 23055 2830 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23100 2900 50  0001 C CNN
+F 3 "~" V 23100 2900 50  0001 C CNN
+	1    23100 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22500 2800 23100 2800
+Connection ~ 23100 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628A0E
+P 23100 3200
+AR Path="/7B628A0E" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628A0E" Ref="D282"  Part="1" 
+F 0 "D282" V 23146 3130 50  0000 R CNN
+F 1 "LED_Small" V 23055 3130 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23100 3200 50  0001 C CNN
+F 3 "~" V 23100 3200 50  0001 C CNN
+	1    23100 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23100 3100 22500 3100
+Connection ~ 23100 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628A16
+P 23100 3500
+AR Path="/7B628A16" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628A16" Ref="D314"  Part="1" 
+F 0 "D314" V 23146 3430 50  0000 R CNN
+F 1 "LED_Small" V 23055 3430 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23100 3500 50  0001 C CNN
+F 3 "~" V 23100 3500 50  0001 C CNN
+	1    23100 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22600 3400 23100 3400
+Connection ~ 23100 3400
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628A1E
+P 23100 3800
+AR Path="/7B628A1E" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628A1E" Ref="D346"  Part="1" 
+F 0 "D346" V 23146 3730 50  0000 R CNN
+F 1 "LED_Small" V 23055 3730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23100 3800 50  0001 C CNN
+F 3 "~" V 23100 3800 50  0001 C CNN
+	1    23100 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23200 3700 23100 3700
+Wire Wire Line
+	23100 3700 22500 3700
+Connection ~ 23100 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628A27
+P 23100 4100
+AR Path="/7B628A27" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628A27" Ref="D378"  Part="1" 
+F 0 "D378" V 23146 4030 50  0000 R CNN
+F 1 "LED_Small" V 23055 4030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23100 4100 50  0001 C CNN
+F 3 "~" V 23100 4100 50  0001 C CNN
+	1    23100 4100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 23100 4000
+Wire Wire Line
+	23100 4000 23700 4000
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628A2F
+P 23100 4400
+AR Path="/7B628A2F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628A2F" Ref="D410"  Part="1" 
+F 0 "D410" V 23146 4330 50  0000 R CNN
+F 1 "LED_Small" V 23055 4330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23100 4400 50  0001 C CNN
+F 3 "~" V 23100 4400 50  0001 C CNN
+	1    23100 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23100 4300 22500 4300
+Connection ~ 23100 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628A37
+P 23100 4700
+AR Path="/7B628A37" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628A37" Ref="D442"  Part="1" 
+F 0 "D442" V 23146 4630 50  0000 R CNN
+F 1 "LED_Small" V 23055 4630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23100 4700 50  0001 C CNN
+F 3 "~" V 23100 4700 50  0001 C CNN
+	1    23100 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22500 4600 23100 4600
+Connection ~ 23100 4600
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628A3F
+P 23100 5000
+AR Path="/7B628A3F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628A3F" Ref="D474"  Part="1" 
+F 0 "D474" V 23146 4930 50  0000 R CNN
+F 1 "LED_Small" V 23055 4930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23100 5000 50  0001 C CNN
+F 3 "~" V 23100 5000 50  0001 C CNN
+	1    23100 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23100 4900 22500 4900
+Connection ~ 23100 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628A47
+P 23100 5300
+AR Path="/7B628A47" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628A47" Ref="D506"  Part="1" 
+F 0 "D506" V 23146 5230 50  0000 R CNN
+F 1 "LED_Small" V 23055 5230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23100 5300 50  0001 C CNN
+F 3 "~" V 23100 5300 50  0001 C CNN
+	1    23100 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22500 5200 23100 5200
+Connection ~ 23100 5200
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628A4F
+P 23700 800
+AR Path="/7B628A4F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628A4F" Ref="D27"  Part="1" 
+F 0 "D27" V 23746 730 50  0000 R CNN
+F 1 "LED_Small" V 23655 730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23700 800 50  0001 C CNN
+F 3 "~" V 23700 800 50  0001 C CNN
+	1    23700 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23100 700  23700 700 
+Connection ~ 23700 700 
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628A57
+P 23700 1100
+AR Path="/7B628A57" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628A57" Ref="D59"  Part="1" 
+F 0 "D59" V 23746 1030 50  0000 R CNN
+F 1 "LED_Small" V 23655 1030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23700 1100 50  0001 C CNN
+F 3 "~" V 23700 1100 50  0001 C CNN
+	1    23700 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23100 1000 23700 1000
+Connection ~ 23700 1000
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628A5F
+P 23700 1400
+AR Path="/7B628A5F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628A5F" Ref="D91"  Part="1" 
+F 0 "D91" V 23746 1330 50  0000 R CNN
+F 1 "LED_Small" V 23655 1330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23700 1400 50  0001 C CNN
+F 3 "~" V 23700 1400 50  0001 C CNN
+	1    23700 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23100 1300 23700 1300
+Connection ~ 23700 1300
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628A67
+P 23700 1700
+AR Path="/7B628A67" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628A67" Ref="D123"  Part="1" 
+F 0 "D123" V 23746 1630 50  0000 R CNN
+F 1 "LED_Small" V 23655 1630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23700 1700 50  0001 C CNN
+F 3 "~" V 23700 1700 50  0001 C CNN
+	1    23700 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23100 1600 23700 1600
+Connection ~ 23700 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628A6F
+P 23700 2000
+AR Path="/7B628A6F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628A6F" Ref="D155"  Part="1" 
+F 0 "D155" V 23746 1930 50  0000 R CNN
+F 1 "LED_Small" V 23655 1930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23700 2000 50  0001 C CNN
+F 3 "~" V 23700 2000 50  0001 C CNN
+	1    23700 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23100 1900 23700 1900
+Connection ~ 23700 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628A77
+P 23700 2300
+AR Path="/7B628A77" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628A77" Ref="D187"  Part="1" 
+F 0 "D187" V 23746 2230 50  0000 R CNN
+F 1 "LED_Small" V 23655 2230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23700 2300 50  0001 C CNN
+F 3 "~" V 23700 2300 50  0001 C CNN
+	1    23700 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23100 2200 23700 2200
+Connection ~ 23700 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628A7F
+P 23700 2600
+AR Path="/7B628A7F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628A7F" Ref="D219"  Part="1" 
+F 0 "D219" V 23746 2530 50  0000 R CNN
+F 1 "LED_Small" V 23655 2530 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23700 2600 50  0001 C CNN
+F 3 "~" V 23700 2600 50  0001 C CNN
+	1    23700 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23100 2500 23700 2500
+Connection ~ 23700 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628A87
+P 23700 2900
+AR Path="/7B628A87" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628A87" Ref="D251"  Part="1" 
+F 0 "D251" V 23746 2830 50  0000 R CNN
+F 1 "LED_Small" V 23655 2830 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23700 2900 50  0001 C CNN
+F 3 "~" V 23700 2900 50  0001 C CNN
+	1    23700 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23100 2800 23700 2800
+Connection ~ 23700 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628A8F
+P 23700 3200
+AR Path="/7B628A8F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628A8F" Ref="D283"  Part="1" 
+F 0 "D283" V 23746 3130 50  0000 R CNN
+F 1 "LED_Small" V 23655 3130 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23700 3200 50  0001 C CNN
+F 3 "~" V 23700 3200 50  0001 C CNN
+	1    23700 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23700 3100 23100 3100
+Connection ~ 23700 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628A97
+P 23700 3500
+AR Path="/7B628A97" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628A97" Ref="D315"  Part="1" 
+F 0 "D315" V 23746 3430 50  0000 R CNN
+F 1 "LED_Small" V 23655 3430 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23700 3500 50  0001 C CNN
+F 3 "~" V 23700 3500 50  0001 C CNN
+	1    23700 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23100 3400 23700 3400
+Connection ~ 23700 3400
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628A9F
+P 23700 3800
+AR Path="/7B628A9F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628A9F" Ref="D347"  Part="1" 
+F 0 "D347" V 23746 3730 50  0000 R CNN
+F 1 "LED_Small" V 23655 3730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23700 3800 50  0001 C CNN
+F 3 "~" V 23700 3800 50  0001 C CNN
+	1    23700 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23700 3700 23200 3700
+Connection ~ 23700 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628AA7
+P 23700 4100
+AR Path="/7B628AA7" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628AA7" Ref="D379"  Part="1" 
+F 0 "D379" V 23746 4030 50  0000 R CNN
+F 1 "LED_Small" V 23655 4030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23700 4100 50  0001 C CNN
+F 3 "~" V 23700 4100 50  0001 C CNN
+	1    23700 4100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 23700 4000
+Wire Wire Line
+	23700 4000 23800 4000
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628AAF
+P 23700 4400
+AR Path="/7B628AAF" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628AAF" Ref="D411"  Part="1" 
+F 0 "D411" V 23746 4330 50  0000 R CNN
+F 1 "LED_Small" V 23655 4330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23700 4400 50  0001 C CNN
+F 3 "~" V 23700 4400 50  0001 C CNN
+	1    23700 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23700 4300 23100 4300
+Connection ~ 23700 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628AB7
+P 23700 4700
+AR Path="/7B628AB7" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628AB7" Ref="D443"  Part="1" 
+F 0 "D443" V 23746 4630 50  0000 R CNN
+F 1 "LED_Small" V 23655 4630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23700 4700 50  0001 C CNN
+F 3 "~" V 23700 4700 50  0001 C CNN
+	1    23700 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23100 4600 23700 4600
+Connection ~ 23700 4600
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628ABF
+P 23700 5000
+AR Path="/7B628ABF" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628ABF" Ref="D475"  Part="1" 
+F 0 "D475" V 23746 4930 50  0000 R CNN
+F 1 "LED_Small" V 23655 4930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23700 5000 50  0001 C CNN
+F 3 "~" V 23700 5000 50  0001 C CNN
+	1    23700 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23700 4900 23100 4900
+Connection ~ 23700 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628AC7
+P 23700 5300
+AR Path="/7B628AC7" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628AC7" Ref="D507"  Part="1" 
+F 0 "D507" V 23746 5230 50  0000 R CNN
+F 1 "LED_Small" V 23655 5230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23700 5300 50  0001 C CNN
+F 3 "~" V 23700 5300 50  0001 C CNN
+	1    23700 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23100 5200 23700 5200
+Connection ~ 23700 5200
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628ACF
+P 24300 800
+AR Path="/7B628ACF" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628ACF" Ref="D28"  Part="1" 
+F 0 "D28" V 24346 730 50  0000 R CNN
+F 1 "LED_Small" V 24255 730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24300 800 50  0001 C CNN
+F 3 "~" V 24300 800 50  0001 C CNN
+	1    24300 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23700 700  24300 700 
+Connection ~ 24300 700 
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628AD7
+P 24300 1100
+AR Path="/7B628AD7" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628AD7" Ref="D60"  Part="1" 
+F 0 "D60" V 24346 1030 50  0000 R CNN
+F 1 "LED_Small" V 24255 1030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24300 1100 50  0001 C CNN
+F 3 "~" V 24300 1100 50  0001 C CNN
+	1    24300 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23700 1000 24300 1000
+Connection ~ 24300 1000
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628ADF
+P 24300 1400
+AR Path="/7B628ADF" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628ADF" Ref="D92"  Part="1" 
+F 0 "D92" V 24346 1330 50  0000 R CNN
+F 1 "LED_Small" V 24255 1330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24300 1400 50  0001 C CNN
+F 3 "~" V 24300 1400 50  0001 C CNN
+	1    24300 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23700 1300 24300 1300
+Connection ~ 24300 1300
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628AE7
+P 24300 1700
+AR Path="/7B628AE7" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628AE7" Ref="D124"  Part="1" 
+F 0 "D124" V 24346 1630 50  0000 R CNN
+F 1 "LED_Small" V 24255 1630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24300 1700 50  0001 C CNN
+F 3 "~" V 24300 1700 50  0001 C CNN
+	1    24300 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23700 1600 24300 1600
+Connection ~ 24300 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628AEF
+P 24300 2000
+AR Path="/7B628AEF" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628AEF" Ref="D156"  Part="1" 
+F 0 "D156" V 24346 1930 50  0000 R CNN
+F 1 "LED_Small" V 24255 1930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24300 2000 50  0001 C CNN
+F 3 "~" V 24300 2000 50  0001 C CNN
+	1    24300 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23700 1900 24300 1900
+Connection ~ 24300 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628AF7
+P 24300 2300
+AR Path="/7B628AF7" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628AF7" Ref="D188"  Part="1" 
+F 0 "D188" V 24346 2230 50  0000 R CNN
+F 1 "LED_Small" V 24255 2230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24300 2300 50  0001 C CNN
+F 3 "~" V 24300 2300 50  0001 C CNN
+	1    24300 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23700 2200 24300 2200
+Connection ~ 24300 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628AFF
+P 24300 2600
+AR Path="/7B628AFF" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628AFF" Ref="D220"  Part="1" 
+F 0 "D220" V 24346 2530 50  0000 R CNN
+F 1 "LED_Small" V 24255 2530 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24300 2600 50  0001 C CNN
+F 3 "~" V 24300 2600 50  0001 C CNN
+	1    24300 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23700 2500 24300 2500
+Connection ~ 24300 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628B07
+P 24300 2900
+AR Path="/7B628B07" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628B07" Ref="D252"  Part="1" 
+F 0 "D252" V 24346 2830 50  0000 R CNN
+F 1 "LED_Small" V 24255 2830 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24300 2900 50  0001 C CNN
+F 3 "~" V 24300 2900 50  0001 C CNN
+	1    24300 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23700 2800 24300 2800
+Connection ~ 24300 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628B0F
+P 24300 3200
+AR Path="/7B628B0F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628B0F" Ref="D284"  Part="1" 
+F 0 "D284" V 24346 3130 50  0000 R CNN
+F 1 "LED_Small" V 24255 3130 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24300 3200 50  0001 C CNN
+F 3 "~" V 24300 3200 50  0001 C CNN
+	1    24300 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	24300 3100 23700 3100
+Connection ~ 24300 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628B17
+P 24300 3500
+AR Path="/7B628B17" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628B17" Ref="D316"  Part="1" 
+F 0 "D316" V 24346 3430 50  0000 R CNN
+F 1 "LED_Small" V 24255 3430 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24300 3500 50  0001 C CNN
+F 3 "~" V 24300 3500 50  0001 C CNN
+	1    24300 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23700 3400 24300 3400
+Connection ~ 24300 3400
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628B1F
+P 24300 3800
+AR Path="/7B628B1F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628B1F" Ref="D348"  Part="1" 
+F 0 "D348" V 24346 3730 50  0000 R CNN
+F 1 "LED_Small" V 24255 3730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24300 3800 50  0001 C CNN
+F 3 "~" V 24300 3800 50  0001 C CNN
+	1    24300 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	24300 3700 23700 3700
+Connection ~ 24300 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628B27
+P 24300 4100
+AR Path="/7B628B27" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628B27" Ref="D380"  Part="1" 
+F 0 "D380" V 24346 4030 50  0000 R CNN
+F 1 "LED_Small" V 24255 4030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24300 4100 50  0001 C CNN
+F 3 "~" V 24300 4100 50  0001 C CNN
+	1    24300 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23800 4000 24300 4000
+Connection ~ 24300 4000
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628B2F
+P 24300 4400
+AR Path="/7B628B2F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628B2F" Ref="D412"  Part="1" 
+F 0 "D412" V 24346 4330 50  0000 R CNN
+F 1 "LED_Small" V 24255 4330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24300 4400 50  0001 C CNN
+F 3 "~" V 24300 4400 50  0001 C CNN
+	1    24300 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	24400 4300 24300 4300
+Wire Wire Line
+	24300 4300 23700 4300
+Connection ~ 24300 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628B38
+P 24300 4700
+AR Path="/7B628B38" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628B38" Ref="D444"  Part="1" 
+F 0 "D444" V 24346 4630 50  0000 R CNN
+F 1 "LED_Small" V 24255 4630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24300 4700 50  0001 C CNN
+F 3 "~" V 24300 4700 50  0001 C CNN
+	1    24300 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23700 4600 24300 4600
+Connection ~ 24300 4600
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628B40
+P 24300 5000
+AR Path="/7B628B40" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628B40" Ref="D476"  Part="1" 
+F 0 "D476" V 24346 4930 50  0000 R CNN
+F 1 "LED_Small" V 24255 4930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24300 5000 50  0001 C CNN
+F 3 "~" V 24300 5000 50  0001 C CNN
+	1    24300 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	24300 4900 23700 4900
+Connection ~ 24300 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628B48
+P 24300 5300
+AR Path="/7B628B48" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628B48" Ref="D508"  Part="1" 
+F 0 "D508" V 24346 5230 50  0000 R CNN
+F 1 "LED_Small" V 24255 5230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24300 5300 50  0001 C CNN
+F 3 "~" V 24300 5300 50  0001 C CNN
+	1    24300 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23700 5200 24300 5200
+Connection ~ 24300 5200
+Wire Wire Line
+	24900 700  25500 700 
+Wire Wire Line
+	24300 700  24900 700 
+Connection ~ 24900 700 
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628B53
+P 24900 800
+AR Path="/7B628B53" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628B53" Ref="D29"  Part="1" 
+F 0 "D29" V 24946 730 50  0000 R CNN
+F 1 "LED_Small" V 24855 730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24900 800 50  0001 C CNN
+F 3 "~" V 24900 800 50  0001 C CNN
+	1    24900 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	24900 1000 25500 1000
+Wire Wire Line
+	24300 1000 24900 1000
+Connection ~ 24900 1000
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628B5C
+P 24900 1100
+AR Path="/7B628B5C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628B5C" Ref="D61"  Part="1" 
+F 0 "D61" V 24946 1030 50  0000 R CNN
+F 1 "LED_Small" V 24855 1030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24900 1100 50  0001 C CNN
+F 3 "~" V 24900 1100 50  0001 C CNN
+	1    24900 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	24900 1300 25500 1300
+Wire Wire Line
+	24300 1300 24900 1300
+Connection ~ 24900 1300
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628B65
+P 24900 1400
+AR Path="/7B628B65" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628B65" Ref="D93"  Part="1" 
+F 0 "D93" V 24946 1330 50  0000 R CNN
+F 1 "LED_Small" V 24855 1330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24900 1400 50  0001 C CNN
+F 3 "~" V 24900 1400 50  0001 C CNN
+	1    24900 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	24900 1600 25500 1600
+Wire Wire Line
+	24300 1600 24900 1600
+Connection ~ 24900 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628B6E
+P 24900 1700
+AR Path="/7B628B6E" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628B6E" Ref="D125"  Part="1" 
+F 0 "D125" V 24946 1630 50  0000 R CNN
+F 1 "LED_Small" V 24855 1630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24900 1700 50  0001 C CNN
+F 3 "~" V 24900 1700 50  0001 C CNN
+	1    24900 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	24900 1900 25500 1900
+Wire Wire Line
+	24300 1900 24900 1900
+Connection ~ 24900 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628B77
+P 24900 2000
+AR Path="/7B628B77" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628B77" Ref="D157"  Part="1" 
+F 0 "D157" V 24946 1930 50  0000 R CNN
+F 1 "LED_Small" V 24855 1930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24900 2000 50  0001 C CNN
+F 3 "~" V 24900 2000 50  0001 C CNN
+	1    24900 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	24900 2200 25500 2200
+Wire Wire Line
+	24300 2200 24900 2200
+Connection ~ 24900 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628B80
+P 24900 2300
+AR Path="/7B628B80" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628B80" Ref="D189"  Part="1" 
+F 0 "D189" V 24946 2230 50  0000 R CNN
+F 1 "LED_Small" V 24855 2230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24900 2300 50  0001 C CNN
+F 3 "~" V 24900 2300 50  0001 C CNN
+	1    24900 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	24900 2500 25500 2500
+Wire Wire Line
+	24300 2500 24900 2500
+Connection ~ 24900 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628B89
+P 24900 2600
+AR Path="/7B628B89" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628B89" Ref="D221"  Part="1" 
+F 0 "D221" V 24946 2530 50  0000 R CNN
+F 1 "LED_Small" V 24855 2530 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24900 2600 50  0001 C CNN
+F 3 "~" V 24900 2600 50  0001 C CNN
+	1    24900 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	24900 2800 25500 2800
+Wire Wire Line
+	24300 2800 24900 2800
+Connection ~ 24900 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628B92
+P 24900 2900
+AR Path="/7B628B92" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628B92" Ref="D253"  Part="1" 
+F 0 "D253" V 24946 2830 50  0000 R CNN
+F 1 "LED_Small" V 24855 2830 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24900 2900 50  0001 C CNN
+F 3 "~" V 24900 2900 50  0001 C CNN
+	1    24900 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	25500 3100 24900 3100
+Wire Wire Line
+	24900 3100 24300 3100
+Connection ~ 24900 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628B9B
+P 24900 3200
+AR Path="/7B628B9B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628B9B" Ref="D285"  Part="1" 
+F 0 "D285" V 24946 3130 50  0000 R CNN
+F 1 "LED_Small" V 24855 3130 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24900 3200 50  0001 C CNN
+F 3 "~" V 24900 3200 50  0001 C CNN
+	1    24900 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	24900 3400 25500 3400
+Wire Wire Line
+	24300 3400 24900 3400
+Connection ~ 24900 3400
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628BA4
+P 24900 3500
+AR Path="/7B628BA4" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628BA4" Ref="D317"  Part="1" 
+F 0 "D317" V 24946 3430 50  0000 R CNN
+F 1 "LED_Small" V 24855 3430 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24900 3500 50  0001 C CNN
+F 3 "~" V 24900 3500 50  0001 C CNN
+	1    24900 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	25500 3700 24900 3700
+Wire Wire Line
+	24900 3700 24300 3700
+Connection ~ 24900 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628BAD
+P 24900 3800
+AR Path="/7B628BAD" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628BAD" Ref="D349"  Part="1" 
+F 0 "D349" V 24946 3730 50  0000 R CNN
+F 1 "LED_Small" V 24855 3730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24900 3800 50  0001 C CNN
+F 3 "~" V 24900 3800 50  0001 C CNN
+	1    24900 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	24900 4000 25500 4000
+Wire Wire Line
+	24300 4000 24900 4000
+Connection ~ 24900 4000
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628BB6
+P 24900 4100
+AR Path="/7B628BB6" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628BB6" Ref="D381"  Part="1" 
+F 0 "D381" V 24946 4030 50  0000 R CNN
+F 1 "LED_Small" V 24855 4030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24900 4100 50  0001 C CNN
+F 3 "~" V 24900 4100 50  0001 C CNN
+	1    24900 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	25500 4300 24900 4300
+Wire Wire Line
+	24900 4300 24400 4300
+Connection ~ 24900 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628BBF
+P 24900 4400
+AR Path="/7B628BBF" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628BBF" Ref="D413"  Part="1" 
+F 0 "D413" V 24946 4330 50  0000 R CNN
+F 1 "LED_Small" V 24855 4330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24900 4400 50  0001 C CNN
+F 3 "~" V 24900 4400 50  0001 C CNN
+	1    24900 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	24900 4600 25000 4600
+Wire Wire Line
+	24300 4600 24900 4600
+Connection ~ 24900 4600
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628BC8
+P 24900 4700
+AR Path="/7B628BC8" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628BC8" Ref="D445"  Part="1" 
+F 0 "D445" V 24946 4630 50  0000 R CNN
+F 1 "LED_Small" V 24855 4630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24900 4700 50  0001 C CNN
+F 3 "~" V 24900 4700 50  0001 C CNN
+	1    24900 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	25500 4900 24900 4900
+Wire Wire Line
+	24900 4900 24300 4900
+Connection ~ 24900 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628BD1
+P 24900 5000
+AR Path="/7B628BD1" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628BD1" Ref="D477"  Part="1" 
+F 0 "D477" V 24946 4930 50  0000 R CNN
+F 1 "LED_Small" V 24855 4930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24900 5000 50  0001 C CNN
+F 3 "~" V 24900 5000 50  0001 C CNN
+	1    24900 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	24900 5200 25500 5200
+Wire Wire Line
+	24300 5200 24900 5200
+Connection ~ 24900 5200
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628BDA
+P 24900 5300
+AR Path="/7B628BDA" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628BDA" Ref="D509"  Part="1" 
+F 0 "D509" V 24946 5230 50  0000 R CNN
+F 1 "LED_Small" V 24855 5230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24900 5300 50  0001 C CNN
+F 3 "~" V 24900 5300 50  0001 C CNN
+	1    24900 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	25600 5400 25600 4900
+Wire Wire Line
+	25600 5400 26100 5400
+Wire Wire Line
+	26100 1800 26200 1800
+Connection ~ 26200 1800
+Wire Wire Line
+	26200 2100 26200 1800
+Wire Wire Line
+	26100 2100 26200 2100
+Connection ~ 26200 2100
+Wire Wire Line
+	26200 2400 26200 2100
+Wire Wire Line
+	26100 2400 26200 2400
+Connection ~ 26200 2400
+Wire Wire Line
+	26200 2700 26200 2400
+Wire Wire Line
+	26100 2700 26200 2700
+Connection ~ 26200 2700
+Wire Wire Line
+	26200 3000 26200 2700
+Wire Wire Line
+	26100 3000 26200 3000
+Connection ~ 26200 3000
+Wire Wire Line
+	26200 3300 26200 3000
+Wire Wire Line
+	26100 3300 26200 3300
+Connection ~ 26200 3300
+Wire Wire Line
+	26200 3600 26200 3300
+Wire Wire Line
+	26100 3600 26200 3600
+Connection ~ 26200 3600
+Wire Wire Line
+	26200 3900 26200 3600
+Wire Wire Line
+	26100 3900 26200 3900
+Connection ~ 26200 3900
+Wire Wire Line
+	26200 4200 26200 3900
+Wire Wire Line
+	26100 4200 26200 4200
+Connection ~ 26200 4200
+Wire Wire Line
+	26200 4500 26200 4200
+Wire Wire Line
+	26100 4500 26200 4500
+Connection ~ 26200 4500
+Wire Wire Line
+	26200 4800 26200 4500
+Wire Wire Line
+	26100 4800 26200 4800
+Connection ~ 26200 4800
+Wire Wire Line
+	26200 5100 26200 4800
+Wire Wire Line
+	26100 5100 26200 5100
+Wire Wire Line
+	26200 1800 26200 1500
+Connection ~ 26200 1500
+Wire Wire Line
+	26100 1500 26200 1500
+Wire Wire Line
+	26200 1500 26200 1200
+Wire Wire Line
+	26200 1200 26200 900 
+Connection ~ 26200 1200
+Wire Wire Line
+	26100 1200 26200 1200
+Wire Wire Line
+	26200 900  26100 900 
+Connection ~ 26200 5100
+Wire Wire Line
+	26200 5200 26700 5200
+Connection ~ 26200 5200
+Wire Wire Line
+	26200 5200 26200 5100
+Wire Wire Line
+	26700 5400 26800 5400
+Wire Wire Line
+	26800 5400 26800 5100
+Connection ~ 26800 5100
+Wire Wire Line
+	26700 5100 26800 5100
+Wire Wire Line
+	26800 5100 26800 4800
+Connection ~ 26800 4800
+Wire Wire Line
+	26700 4800 26800 4800
+Wire Wire Line
+	26800 4800 26800 4500
+Connection ~ 26800 4500
+Wire Wire Line
+	26700 4500 26800 4500
+Wire Wire Line
+	26800 4500 26800 4200
+Connection ~ 26800 4200
+Wire Wire Line
+	26700 4200 26800 4200
+Wire Wire Line
+	26800 4200 26800 3900
+Connection ~ 26800 3900
+Wire Wire Line
+	26700 3900 26800 3900
+Wire Wire Line
+	26800 3900 26800 3600
+Connection ~ 26800 3600
+Wire Wire Line
+	26700 3600 26800 3600
+Wire Wire Line
+	26800 3600 26800 3300
+Connection ~ 26800 3300
+Wire Wire Line
+	26700 3300 26800 3300
+Wire Wire Line
+	26800 3300 26800 3000
+Connection ~ 26800 3000
+Wire Wire Line
+	26700 3000 26800 3000
+Wire Wire Line
+	26800 3000 26800 2700
+Connection ~ 26800 2700
+Wire Wire Line
+	26700 2700 26800 2700
+Wire Wire Line
+	26800 2700 26800 2400
+Connection ~ 26800 2400
+Wire Wire Line
+	26700 2400 26800 2400
+Wire Wire Line
+	26800 2400 26800 2100
+Connection ~ 26800 2100
+Wire Wire Line
+	26700 2100 26800 2100
+Wire Wire Line
+	26800 2100 26800 1800
+Connection ~ 26800 1800
+Wire Wire Line
+	26700 1800 26800 1800
+Wire Wire Line
+	26800 1800 26800 1500
+Connection ~ 26800 1500
+Wire Wire Line
+	26700 1500 26800 1500
+Wire Wire Line
+	26800 1500 26800 1200
+Wire Wire Line
+	26800 1200 26800 900 
+Connection ~ 26800 1200
+Wire Wire Line
+	26700 1200 26800 1200
+Wire Wire Line
+	26800 900  26700 900 
+Connection ~ 26800 5400
+Wire Wire Line
+	26800 5450 26800 5400
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628C3F
+P 26700 5300
+AR Path="/7B628C3F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628C3F" Ref="D512"  Part="1" 
+F 0 "D512" V 26746 5230 50  0000 R CNN
+F 1 "LED_Small" V 26655 5230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26700 5300 50  0001 C CNN
+F 3 "~" V 26700 5300 50  0001 C CNN
+	1    26700 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628C45
+P 26700 5000
+AR Path="/7B628C45" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628C45" Ref="D480"  Part="1" 
+F 0 "D480" V 26746 4930 50  0000 R CNN
+F 1 "LED_Small" V 26655 4930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26700 5000 50  0001 C CNN
+F 3 "~" V 26700 5000 50  0001 C CNN
+	1    26700 5000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628C4B
+P 26700 4700
+AR Path="/7B628C4B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628C4B" Ref="D448"  Part="1" 
+F 0 "D448" V 26746 4630 50  0000 R CNN
+F 1 "LED_Small" V 26655 4630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26700 4700 50  0001 C CNN
+F 3 "~" V 26700 4700 50  0001 C CNN
+	1    26700 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628C51
+P 26700 4400
+AR Path="/7B628C51" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628C51" Ref="D416"  Part="1" 
+F 0 "D416" V 26746 4330 50  0000 R CNN
+F 1 "LED_Small" V 26655 4330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26700 4400 50  0001 C CNN
+F 3 "~" V 26700 4400 50  0001 C CNN
+	1    26700 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628C57
+P 26700 4100
+AR Path="/7B628C57" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628C57" Ref="D384"  Part="1" 
+F 0 "D384" V 26746 4030 50  0000 R CNN
+F 1 "LED_Small" V 26655 4030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26700 4100 50  0001 C CNN
+F 3 "~" V 26700 4100 50  0001 C CNN
+	1    26700 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628C5D
+P 26700 3800
+AR Path="/7B628C5D" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628C5D" Ref="D352"  Part="1" 
+F 0 "D352" V 26746 3730 50  0000 R CNN
+F 1 "LED_Small" V 26655 3730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26700 3800 50  0001 C CNN
+F 3 "~" V 26700 3800 50  0001 C CNN
+	1    26700 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628C63
+P 26700 3500
+AR Path="/7B628C63" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628C63" Ref="D320"  Part="1" 
+F 0 "D320" V 26746 3430 50  0000 R CNN
+F 1 "LED_Small" V 26655 3430 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26700 3500 50  0001 C CNN
+F 3 "~" V 26700 3500 50  0001 C CNN
+	1    26700 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628C69
+P 26700 3200
+AR Path="/7B628C69" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628C69" Ref="D288"  Part="1" 
+F 0 "D288" V 26746 3130 50  0000 R CNN
+F 1 "LED_Small" V 26655 3130 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26700 3200 50  0001 C CNN
+F 3 "~" V 26700 3200 50  0001 C CNN
+	1    26700 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628C6F
+P 26700 2900
+AR Path="/7B628C6F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628C6F" Ref="D256"  Part="1" 
+F 0 "D256" V 26746 2830 50  0000 R CNN
+F 1 "LED_Small" V 26655 2830 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26700 2900 50  0001 C CNN
+F 3 "~" V 26700 2900 50  0001 C CNN
+	1    26700 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628C75
+P 26700 2600
+AR Path="/7B628C75" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628C75" Ref="D224"  Part="1" 
+F 0 "D224" V 26746 2530 50  0000 R CNN
+F 1 "LED_Small" V 26655 2530 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26700 2600 50  0001 C CNN
+F 3 "~" V 26700 2600 50  0001 C CNN
+	1    26700 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628C7B
+P 26700 2300
+AR Path="/7B628C7B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628C7B" Ref="D192"  Part="1" 
+F 0 "D192" V 26746 2230 50  0000 R CNN
+F 1 "LED_Small" V 26655 2230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26700 2300 50  0001 C CNN
+F 3 "~" V 26700 2300 50  0001 C CNN
+	1    26700 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628C81
+P 26700 2000
+AR Path="/7B628C81" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628C81" Ref="D160"  Part="1" 
+F 0 "D160" V 26746 1930 50  0000 R CNN
+F 1 "LED_Small" V 26655 1930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26700 2000 50  0001 C CNN
+F 3 "~" V 26700 2000 50  0001 C CNN
+	1    26700 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628C87
+P 26700 1700
+AR Path="/7B628C87" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628C87" Ref="D128"  Part="1" 
+F 0 "D128" V 26746 1630 50  0000 R CNN
+F 1 "LED_Small" V 26655 1630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26700 1700 50  0001 C CNN
+F 3 "~" V 26700 1700 50  0001 C CNN
+	1    26700 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628C8D
+P 26700 1400
+AR Path="/7B628C8D" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628C8D" Ref="D96"  Part="1" 
+F 0 "D96" V 26746 1330 50  0000 R CNN
+F 1 "LED_Small" V 26655 1330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26700 1400 50  0001 C CNN
+F 3 "~" V 26700 1400 50  0001 C CNN
+	1    26700 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628C93
+P 26700 1100
+AR Path="/7B628C93" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628C93" Ref="D64"  Part="1" 
+F 0 "D64" V 26746 1030 50  0000 R CNN
+F 1 "LED_Small" V 26655 1030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26700 1100 50  0001 C CNN
+F 3 "~" V 26700 1100 50  0001 C CNN
+	1    26700 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628C99
+P 26700 800
+AR Path="/7B628C99" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628C99" Ref="D32"  Part="1" 
+F 0 "D32" V 26746 730 50  0000 R CNN
+F 1 "LED_Small" V 26655 730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26700 800 50  0001 C CNN
+F 3 "~" V 26700 800 50  0001 C CNN
+	1    26700 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	25500 5200 26100 5200
+Wire Wire Line
+	26100 5200 26200 5200
+Connection ~ 26100 5200
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628CA2
+P 26100 5300
+AR Path="/7B628CA2" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628CA2" Ref="D511"  Part="1" 
+F 0 "D511" V 26146 5230 50  0000 R CNN
+F 1 "LED_Small" V 26055 5230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26100 5300 50  0001 C CNN
+F 3 "~" V 26100 5300 50  0001 C CNN
+	1    26100 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	26100 4900 25600 4900
+Wire Wire Line
+	26700 4900 26100 4900
+Connection ~ 26100 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628CAB
+P 26100 5000
+AR Path="/7B628CAB" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628CAB" Ref="D479"  Part="1" 
+F 0 "D479" V 26146 4930 50  0000 R CNN
+F 1 "LED_Small" V 26055 4930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26100 5000 50  0001 C CNN
+F 3 "~" V 26100 5000 50  0001 C CNN
+	1    26100 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	25500 4600 26100 4600
+Wire Wire Line
+	26100 4600 26700 4600
+Connection ~ 26100 4600
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628CB4
+P 26100 4700
+AR Path="/7B628CB4" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628CB4" Ref="D447"  Part="1" 
+F 0 "D447" V 26146 4630 50  0000 R CNN
+F 1 "LED_Small" V 26055 4630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26100 4700 50  0001 C CNN
+F 3 "~" V 26100 4700 50  0001 C CNN
+	1    26100 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	26100 4300 25500 4300
+Wire Wire Line
+	26700 4300 26100 4300
+Connection ~ 26100 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628CBD
+P 26100 4400
+AR Path="/7B628CBD" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628CBD" Ref="D415"  Part="1" 
+F 0 "D415" V 26146 4330 50  0000 R CNN
+F 1 "LED_Small" V 26055 4330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26100 4400 50  0001 C CNN
+F 3 "~" V 26100 4400 50  0001 C CNN
+	1    26100 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	25500 4000 26100 4000
+Wire Wire Line
+	26100 4000 26700 4000
+Connection ~ 26100 4000
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628CC6
+P 26100 4100
+AR Path="/7B628CC6" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628CC6" Ref="D383"  Part="1" 
+F 0 "D383" V 26146 4030 50  0000 R CNN
+F 1 "LED_Small" V 26055 4030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26100 4100 50  0001 C CNN
+F 3 "~" V 26100 4100 50  0001 C CNN
+	1    26100 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	26100 3700 25500 3700
+Wire Wire Line
+	26700 3700 26100 3700
+Connection ~ 26100 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628CCF
+P 26100 3800
+AR Path="/7B628CCF" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628CCF" Ref="D351"  Part="1" 
+F 0 "D351" V 26146 3730 50  0000 R CNN
+F 1 "LED_Small" V 26055 3730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26100 3800 50  0001 C CNN
+F 3 "~" V 26100 3800 50  0001 C CNN
+	1    26100 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	25500 3400 26100 3400
+Wire Wire Line
+	26100 3400 26700 3400
+Connection ~ 26100 3400
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628CD8
+P 26100 3500
+AR Path="/7B628CD8" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628CD8" Ref="D319"  Part="1" 
+F 0 "D319" V 26146 3430 50  0000 R CNN
+F 1 "LED_Small" V 26055 3430 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26100 3500 50  0001 C CNN
+F 3 "~" V 26100 3500 50  0001 C CNN
+	1    26100 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	26100 3100 25500 3100
+Wire Wire Line
+	26100 3100 26700 3100
+Connection ~ 26100 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628CE1
+P 26100 3200
+AR Path="/7B628CE1" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628CE1" Ref="D287"  Part="1" 
+F 0 "D287" V 26146 3130 50  0000 R CNN
+F 1 "LED_Small" V 26055 3130 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26100 3200 50  0001 C CNN
+F 3 "~" V 26100 3200 50  0001 C CNN
+	1    26100 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	25500 2800 26100 2800
+Wire Wire Line
+	26100 2800 26700 2800
+Connection ~ 26100 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628CEA
+P 26100 2900
+AR Path="/7B628CEA" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628CEA" Ref="D255"  Part="1" 
+F 0 "D255" V 26146 2830 50  0000 R CNN
+F 1 "LED_Small" V 26055 2830 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26100 2900 50  0001 C CNN
+F 3 "~" V 26100 2900 50  0001 C CNN
+	1    26100 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	25500 2500 26100 2500
+Wire Wire Line
+	26100 2500 26700 2500
+Connection ~ 26100 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628CF3
+P 26100 2600
+AR Path="/7B628CF3" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628CF3" Ref="D223"  Part="1" 
+F 0 "D223" V 26146 2530 50  0000 R CNN
+F 1 "LED_Small" V 26055 2530 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26100 2600 50  0001 C CNN
+F 3 "~" V 26100 2600 50  0001 C CNN
+	1    26100 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	25500 2200 26100 2200
+Wire Wire Line
+	26100 2200 26700 2200
+Connection ~ 26100 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628CFC
+P 26100 2300
+AR Path="/7B628CFC" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628CFC" Ref="D191"  Part="1" 
+F 0 "D191" V 26146 2230 50  0000 R CNN
+F 1 "LED_Small" V 26055 2230 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26100 2300 50  0001 C CNN
+F 3 "~" V 26100 2300 50  0001 C CNN
+	1    26100 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	25500 1900 26100 1900
+Wire Wire Line
+	26100 1900 26700 1900
+Connection ~ 26100 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628D05
+P 26100 2000
+AR Path="/7B628D05" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628D05" Ref="D159"  Part="1" 
+F 0 "D159" V 26146 1930 50  0000 R CNN
+F 1 "LED_Small" V 26055 1930 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26100 2000 50  0001 C CNN
+F 3 "~" V 26100 2000 50  0001 C CNN
+	1    26100 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	25500 1600 26100 1600
+Wire Wire Line
+	26100 1600 26700 1600
+Connection ~ 26100 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628D0E
+P 26100 1700
+AR Path="/7B628D0E" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628D0E" Ref="D127"  Part="1" 
+F 0 "D127" V 26146 1630 50  0000 R CNN
+F 1 "LED_Small" V 26055 1630 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26100 1700 50  0001 C CNN
+F 3 "~" V 26100 1700 50  0001 C CNN
+	1    26100 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	25500 1300 26100 1300
+Wire Wire Line
+	26100 1300 26700 1300
+Connection ~ 26100 1300
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628D17
+P 26100 1400
+AR Path="/7B628D17" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628D17" Ref="D95"  Part="1" 
+F 0 "D95" V 26146 1330 50  0000 R CNN
+F 1 "LED_Small" V 26055 1330 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26100 1400 50  0001 C CNN
+F 3 "~" V 26100 1400 50  0001 C CNN
+	1    26100 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	25500 1000 26100 1000
+Wire Wire Line
+	26100 1000 26700 1000
+Connection ~ 26100 1000
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628D20
+P 26100 1100
+AR Path="/7B628D20" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628D20" Ref="D63"  Part="1" 
+F 0 "D63" V 26146 1030 50  0000 R CNN
+F 1 "LED_Small" V 26055 1030 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26100 1100 50  0001 C CNN
+F 3 "~" V 26100 1100 50  0001 C CNN
+	1    26100 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	25500 700  26100 700 
+Wire Wire Line
+	26100 700  26700 700 
+Connection ~ 26100 700 
+$Comp
+L Device:LED_Small D?
+U 1 1 7B628D29
+P 26100 800
+AR Path="/7B628D29" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B628D29" Ref="D31"  Part="1" 
+F 0 "D31" V 26146 730 50  0000 R CNN
+F 1 "LED_Small" V 26055 730 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26100 800 50  0001 C CNN
+F 3 "~" V 26100 800 50  0001 C CNN
+	1    26100 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	16450 4300 17700 4300
+Wire Wire Line
+	16750 2200 17700 2200
+Wire Wire Line
+	16800 2500 17700 2500
+Wire Wire Line
+	16850 2800 17700 2800
+Wire Wire Line
+	16900 3100 17700 3100
+Wire Wire Line
+	16950 3400 17700 3400
+Wire Wire Line
+	17000 3700 17700 3700
+Wire Wire Line
+	16650 4600 17700 4600
+Wire Wire Line
+	16600 4900 17700 4900
+Wire Wire Line
+	16550 5200 17700 5200
+Wire Wire Line
+	17600 700  16500 700 
+Connection ~ 17600 700 
+Wire Wire Line
+	16550 1000 17700 1000
+Wire Wire Line
+	16600 1300 17700 1300
+Wire Wire Line
+	16650 1600 17700 1600
+Wire Wire Line
+	16700 1900 17700 1900
+Wire Wire Line
+	17000 3700 17000 4100
+Wire Wire Line
+	17050 4000 17700 4000
+Connection ~ 17700 4000
+Wire Wire Line
+	16500 5450 26800 5450
+Wire Wire Line
+	3050 9850 3050 10050
+Wire Wire Line
+	3000 10350 3000 9950
+Wire Wire Line
+	2950 10050 2950 10650
+Wire Wire Line
+	2900 10150 2900 10900
+$Comp
+L HT16D33A_B:HT16D33B U?
+U 1 1 7B938954
+P 2100 9100
+AR Path="/7B938954" Ref="U?"  Part="1" 
+AR Path="/61F40005/7B938954" Ref="U?"  Part="1" 
+AR Path="/7AD7E6BD/7B938954" Ref="U5"  Part="1" 
+F 0 "U5" H 2100 9100 50  0000 C CNN
+F 1 "HT16D33B" H 2100 9000 50  0000 C CNN
+F 2 "Housings_SSOP:SSOP-28_3.9x9.9mm_Pitch0.635mm" H 2100 8650 50  0001 C CNN
+F 3 "" H 2100 8650 50  0001 C CNN
+	1    2100 9100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 8350 2850 8350
+Wire Wire Line
+	2950 8450 2850 8450
+Wire Wire Line
+	2950 6450 2950 8450
+Wire Wire Line
+	3000 8550 2850 8550
+Wire Wire Line
+	3000 6750 3000 8550
+Wire Wire Line
+	3050 8650 2850 8650
+Wire Wire Line
+	3050 7050 3050 8650
+Wire Wire Line
+	3100 8750 2850 8750
+Wire Wire Line
+	3150 8850 2850 8850
+Wire Wire Line
+	3150 7650 3150 8850
+Wire Wire Line
+	3200 8950 2850 8950
+Wire Wire Line
+	3200 7950 3200 8950
+Wire Wire Line
+	3250 9050 2850 9050
+Wire Wire Line
+	3250 8250 3250 9050
+Wire Wire Line
+	3300 9250 2850 9250
+Wire Wire Line
+	3300 8550 3300 9250
+Wire Wire Line
+	3350 8850 3350 9450
+Wire Wire Line
+	3400 9550 2850 9550
+Wire Wire Line
+	3450 9650 2850 9650
+Wire Wire Line
+	3450 9450 3450 9650
+Wire Wire Line
+	1950 7950 2050 7950
+Connection ~ 2050 7950
+$Comp
+L power:GND #PWR?
+U 1 1 7B938971
+P 2050 10400
+AR Path="/7B938971" Ref="#PWR?"  Part="1" 
+AR Path="/61F40005/7B938971" Ref="#PWR?"  Part="1" 
+AR Path="/7AD7E6BD/7B938971" Ref="#PWR033"  Part="1" 
+F 0 "#PWR033" H 2050 10150 50  0001 C CNN
+F 1 "GND" H 2055 10227 50  0000 C CNN
+F 2 "" H 2050 10400 50  0001 C CNN
+F 3 "" H 2050 10400 50  0001 C CNN
+	1    2050 10400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 7950 2150 7550
+Wire Wire Line
+	2850 10150 2900 10150
+Wire Wire Line
+	2850 10050 2950 10050
+Wire Wire Line
+	2850 9950 3000 9950
+Wire Wire Line
+	2850 9850 3050 9850
+$Comp
+L Device:C_Small C?
+U 1 1 7B93897C
+P 1650 7650
+AR Path="/7B93897C" Ref="C?"  Part="1" 
+AR Path="/61F40005/7B93897C" Ref="C?"  Part="1" 
+AR Path="/7AD7E6BD/7B93897C" Ref="C8"  Part="1" 
+F 0 "C8" H 1742 7696 50  0000 L CNN
+F 1 ".1uF" H 1742 7605 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 1650 7650 50  0001 C CNN
+F 3 "~" H 1650 7650 50  0001 C CNN
+	1    1650 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 7B938982
+P 2400 7650
+AR Path="/7B938982" Ref="C?"  Part="1" 
+AR Path="/61F40005/7B938982" Ref="C?"  Part="1" 
+AR Path="/7AD7E6BD/7B938982" Ref="C9"  Part="1" 
+F 0 "C9" H 2492 7696 50  0000 L CNN
+F 1 ".1uF" H 2492 7605 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2400 7650 50  0001 C CNN
+F 3 "~" H 2400 7650 50  0001 C CNN
+	1    2400 7650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 7550 2050 7550
+Wire Wire Line
+	2050 7550 2050 7950
+Wire Wire Line
+	2400 7550 2150 7550
+$Comp
+L power:GND #PWR?
+U 1 1 7B93898B
+P 1650 7850
+AR Path="/7B93898B" Ref="#PWR?"  Part="1" 
+AR Path="/61F40005/7B93898B" Ref="#PWR?"  Part="1" 
+AR Path="/7AD7E6BD/7B93898B" Ref="#PWR028"  Part="1" 
+F 0 "#PWR028" H 1650 7600 50  0001 C CNN
+F 1 "GND" H 1655 7677 50  0000 C CNN
+F 2 "" H 1650 7850 50  0001 C CNN
+F 3 "" H 1650 7850 50  0001 C CNN
+	1    1650 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 7B938991
+P 2400 7850
+AR Path="/7B938991" Ref="#PWR?"  Part="1" 
+AR Path="/61F40005/7B938991" Ref="#PWR?"  Part="1" 
+AR Path="/7AD7E6BD/7B938991" Ref="#PWR029"  Part="1" 
+F 0 "#PWR029" H 2400 7600 50  0001 C CNN
+F 1 "GND" H 2405 7677 50  0000 C CNN
+F 2 "" H 2400 7850 50  0001 C CNN
+F 3 "" H 2400 7850 50  0001 C CNN
+	1    2400 7850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 7850 1650 7750
+Wire Wire Line
+	2400 7850 2400 7750
+$Comp
+L power:+3.3V #PWR?
+U 1 1 7B938999
+P 2050 7000
+AR Path="/7B938999" Ref="#PWR?"  Part="1" 
+AR Path="/61F40005/7B938999" Ref="#PWR?"  Part="1" 
+AR Path="/7AD7E6BD/7B938999" Ref="#PWR026"  Part="1" 
+F 0 "#PWR026" H 2050 6850 50  0001 C CNN
+F 1 "+3.3V" H 2065 7173 50  0000 C CNN
+F 2 "" H 2050 7000 50  0001 C CNN
+F 3 "" H 2050 7000 50  0001 C CNN
+	1    2050 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 7550 2050 7250
+Wire Wire Line
+	2050 7250 2150 7250
+Wire Wire Line
+	2150 7250 2150 7550
+Connection ~ 2050 7550
+Connection ~ 2150 7550
+Wire Wire Line
+	2050 7000 2050 7250
+Connection ~ 2050 7250
+Wire Wire Line
+	1300 8250 1200 8250
+Text GLabel 1050 8350 0    50   Input ~ 0
+SCL
+Text GLabel 1050 8450 0    50   BiDi ~ 0
+SDA
+Wire Wire Line
+	1050 8350 1300 8350
+Wire Wire Line
+	1050 8450 1200 8450
+Wire Wire Line
+	2900 6150 2900 8350
+Wire Wire Line
+	2850 9450 3350 9450
+Wire Wire Line
+	11900 7850 12000 7850
+Connection ~ 9600 6950
+Wire Wire Line
+	9500 6950 9600 6950
+Wire Wire Line
+	8300 8450 8400 8450
+Wire Wire Line
+	7100 7250 7200 7250
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9389B8
+P 8900 9250
+AR Path="/7B9389B8" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9389B8" Ref="D841"  Part="1" 
+F 0 "D841" V 8946 9180 50  0000 R CNN
+F 1 "LED_Small" V 8855 9180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8900 9250 50  0001 C CNN
+F 3 "~" V 8900 9250 50  0001 C CNN
+	1    8900 9250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9389BE
+P 5900 10450
+AR Path="/7B9389BE" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9389BE" Ref="D964"  Part="1" 
+F 0 "D964" V 5946 10380 50  0000 R CNN
+F 1 "LED_Small" V 5855 10380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5900 10450 50  0001 C CNN
+F 3 "~" V 5900 10450 50  0001 C CNN
+	1    5900 10450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4200 10550 4200 10850
+Wire Wire Line
+	4700 10550 4200 10550
+Connection ~ 4200 10550
+Wire Wire Line
+	4200 10250 4200 10550
+Wire Wire Line
+	4700 10250 4200 10250
+Connection ~ 4200 10250
+Wire Wire Line
+	4200 9950 4200 10250
+Wire Wire Line
+	4700 9950 4200 9950
+Connection ~ 4200 9950
+Wire Wire Line
+	4200 9650 4200 9950
+Wire Wire Line
+	4700 9650 4200 9650
+Connection ~ 4200 9650
+Wire Wire Line
+	4200 9350 4200 9650
+Wire Wire Line
+	4700 9350 4200 9350
+Connection ~ 4200 9350
+Wire Wire Line
+	4200 9050 4200 9350
+Wire Wire Line
+	4700 9050 4200 9050
+Connection ~ 4200 9050
+Wire Wire Line
+	4200 8750 4200 9050
+Wire Wire Line
+	4700 8750 4200 8750
+Connection ~ 4200 8750
+Wire Wire Line
+	4200 8450 4200 8750
+Wire Wire Line
+	4700 8450 4200 8450
+Connection ~ 4200 8450
+Wire Wire Line
+	4200 8150 4200 8450
+Wire Wire Line
+	4700 8150 4200 8150
+Connection ~ 4200 8150
+Wire Wire Line
+	4200 7850 4200 8150
+Wire Wire Line
+	4700 7850 4200 7850
+Connection ~ 4200 7850
+Wire Wire Line
+	4200 7550 4200 7850
+Wire Wire Line
+	4700 7550 4200 7550
+Connection ~ 4200 7550
+Wire Wire Line
+	4200 7250 4200 7550
+Wire Wire Line
+	4700 7250 4200 7250
+Connection ~ 4200 7250
+Wire Wire Line
+	4200 6950 4200 7250
+Wire Wire Line
+	4700 6950 4200 6950
+Wire Wire Line
+	4700 6650 4800 6650
+Wire Wire Line
+	4800 6650 4800 6350
+Connection ~ 4800 6650
+Wire Wire Line
+	5300 6650 5400 6650
+Wire Wire Line
+	5400 6650 5400 6950
+Connection ~ 5400 6950
+Wire Wire Line
+	5300 6950 5400 6950
+Wire Wire Line
+	5300 7250 4800 7250
+Connection ~ 4800 7250
+Wire Wire Line
+	4800 7550 4800 7250
+Wire Wire Line
+	5300 7550 4800 7550
+Connection ~ 4800 7550
+Wire Wire Line
+	4800 7850 4800 7550
+Wire Wire Line
+	5300 7850 4800 7850
+Connection ~ 4800 7850
+Wire Wire Line
+	4800 8150 4800 7850
+Wire Wire Line
+	5300 8150 4800 8150
+Connection ~ 4800 8150
+Wire Wire Line
+	4800 8450 4800 8150
+Wire Wire Line
+	5300 8450 4800 8450
+Connection ~ 4800 8450
+Wire Wire Line
+	4800 8750 4800 8450
+Wire Wire Line
+	5300 8750 4800 8750
+Connection ~ 4800 8750
+Wire Wire Line
+	4800 9050 4800 8750
+Wire Wire Line
+	5300 9050 4800 9050
+Connection ~ 4800 9050
+Wire Wire Line
+	4800 9350 4800 9050
+Wire Wire Line
+	5300 9350 4800 9350
+Connection ~ 4800 9350
+Wire Wire Line
+	4800 9650 4800 9350
+Wire Wire Line
+	5300 9650 4800 9650
+Connection ~ 4800 9650
+Wire Wire Line
+	4800 9950 4800 9650
+Wire Wire Line
+	5300 9950 4800 9950
+Connection ~ 4800 9950
+Wire Wire Line
+	4800 10250 4800 9950
+Wire Wire Line
+	5300 10250 4800 10250
+Connection ~ 4800 10250
+Wire Wire Line
+	4800 10550 4800 10250
+Wire Wire Line
+	5300 10550 4800 10550
+Wire Wire Line
+	5400 10550 5400 10850
+Connection ~ 5400 10550
+Wire Wire Line
+	5900 10550 5400 10550
+Wire Wire Line
+	5400 10250 5400 10550
+Connection ~ 5400 10250
+Wire Wire Line
+	5900 10250 5400 10250
+Wire Wire Line
+	5400 9950 5400 10250
+Connection ~ 5400 9950
+Wire Wire Line
+	5900 9950 5400 9950
+Wire Wire Line
+	5400 9650 5400 9950
+Connection ~ 5400 9650
+Wire Wire Line
+	5900 9650 5400 9650
+Wire Wire Line
+	5400 9350 5400 9650
+Connection ~ 5400 9350
+Wire Wire Line
+	5400 9350 5900 9350
+Wire Wire Line
+	5400 9050 5400 9350
+Connection ~ 5400 9050
+Wire Wire Line
+	5900 9050 5400 9050
+Wire Wire Line
+	5400 8750 5400 9050
+Connection ~ 5400 8750
+Wire Wire Line
+	5400 8750 5900 8750
+Wire Wire Line
+	5400 8450 5400 8750
+Connection ~ 5400 8450
+Wire Wire Line
+	5900 8450 5400 8450
+Wire Wire Line
+	5400 8150 5400 8450
+Connection ~ 5400 8150
+Wire Wire Line
+	5900 8150 5400 8150
+Wire Wire Line
+	5400 7850 5400 8150
+Connection ~ 5400 7850
+Wire Wire Line
+	5900 7850 5400 7850
+Wire Wire Line
+	5400 7550 5400 7850
+Connection ~ 5400 7550
+Wire Wire Line
+	5900 7550 5400 7550
+Wire Wire Line
+	6000 7250 5900 7250
+Connection ~ 6000 7250
+Wire Wire Line
+	6000 6950 6000 7250
+Wire Wire Line
+	6000 6950 5900 6950
+Connection ~ 6000 6950
+Wire Wire Line
+	6000 6650 6000 6950
+Wire Wire Line
+	5900 6650 6000 6650
+Connection ~ 6000 6650
+Wire Wire Line
+	6000 6350 6000 6650
+Wire Wire Line
+	6500 6650 6600 6650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938A3E
+P 6500 6550
+AR Path="/7B938A3E" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938A3E" Ref="D549"  Part="1" 
+F 0 "D549" V 6546 6480 50  0000 R CNN
+F 1 "LED_Small" V 6455 6480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 6500 6550 50  0001 C CNN
+F 3 "~" V 6500 6550 50  0001 C CNN
+	1    6500 6550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6500 6450
+Wire Wire Line
+	6600 6650 6600 6950
+Connection ~ 6600 6950
+Wire Wire Line
+	6500 6950 6600 6950
+Wire Wire Line
+	6600 6950 6600 7250
+Connection ~ 6600 7250
+Wire Wire Line
+	6500 7250 6600 7250
+Wire Wire Line
+	6600 7250 6600 7550
+Connection ~ 6600 7550
+Wire Wire Line
+	6500 7550 6600 7550
+Wire Wire Line
+	6000 7850 6500 7850
+Connection ~ 6000 7850
+Wire Wire Line
+	6000 8150 6000 7850
+Wire Wire Line
+	6500 8150 6000 8150
+Connection ~ 6000 8150
+Wire Wire Line
+	6000 8450 6000 8150
+Wire Wire Line
+	6500 8450 6000 8450
+Connection ~ 6000 8450
+Wire Wire Line
+	6000 8750 6000 8450
+Wire Wire Line
+	6500 8750 6000 8750
+Connection ~ 6000 8750
+Wire Wire Line
+	6000 9050 6000 8750
+Wire Wire Line
+	6500 9050 6000 9050
+Connection ~ 6000 9050
+Wire Wire Line
+	6000 9350 6000 9050
+Wire Wire Line
+	6500 9350 6000 9350
+Connection ~ 6000 9350
+Wire Wire Line
+	6000 9650 6000 9350
+Wire Wire Line
+	6500 9650 6000 9650
+Connection ~ 6000 9650
+Wire Wire Line
+	6000 9950 6000 9650
+Wire Wire Line
+	6500 9950 6000 9950
+Connection ~ 6000 9950
+Wire Wire Line
+	6000 10250 6000 9950
+Wire Wire Line
+	6500 10250 6000 10250
+Connection ~ 6000 10250
+Wire Wire Line
+	6000 10550 6000 10250
+Wire Wire Line
+	6500 10550 6000 10550
+Wire Wire Line
+	6600 10550 6600 10850
+Connection ~ 6600 10550
+Wire Wire Line
+	7100 10550 6600 10550
+Wire Wire Line
+	6600 10250 6600 10550
+Connection ~ 6600 10250
+Wire Wire Line
+	7100 10250 6600 10250
+Wire Wire Line
+	6600 9950 6600 10250
+Connection ~ 6600 9950
+Wire Wire Line
+	7100 9950 6600 9950
+Wire Wire Line
+	6600 9650 6600 9950
+Connection ~ 6600 9650
+Wire Wire Line
+	7100 9650 6600 9650
+Wire Wire Line
+	6600 9350 6600 9650
+Connection ~ 6600 9350
+Wire Wire Line
+	7100 9350 6600 9350
+Wire Wire Line
+	6600 9050 6600 9350
+Connection ~ 6600 9050
+Wire Wire Line
+	7100 9050 6600 9050
+Wire Wire Line
+	6600 8750 6600 9050
+Connection ~ 6600 8750
+Wire Wire Line
+	7100 8750 6600 8750
+Wire Wire Line
+	6600 8450 6600 8750
+Connection ~ 6600 8450
+Wire Wire Line
+	7100 8450 6600 8450
+Wire Wire Line
+	6600 8150 6600 8450
+Connection ~ 6600 8150
+Wire Wire Line
+	7100 8150 6600 8150
+Connection ~ 7200 7850
+Wire Wire Line
+	7100 7850 7200 7850
+Wire Wire Line
+	7200 7850 7200 7550
+Connection ~ 7200 7550
+Wire Wire Line
+	7100 7550 7200 7550
+Wire Wire Line
+	7200 7550 7200 7250
+Connection ~ 7200 7250
+Wire Wire Line
+	7100 6950 7200 6950
+Wire Wire Line
+	7200 7250 7200 6950
+Connection ~ 7200 6950
+Wire Wire Line
+	7200 6950 7200 6650
+Wire Wire Line
+	7200 6650 7200 6350
+Connection ~ 7200 6650
+Wire Wire Line
+	7100 6650 7200 6650
+Wire Wire Line
+	7700 6650 7800 6650
+Wire Wire Line
+	7800 6650 7800 6950
+Connection ~ 7800 6950
+Wire Wire Line
+	7700 6950 7800 6950
+Wire Wire Line
+	7800 6950 7800 7250
+Connection ~ 7800 7250
+Wire Wire Line
+	7700 7250 7800 7250
+Wire Wire Line
+	7800 7250 7800 7550
+Connection ~ 7800 7550
+Wire Wire Line
+	7700 7550 7800 7550
+Wire Wire Line
+	7800 7550 7800 7850
+Connection ~ 7800 7850
+Wire Wire Line
+	7700 7850 7800 7850
+Wire Wire Line
+	7800 7850 7800 8150
+Connection ~ 7800 8150
+Wire Wire Line
+	7700 8150 7800 8150
+Wire Wire Line
+	7700 8450 7200 8450
+Connection ~ 7200 8450
+Wire Wire Line
+	7200 8750 7200 8450
+Wire Wire Line
+	7700 8750 7200 8750
+Connection ~ 7200 8750
+Wire Wire Line
+	7200 9050 7200 8750
+Wire Wire Line
+	7700 9050 7200 9050
+Connection ~ 7200 9050
+Wire Wire Line
+	7200 9350 7200 9050
+Wire Wire Line
+	7700 9350 7200 9350
+Connection ~ 7200 9350
+Wire Wire Line
+	7200 9650 7200 9350
+Wire Wire Line
+	7700 9650 7200 9650
+Connection ~ 7200 9650
+Wire Wire Line
+	7200 9950 7200 9650
+Wire Wire Line
+	7700 9950 7200 9950
+Connection ~ 7200 9950
+Wire Wire Line
+	7200 10250 7200 9950
+Wire Wire Line
+	7700 10250 7200 10250
+Connection ~ 7200 10250
+Wire Wire Line
+	7200 10550 7200 10250
+Wire Wire Line
+	7700 10550 7200 10550
+Wire Wire Line
+	7800 10550 7800 10850
+Connection ~ 7800 10550
+Wire Wire Line
+	8300 10550 7800 10550
+Wire Wire Line
+	7800 10250 7800 10550
+Connection ~ 7800 10250
+Wire Wire Line
+	8300 10250 7800 10250
+Wire Wire Line
+	7800 9950 7800 10250
+Connection ~ 7800 9950
+Wire Wire Line
+	8300 9950 7800 9950
+Wire Wire Line
+	7800 9650 7800 9950
+Connection ~ 7800 9650
+Wire Wire Line
+	8300 9650 7800 9650
+Wire Wire Line
+	7800 9350 8300 9350
+Wire Wire Line
+	7800 9350 7800 9650
+Connection ~ 7800 9350
+Wire Wire Line
+	7800 9050 7800 9350
+Connection ~ 7800 9050
+Wire Wire Line
+	8300 9050 7800 9050
+Wire Wire Line
+	7800 8750 7800 9050
+Connection ~ 7800 8750
+Wire Wire Line
+	8300 8750 7800 8750
+Connection ~ 8400 8450
+Wire Wire Line
+	8400 8150 8400 8450
+Connection ~ 8400 8150
+Wire Wire Line
+	8300 8150 8400 8150
+Wire Wire Line
+	8400 7850 8400 8150
+Connection ~ 8400 7850
+Wire Wire Line
+	8300 7850 8400 7850
+Wire Wire Line
+	8400 7550 8400 7850
+Connection ~ 8400 7550
+Wire Wire Line
+	8300 7550 8400 7550
+Wire Wire Line
+	8400 7250 8400 7550
+Connection ~ 8400 7250
+Wire Wire Line
+	8300 7250 8400 7250
+Wire Wire Line
+	8400 6950 8400 7250
+Connection ~ 8400 6950
+Wire Wire Line
+	8300 6950 8400 6950
+Wire Wire Line
+	8400 6950 8400 6650
+Wire Wire Line
+	8400 6650 8400 6350
+Connection ~ 8400 6650
+Wire Wire Line
+	8300 6650 8400 6650
+Wire Wire Line
+	8400 10250 8900 10250
+Wire Wire Line
+	8900 6650 9000 6650
+Wire Wire Line
+	9000 6650 9000 6950
+Connection ~ 9000 6950
+Wire Wire Line
+	8900 6950 9000 6950
+Wire Wire Line
+	9000 6950 9000 7250
+Connection ~ 9000 7250
+Wire Wire Line
+	8900 7250 9000 7250
+Wire Wire Line
+	9000 7250 9000 7550
+Connection ~ 9000 7550
+Wire Wire Line
+	8900 7550 9000 7550
+Wire Wire Line
+	9000 7550 9000 7850
+Connection ~ 9000 7850
+Wire Wire Line
+	8900 7850 9000 7850
+Wire Wire Line
+	9000 7850 9000 8150
+Connection ~ 9000 8150
+Wire Wire Line
+	8900 8150 9000 8150
+Wire Wire Line
+	9000 8150 9000 8450
+Connection ~ 9000 8450
+Wire Wire Line
+	8900 8450 9000 8450
+Wire Wire Line
+	9000 8450 9000 8750
+Connection ~ 9000 8750
+Wire Wire Line
+	8900 8750 9000 8750
+Wire Wire Line
+	8900 9050 8400 9050
+Connection ~ 8400 9050
+Wire Wire Line
+	8400 9350 8400 9050
+Wire Wire Line
+	8900 9350 8400 9350
+Connection ~ 8400 9350
+Wire Wire Line
+	8400 9650 8400 9350
+Wire Wire Line
+	8900 9650 8400 9650
+Connection ~ 8400 9650
+Wire Wire Line
+	8400 9950 8400 9650
+Wire Wire Line
+	8900 9950 8400 9950
+Connection ~ 8400 9950
+Wire Wire Line
+	8400 10250 8400 9950
+Connection ~ 8400 10250
+Wire Wire Line
+	8400 10550 8400 10250
+Wire Wire Line
+	8900 10550 8400 10550
+Wire Wire Line
+	9000 10550 9000 10850
+Connection ~ 9000 10550
+Wire Wire Line
+	9500 10550 9000 10550
+Wire Wire Line
+	9000 10250 9000 10550
+Connection ~ 9000 10250
+Wire Wire Line
+	9500 10250 9000 10250
+Wire Wire Line
+	9000 9950 9000 10250
+Connection ~ 9000 9950
+Wire Wire Line
+	9500 9950 9000 9950
+Wire Wire Line
+	9000 9650 9000 9950
+Connection ~ 9000 9650
+Wire Wire Line
+	9500 9650 9000 9650
+Wire Wire Line
+	9000 9350 9000 9650
+Connection ~ 9000 9350
+Wire Wire Line
+	9500 9350 9000 9350
+Connection ~ 9600 9050
+Wire Wire Line
+	9600 9050 9500 9050
+Wire Wire Line
+	9600 8750 9600 9050
+Connection ~ 9600 8750
+Wire Wire Line
+	9600 8750 9500 8750
+Wire Wire Line
+	9600 8450 9600 8750
+Connection ~ 9600 8450
+Wire Wire Line
+	9600 8450 9500 8450
+Wire Wire Line
+	9600 8150 9600 8450
+Connection ~ 9600 8150
+Wire Wire Line
+	9600 8150 9500 8150
+Wire Wire Line
+	9600 8150 9600 7850
+Connection ~ 9600 7850
+Wire Wire Line
+	9600 7850 9500 7850
+Wire Wire Line
+	9600 7850 9600 7550
+Connection ~ 9600 7550
+Wire Wire Line
+	9600 7550 9500 7550
+Wire Wire Line
+	9600 7550 9600 7250
+Wire Wire Line
+	9600 7250 9600 6950
+Connection ~ 9600 7250
+Wire Wire Line
+	9600 7250 9500 7250
+Wire Wire Line
+	9600 6950 9600 6650
+Wire Wire Line
+	9600 6650 9600 6350
+Connection ~ 9600 6650
+Wire Wire Line
+	9600 6650 9500 6650
+Wire Wire Line
+	10100 6650 10200 6650
+Wire Wire Line
+	10200 6650 10200 6950
+Connection ~ 10200 6950
+Wire Wire Line
+	10100 6950 10200 6950
+Wire Wire Line
+	10200 6950 10200 7250
+Connection ~ 10200 7250
+Wire Wire Line
+	10100 7250 10200 7250
+Wire Wire Line
+	10200 7250 10200 7550
+Connection ~ 10200 7550
+Wire Wire Line
+	10100 7550 10200 7550
+Wire Wire Line
+	10200 7550 10200 7850
+Connection ~ 10200 7850
+Wire Wire Line
+	10100 7850 10200 7850
+Wire Wire Line
+	10200 7850 10200 8150
+Connection ~ 10200 8150
+Wire Wire Line
+	10100 8150 10200 8150
+Wire Wire Line
+	10200 8150 10200 8450
+Connection ~ 10200 8450
+Wire Wire Line
+	10100 8450 10200 8450
+Wire Wire Line
+	10200 8450 10200 8750
+Connection ~ 10200 8750
+Wire Wire Line
+	10100 8750 10200 8750
+Wire Wire Line
+	10200 8750 10200 9050
+Connection ~ 10200 9050
+Wire Wire Line
+	10100 9050 10200 9050
+Wire Wire Line
+	10200 9050 10200 9350
+Connection ~ 10200 9350
+Wire Wire Line
+	10100 9350 10200 9350
+Wire Wire Line
+	10100 9650 9600 9650
+Connection ~ 9600 9650
+Wire Wire Line
+	9600 9950 9600 9650
+Wire Wire Line
+	10100 9950 9600 9950
+Connection ~ 9600 9950
+Wire Wire Line
+	9600 10250 9600 9950
+Wire Wire Line
+	10100 10250 9600 10250
+Connection ~ 9600 10250
+Wire Wire Line
+	9600 10550 9600 10250
+Wire Wire Line
+	10100 10550 9600 10550
+Wire Wire Line
+	10200 10550 10200 10850
+Connection ~ 10200 10550
+Wire Wire Line
+	10700 10550 10200 10550
+Wire Wire Line
+	10200 10250 10200 10550
+Connection ~ 10200 10250
+Wire Wire Line
+	10700 10250 10200 10250
+Wire Wire Line
+	10200 9950 10200 10250
+Connection ~ 10200 9950
+Wire Wire Line
+	10700 9950 10200 9950
+Connection ~ 10800 9650
+Wire Wire Line
+	10700 9650 10800 9650
+Connection ~ 11400 9950
+Wire Wire Line
+	11300 9950 11400 9950
+Wire Wire Line
+	10800 9650 10800 9350
+Connection ~ 10800 9350
+Wire Wire Line
+	10700 9350 10800 9350
+Wire Wire Line
+	10800 9350 10800 9050
+Connection ~ 10800 9050
+Wire Wire Line
+	10700 9050 10800 9050
+Wire Wire Line
+	10800 9050 10800 8750
+Connection ~ 10800 8750
+Wire Wire Line
+	10700 8750 10800 8750
+Wire Wire Line
+	10800 8750 10800 8450
+Connection ~ 10800 8450
+Wire Wire Line
+	10700 8450 10800 8450
+Wire Wire Line
+	10800 8450 10800 8150
+Connection ~ 10800 8150
+Wire Wire Line
+	10700 8150 10800 8150
+Wire Wire Line
+	10800 8150 10800 7850
+Connection ~ 10800 7850
+Wire Wire Line
+	10700 7850 10800 7850
+Wire Wire Line
+	10800 7850 10800 7550
+Connection ~ 10800 7550
+Wire Wire Line
+	10700 7550 10800 7550
+Wire Wire Line
+	10800 7550 10800 7250
+Connection ~ 10800 7250
+Wire Wire Line
+	10700 7250 10800 7250
+Wire Wire Line
+	10800 7250 10800 6950
+Connection ~ 10800 6950
+Wire Wire Line
+	10700 6950 10800 6950
+Wire Wire Line
+	10800 6950 10800 6650
+Wire Wire Line
+	10800 6650 10800 6350
+Connection ~ 10800 6650
+Wire Wire Line
+	10700 6650 10800 6650
+Wire Wire Line
+	11300 6650 11400 6650
+Wire Wire Line
+	11400 6650 11400 6950
+Connection ~ 11400 6950
+Wire Wire Line
+	11300 6950 11400 6950
+Wire Wire Line
+	11400 6950 11400 7250
+Connection ~ 11400 7250
+Wire Wire Line
+	11300 7250 11400 7250
+Wire Wire Line
+	11300 7550 11400 7550
+Wire Wire Line
+	11400 7250 11400 7550
+Connection ~ 11400 7550
+Wire Wire Line
+	11400 7550 11400 7850
+Connection ~ 11400 7850
+Wire Wire Line
+	11300 7850 11400 7850
+Wire Wire Line
+	11400 7850 11400 8150
+Connection ~ 11400 8150
+Wire Wire Line
+	11300 8150 11400 8150
+Wire Wire Line
+	11400 8150 11400 8450
+Connection ~ 11400 8450
+Wire Wire Line
+	11300 8450 11400 8450
+Wire Wire Line
+	11400 8450 11400 8750
+Connection ~ 11400 8750
+Wire Wire Line
+	11300 8750 11400 8750
+Wire Wire Line
+	11400 8750 11400 9050
+Connection ~ 11400 9050
+Wire Wire Line
+	11300 9050 11400 9050
+Connection ~ 11400 6650
+Wire Wire Line
+	11400 6350 11400 6650
+Wire Wire Line
+	11400 9050 11400 9350
+Connection ~ 11400 9350
+Wire Wire Line
+	11300 9350 11400 9350
+Wire Wire Line
+	11400 9950 11400 9650
+Wire Wire Line
+	11400 9350 11400 9650
+Connection ~ 11400 9650
+Wire Wire Line
+	11300 9650 11400 9650
+Wire Wire Line
+	11300 10250 10800 10250
+Connection ~ 10800 10250
+Wire Wire Line
+	10800 10550 10800 10250
+Wire Wire Line
+	11300 10550 10800 10550
+Wire Wire Line
+	11900 10550 11400 10550
+Wire Wire Line
+	11900 10250 12000 10250
+Wire Wire Line
+	12000 10250 12000 9950
+Connection ~ 12000 9950
+Wire Wire Line
+	11900 9950 12000 9950
+Wire Wire Line
+	12000 9950 12000 9650
+Connection ~ 12000 9650
+Wire Wire Line
+	11900 9650 12000 9650
+Wire Wire Line
+	12000 9650 12000 9350
+Connection ~ 12000 9350
+Wire Wire Line
+	11900 9350 12000 9350
+Wire Wire Line
+	12000 9350 12000 9050
+Connection ~ 12000 9050
+Wire Wire Line
+	11900 9050 12000 9050
+Wire Wire Line
+	12000 9050 12000 8750
+Connection ~ 12000 8750
+Wire Wire Line
+	11900 8750 12000 8750
+Wire Wire Line
+	12000 8750 12000 8450
+Connection ~ 12000 8450
+Wire Wire Line
+	11900 8450 12000 8450
+Wire Wire Line
+	12000 8450 12000 8150
+Connection ~ 12000 8150
+Wire Wire Line
+	11900 8150 12000 8150
+Wire Wire Line
+	12000 8150 12000 7850
+Connection ~ 12000 7850
+Wire Wire Line
+	12000 7850 12000 7550
+Connection ~ 12000 7550
+Wire Wire Line
+	11900 7550 12000 7550
+Wire Wire Line
+	12000 7550 12000 7250
+Connection ~ 12000 7250
+Wire Wire Line
+	11900 7250 12000 7250
+Wire Wire Line
+	12000 7250 12000 6950
+Connection ~ 12000 6950
+Wire Wire Line
+	11900 6950 12000 6950
+Wire Wire Line
+	12000 6950 12000 6650
+Wire Wire Line
+	12000 6650 12000 6350
+Connection ~ 12000 6650
+Wire Wire Line
+	11900 6650 12000 6650
+Connection ~ 12000 10250
+Wire Wire Line
+	12000 10350 12000 10250
+Connection ~ 12000 10350
+Wire Wire Line
+	11400 10550 11400 10050
+Wire Wire Line
+	11400 10050 11400 9950
+Connection ~ 11400 10050
+Wire Wire Line
+	10800 9750 10800 10250
+Wire Wire Line
+	10800 9750 10800 9650
+Connection ~ 10800 9750
+Wire Wire Line
+	10200 9350 10200 9450
+Wire Wire Line
+	10200 9450 10200 9950
+Connection ~ 10200 9450
+Wire Wire Line
+	9600 9050 9600 9150
+Wire Wire Line
+	9600 9650 9600 9150
+Connection ~ 9600 9150
+Wire Wire Line
+	9000 8750 9000 8850
+Wire Wire Line
+	9000 8850 9000 9350
+Connection ~ 9000 8850
+Wire Wire Line
+	8400 8450 8400 8550
+Wire Wire Line
+	8400 9050 8400 8550
+Connection ~ 8400 8550
+Wire Wire Line
+	7800 8150 7800 8250
+Wire Wire Line
+	7800 8250 7800 8750
+Connection ~ 7800 8250
+Wire Wire Line
+	7200 8450 7200 7950
+Wire Wire Line
+	7200 7950 7200 7850
+Connection ~ 7200 7950
+Wire Wire Line
+	6600 7550 6600 7650
+Wire Wire Line
+	6600 7650 6600 8150
+Connection ~ 6600 7650
+Wire Wire Line
+	6000 7250 6000 7350
+Wire Wire Line
+	6000 7850 6000 7350
+Connection ~ 6000 7350
+Wire Wire Line
+	5400 6950 5400 7050
+Wire Wire Line
+	5400 7050 5400 7550
+Connection ~ 5400 7050
+Wire Wire Line
+	4800 7250 4800 6750
+Wire Wire Line
+	4800 6750 4800 6650
+Connection ~ 4800 6750
+Connection ~ 4200 6950
+Wire Wire Line
+	4200 6450 4200 6950
+Wire Wire Line
+	4100 6650 4000 6650
+Wire Wire Line
+	4000 6650 4000 6950
+Connection ~ 4000 6950
+Wire Wire Line
+	4100 6950 4000 6950
+Wire Wire Line
+	4000 7250 4100 7250
+Wire Wire Line
+	4000 6950 4000 7250
+Connection ~ 4000 7250
+Connection ~ 4000 6650
+Wire Wire Line
+	4000 6150 4000 6650
+Wire Wire Line
+	4000 7250 4000 7550
+Connection ~ 4000 7550
+Wire Wire Line
+	4100 7550 4000 7550
+Wire Wire Line
+	4000 7550 4000 7850
+Connection ~ 4000 7850
+Wire Wire Line
+	4100 7850 4000 7850
+Wire Wire Line
+	4000 7850 4000 8150
+Connection ~ 4000 8150
+Wire Wire Line
+	4000 8150 4100 8150
+Wire Wire Line
+	4000 8150 4000 8450
+Connection ~ 4000 8450
+Wire Wire Line
+	4100 8450 4000 8450
+Wire Wire Line
+	4000 8450 4000 8750
+Connection ~ 4000 8750
+Wire Wire Line
+	4000 8750 4100 8750
+Wire Wire Line
+	4000 8750 4000 9050
+Connection ~ 4000 9050
+Wire Wire Line
+	4100 9050 4000 9050
+Wire Wire Line
+	4000 9050 4000 9350
+Connection ~ 4000 9350
+Wire Wire Line
+	4100 9350 4000 9350
+Wire Wire Line
+	4000 9350 4000 9650
+Connection ~ 4000 9650
+Wire Wire Line
+	4000 9650 4100 9650
+Wire Wire Line
+	4000 9650 4000 9950
+Connection ~ 4000 9950
+Wire Wire Line
+	4100 9950 4000 9950
+Wire Wire Line
+	4000 9950 4000 10250
+Connection ~ 4000 10250
+Wire Wire Line
+	4000 10250 4100 10250
+Wire Wire Line
+	4000 10250 4000 10550
+Wire Wire Line
+	4000 10550 4000 10850
+Connection ~ 4000 10550
+Wire Wire Line
+	4100 10550 4000 10550
+Wire Wire Line
+	4000 10850 4100 10850
+Wire Wire Line
+	4200 10850 4700 10850
+Connection ~ 4200 6450
+Wire Wire Line
+	4200 6350 4200 6450
+Wire Wire Line
+	4100 6350 4200 6350
+Wire Wire Line
+	4800 6350 4700 6350
+Connection ~ 4800 10550
+Wire Wire Line
+	4800 10850 4800 10550
+Wire Wire Line
+	5300 10850 4800 10850
+Wire Wire Line
+	5400 10850 5900 10850
+Connection ~ 5400 6650
+Wire Wire Line
+	5400 6350 5400 6650
+Wire Wire Line
+	5300 6350 5400 6350
+Wire Wire Line
+	6000 6350 5900 6350
+Connection ~ 6000 10550
+Wire Wire Line
+	6000 10850 6000 10550
+Wire Wire Line
+	6500 10850 6000 10850
+Wire Wire Line
+	6600 10850 7100 10850
+Connection ~ 6600 6650
+Wire Wire Line
+	6600 6350 6600 6650
+Wire Wire Line
+	6500 6350 6600 6350
+Wire Wire Line
+	7200 6350 7100 6350
+Connection ~ 7200 10550
+Wire Wire Line
+	7200 10850 7200 10550
+Wire Wire Line
+	7700 10850 7200 10850
+Wire Wire Line
+	7800 10850 8300 10850
+Connection ~ 7800 6650
+Wire Wire Line
+	7800 6350 7800 6650
+Wire Wire Line
+	7700 6350 7800 6350
+Wire Wire Line
+	8400 6350 8300 6350
+Connection ~ 8400 10550
+Wire Wire Line
+	8400 10850 8400 10550
+Wire Wire Line
+	8900 10850 8400 10850
+Wire Wire Line
+	9000 10850 9500 10850
+Connection ~ 9000 6650
+Wire Wire Line
+	9000 6350 9000 6650
+Wire Wire Line
+	8900 6350 9000 6350
+Wire Wire Line
+	9600 6350 9500 6350
+Connection ~ 9600 10550
+Wire Wire Line
+	9600 10850 9600 10550
+Wire Wire Line
+	10100 10850 9600 10850
+Wire Wire Line
+	10200 10850 10700 10850
+Connection ~ 10200 6650
+Wire Wire Line
+	10200 6350 10200 6650
+Wire Wire Line
+	10100 6350 10200 6350
+Wire Wire Line
+	10800 6350 10700 6350
+Connection ~ 10800 10550
+Wire Wire Line
+	10800 10850 10800 10550
+Wire Wire Line
+	11300 10850 10800 10850
+Wire Wire Line
+	11400 6350 11300 6350
+Connection ~ 11400 10550
+Wire Wire Line
+	11400 10850 11400 10550
+Wire Wire Line
+	11900 10850 11400 10850
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938C57
+P 11900 6250
+AR Path="/7B938C57" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938C57" Ref="D526"  Part="1" 
+F 0 "D526" V 11946 6180 50  0000 R CNN
+F 1 "LED_Small" V 11855 6180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11900 6250 50  0001 C CNN
+F 3 "~" V 11900 6250 50  0001 C CNN
+	1    11900 6250
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11900 6150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938C5E
+P 11900 6550
+AR Path="/7B938C5E" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938C5E" Ref="D558"  Part="1" 
+F 0 "D558" V 11946 6480 50  0000 R CNN
+F 1 "LED_Small" V 11855 6480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11900 6550 50  0001 C CNN
+F 3 "~" V 11900 6550 50  0001 C CNN
+	1    11900 6550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11900 6450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938C65
+P 11900 6850
+AR Path="/7B938C65" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938C65" Ref="D590"  Part="1" 
+F 0 "D590" V 11946 6780 50  0000 R CNN
+F 1 "LED_Small" V 11855 6780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11900 6850 50  0001 C CNN
+F 3 "~" V 11900 6850 50  0001 C CNN
+	1    11900 6850
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11900 6750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938C6C
+P 11900 7150
+AR Path="/7B938C6C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938C6C" Ref="D622"  Part="1" 
+F 0 "D622" V 11946 7080 50  0000 R CNN
+F 1 "LED_Small" V 11855 7080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11900 7150 50  0001 C CNN
+F 3 "~" V 11900 7150 50  0001 C CNN
+	1    11900 7150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11900 7050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938C73
+P 11900 7450
+AR Path="/7B938C73" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938C73" Ref="D654"  Part="1" 
+F 0 "D654" V 11946 7380 50  0000 R CNN
+F 1 "LED_Small" V 11855 7380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11900 7450 50  0001 C CNN
+F 3 "~" V 11900 7450 50  0001 C CNN
+	1    11900 7450
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11900 7350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938C7A
+P 11900 7750
+AR Path="/7B938C7A" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938C7A" Ref="D686"  Part="1" 
+F 0 "D686" V 11946 7680 50  0000 R CNN
+F 1 "LED_Small" V 11855 7680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11900 7750 50  0001 C CNN
+F 3 "~" V 11900 7750 50  0001 C CNN
+	1    11900 7750
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11900 7650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938C81
+P 11900 8050
+AR Path="/7B938C81" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938C81" Ref="D718"  Part="1" 
+F 0 "D718" V 11946 7980 50  0000 R CNN
+F 1 "LED_Small" V 11855 7980 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11900 8050 50  0001 C CNN
+F 3 "~" V 11900 8050 50  0001 C CNN
+	1    11900 8050
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11900 7950
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938C88
+P 11900 8350
+AR Path="/7B938C88" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938C88" Ref="D750"  Part="1" 
+F 0 "D750" V 11946 8280 50  0000 R CNN
+F 1 "LED_Small" V 11855 8280 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11900 8350 50  0001 C CNN
+F 3 "~" V 11900 8350 50  0001 C CNN
+	1    11900 8350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11900 8250
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938C8F
+P 11900 8650
+AR Path="/7B938C8F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938C8F" Ref="D782"  Part="1" 
+F 0 "D782" V 11946 8580 50  0000 R CNN
+F 1 "LED_Small" V 11855 8580 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11900 8650 50  0001 C CNN
+F 3 "~" V 11900 8650 50  0001 C CNN
+	1    11900 8650
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11900 8550
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938C96
+P 11900 8950
+AR Path="/7B938C96" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938C96" Ref="D814"  Part="1" 
+F 0 "D814" V 11946 8880 50  0000 R CNN
+F 1 "LED_Small" V 11855 8880 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11900 8950 50  0001 C CNN
+F 3 "~" V 11900 8950 50  0001 C CNN
+	1    11900 8950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11900 8850
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938C9D
+P 11900 9250
+AR Path="/7B938C9D" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938C9D" Ref="D846"  Part="1" 
+F 0 "D846" V 11946 9180 50  0000 R CNN
+F 1 "LED_Small" V 11855 9180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11900 9250 50  0001 C CNN
+F 3 "~" V 11900 9250 50  0001 C CNN
+	1    11900 9250
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11900 9150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938CA4
+P 11900 9550
+AR Path="/7B938CA4" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938CA4" Ref="D878"  Part="1" 
+F 0 "D878" V 11946 9480 50  0000 R CNN
+F 1 "LED_Small" V 11855 9480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11900 9550 50  0001 C CNN
+F 3 "~" V 11900 9550 50  0001 C CNN
+	1    11900 9550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11900 9450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938CAB
+P 11900 9850
+AR Path="/7B938CAB" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938CAB" Ref="D910"  Part="1" 
+F 0 "D910" V 11946 9780 50  0000 R CNN
+F 1 "LED_Small" V 11855 9780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11900 9850 50  0001 C CNN
+F 3 "~" V 11900 9850 50  0001 C CNN
+	1    11900 9850
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11900 9750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938CB2
+P 11900 10150
+AR Path="/7B938CB2" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938CB2" Ref="D942"  Part="1" 
+F 0 "D942" V 11946 10080 50  0000 R CNN
+F 1 "LED_Small" V 11855 10080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11900 10150 50  0001 C CNN
+F 3 "~" V 11900 10150 50  0001 C CNN
+	1    11900 10150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11400 10050 11900 10050
+Connection ~ 11900 10050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938CBA
+P 11900 10450
+AR Path="/7B938CBA" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938CBA" Ref="D974"  Part="1" 
+F 0 "D974" V 11946 10380 50  0000 R CNN
+F 1 "LED_Small" V 11855 10380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11900 10450 50  0001 C CNN
+F 3 "~" V 11900 10450 50  0001 C CNN
+	1    11900 10450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12000 10350 11900 10350
+Connection ~ 11900 10350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938CC2
+P 11900 10750
+AR Path="/7B938CC2" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938CC2" Ref="D1006"  Part="1" 
+F 0 "D1006" V 11946 10680 50  0000 R CNN
+F 1 "LED_Small" V 11855 10680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11900 10750 50  0001 C CNN
+F 3 "~" V 11900 10750 50  0001 C CNN
+	1    11900 10750
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11900 10650
+Wire Wire Line
+	12000 6350 11900 6350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938CCA
+P 4100 6250
+AR Path="/7B938CCA" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938CCA" Ref="D513"  Part="1" 
+F 0 "D513" V 4146 6180 50  0000 R CNN
+F 1 "LED_Small" V 4055 6180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4100 6250 50  0001 C CNN
+F 3 "~" V 4100 6250 50  0001 C CNN
+	1    4100 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4000 6150 4100 6150
+Connection ~ 4100 6150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938CD2
+P 4100 6550
+AR Path="/7B938CD2" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938CD2" Ref="D545"  Part="1" 
+F 0 "D545" V 4146 6480 50  0000 R CNN
+F 1 "LED_Small" V 4055 6480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4100 6550 50  0001 C CNN
+F 3 "~" V 4100 6550 50  0001 C CNN
+	1    4100 6550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4100 6450
+Wire Wire Line
+	4100 6450 4200 6450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938CDA
+P 4100 6850
+AR Path="/7B938CDA" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938CDA" Ref="D577"  Part="1" 
+F 0 "D577" V 4146 6780 50  0000 R CNN
+F 1 "LED_Small" V 4055 6780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4100 6850 50  0001 C CNN
+F 3 "~" V 4100 6850 50  0001 C CNN
+	1    4100 6850
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4100 6750
+Wire Wire Line
+	4100 6750 4700 6750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938CE2
+P 4100 7150
+AR Path="/7B938CE2" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938CE2" Ref="D609"  Part="1" 
+F 0 "D609" V 4146 7080 50  0000 R CNN
+F 1 "LED_Small" V 4055 7080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4100 7150 50  0001 C CNN
+F 3 "~" V 4100 7150 50  0001 C CNN
+	1    4100 7150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4100 7050
+Wire Wire Line
+	4100 7050 4700 7050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938CEA
+P 4100 7450
+AR Path="/7B938CEA" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938CEA" Ref="D641"  Part="1" 
+F 0 "D641" V 4146 7380 50  0000 R CNN
+F 1 "LED_Small" V 4055 7380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4100 7450 50  0001 C CNN
+F 3 "~" V 4100 7450 50  0001 C CNN
+	1    4100 7450
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4100 7350
+Wire Wire Line
+	4100 7350 4700 7350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938CF2
+P 4100 7750
+AR Path="/7B938CF2" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938CF2" Ref="D673"  Part="1" 
+F 0 "D673" V 4146 7680 50  0000 R CNN
+F 1 "LED_Small" V 4055 7680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4100 7750 50  0001 C CNN
+F 3 "~" V 4100 7750 50  0001 C CNN
+	1    4100 7750
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4100 7650
+Wire Wire Line
+	4100 7650 4700 7650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938CFA
+P 4100 8050
+AR Path="/7B938CFA" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938CFA" Ref="D705"  Part="1" 
+F 0 "D705" V 4146 7980 50  0000 R CNN
+F 1 "LED_Small" V 4055 7980 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4100 8050 50  0001 C CNN
+F 3 "~" V 4100 8050 50  0001 C CNN
+	1    4100 8050
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4100 7950
+Wire Wire Line
+	4100 7950 4700 7950
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938D02
+P 4100 8350
+AR Path="/7B938D02" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938D02" Ref="D737"  Part="1" 
+F 0 "D737" V 4146 8280 50  0000 R CNN
+F 1 "LED_Small" V 4055 8280 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4100 8350 50  0001 C CNN
+F 3 "~" V 4100 8350 50  0001 C CNN
+	1    4100 8350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4100 8250
+Wire Wire Line
+	4100 8250 4700 8250
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938D0A
+P 4100 8650
+AR Path="/7B938D0A" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938D0A" Ref="D769"  Part="1" 
+F 0 "D769" V 4146 8580 50  0000 R CNN
+F 1 "LED_Small" V 4055 8580 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4100 8650 50  0001 C CNN
+F 3 "~" V 4100 8650 50  0001 C CNN
+	1    4100 8650
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4100 8550
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938D11
+P 4100 8950
+AR Path="/7B938D11" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938D11" Ref="D801"  Part="1" 
+F 0 "D801" V 4146 8880 50  0000 R CNN
+F 1 "LED_Small" V 4055 8880 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4100 8950 50  0001 C CNN
+F 3 "~" V 4100 8950 50  0001 C CNN
+	1    4100 8950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4100 8850
+Wire Wire Line
+	4100 8850 4700 8850
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938D19
+P 4100 9250
+AR Path="/7B938D19" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938D19" Ref="D833"  Part="1" 
+F 0 "D833" V 4146 9180 50  0000 R CNN
+F 1 "LED_Small" V 4055 9180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4100 9250 50  0001 C CNN
+F 3 "~" V 4100 9250 50  0001 C CNN
+	1    4100 9250
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4100 9150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938D20
+P 4100 9550
+AR Path="/7B938D20" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938D20" Ref="D865"  Part="1" 
+F 0 "D865" V 4146 9480 50  0000 R CNN
+F 1 "LED_Small" V 4055 9480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4100 9550 50  0001 C CNN
+F 3 "~" V 4100 9550 50  0001 C CNN
+	1    4100 9550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 9450 4700 9450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938D27
+P 4100 9850
+AR Path="/7B938D27" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938D27" Ref="D897"  Part="1" 
+F 0 "D897" V 4146 9780 50  0000 R CNN
+F 1 "LED_Small" V 4055 9780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4100 9850 50  0001 C CNN
+F 3 "~" V 4100 9850 50  0001 C CNN
+	1    4100 9850
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4100 9750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938D2E
+P 4100 10150
+AR Path="/7B938D2E" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938D2E" Ref="D929"  Part="1" 
+F 0 "D929" V 4146 10080 50  0000 R CNN
+F 1 "LED_Small" V 4055 10080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4100 10150 50  0001 C CNN
+F 3 "~" V 4100 10150 50  0001 C CNN
+	1    4100 10150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4100 10050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938D35
+P 4100 10450
+AR Path="/7B938D35" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938D35" Ref="D961"  Part="1" 
+F 0 "D961" V 4146 10380 50  0000 R CNN
+F 1 "LED_Small" V 4055 10380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4100 10450 50  0001 C CNN
+F 3 "~" V 4100 10450 50  0001 C CNN
+	1    4100 10450
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4100 10350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938D3C
+P 4100 10750
+AR Path="/7B938D3C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938D3C" Ref="D993"  Part="1" 
+F 0 "D993" V 4146 10680 50  0000 R CNN
+F 1 "LED_Small" V 4055 10680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4100 10750 50  0001 C CNN
+F 3 "~" V 4100 10750 50  0001 C CNN
+	1    4100 10750
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4100 10650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938D43
+P 4700 6250
+AR Path="/7B938D43" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938D43" Ref="D514"  Part="1" 
+F 0 "D514" V 4746 6180 50  0000 R CNN
+F 1 "LED_Small" V 4655 6180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4700 6250 50  0001 C CNN
+F 3 "~" V 4700 6250 50  0001 C CNN
+	1    4700 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 6150 4700 6150
+Connection ~ 4700 6150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938D4B
+P 4700 6550
+AR Path="/7B938D4B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938D4B" Ref="D546"  Part="1" 
+F 0 "D546" V 4746 6480 50  0000 R CNN
+F 1 "LED_Small" V 4655 6480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4700 6550 50  0001 C CNN
+F 3 "~" V 4700 6550 50  0001 C CNN
+	1    4700 6550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4200 6450 4700 6450
+Connection ~ 4700 6450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938D53
+P 4700 6850
+AR Path="/7B938D53" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938D53" Ref="D578"  Part="1" 
+F 0 "D578" V 4746 6780 50  0000 R CNN
+F 1 "LED_Small" V 4655 6780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4700 6850 50  0001 C CNN
+F 3 "~" V 4700 6850 50  0001 C CNN
+	1    4700 6850
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4700 6750
+Wire Wire Line
+	4700 6750 4800 6750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938D5B
+P 4700 7150
+AR Path="/7B938D5B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938D5B" Ref="D610"  Part="1" 
+F 0 "D610" V 4746 7080 50  0000 R CNN
+F 1 "LED_Small" V 4655 7080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4700 7150 50  0001 C CNN
+F 3 "~" V 4700 7150 50  0001 C CNN
+	1    4700 7150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4700 7050
+Wire Wire Line
+	4700 7050 5300 7050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938D63
+P 4700 7450
+AR Path="/7B938D63" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938D63" Ref="D642"  Part="1" 
+F 0 "D642" V 4746 7380 50  0000 R CNN
+F 1 "LED_Small" V 4655 7380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4700 7450 50  0001 C CNN
+F 3 "~" V 4700 7450 50  0001 C CNN
+	1    4700 7450
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4700 7350
+Wire Wire Line
+	4700 7350 5300 7350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938D6B
+P 4700 7750
+AR Path="/7B938D6B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938D6B" Ref="D674"  Part="1" 
+F 0 "D674" V 4746 7680 50  0000 R CNN
+F 1 "LED_Small" V 4655 7680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4700 7750 50  0001 C CNN
+F 3 "~" V 4700 7750 50  0001 C CNN
+	1    4700 7750
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4700 7650
+Wire Wire Line
+	4700 7650 5300 7650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938D73
+P 4700 8050
+AR Path="/7B938D73" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938D73" Ref="D706"  Part="1" 
+F 0 "D706" V 4746 7980 50  0000 R CNN
+F 1 "LED_Small" V 4655 7980 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4700 8050 50  0001 C CNN
+F 3 "~" V 4700 8050 50  0001 C CNN
+	1    4700 8050
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4700 7950
+Wire Wire Line
+	4700 7950 5300 7950
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938D7B
+P 4700 8350
+AR Path="/7B938D7B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938D7B" Ref="D738"  Part="1" 
+F 0 "D738" V 4746 8280 50  0000 R CNN
+F 1 "LED_Small" V 4655 8280 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4700 8350 50  0001 C CNN
+F 3 "~" V 4700 8350 50  0001 C CNN
+	1    4700 8350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4700 8250
+Wire Wire Line
+	4700 8250 5300 8250
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938D83
+P 4700 8650
+AR Path="/7B938D83" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938D83" Ref="D770"  Part="1" 
+F 0 "D770" V 4746 8580 50  0000 R CNN
+F 1 "LED_Small" V 4655 8580 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4700 8650 50  0001 C CNN
+F 3 "~" V 4700 8650 50  0001 C CNN
+	1    4700 8650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 8550 4100 8550
+Connection ~ 4700 8550
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938D8B
+P 4700 8950
+AR Path="/7B938D8B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938D8B" Ref="D802"  Part="1" 
+F 0 "D802" V 4746 8880 50  0000 R CNN
+F 1 "LED_Small" V 4655 8880 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4700 8950 50  0001 C CNN
+F 3 "~" V 4700 8950 50  0001 C CNN
+	1    4700 8950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4700 8850
+Wire Wire Line
+	4700 8850 5300 8850
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938D93
+P 4700 9250
+AR Path="/7B938D93" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938D93" Ref="D834"  Part="1" 
+F 0 "D834" V 4746 9180 50  0000 R CNN
+F 1 "LED_Small" V 4655 9180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4700 9250 50  0001 C CNN
+F 3 "~" V 4700 9250 50  0001 C CNN
+	1    4700 9250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 9150 4100 9150
+Connection ~ 4700 9150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938D9B
+P 4700 9550
+AR Path="/7B938D9B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938D9B" Ref="D866"  Part="1" 
+F 0 "D866" V 4746 9480 50  0000 R CNN
+F 1 "LED_Small" V 4655 9480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4700 9550 50  0001 C CNN
+F 3 "~" V 4700 9550 50  0001 C CNN
+	1    4700 9550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4700 9450
+Wire Wire Line
+	4700 9450 5300 9450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938DA3
+P 4700 9850
+AR Path="/7B938DA3" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938DA3" Ref="D898"  Part="1" 
+F 0 "D898" V 4746 9780 50  0000 R CNN
+F 1 "LED_Small" V 4655 9780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4700 9850 50  0001 C CNN
+F 3 "~" V 4700 9850 50  0001 C CNN
+	1    4700 9850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 9750 4100 9750
+Connection ~ 4700 9750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938DAB
+P 4700 10150
+AR Path="/7B938DAB" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938DAB" Ref="D930"  Part="1" 
+F 0 "D930" V 4746 10080 50  0000 R CNN
+F 1 "LED_Small" V 4655 10080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4700 10150 50  0001 C CNN
+F 3 "~" V 4700 10150 50  0001 C CNN
+	1    4700 10150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 10050 4700 10050
+Connection ~ 4700 10050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938DB3
+P 4700 10450
+AR Path="/7B938DB3" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938DB3" Ref="D962"  Part="1" 
+F 0 "D962" V 4746 10380 50  0000 R CNN
+F 1 "LED_Small" V 4655 10380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4700 10450 50  0001 C CNN
+F 3 "~" V 4700 10450 50  0001 C CNN
+	1    4700 10450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 10350 4100 10350
+Connection ~ 4700 10350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938DBB
+P 4700 10750
+AR Path="/7B938DBB" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938DBB" Ref="D994"  Part="1" 
+F 0 "D994" V 4746 10680 50  0000 R CNN
+F 1 "LED_Small" V 4655 10680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 4700 10750 50  0001 C CNN
+F 3 "~" V 4700 10750 50  0001 C CNN
+	1    4700 10750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 10650 4700 10650
+Connection ~ 4700 10650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938DC3
+P 5300 6250
+AR Path="/7B938DC3" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938DC3" Ref="D515"  Part="1" 
+F 0 "D515" V 5346 6180 50  0000 R CNN
+F 1 "LED_Small" V 5255 6180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5300 6250 50  0001 C CNN
+F 3 "~" V 5300 6250 50  0001 C CNN
+	1    5300 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 6150 5300 6150
+Connection ~ 5300 6150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938DCB
+P 5300 6550
+AR Path="/7B938DCB" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938DCB" Ref="D547"  Part="1" 
+F 0 "D547" V 5346 6480 50  0000 R CNN
+F 1 "LED_Small" V 5255 6480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5300 6550 50  0001 C CNN
+F 3 "~" V 5300 6550 50  0001 C CNN
+	1    5300 6550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 6450 5300 6450
+Connection ~ 5300 6450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938DD3
+P 5300 6850
+AR Path="/7B938DD3" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938DD3" Ref="D579"  Part="1" 
+F 0 "D579" V 5346 6780 50  0000 R CNN
+F 1 "LED_Small" V 5255 6780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5300 6850 50  0001 C CNN
+F 3 "~" V 5300 6850 50  0001 C CNN
+	1    5300 6850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4800 6750 5300 6750
+Connection ~ 5300 6750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938DDB
+P 5300 7150
+AR Path="/7B938DDB" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938DDB" Ref="D611"  Part="1" 
+F 0 "D611" V 5346 7080 50  0000 R CNN
+F 1 "LED_Small" V 5255 7080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5300 7150 50  0001 C CNN
+F 3 "~" V 5300 7150 50  0001 C CNN
+	1    5300 7150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5300 7050
+Wire Wire Line
+	5300 7050 5400 7050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938DE3
+P 5300 7450
+AR Path="/7B938DE3" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938DE3" Ref="D643"  Part="1" 
+F 0 "D643" V 5346 7380 50  0000 R CNN
+F 1 "LED_Small" V 5255 7380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5300 7450 50  0001 C CNN
+F 3 "~" V 5300 7450 50  0001 C CNN
+	1    5300 7450
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5300 7350
+Wire Wire Line
+	5300 7350 5900 7350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938DEB
+P 5300 7750
+AR Path="/7B938DEB" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938DEB" Ref="D675"  Part="1" 
+F 0 "D675" V 5346 7680 50  0000 R CNN
+F 1 "LED_Small" V 5255 7680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5300 7750 50  0001 C CNN
+F 3 "~" V 5300 7750 50  0001 C CNN
+	1    5300 7750
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5300 7650
+Wire Wire Line
+	5300 7650 5900 7650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938DF3
+P 5300 8050
+AR Path="/7B938DF3" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938DF3" Ref="D707"  Part="1" 
+F 0 "D707" V 5346 7980 50  0000 R CNN
+F 1 "LED_Small" V 5255 7980 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5300 8050 50  0001 C CNN
+F 3 "~" V 5300 8050 50  0001 C CNN
+	1    5300 8050
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5300 7950
+Wire Wire Line
+	5300 7950 5900 7950
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938DFB
+P 5300 8350
+AR Path="/7B938DFB" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938DFB" Ref="D739"  Part="1" 
+F 0 "D739" V 5346 8280 50  0000 R CNN
+F 1 "LED_Small" V 5255 8280 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5300 8350 50  0001 C CNN
+F 3 "~" V 5300 8350 50  0001 C CNN
+	1    5300 8350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5300 8250
+Wire Wire Line
+	5300 8250 5900 8250
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938E03
+P 5300 8650
+AR Path="/7B938E03" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938E03" Ref="D771"  Part="1" 
+F 0 "D771" V 5346 8580 50  0000 R CNN
+F 1 "LED_Small" V 5255 8580 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5300 8650 50  0001 C CNN
+F 3 "~" V 5300 8650 50  0001 C CNN
+	1    5300 8650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 8550 4700 8550
+Connection ~ 5300 8550
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938E0B
+P 5300 8950
+AR Path="/7B938E0B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938E0B" Ref="D803"  Part="1" 
+F 0 "D803" V 5346 8880 50  0000 R CNN
+F 1 "LED_Small" V 5255 8880 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5300 8950 50  0001 C CNN
+F 3 "~" V 5300 8950 50  0001 C CNN
+	1    5300 8950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5300 8850
+Wire Wire Line
+	5300 8850 5900 8850
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938E13
+P 5300 9250
+AR Path="/7B938E13" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938E13" Ref="D835"  Part="1" 
+F 0 "D835" V 5346 9180 50  0000 R CNN
+F 1 "LED_Small" V 5255 9180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5300 9250 50  0001 C CNN
+F 3 "~" V 5300 9250 50  0001 C CNN
+	1    5300 9250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 9150 4700 9150
+Connection ~ 5300 9150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938E1B
+P 5300 9550
+AR Path="/7B938E1B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938E1B" Ref="D867"  Part="1" 
+F 0 "D867" V 5346 9480 50  0000 R CNN
+F 1 "LED_Small" V 5255 9480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5300 9550 50  0001 C CNN
+F 3 "~" V 5300 9550 50  0001 C CNN
+	1    5300 9550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5300 9450
+Wire Wire Line
+	5300 9450 5900 9450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938E23
+P 5300 9850
+AR Path="/7B938E23" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938E23" Ref="D899"  Part="1" 
+F 0 "D899" V 5346 9780 50  0000 R CNN
+F 1 "LED_Small" V 5255 9780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5300 9850 50  0001 C CNN
+F 3 "~" V 5300 9850 50  0001 C CNN
+	1    5300 9850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 9750 4700 9750
+Connection ~ 5300 9750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938E2B
+P 5300 10150
+AR Path="/7B938E2B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938E2B" Ref="D931"  Part="1" 
+F 0 "D931" V 5346 10080 50  0000 R CNN
+F 1 "LED_Small" V 5255 10080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5300 10150 50  0001 C CNN
+F 3 "~" V 5300 10150 50  0001 C CNN
+	1    5300 10150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 10050 5300 10050
+Connection ~ 5300 10050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938E33
+P 5300 10450
+AR Path="/7B938E33" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938E33" Ref="D963"  Part="1" 
+F 0 "D963" V 5346 10380 50  0000 R CNN
+F 1 "LED_Small" V 5255 10380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5300 10450 50  0001 C CNN
+F 3 "~" V 5300 10450 50  0001 C CNN
+	1    5300 10450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 10350 4700 10350
+Connection ~ 5300 10350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938E3B
+P 5300 10750
+AR Path="/7B938E3B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938E3B" Ref="D995"  Part="1" 
+F 0 "D995" V 5346 10680 50  0000 R CNN
+F 1 "LED_Small" V 5255 10680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5300 10750 50  0001 C CNN
+F 3 "~" V 5300 10750 50  0001 C CNN
+	1    5300 10750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 10650 5300 10650
+Connection ~ 5300 10650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938E43
+P 5900 6250
+AR Path="/7B938E43" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938E43" Ref="D516"  Part="1" 
+F 0 "D516" V 5946 6180 50  0000 R CNN
+F 1 "LED_Small" V 5855 6180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5900 6250 50  0001 C CNN
+F 3 "~" V 5900 6250 50  0001 C CNN
+	1    5900 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 6150 5900 6150
+Connection ~ 5900 6150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938E4B
+P 5900 6550
+AR Path="/7B938E4B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938E4B" Ref="D548"  Part="1" 
+F 0 "D548" V 5946 6480 50  0000 R CNN
+F 1 "LED_Small" V 5855 6480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5900 6550 50  0001 C CNN
+F 3 "~" V 5900 6550 50  0001 C CNN
+	1    5900 6550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5900 6450 6500 6450
+Wire Wire Line
+	5300 6450 5900 6450
+Connection ~ 5900 6450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938E54
+P 5900 6850
+AR Path="/7B938E54" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938E54" Ref="D580"  Part="1" 
+F 0 "D580" V 5946 6780 50  0000 R CNN
+F 1 "LED_Small" V 5855 6780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5900 6850 50  0001 C CNN
+F 3 "~" V 5900 6850 50  0001 C CNN
+	1    5900 6850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 6750 5900 6750
+Connection ~ 5900 6750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938E5C
+P 5900 7150
+AR Path="/7B938E5C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938E5C" Ref="D612"  Part="1" 
+F 0 "D612" V 5946 7080 50  0000 R CNN
+F 1 "LED_Small" V 5855 7080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5900 7150 50  0001 C CNN
+F 3 "~" V 5900 7150 50  0001 C CNN
+	1    5900 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 7050 5900 7050
+Connection ~ 5900 7050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938E64
+P 5900 7450
+AR Path="/7B938E64" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938E64" Ref="D644"  Part="1" 
+F 0 "D644" V 5946 7380 50  0000 R CNN
+F 1 "LED_Small" V 5855 7380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5900 7450 50  0001 C CNN
+F 3 "~" V 5900 7450 50  0001 C CNN
+	1    5900 7450
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5900 7350
+Wire Wire Line
+	5900 7350 6000 7350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938E6C
+P 5900 7750
+AR Path="/7B938E6C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938E6C" Ref="D676"  Part="1" 
+F 0 "D676" V 5946 7680 50  0000 R CNN
+F 1 "LED_Small" V 5855 7680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5900 7750 50  0001 C CNN
+F 3 "~" V 5900 7750 50  0001 C CNN
+	1    5900 7750
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5900 7650
+Wire Wire Line
+	5900 7650 6500 7650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938E74
+P 5900 8050
+AR Path="/7B938E74" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938E74" Ref="D708"  Part="1" 
+F 0 "D708" V 5946 7980 50  0000 R CNN
+F 1 "LED_Small" V 5855 7980 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5900 8050 50  0001 C CNN
+F 3 "~" V 5900 8050 50  0001 C CNN
+	1    5900 8050
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5900 7950
+Wire Wire Line
+	5900 7950 6500 7950
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938E7C
+P 5900 8350
+AR Path="/7B938E7C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938E7C" Ref="D740"  Part="1" 
+F 0 "D740" V 5946 8280 50  0000 R CNN
+F 1 "LED_Small" V 5855 8280 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5900 8350 50  0001 C CNN
+F 3 "~" V 5900 8350 50  0001 C CNN
+	1    5900 8350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5900 8250
+Wire Wire Line
+	5900 8250 6500 8250
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938E84
+P 5900 8650
+AR Path="/7B938E84" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938E84" Ref="D772"  Part="1" 
+F 0 "D772" V 5946 8580 50  0000 R CNN
+F 1 "LED_Small" V 5855 8580 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5900 8650 50  0001 C CNN
+F 3 "~" V 5900 8650 50  0001 C CNN
+	1    5900 8650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5900 8550 5300 8550
+Connection ~ 5900 8550
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938E8C
+P 5900 8950
+AR Path="/7B938E8C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938E8C" Ref="D804"  Part="1" 
+F 0 "D804" V 5946 8880 50  0000 R CNN
+F 1 "LED_Small" V 5855 8880 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5900 8950 50  0001 C CNN
+F 3 "~" V 5900 8950 50  0001 C CNN
+	1    5900 8950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5900 8850
+Wire Wire Line
+	5900 8850 6500 8850
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938E94
+P 5900 9250
+AR Path="/7B938E94" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938E94" Ref="D836"  Part="1" 
+F 0 "D836" V 5946 9180 50  0000 R CNN
+F 1 "LED_Small" V 5855 9180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5900 9250 50  0001 C CNN
+F 3 "~" V 5900 9250 50  0001 C CNN
+	1    5900 9250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5900 9150 5300 9150
+Connection ~ 5900 9150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938E9C
+P 5900 9550
+AR Path="/7B938E9C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938E9C" Ref="D868"  Part="1" 
+F 0 "D868" V 5946 9480 50  0000 R CNN
+F 1 "LED_Small" V 5855 9480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5900 9550 50  0001 C CNN
+F 3 "~" V 5900 9550 50  0001 C CNN
+	1    5900 9550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5900 9450
+Wire Wire Line
+	5900 9450 6500 9450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938EA4
+P 5900 9850
+AR Path="/7B938EA4" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938EA4" Ref="D900"  Part="1" 
+F 0 "D900" V 5946 9780 50  0000 R CNN
+F 1 "LED_Small" V 5855 9780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5900 9850 50  0001 C CNN
+F 3 "~" V 5900 9850 50  0001 C CNN
+	1    5900 9850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5900 9750 5300 9750
+Connection ~ 5900 9750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938EAC
+P 5900 10150
+AR Path="/7B938EAC" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938EAC" Ref="D932"  Part="1" 
+F 0 "D932" V 5946 10080 50  0000 R CNN
+F 1 "LED_Small" V 5855 10080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5900 10150 50  0001 C CNN
+F 3 "~" V 5900 10150 50  0001 C CNN
+	1    5900 10150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 10050 5900 10050
+Connection ~ 5900 10050
+Wire Wire Line
+	5900 10350 5300 10350
+Connection ~ 5900 10350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938EB6
+P 5900 10750
+AR Path="/7B938EB6" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938EB6" Ref="D996"  Part="1" 
+F 0 "D996" V 5946 10680 50  0000 R CNN
+F 1 "LED_Small" V 5855 10680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 5900 10750 50  0001 C CNN
+F 3 "~" V 5900 10750 50  0001 C CNN
+	1    5900 10750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 10650 5900 10650
+Connection ~ 5900 10650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938EBE
+P 6500 6250
+AR Path="/7B938EBE" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938EBE" Ref="D517"  Part="1" 
+F 0 "D517" V 6546 6180 50  0000 R CNN
+F 1 "LED_Small" V 6455 6180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 6500 6250 50  0001 C CNN
+F 3 "~" V 6500 6250 50  0001 C CNN
+	1    6500 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5900 6150 6500 6150
+Connection ~ 6500 6150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938EC6
+P 6500 6850
+AR Path="/7B938EC6" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938EC6" Ref="D581"  Part="1" 
+F 0 "D581" V 6546 6780 50  0000 R CNN
+F 1 "LED_Small" V 6455 6780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 6500 6850 50  0001 C CNN
+F 3 "~" V 6500 6850 50  0001 C CNN
+	1    6500 6850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5900 6750 6500 6750
+Connection ~ 6500 6750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938ECE
+P 6500 7150
+AR Path="/7B938ECE" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938ECE" Ref="D613"  Part="1" 
+F 0 "D613" V 6546 7080 50  0000 R CNN
+F 1 "LED_Small" V 6455 7080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 6500 7150 50  0001 C CNN
+F 3 "~" V 6500 7150 50  0001 C CNN
+	1    6500 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5900 7050 6500 7050
+Connection ~ 6500 7050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938ED6
+P 6500 7450
+AR Path="/7B938ED6" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938ED6" Ref="D645"  Part="1" 
+F 0 "D645" V 6546 7380 50  0000 R CNN
+F 1 "LED_Small" V 6455 7380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 6500 7450 50  0001 C CNN
+F 3 "~" V 6500 7450 50  0001 C CNN
+	1    6500 7450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6000 7350 6500 7350
+Connection ~ 6500 7350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938EDE
+P 6500 7750
+AR Path="/7B938EDE" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938EDE" Ref="D677"  Part="1" 
+F 0 "D677" V 6546 7680 50  0000 R CNN
+F 1 "LED_Small" V 6455 7680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 6500 7750 50  0001 C CNN
+F 3 "~" V 6500 7750 50  0001 C CNN
+	1    6500 7750
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6500 7650
+Wire Wire Line
+	6500 7650 6600 7650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938EE6
+P 6500 8050
+AR Path="/7B938EE6" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938EE6" Ref="D709"  Part="1" 
+F 0 "D709" V 6546 7980 50  0000 R CNN
+F 1 "LED_Small" V 6455 7980 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 6500 8050 50  0001 C CNN
+F 3 "~" V 6500 8050 50  0001 C CNN
+	1    6500 8050
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6500 7950
+Wire Wire Line
+	6500 7950 7100 7950
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938EEE
+P 6500 8350
+AR Path="/7B938EEE" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938EEE" Ref="D741"  Part="1" 
+F 0 "D741" V 6546 8280 50  0000 R CNN
+F 1 "LED_Small" V 6455 8280 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 6500 8350 50  0001 C CNN
+F 3 "~" V 6500 8350 50  0001 C CNN
+	1    6500 8350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6500 8250
+Wire Wire Line
+	6500 8250 7100 8250
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938EF6
+P 6500 8650
+AR Path="/7B938EF6" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938EF6" Ref="D773"  Part="1" 
+F 0 "D773" V 6546 8580 50  0000 R CNN
+F 1 "LED_Small" V 6455 8580 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 6500 8650 50  0001 C CNN
+F 3 "~" V 6500 8650 50  0001 C CNN
+	1    6500 8650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 8550 5900 8550
+Connection ~ 6500 8550
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938EFE
+P 6500 8950
+AR Path="/7B938EFE" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938EFE" Ref="D805"  Part="1" 
+F 0 "D805" V 6546 8880 50  0000 R CNN
+F 1 "LED_Small" V 6455 8880 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 6500 8950 50  0001 C CNN
+F 3 "~" V 6500 8950 50  0001 C CNN
+	1    6500 8950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6500 8850
+Wire Wire Line
+	6500 8850 7100 8850
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938F06
+P 6500 9250
+AR Path="/7B938F06" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938F06" Ref="D837"  Part="1" 
+F 0 "D837" V 6546 9180 50  0000 R CNN
+F 1 "LED_Small" V 6455 9180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 6500 9250 50  0001 C CNN
+F 3 "~" V 6500 9250 50  0001 C CNN
+	1    6500 9250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 9150 5900 9150
+Connection ~ 6500 9150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938F0E
+P 6500 9550
+AR Path="/7B938F0E" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938F0E" Ref="D869"  Part="1" 
+F 0 "D869" V 6546 9480 50  0000 R CNN
+F 1 "LED_Small" V 6455 9480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 6500 9550 50  0001 C CNN
+F 3 "~" V 6500 9550 50  0001 C CNN
+	1    6500 9550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6500 9450
+Wire Wire Line
+	6500 9450 7100 9450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938F16
+P 6500 9850
+AR Path="/7B938F16" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938F16" Ref="D901"  Part="1" 
+F 0 "D901" V 6546 9780 50  0000 R CNN
+F 1 "LED_Small" V 6455 9780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 6500 9850 50  0001 C CNN
+F 3 "~" V 6500 9850 50  0001 C CNN
+	1    6500 9850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 9750 5900 9750
+Connection ~ 6500 9750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938F1E
+P 6500 10150
+AR Path="/7B938F1E" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938F1E" Ref="D933"  Part="1" 
+F 0 "D933" V 6546 10080 50  0000 R CNN
+F 1 "LED_Small" V 6455 10080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 6500 10150 50  0001 C CNN
+F 3 "~" V 6500 10150 50  0001 C CNN
+	1    6500 10150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5900 10050 6500 10050
+Connection ~ 6500 10050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938F26
+P 6500 10450
+AR Path="/7B938F26" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938F26" Ref="D965"  Part="1" 
+F 0 "D965" V 6546 10380 50  0000 R CNN
+F 1 "LED_Small" V 6455 10380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 6500 10450 50  0001 C CNN
+F 3 "~" V 6500 10450 50  0001 C CNN
+	1    6500 10450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 10350 5900 10350
+Connection ~ 6500 10350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938F2E
+P 6500 10750
+AR Path="/7B938F2E" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938F2E" Ref="D997"  Part="1" 
+F 0 "D997" V 6546 10680 50  0000 R CNN
+F 1 "LED_Small" V 6455 10680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 6500 10750 50  0001 C CNN
+F 3 "~" V 6500 10750 50  0001 C CNN
+	1    6500 10750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5900 10650 6500 10650
+Connection ~ 6500 10650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938F36
+P 7100 6250
+AR Path="/7B938F36" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938F36" Ref="D518"  Part="1" 
+F 0 "D518" V 7146 6180 50  0000 R CNN
+F 1 "LED_Small" V 7055 6180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7100 6250 50  0001 C CNN
+F 3 "~" V 7100 6250 50  0001 C CNN
+	1    7100 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 6150 7100 6150
+Connection ~ 7100 6150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938F3E
+P 7100 6550
+AR Path="/7B938F3E" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938F3E" Ref="D550"  Part="1" 
+F 0 "D550" V 7146 6480 50  0000 R CNN
+F 1 "LED_Small" V 7055 6480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7100 6550 50  0001 C CNN
+F 3 "~" V 7100 6550 50  0001 C CNN
+	1    7100 6550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 6450 7100 6450
+Connection ~ 7100 6450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938F46
+P 7100 6850
+AR Path="/7B938F46" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938F46" Ref="D582"  Part="1" 
+F 0 "D582" V 7146 6780 50  0000 R CNN
+F 1 "LED_Small" V 7055 6780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7100 6850 50  0001 C CNN
+F 3 "~" V 7100 6850 50  0001 C CNN
+	1    7100 6850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 6750 7100 6750
+Connection ~ 7100 6750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938F4E
+P 7100 7150
+AR Path="/7B938F4E" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938F4E" Ref="D614"  Part="1" 
+F 0 "D614" V 7146 7080 50  0000 R CNN
+F 1 "LED_Small" V 7055 7080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7100 7150 50  0001 C CNN
+F 3 "~" V 7100 7150 50  0001 C CNN
+	1    7100 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 7050 7100 7050
+Connection ~ 7100 7050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938F56
+P 7100 7450
+AR Path="/7B938F56" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938F56" Ref="D646"  Part="1" 
+F 0 "D646" V 7146 7380 50  0000 R CNN
+F 1 "LED_Small" V 7055 7380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7100 7450 50  0001 C CNN
+F 3 "~" V 7100 7450 50  0001 C CNN
+	1    7100 7450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 7350 7100 7350
+Connection ~ 7100 7350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938F5E
+P 7100 7750
+AR Path="/7B938F5E" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938F5E" Ref="D678"  Part="1" 
+F 0 "D678" V 7146 7680 50  0000 R CNN
+F 1 "LED_Small" V 7055 7680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7100 7750 50  0001 C CNN
+F 3 "~" V 7100 7750 50  0001 C CNN
+	1    7100 7750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6600 7650 7100 7650
+Connection ~ 7100 7650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938F66
+P 7100 8050
+AR Path="/7B938F66" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938F66" Ref="D710"  Part="1" 
+F 0 "D710" V 7146 7980 50  0000 R CNN
+F 1 "LED_Small" V 7055 7980 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7100 8050 50  0001 C CNN
+F 3 "~" V 7100 8050 50  0001 C CNN
+	1    7100 8050
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7100 7950
+Wire Wire Line
+	7100 7950 7200 7950
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938F6E
+P 7100 8350
+AR Path="/7B938F6E" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938F6E" Ref="D742"  Part="1" 
+F 0 "D742" V 7146 8280 50  0000 R CNN
+F 1 "LED_Small" V 7055 8280 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7100 8350 50  0001 C CNN
+F 3 "~" V 7100 8350 50  0001 C CNN
+	1    7100 8350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7100 8250
+Wire Wire Line
+	7100 8250 7700 8250
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938F76
+P 7100 8650
+AR Path="/7B938F76" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938F76" Ref="D774"  Part="1" 
+F 0 "D774" V 7146 8580 50  0000 R CNN
+F 1 "LED_Small" V 7055 8580 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7100 8650 50  0001 C CNN
+F 3 "~" V 7100 8650 50  0001 C CNN
+	1    7100 8650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 8550 6500 8550
+Connection ~ 7100 8550
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938F7E
+P 7100 8950
+AR Path="/7B938F7E" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938F7E" Ref="D806"  Part="1" 
+F 0 "D806" V 7146 8880 50  0000 R CNN
+F 1 "LED_Small" V 7055 8880 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7100 8950 50  0001 C CNN
+F 3 "~" V 7100 8950 50  0001 C CNN
+	1    7100 8950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7100 8850
+Wire Wire Line
+	7100 8850 7700 8850
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938F86
+P 7100 9250
+AR Path="/7B938F86" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938F86" Ref="D838"  Part="1" 
+F 0 "D838" V 7146 9180 50  0000 R CNN
+F 1 "LED_Small" V 7055 9180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7100 9250 50  0001 C CNN
+F 3 "~" V 7100 9250 50  0001 C CNN
+	1    7100 9250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 9150 6500 9150
+Connection ~ 7100 9150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938F8E
+P 7100 9550
+AR Path="/7B938F8E" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938F8E" Ref="D870"  Part="1" 
+F 0 "D870" V 7146 9480 50  0000 R CNN
+F 1 "LED_Small" V 7055 9480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7100 9550 50  0001 C CNN
+F 3 "~" V 7100 9550 50  0001 C CNN
+	1    7100 9550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7100 9450
+Wire Wire Line
+	7100 9450 7700 9450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938F96
+P 7100 9850
+AR Path="/7B938F96" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938F96" Ref="D902"  Part="1" 
+F 0 "D902" V 7146 9780 50  0000 R CNN
+F 1 "LED_Small" V 7055 9780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7100 9850 50  0001 C CNN
+F 3 "~" V 7100 9850 50  0001 C CNN
+	1    7100 9850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 9750 6500 9750
+Connection ~ 7100 9750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938F9E
+P 7100 10150
+AR Path="/7B938F9E" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938F9E" Ref="D934"  Part="1" 
+F 0 "D934" V 7146 10080 50  0000 R CNN
+F 1 "LED_Small" V 7055 10080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7100 10150 50  0001 C CNN
+F 3 "~" V 7100 10150 50  0001 C CNN
+	1    7100 10150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 10050 7100 10050
+Connection ~ 7100 10050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938FA6
+P 7100 10450
+AR Path="/7B938FA6" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938FA6" Ref="D966"  Part="1" 
+F 0 "D966" V 7146 10380 50  0000 R CNN
+F 1 "LED_Small" V 7055 10380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7100 10450 50  0001 C CNN
+F 3 "~" V 7100 10450 50  0001 C CNN
+	1    7100 10450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 10350 6500 10350
+Connection ~ 7100 10350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938FAE
+P 7100 10750
+AR Path="/7B938FAE" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938FAE" Ref="D998"  Part="1" 
+F 0 "D998" V 7146 10680 50  0000 R CNN
+F 1 "LED_Small" V 7055 10680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7100 10750 50  0001 C CNN
+F 3 "~" V 7100 10750 50  0001 C CNN
+	1    7100 10750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 10650 7100 10650
+Connection ~ 7100 10650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938FB6
+P 7700 6250
+AR Path="/7B938FB6" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938FB6" Ref="D519"  Part="1" 
+F 0 "D519" V 7746 6180 50  0000 R CNN
+F 1 "LED_Small" V 7655 6180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7700 6250 50  0001 C CNN
+F 3 "~" V 7700 6250 50  0001 C CNN
+	1    7700 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 6150 7700 6150
+Connection ~ 7700 6150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938FBE
+P 7700 6550
+AR Path="/7B938FBE" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938FBE" Ref="D551"  Part="1" 
+F 0 "D551" V 7746 6480 50  0000 R CNN
+F 1 "LED_Small" V 7655 6480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7700 6550 50  0001 C CNN
+F 3 "~" V 7700 6550 50  0001 C CNN
+	1    7700 6550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 6450 7700 6450
+Connection ~ 7700 6450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938FC6
+P 7700 6850
+AR Path="/7B938FC6" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938FC6" Ref="D583"  Part="1" 
+F 0 "D583" V 7746 6780 50  0000 R CNN
+F 1 "LED_Small" V 7655 6780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7700 6850 50  0001 C CNN
+F 3 "~" V 7700 6850 50  0001 C CNN
+	1    7700 6850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 6750 7700 6750
+Connection ~ 7700 6750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938FCE
+P 7700 7150
+AR Path="/7B938FCE" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938FCE" Ref="D615"  Part="1" 
+F 0 "D615" V 7746 7080 50  0000 R CNN
+F 1 "LED_Small" V 7655 7080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7700 7150 50  0001 C CNN
+F 3 "~" V 7700 7150 50  0001 C CNN
+	1    7700 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 7050 7700 7050
+Connection ~ 7700 7050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938FD6
+P 7700 7450
+AR Path="/7B938FD6" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938FD6" Ref="D647"  Part="1" 
+F 0 "D647" V 7746 7380 50  0000 R CNN
+F 1 "LED_Small" V 7655 7380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7700 7450 50  0001 C CNN
+F 3 "~" V 7700 7450 50  0001 C CNN
+	1    7700 7450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 7350 7700 7350
+Connection ~ 7700 7350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938FDE
+P 7700 7750
+AR Path="/7B938FDE" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938FDE" Ref="D679"  Part="1" 
+F 0 "D679" V 7746 7680 50  0000 R CNN
+F 1 "LED_Small" V 7655 7680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7700 7750 50  0001 C CNN
+F 3 "~" V 7700 7750 50  0001 C CNN
+	1    7700 7750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 7650 7700 7650
+Connection ~ 7700 7650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938FE6
+P 7700 8050
+AR Path="/7B938FE6" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938FE6" Ref="D711"  Part="1" 
+F 0 "D711" V 7746 7980 50  0000 R CNN
+F 1 "LED_Small" V 7655 7980 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7700 8050 50  0001 C CNN
+F 3 "~" V 7700 8050 50  0001 C CNN
+	1    7700 8050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7200 7950 7700 7950
+Connection ~ 7700 7950
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938FEE
+P 7700 8350
+AR Path="/7B938FEE" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938FEE" Ref="D743"  Part="1" 
+F 0 "D743" V 7746 8280 50  0000 R CNN
+F 1 "LED_Small" V 7655 8280 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7700 8350 50  0001 C CNN
+F 3 "~" V 7700 8350 50  0001 C CNN
+	1    7700 8350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7700 8250
+Wire Wire Line
+	7700 8250 7800 8250
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938FF6
+P 7700 8650
+AR Path="/7B938FF6" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938FF6" Ref="D775"  Part="1" 
+F 0 "D775" V 7746 8580 50  0000 R CNN
+F 1 "LED_Small" V 7655 8580 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7700 8650 50  0001 C CNN
+F 3 "~" V 7700 8650 50  0001 C CNN
+	1    7700 8650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7700 8550 7100 8550
+Connection ~ 7700 8550
+$Comp
+L Device:LED_Small D?
+U 1 1 7B938FFE
+P 7700 8950
+AR Path="/7B938FFE" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B938FFE" Ref="D807"  Part="1" 
+F 0 "D807" V 7746 8880 50  0000 R CNN
+F 1 "LED_Small" V 7655 8880 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7700 8950 50  0001 C CNN
+F 3 "~" V 7700 8950 50  0001 C CNN
+	1    7700 8950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7700 8850
+Wire Wire Line
+	7700 8850 8300 8850
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939006
+P 7700 9250
+AR Path="/7B939006" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939006" Ref="D839"  Part="1" 
+F 0 "D839" V 7746 9180 50  0000 R CNN
+F 1 "LED_Small" V 7655 9180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7700 9250 50  0001 C CNN
+F 3 "~" V 7700 9250 50  0001 C CNN
+	1    7700 9250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7700 9150 7100 9150
+Connection ~ 7700 9150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B93900E
+P 7700 9550
+AR Path="/7B93900E" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B93900E" Ref="D871"  Part="1" 
+F 0 "D871" V 7746 9480 50  0000 R CNN
+F 1 "LED_Small" V 7655 9480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7700 9550 50  0001 C CNN
+F 3 "~" V 7700 9550 50  0001 C CNN
+	1    7700 9550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7700 9450
+Wire Wire Line
+	7700 9450 8300 9450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939016
+P 7700 9850
+AR Path="/7B939016" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939016" Ref="D903"  Part="1" 
+F 0 "D903" V 7746 9780 50  0000 R CNN
+F 1 "LED_Small" V 7655 9780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7700 9850 50  0001 C CNN
+F 3 "~" V 7700 9850 50  0001 C CNN
+	1    7700 9850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7700 9750 7100 9750
+Connection ~ 7700 9750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B93901E
+P 7700 10150
+AR Path="/7B93901E" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B93901E" Ref="D935"  Part="1" 
+F 0 "D935" V 7746 10080 50  0000 R CNN
+F 1 "LED_Small" V 7655 10080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7700 10150 50  0001 C CNN
+F 3 "~" V 7700 10150 50  0001 C CNN
+	1    7700 10150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 10050 7700 10050
+Connection ~ 7700 10050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939026
+P 7700 10450
+AR Path="/7B939026" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939026" Ref="D967"  Part="1" 
+F 0 "D967" V 7746 10380 50  0000 R CNN
+F 1 "LED_Small" V 7655 10380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7700 10450 50  0001 C CNN
+F 3 "~" V 7700 10450 50  0001 C CNN
+	1    7700 10450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7700 10350 7100 10350
+Connection ~ 7700 10350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B93902E
+P 7700 10750
+AR Path="/7B93902E" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B93902E" Ref="D999"  Part="1" 
+F 0 "D999" V 7746 10680 50  0000 R CNN
+F 1 "LED_Small" V 7655 10680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 7700 10750 50  0001 C CNN
+F 3 "~" V 7700 10750 50  0001 C CNN
+	1    7700 10750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 10650 7700 10650
+Connection ~ 7700 10650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939036
+P 8300 6250
+AR Path="/7B939036" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939036" Ref="D520"  Part="1" 
+F 0 "D520" V 8346 6180 50  0000 R CNN
+F 1 "LED_Small" V 8255 6180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8300 6250 50  0001 C CNN
+F 3 "~" V 8300 6250 50  0001 C CNN
+	1    8300 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7700 6150 8300 6150
+Connection ~ 8300 6150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B93903E
+P 8300 6550
+AR Path="/7B93903E" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B93903E" Ref="D552"  Part="1" 
+F 0 "D552" V 8346 6480 50  0000 R CNN
+F 1 "LED_Small" V 8255 6480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8300 6550 50  0001 C CNN
+F 3 "~" V 8300 6550 50  0001 C CNN
+	1    8300 6550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7700 6450 8300 6450
+Connection ~ 8300 6450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939046
+P 8300 6850
+AR Path="/7B939046" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939046" Ref="D584"  Part="1" 
+F 0 "D584" V 8346 6780 50  0000 R CNN
+F 1 "LED_Small" V 8255 6780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8300 6850 50  0001 C CNN
+F 3 "~" V 8300 6850 50  0001 C CNN
+	1    8300 6850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7700 6750 8300 6750
+Connection ~ 8300 6750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B93904E
+P 8300 7150
+AR Path="/7B93904E" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B93904E" Ref="D616"  Part="1" 
+F 0 "D616" V 8346 7080 50  0000 R CNN
+F 1 "LED_Small" V 8255 7080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8300 7150 50  0001 C CNN
+F 3 "~" V 8300 7150 50  0001 C CNN
+	1    8300 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7700 7050 8300 7050
+Connection ~ 8300 7050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939056
+P 8300 7450
+AR Path="/7B939056" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939056" Ref="D648"  Part="1" 
+F 0 "D648" V 8346 7380 50  0000 R CNN
+F 1 "LED_Small" V 8255 7380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8300 7450 50  0001 C CNN
+F 3 "~" V 8300 7450 50  0001 C CNN
+	1    8300 7450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7700 7350 8300 7350
+Connection ~ 8300 7350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B93905E
+P 8300 7750
+AR Path="/7B93905E" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B93905E" Ref="D680"  Part="1" 
+F 0 "D680" V 8346 7680 50  0000 R CNN
+F 1 "LED_Small" V 8255 7680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8300 7750 50  0001 C CNN
+F 3 "~" V 8300 7750 50  0001 C CNN
+	1    8300 7750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7700 7650 8300 7650
+Connection ~ 8300 7650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939066
+P 8300 8050
+AR Path="/7B939066" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939066" Ref="D712"  Part="1" 
+F 0 "D712" V 8346 7980 50  0000 R CNN
+F 1 "LED_Small" V 8255 7980 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8300 8050 50  0001 C CNN
+F 3 "~" V 8300 8050 50  0001 C CNN
+	1    8300 8050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7700 7950 8300 7950
+Connection ~ 8300 7950
+$Comp
+L Device:LED_Small D?
+U 1 1 7B93906E
+P 8300 8350
+AR Path="/7B93906E" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B93906E" Ref="D744"  Part="1" 
+F 0 "D744" V 8346 8280 50  0000 R CNN
+F 1 "LED_Small" V 8255 8280 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8300 8350 50  0001 C CNN
+F 3 "~" V 8300 8350 50  0001 C CNN
+	1    8300 8350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7800 8250 8300 8250
+Connection ~ 8300 8250
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939076
+P 8300 8650
+AR Path="/7B939076" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939076" Ref="D776"  Part="1" 
+F 0 "D776" V 8346 8580 50  0000 R CNN
+F 1 "LED_Small" V 8255 8580 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8300 8650 50  0001 C CNN
+F 3 "~" V 8300 8650 50  0001 C CNN
+	1    8300 8650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8400 8550 8300 8550
+Wire Wire Line
+	8300 8550 7700 8550
+Connection ~ 8300 8550
+$Comp
+L Device:LED_Small D?
+U 1 1 7B93907F
+P 8300 8950
+AR Path="/7B93907F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B93907F" Ref="D808"  Part="1" 
+F 0 "D808" V 8346 8880 50  0000 R CNN
+F 1 "LED_Small" V 8255 8880 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8300 8950 50  0001 C CNN
+F 3 "~" V 8300 8950 50  0001 C CNN
+	1    8300 8950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8300 8850
+Wire Wire Line
+	8300 8850 8900 8850
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939087
+P 8300 9250
+AR Path="/7B939087" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939087" Ref="D840"  Part="1" 
+F 0 "D840" V 8346 9180 50  0000 R CNN
+F 1 "LED_Small" V 8255 9180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8300 9250 50  0001 C CNN
+F 3 "~" V 8300 9250 50  0001 C CNN
+	1    8300 9250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8300 9150 7700 9150
+Connection ~ 8300 9150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B93908F
+P 8300 9550
+AR Path="/7B93908F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B93908F" Ref="D872"  Part="1" 
+F 0 "D872" V 8346 9480 50  0000 R CNN
+F 1 "LED_Small" V 8255 9480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8300 9550 50  0001 C CNN
+F 3 "~" V 8300 9550 50  0001 C CNN
+	1    8300 9550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8300 9450
+Wire Wire Line
+	8300 9450 8900 9450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939097
+P 8300 9850
+AR Path="/7B939097" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939097" Ref="D904"  Part="1" 
+F 0 "D904" V 8346 9780 50  0000 R CNN
+F 1 "LED_Small" V 8255 9780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8300 9850 50  0001 C CNN
+F 3 "~" V 8300 9850 50  0001 C CNN
+	1    8300 9850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8300 9750 7700 9750
+Connection ~ 8300 9750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B93909F
+P 8300 10150
+AR Path="/7B93909F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B93909F" Ref="D936"  Part="1" 
+F 0 "D936" V 8346 10080 50  0000 R CNN
+F 1 "LED_Small" V 8255 10080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8300 10150 50  0001 C CNN
+F 3 "~" V 8300 10150 50  0001 C CNN
+	1    8300 10150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7700 10050 8300 10050
+Connection ~ 8300 10050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9390A7
+P 8300 10450
+AR Path="/7B9390A7" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9390A7" Ref="D968"  Part="1" 
+F 0 "D968" V 8346 10380 50  0000 R CNN
+F 1 "LED_Small" V 8255 10380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8300 10450 50  0001 C CNN
+F 3 "~" V 8300 10450 50  0001 C CNN
+	1    8300 10450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8300 10350 7700 10350
+Connection ~ 8300 10350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9390AF
+P 8300 10750
+AR Path="/7B9390AF" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9390AF" Ref="D1000"  Part="1" 
+F 0 "D1000" V 8346 10680 50  0000 R CNN
+F 1 "LED_Small" V 8255 10680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8300 10750 50  0001 C CNN
+F 3 "~" V 8300 10750 50  0001 C CNN
+	1    8300 10750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7700 10650 8300 10650
+Connection ~ 8300 10650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9390B7
+P 8900 6250
+AR Path="/7B9390B7" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9390B7" Ref="D521"  Part="1" 
+F 0 "D521" V 8946 6180 50  0000 R CNN
+F 1 "LED_Small" V 8855 6180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8900 6250 50  0001 C CNN
+F 3 "~" V 8900 6250 50  0001 C CNN
+	1    8900 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8300 6150 8900 6150
+Connection ~ 8900 6150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9390BF
+P 8900 6550
+AR Path="/7B9390BF" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9390BF" Ref="D553"  Part="1" 
+F 0 "D553" V 8946 6480 50  0000 R CNN
+F 1 "LED_Small" V 8855 6480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8900 6550 50  0001 C CNN
+F 3 "~" V 8900 6550 50  0001 C CNN
+	1    8900 6550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8300 6450 8900 6450
+Connection ~ 8900 6450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9390C7
+P 8900 6850
+AR Path="/7B9390C7" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9390C7" Ref="D585"  Part="1" 
+F 0 "D585" V 8946 6780 50  0000 R CNN
+F 1 "LED_Small" V 8855 6780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8900 6850 50  0001 C CNN
+F 3 "~" V 8900 6850 50  0001 C CNN
+	1    8900 6850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8300 6750 8900 6750
+Connection ~ 8900 6750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9390CF
+P 8900 7150
+AR Path="/7B9390CF" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9390CF" Ref="D617"  Part="1" 
+F 0 "D617" V 8946 7080 50  0000 R CNN
+F 1 "LED_Small" V 8855 7080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8900 7150 50  0001 C CNN
+F 3 "~" V 8900 7150 50  0001 C CNN
+	1    8900 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8300 7050 8900 7050
+Connection ~ 8900 7050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9390D7
+P 8900 7450
+AR Path="/7B9390D7" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9390D7" Ref="D649"  Part="1" 
+F 0 "D649" V 8946 7380 50  0000 R CNN
+F 1 "LED_Small" V 8855 7380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8900 7450 50  0001 C CNN
+F 3 "~" V 8900 7450 50  0001 C CNN
+	1    8900 7450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8300 7350 8900 7350
+Connection ~ 8900 7350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9390DF
+P 8900 7750
+AR Path="/7B9390DF" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9390DF" Ref="D681"  Part="1" 
+F 0 "D681" V 8946 7680 50  0000 R CNN
+F 1 "LED_Small" V 8855 7680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8900 7750 50  0001 C CNN
+F 3 "~" V 8900 7750 50  0001 C CNN
+	1    8900 7750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8300 7650 8900 7650
+Connection ~ 8900 7650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9390E7
+P 8900 8050
+AR Path="/7B9390E7" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9390E7" Ref="D713"  Part="1" 
+F 0 "D713" V 8946 7980 50  0000 R CNN
+F 1 "LED_Small" V 8855 7980 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8900 8050 50  0001 C CNN
+F 3 "~" V 8900 8050 50  0001 C CNN
+	1    8900 8050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8300 7950 8900 7950
+Connection ~ 8900 7950
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9390EF
+P 8900 8350
+AR Path="/7B9390EF" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9390EF" Ref="D745"  Part="1" 
+F 0 "D745" V 8946 8280 50  0000 R CNN
+F 1 "LED_Small" V 8855 8280 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8900 8350 50  0001 C CNN
+F 3 "~" V 8900 8350 50  0001 C CNN
+	1    8900 8350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8300 8250 8900 8250
+Connection ~ 8900 8250
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9390F7
+P 8900 8650
+AR Path="/7B9390F7" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9390F7" Ref="D777"  Part="1" 
+F 0 "D777" V 8946 8580 50  0000 R CNN
+F 1 "LED_Small" V 8855 8580 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8900 8650 50  0001 C CNN
+F 3 "~" V 8900 8650 50  0001 C CNN
+	1    8900 8650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8900 8550 8400 8550
+Connection ~ 8900 8550
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9390FF
+P 8900 8950
+AR Path="/7B9390FF" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9390FF" Ref="D809"  Part="1" 
+F 0 "D809" V 8946 8880 50  0000 R CNN
+F 1 "LED_Small" V 8855 8880 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8900 8950 50  0001 C CNN
+F 3 "~" V 8900 8950 50  0001 C CNN
+	1    8900 8950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8900 8850
+Wire Wire Line
+	8900 8850 9000 8850
+Wire Wire Line
+	8900 9150 8300 9150
+Connection ~ 8900 9150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939109
+P 8900 9550
+AR Path="/7B939109" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939109" Ref="D873"  Part="1" 
+F 0 "D873" V 8946 9480 50  0000 R CNN
+F 1 "LED_Small" V 8855 9480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8900 9550 50  0001 C CNN
+F 3 "~" V 8900 9550 50  0001 C CNN
+	1    8900 9550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8900 9450
+Wire Wire Line
+	8900 9450 9500 9450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939111
+P 8900 9850
+AR Path="/7B939111" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939111" Ref="D905"  Part="1" 
+F 0 "D905" V 8946 9780 50  0000 R CNN
+F 1 "LED_Small" V 8855 9780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8900 9850 50  0001 C CNN
+F 3 "~" V 8900 9850 50  0001 C CNN
+	1    8900 9850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8900 9750 8300 9750
+Connection ~ 8900 9750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939119
+P 8900 10150
+AR Path="/7B939119" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939119" Ref="D937"  Part="1" 
+F 0 "D937" V 8946 10080 50  0000 R CNN
+F 1 "LED_Small" V 8855 10080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8900 10150 50  0001 C CNN
+F 3 "~" V 8900 10150 50  0001 C CNN
+	1    8900 10150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8300 10050 8900 10050
+Connection ~ 8900 10050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939121
+P 8900 10450
+AR Path="/7B939121" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939121" Ref="D969"  Part="1" 
+F 0 "D969" V 8946 10380 50  0000 R CNN
+F 1 "LED_Small" V 8855 10380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8900 10450 50  0001 C CNN
+F 3 "~" V 8900 10450 50  0001 C CNN
+	1    8900 10450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8900 10350 8300 10350
+Connection ~ 8900 10350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939129
+P 8900 10750
+AR Path="/7B939129" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939129" Ref="D1001"  Part="1" 
+F 0 "D1001" V 8946 10680 50  0000 R CNN
+F 1 "LED_Small" V 8855 10680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 8900 10750 50  0001 C CNN
+F 3 "~" V 8900 10750 50  0001 C CNN
+	1    8900 10750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8300 10650 8900 10650
+Connection ~ 8900 10650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939131
+P 9500 6250
+AR Path="/7B939131" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939131" Ref="D522"  Part="1" 
+F 0 "D522" V 9546 6180 50  0000 R CNN
+F 1 "LED_Small" V 9455 6180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 9500 6250 50  0001 C CNN
+F 3 "~" V 9500 6250 50  0001 C CNN
+	1    9500 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8900 6150 9500 6150
+Connection ~ 9500 6150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939139
+P 9500 6550
+AR Path="/7B939139" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939139" Ref="D554"  Part="1" 
+F 0 "D554" V 9546 6480 50  0000 R CNN
+F 1 "LED_Small" V 9455 6480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 9500 6550 50  0001 C CNN
+F 3 "~" V 9500 6550 50  0001 C CNN
+	1    9500 6550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8900 6450 9500 6450
+Connection ~ 9500 6450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939141
+P 9500 6850
+AR Path="/7B939141" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939141" Ref="D586"  Part="1" 
+F 0 "D586" V 9546 6780 50  0000 R CNN
+F 1 "LED_Small" V 9455 6780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 9500 6850 50  0001 C CNN
+F 3 "~" V 9500 6850 50  0001 C CNN
+	1    9500 6850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8900 6750 9500 6750
+Connection ~ 9500 6750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939149
+P 9500 7150
+AR Path="/7B939149" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939149" Ref="D618"  Part="1" 
+F 0 "D618" V 9546 7080 50  0000 R CNN
+F 1 "LED_Small" V 9455 7080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 9500 7150 50  0001 C CNN
+F 3 "~" V 9500 7150 50  0001 C CNN
+	1    9500 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8900 7050 9500 7050
+Connection ~ 9500 7050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939151
+P 9500 7450
+AR Path="/7B939151" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939151" Ref="D650"  Part="1" 
+F 0 "D650" V 9546 7380 50  0000 R CNN
+F 1 "LED_Small" V 9455 7380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 9500 7450 50  0001 C CNN
+F 3 "~" V 9500 7450 50  0001 C CNN
+	1    9500 7450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8900 7350 9500 7350
+Connection ~ 9500 7350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939159
+P 9500 7750
+AR Path="/7B939159" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939159" Ref="D682"  Part="1" 
+F 0 "D682" V 9546 7680 50  0000 R CNN
+F 1 "LED_Small" V 9455 7680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 9500 7750 50  0001 C CNN
+F 3 "~" V 9500 7750 50  0001 C CNN
+	1    9500 7750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8900 7650 9500 7650
+Connection ~ 9500 7650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939161
+P 9500 8050
+AR Path="/7B939161" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939161" Ref="D714"  Part="1" 
+F 0 "D714" V 9546 7980 50  0000 R CNN
+F 1 "LED_Small" V 9455 7980 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 9500 8050 50  0001 C CNN
+F 3 "~" V 9500 8050 50  0001 C CNN
+	1    9500 8050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8900 7950 9500 7950
+Connection ~ 9500 7950
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939169
+P 9500 8350
+AR Path="/7B939169" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939169" Ref="D746"  Part="1" 
+F 0 "D746" V 9546 8280 50  0000 R CNN
+F 1 "LED_Small" V 9455 8280 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 9500 8350 50  0001 C CNN
+F 3 "~" V 9500 8350 50  0001 C CNN
+	1    9500 8350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8900 8250 9500 8250
+Connection ~ 9500 8250
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939171
+P 9500 8650
+AR Path="/7B939171" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939171" Ref="D778"  Part="1" 
+F 0 "D778" V 9546 8580 50  0000 R CNN
+F 1 "LED_Small" V 9455 8580 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 9500 8650 50  0001 C CNN
+F 3 "~" V 9500 8650 50  0001 C CNN
+	1    9500 8650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 8550 8900 8550
+Connection ~ 9500 8550
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939179
+P 9500 8950
+AR Path="/7B939179" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939179" Ref="D810"  Part="1" 
+F 0 "D810" V 9546 8880 50  0000 R CNN
+F 1 "LED_Small" V 9455 8880 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 9500 8950 50  0001 C CNN
+F 3 "~" V 9500 8950 50  0001 C CNN
+	1    9500 8950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9000 8850 9500 8850
+Connection ~ 9500 8850
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939181
+P 9500 9250
+AR Path="/7B939181" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939181" Ref="D842"  Part="1" 
+F 0 "D842" V 9546 9180 50  0000 R CNN
+F 1 "LED_Small" V 9455 9180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 9500 9250 50  0001 C CNN
+F 3 "~" V 9500 9250 50  0001 C CNN
+	1    9500 9250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9600 9150 9500 9150
+Wire Wire Line
+	9500 9150 8900 9150
+Connection ~ 9500 9150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B93918A
+P 9500 9550
+AR Path="/7B93918A" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B93918A" Ref="D874"  Part="1" 
+F 0 "D874" V 9546 9480 50  0000 R CNN
+F 1 "LED_Small" V 9455 9480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 9500 9550 50  0001 C CNN
+F 3 "~" V 9500 9550 50  0001 C CNN
+	1    9500 9550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9500 9450
+Wire Wire Line
+	9500 9450 10100 9450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939192
+P 9500 9850
+AR Path="/7B939192" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939192" Ref="D906"  Part="1" 
+F 0 "D906" V 9546 9780 50  0000 R CNN
+F 1 "LED_Small" V 9455 9780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 9500 9850 50  0001 C CNN
+F 3 "~" V 9500 9850 50  0001 C CNN
+	1    9500 9850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 9750 8900 9750
+Connection ~ 9500 9750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B93919A
+P 9500 10150
+AR Path="/7B93919A" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B93919A" Ref="D938"  Part="1" 
+F 0 "D938" V 9546 10080 50  0000 R CNN
+F 1 "LED_Small" V 9455 10080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 9500 10150 50  0001 C CNN
+F 3 "~" V 9500 10150 50  0001 C CNN
+	1    9500 10150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8900 10050 9500 10050
+Connection ~ 9500 10050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9391A2
+P 9500 10450
+AR Path="/7B9391A2" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9391A2" Ref="D970"  Part="1" 
+F 0 "D970" V 9546 10380 50  0000 R CNN
+F 1 "LED_Small" V 9455 10380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 9500 10450 50  0001 C CNN
+F 3 "~" V 9500 10450 50  0001 C CNN
+	1    9500 10450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 10350 8900 10350
+Connection ~ 9500 10350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9391AA
+P 9500 10750
+AR Path="/7B9391AA" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9391AA" Ref="D1002"  Part="1" 
+F 0 "D1002" V 9546 10680 50  0000 R CNN
+F 1 "LED_Small" V 9455 10680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 9500 10750 50  0001 C CNN
+F 3 "~" V 9500 10750 50  0001 C CNN
+	1    9500 10750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8900 10650 9500 10650
+Connection ~ 9500 10650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9391B2
+P 10100 6250
+AR Path="/7B9391B2" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9391B2" Ref="D523"  Part="1" 
+F 0 "D523" V 10146 6180 50  0000 R CNN
+F 1 "LED_Small" V 10055 6180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10100 6250 50  0001 C CNN
+F 3 "~" V 10100 6250 50  0001 C CNN
+	1    10100 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 6150 10100 6150
+Connection ~ 10100 6150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9391BA
+P 10100 6550
+AR Path="/7B9391BA" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9391BA" Ref="D555"  Part="1" 
+F 0 "D555" V 10146 6480 50  0000 R CNN
+F 1 "LED_Small" V 10055 6480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10100 6550 50  0001 C CNN
+F 3 "~" V 10100 6550 50  0001 C CNN
+	1    10100 6550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 6450 10100 6450
+Connection ~ 10100 6450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9391C2
+P 10100 6850
+AR Path="/7B9391C2" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9391C2" Ref="D587"  Part="1" 
+F 0 "D587" V 10146 6780 50  0000 R CNN
+F 1 "LED_Small" V 10055 6780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10100 6850 50  0001 C CNN
+F 3 "~" V 10100 6850 50  0001 C CNN
+	1    10100 6850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 6750 10100 6750
+Connection ~ 10100 6750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9391CA
+P 10100 7150
+AR Path="/7B9391CA" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9391CA" Ref="D619"  Part="1" 
+F 0 "D619" V 10146 7080 50  0000 R CNN
+F 1 "LED_Small" V 10055 7080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10100 7150 50  0001 C CNN
+F 3 "~" V 10100 7150 50  0001 C CNN
+	1    10100 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 7050 10100 7050
+Connection ~ 10100 7050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9391D2
+P 10100 7450
+AR Path="/7B9391D2" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9391D2" Ref="D651"  Part="1" 
+F 0 "D651" V 10146 7380 50  0000 R CNN
+F 1 "LED_Small" V 10055 7380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10100 7450 50  0001 C CNN
+F 3 "~" V 10100 7450 50  0001 C CNN
+	1    10100 7450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 7350 10100 7350
+Connection ~ 10100 7350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9391DA
+P 10100 7750
+AR Path="/7B9391DA" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9391DA" Ref="D683"  Part="1" 
+F 0 "D683" V 10146 7680 50  0000 R CNN
+F 1 "LED_Small" V 10055 7680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10100 7750 50  0001 C CNN
+F 3 "~" V 10100 7750 50  0001 C CNN
+	1    10100 7750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 7650 10100 7650
+Connection ~ 10100 7650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9391E2
+P 10100 8050
+AR Path="/7B9391E2" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9391E2" Ref="D715"  Part="1" 
+F 0 "D715" V 10146 7980 50  0000 R CNN
+F 1 "LED_Small" V 10055 7980 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10100 8050 50  0001 C CNN
+F 3 "~" V 10100 8050 50  0001 C CNN
+	1    10100 8050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 7950 10100 7950
+Connection ~ 10100 7950
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9391EA
+P 10100 8350
+AR Path="/7B9391EA" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9391EA" Ref="D747"  Part="1" 
+F 0 "D747" V 10146 8280 50  0000 R CNN
+F 1 "LED_Small" V 10055 8280 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10100 8350 50  0001 C CNN
+F 3 "~" V 10100 8350 50  0001 C CNN
+	1    10100 8350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 8250 10100 8250
+Connection ~ 10100 8250
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9391F2
+P 10100 8650
+AR Path="/7B9391F2" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9391F2" Ref="D779"  Part="1" 
+F 0 "D779" V 10146 8580 50  0000 R CNN
+F 1 "LED_Small" V 10055 8580 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10100 8650 50  0001 C CNN
+F 3 "~" V 10100 8650 50  0001 C CNN
+	1    10100 8650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10100 8550 9500 8550
+Connection ~ 10100 8550
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9391FA
+P 10100 8950
+AR Path="/7B9391FA" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9391FA" Ref="D811"  Part="1" 
+F 0 "D811" V 10146 8880 50  0000 R CNN
+F 1 "LED_Small" V 10055 8880 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10100 8950 50  0001 C CNN
+F 3 "~" V 10100 8950 50  0001 C CNN
+	1    10100 8950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 8850 10100 8850
+Connection ~ 10100 8850
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939202
+P 10100 9250
+AR Path="/7B939202" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939202" Ref="D843"  Part="1" 
+F 0 "D843" V 10146 9180 50  0000 R CNN
+F 1 "LED_Small" V 10055 9180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10100 9250 50  0001 C CNN
+F 3 "~" V 10100 9250 50  0001 C CNN
+	1    10100 9250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10100 9150 9600 9150
+Connection ~ 10100 9150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B93920A
+P 10100 9550
+AR Path="/7B93920A" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B93920A" Ref="D875"  Part="1" 
+F 0 "D875" V 10146 9480 50  0000 R CNN
+F 1 "LED_Small" V 10055 9480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10100 9550 50  0001 C CNN
+F 3 "~" V 10100 9550 50  0001 C CNN
+	1    10100 9550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 10100 9450
+Wire Wire Line
+	10100 9450 10200 9450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939212
+P 10100 9850
+AR Path="/7B939212" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939212" Ref="D907"  Part="1" 
+F 0 "D907" V 10146 9780 50  0000 R CNN
+F 1 "LED_Small" V 10055 9780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10100 9850 50  0001 C CNN
+F 3 "~" V 10100 9850 50  0001 C CNN
+	1    10100 9850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10100 9750 9500 9750
+Connection ~ 10100 9750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B93921A
+P 10100 10150
+AR Path="/7B93921A" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B93921A" Ref="D939"  Part="1" 
+F 0 "D939" V 10146 10080 50  0000 R CNN
+F 1 "LED_Small" V 10055 10080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10100 10150 50  0001 C CNN
+F 3 "~" V 10100 10150 50  0001 C CNN
+	1    10100 10150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 10050 10100 10050
+Connection ~ 10100 10050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939222
+P 10100 10450
+AR Path="/7B939222" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939222" Ref="D971"  Part="1" 
+F 0 "D971" V 10146 10380 50  0000 R CNN
+F 1 "LED_Small" V 10055 10380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10100 10450 50  0001 C CNN
+F 3 "~" V 10100 10450 50  0001 C CNN
+	1    10100 10450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10100 10350 9500 10350
+Connection ~ 10100 10350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B93922A
+P 10100 10750
+AR Path="/7B93922A" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B93922A" Ref="D1003"  Part="1" 
+F 0 "D1003" V 10146 10680 50  0000 R CNN
+F 1 "LED_Small" V 10055 10680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10100 10750 50  0001 C CNN
+F 3 "~" V 10100 10750 50  0001 C CNN
+	1    10100 10750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 10650 10100 10650
+Connection ~ 10100 10650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939232
+P 10700 6250
+AR Path="/7B939232" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939232" Ref="D524"  Part="1" 
+F 0 "D524" V 10746 6180 50  0000 R CNN
+F 1 "LED_Small" V 10655 6180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10700 6250 50  0001 C CNN
+F 3 "~" V 10700 6250 50  0001 C CNN
+	1    10700 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10100 6150 10700 6150
+Connection ~ 10700 6150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B93923A
+P 10700 6550
+AR Path="/7B93923A" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B93923A" Ref="D556"  Part="1" 
+F 0 "D556" V 10746 6480 50  0000 R CNN
+F 1 "LED_Small" V 10655 6480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10700 6550 50  0001 C CNN
+F 3 "~" V 10700 6550 50  0001 C CNN
+	1    10700 6550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10100 6450 10700 6450
+Connection ~ 10700 6450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939242
+P 10700 6850
+AR Path="/7B939242" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939242" Ref="D588"  Part="1" 
+F 0 "D588" V 10746 6780 50  0000 R CNN
+F 1 "LED_Small" V 10655 6780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10700 6850 50  0001 C CNN
+F 3 "~" V 10700 6850 50  0001 C CNN
+	1    10700 6850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10100 6750 10700 6750
+Connection ~ 10700 6750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B93924A
+P 10700 7150
+AR Path="/7B93924A" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B93924A" Ref="D620"  Part="1" 
+F 0 "D620" V 10746 7080 50  0000 R CNN
+F 1 "LED_Small" V 10655 7080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10700 7150 50  0001 C CNN
+F 3 "~" V 10700 7150 50  0001 C CNN
+	1    10700 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10100 7050 10700 7050
+Connection ~ 10700 7050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939252
+P 10700 7450
+AR Path="/7B939252" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939252" Ref="D652"  Part="1" 
+F 0 "D652" V 10746 7380 50  0000 R CNN
+F 1 "LED_Small" V 10655 7380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10700 7450 50  0001 C CNN
+F 3 "~" V 10700 7450 50  0001 C CNN
+	1    10700 7450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10100 7350 10700 7350
+Connection ~ 10700 7350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B93925A
+P 10700 7750
+AR Path="/7B93925A" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B93925A" Ref="D684"  Part="1" 
+F 0 "D684" V 10746 7680 50  0000 R CNN
+F 1 "LED_Small" V 10655 7680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10700 7750 50  0001 C CNN
+F 3 "~" V 10700 7750 50  0001 C CNN
+	1    10700 7750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10100 7650 10700 7650
+Connection ~ 10700 7650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939262
+P 10700 8050
+AR Path="/7B939262" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939262" Ref="D716"  Part="1" 
+F 0 "D716" V 10746 7980 50  0000 R CNN
+F 1 "LED_Small" V 10655 7980 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10700 8050 50  0001 C CNN
+F 3 "~" V 10700 8050 50  0001 C CNN
+	1    10700 8050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10100 7950 10700 7950
+Connection ~ 10700 7950
+$Comp
+L Device:LED_Small D?
+U 1 1 7B93926A
+P 10700 8350
+AR Path="/7B93926A" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B93926A" Ref="D748"  Part="1" 
+F 0 "D748" V 10746 8280 50  0000 R CNN
+F 1 "LED_Small" V 10655 8280 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10700 8350 50  0001 C CNN
+F 3 "~" V 10700 8350 50  0001 C CNN
+	1    10700 8350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10100 8250 10700 8250
+Connection ~ 10700 8250
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939272
+P 10700 8650
+AR Path="/7B939272" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939272" Ref="D780"  Part="1" 
+F 0 "D780" V 10746 8580 50  0000 R CNN
+F 1 "LED_Small" V 10655 8580 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10700 8650 50  0001 C CNN
+F 3 "~" V 10700 8650 50  0001 C CNN
+	1    10700 8650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10700 8550 10100 8550
+Connection ~ 10700 8550
+$Comp
+L Device:LED_Small D?
+U 1 1 7B93927A
+P 10700 8950
+AR Path="/7B93927A" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B93927A" Ref="D812"  Part="1" 
+F 0 "D812" V 10746 8880 50  0000 R CNN
+F 1 "LED_Small" V 10655 8880 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10700 8950 50  0001 C CNN
+F 3 "~" V 10700 8950 50  0001 C CNN
+	1    10700 8950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10100 8850 10700 8850
+Connection ~ 10700 8850
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939282
+P 10700 9250
+AR Path="/7B939282" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939282" Ref="D844"  Part="1" 
+F 0 "D844" V 10746 9180 50  0000 R CNN
+F 1 "LED_Small" V 10655 9180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10700 9250 50  0001 C CNN
+F 3 "~" V 10700 9250 50  0001 C CNN
+	1    10700 9250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10700 9150 10100 9150
+Connection ~ 10700 9150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B93928A
+P 10700 9550
+AR Path="/7B93928A" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B93928A" Ref="D876"  Part="1" 
+F 0 "D876" V 10746 9480 50  0000 R CNN
+F 1 "LED_Small" V 10655 9480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10700 9550 50  0001 C CNN
+F 3 "~" V 10700 9550 50  0001 C CNN
+	1    10700 9550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10200 9450 10700 9450
+Connection ~ 10700 9450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939292
+P 10700 9850
+AR Path="/7B939292" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939292" Ref="D908"  Part="1" 
+F 0 "D908" V 10746 9780 50  0000 R CNN
+F 1 "LED_Small" V 10655 9780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10700 9850 50  0001 C CNN
+F 3 "~" V 10700 9850 50  0001 C CNN
+	1    10700 9850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10800 9750 10700 9750
+Wire Wire Line
+	10700 9750 10100 9750
+Connection ~ 10700 9750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B93929B
+P 10700 10150
+AR Path="/7B93929B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B93929B" Ref="D940"  Part="1" 
+F 0 "D940" V 10746 10080 50  0000 R CNN
+F 1 "LED_Small" V 10655 10080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10700 10150 50  0001 C CNN
+F 3 "~" V 10700 10150 50  0001 C CNN
+	1    10700 10150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10100 10050 10700 10050
+Connection ~ 10700 10050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9392A3
+P 10700 10450
+AR Path="/7B9392A3" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9392A3" Ref="D972"  Part="1" 
+F 0 "D972" V 10746 10380 50  0000 R CNN
+F 1 "LED_Small" V 10655 10380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10700 10450 50  0001 C CNN
+F 3 "~" V 10700 10450 50  0001 C CNN
+	1    10700 10450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10700 10350 10100 10350
+Connection ~ 10700 10350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9392AB
+P 10700 10750
+AR Path="/7B9392AB" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9392AB" Ref="D1004"  Part="1" 
+F 0 "D1004" V 10746 10680 50  0000 R CNN
+F 1 "LED_Small" V 10655 10680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 10700 10750 50  0001 C CNN
+F 3 "~" V 10700 10750 50  0001 C CNN
+	1    10700 10750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10100 10650 10700 10650
+Connection ~ 10700 10650
+Wire Wire Line
+	11300 6150 11900 6150
+Wire Wire Line
+	10700 6150 11300 6150
+Connection ~ 11300 6150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9392B6
+P 11300 6250
+AR Path="/7B9392B6" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9392B6" Ref="D525"  Part="1" 
+F 0 "D525" V 11346 6180 50  0000 R CNN
+F 1 "LED_Small" V 11255 6180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11300 6250 50  0001 C CNN
+F 3 "~" V 11300 6250 50  0001 C CNN
+	1    11300 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11300 6450 11900 6450
+Wire Wire Line
+	10700 6450 11300 6450
+Connection ~ 11300 6450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9392BF
+P 11300 6550
+AR Path="/7B9392BF" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9392BF" Ref="D557"  Part="1" 
+F 0 "D557" V 11346 6480 50  0000 R CNN
+F 1 "LED_Small" V 11255 6480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11300 6550 50  0001 C CNN
+F 3 "~" V 11300 6550 50  0001 C CNN
+	1    11300 6550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11300 6750 11900 6750
+Wire Wire Line
+	10700 6750 11300 6750
+Connection ~ 11300 6750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9392C8
+P 11300 6850
+AR Path="/7B9392C8" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9392C8" Ref="D589"  Part="1" 
+F 0 "D589" V 11346 6780 50  0000 R CNN
+F 1 "LED_Small" V 11255 6780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11300 6850 50  0001 C CNN
+F 3 "~" V 11300 6850 50  0001 C CNN
+	1    11300 6850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11300 7050 11900 7050
+Wire Wire Line
+	10700 7050 11300 7050
+Connection ~ 11300 7050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9392D1
+P 11300 7150
+AR Path="/7B9392D1" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9392D1" Ref="D621"  Part="1" 
+F 0 "D621" V 11346 7080 50  0000 R CNN
+F 1 "LED_Small" V 11255 7080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11300 7150 50  0001 C CNN
+F 3 "~" V 11300 7150 50  0001 C CNN
+	1    11300 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11300 7350 11900 7350
+Wire Wire Line
+	10700 7350 11300 7350
+Connection ~ 11300 7350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9392DA
+P 11300 7450
+AR Path="/7B9392DA" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9392DA" Ref="D653"  Part="1" 
+F 0 "D653" V 11346 7380 50  0000 R CNN
+F 1 "LED_Small" V 11255 7380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11300 7450 50  0001 C CNN
+F 3 "~" V 11300 7450 50  0001 C CNN
+	1    11300 7450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11300 7650 11900 7650
+Wire Wire Line
+	10700 7650 11300 7650
+Connection ~ 11300 7650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9392E3
+P 11300 7750
+AR Path="/7B9392E3" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9392E3" Ref="D685"  Part="1" 
+F 0 "D685" V 11346 7680 50  0000 R CNN
+F 1 "LED_Small" V 11255 7680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11300 7750 50  0001 C CNN
+F 3 "~" V 11300 7750 50  0001 C CNN
+	1    11300 7750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11300 7950 11900 7950
+Wire Wire Line
+	10700 7950 11300 7950
+Connection ~ 11300 7950
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9392EC
+P 11300 8050
+AR Path="/7B9392EC" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9392EC" Ref="D717"  Part="1" 
+F 0 "D717" V 11346 7980 50  0000 R CNN
+F 1 "LED_Small" V 11255 7980 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11300 8050 50  0001 C CNN
+F 3 "~" V 11300 8050 50  0001 C CNN
+	1    11300 8050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11300 8250 11900 8250
+Wire Wire Line
+	10700 8250 11300 8250
+Connection ~ 11300 8250
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9392F5
+P 11300 8350
+AR Path="/7B9392F5" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9392F5" Ref="D749"  Part="1" 
+F 0 "D749" V 11346 8280 50  0000 R CNN
+F 1 "LED_Small" V 11255 8280 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11300 8350 50  0001 C CNN
+F 3 "~" V 11300 8350 50  0001 C CNN
+	1    11300 8350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11900 8550 11300 8550
+Wire Wire Line
+	11300 8550 10700 8550
+Connection ~ 11300 8550
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9392FE
+P 11300 8650
+AR Path="/7B9392FE" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9392FE" Ref="D781"  Part="1" 
+F 0 "D781" V 11346 8580 50  0000 R CNN
+F 1 "LED_Small" V 11255 8580 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11300 8650 50  0001 C CNN
+F 3 "~" V 11300 8650 50  0001 C CNN
+	1    11300 8650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11300 8850 11900 8850
+Wire Wire Line
+	10700 8850 11300 8850
+Connection ~ 11300 8850
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939307
+P 11300 8950
+AR Path="/7B939307" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939307" Ref="D813"  Part="1" 
+F 0 "D813" V 11346 8880 50  0000 R CNN
+F 1 "LED_Small" V 11255 8880 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11300 8950 50  0001 C CNN
+F 3 "~" V 11300 8950 50  0001 C CNN
+	1    11300 8950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11900 9150 11300 9150
+Wire Wire Line
+	11300 9150 10700 9150
+Connection ~ 11300 9150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939310
+P 11300 9250
+AR Path="/7B939310" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939310" Ref="D845"  Part="1" 
+F 0 "D845" V 11346 9180 50  0000 R CNN
+F 1 "LED_Small" V 11255 9180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11300 9250 50  0001 C CNN
+F 3 "~" V 11300 9250 50  0001 C CNN
+	1    11300 9250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11300 9450 11900 9450
+Wire Wire Line
+	10700 9450 11300 9450
+Connection ~ 11300 9450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939319
+P 11300 9550
+AR Path="/7B939319" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939319" Ref="D877"  Part="1" 
+F 0 "D877" V 11346 9480 50  0000 R CNN
+F 1 "LED_Small" V 11255 9480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11300 9550 50  0001 C CNN
+F 3 "~" V 11300 9550 50  0001 C CNN
+	1    11300 9550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11900 9750 11300 9750
+Wire Wire Line
+	11300 9750 10800 9750
+Connection ~ 11300 9750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939322
+P 11300 9850
+AR Path="/7B939322" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939322" Ref="D909"  Part="1" 
+F 0 "D909" V 11346 9780 50  0000 R CNN
+F 1 "LED_Small" V 11255 9780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11300 9850 50  0001 C CNN
+F 3 "~" V 11300 9850 50  0001 C CNN
+	1    11300 9850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11300 10050 11400 10050
+Wire Wire Line
+	10700 10050 11300 10050
+Connection ~ 11300 10050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B93932B
+P 11300 10150
+AR Path="/7B93932B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B93932B" Ref="D941"  Part="1" 
+F 0 "D941" V 11346 10080 50  0000 R CNN
+F 1 "LED_Small" V 11255 10080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11300 10150 50  0001 C CNN
+F 3 "~" V 11300 10150 50  0001 C CNN
+	1    11300 10150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11900 10350 11300 10350
+Wire Wire Line
+	11300 10350 10700 10350
+Connection ~ 11300 10350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939334
+P 11300 10450
+AR Path="/7B939334" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939334" Ref="D973"  Part="1" 
+F 0 "D973" V 11346 10380 50  0000 R CNN
+F 1 "LED_Small" V 11255 10380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11300 10450 50  0001 C CNN
+F 3 "~" V 11300 10450 50  0001 C CNN
+	1    11300 10450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11300 10650 11900 10650
+Wire Wire Line
+	10700 10650 11300 10650
+Connection ~ 11300 10650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B93933D
+P 11300 10750
+AR Path="/7B93933D" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B93933D" Ref="D1005"  Part="1" 
+F 0 "D1005" V 11346 10680 50  0000 R CNN
+F 1 "LED_Small" V 11255 10680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 11300 10750 50  0001 C CNN
+F 3 "~" V 11300 10750 50  0001 C CNN
+	1    11300 10750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12000 10850 12000 10350
+Wire Wire Line
+	12000 10850 12500 10850
+Wire Wire Line
+	12500 7250 12600 7250
+Connection ~ 12600 7250
+Wire Wire Line
+	12600 7550 12600 7250
+Wire Wire Line
+	12500 7550 12600 7550
+Connection ~ 12600 7550
+Wire Wire Line
+	12600 7850 12600 7550
+Wire Wire Line
+	12500 7850 12600 7850
+Connection ~ 12600 7850
+Wire Wire Line
+	12600 8150 12600 7850
+Wire Wire Line
+	12500 8150 12600 8150
+Connection ~ 12600 8150
+Wire Wire Line
+	12600 8450 12600 8150
+Wire Wire Line
+	12500 8450 12600 8450
+Connection ~ 12600 8450
+Wire Wire Line
+	12600 8750 12600 8450
+Wire Wire Line
+	12500 8750 12600 8750
+Connection ~ 12600 8750
+Wire Wire Line
+	12600 9050 12600 8750
+Wire Wire Line
+	12500 9050 12600 9050
+Connection ~ 12600 9050
+Wire Wire Line
+	12600 9350 12600 9050
+Wire Wire Line
+	12500 9350 12600 9350
+Connection ~ 12600 9350
+Wire Wire Line
+	12600 9650 12600 9350
+Wire Wire Line
+	12500 9650 12600 9650
+Connection ~ 12600 9650
+Wire Wire Line
+	12600 9950 12600 9650
+Wire Wire Line
+	12500 9950 12600 9950
+Connection ~ 12600 9950
+Wire Wire Line
+	12600 10250 12600 9950
+Wire Wire Line
+	12500 10250 12600 10250
+Connection ~ 12600 10250
+Wire Wire Line
+	12600 10550 12600 10250
+Wire Wire Line
+	12500 10550 12600 10550
+Wire Wire Line
+	12600 7250 12600 6950
+Connection ~ 12600 6950
+Wire Wire Line
+	12500 6950 12600 6950
+Wire Wire Line
+	12600 6950 12600 6650
+Wire Wire Line
+	12600 6650 12600 6350
+Connection ~ 12600 6650
+Wire Wire Line
+	12500 6650 12600 6650
+Wire Wire Line
+	12600 6350 12500 6350
+Connection ~ 12600 10550
+Wire Wire Line
+	12600 10650 13100 10650
+Connection ~ 12600 10650
+Wire Wire Line
+	12600 10650 12600 10550
+Wire Wire Line
+	13100 10850 13200 10850
+Wire Wire Line
+	13200 10850 13200 10550
+Connection ~ 13200 10550
+Wire Wire Line
+	13100 10550 13200 10550
+Wire Wire Line
+	13200 10550 13200 10250
+Connection ~ 13200 10250
+Wire Wire Line
+	13100 10250 13200 10250
+Wire Wire Line
+	13200 10250 13200 9950
+Connection ~ 13200 9950
+Wire Wire Line
+	13100 9950 13200 9950
+Wire Wire Line
+	13200 9950 13200 9650
+Connection ~ 13200 9650
+Wire Wire Line
+	13100 9650 13200 9650
+Wire Wire Line
+	13200 9650 13200 9350
+Connection ~ 13200 9350
+Wire Wire Line
+	13100 9350 13200 9350
+Wire Wire Line
+	13200 9350 13200 9050
+Connection ~ 13200 9050
+Wire Wire Line
+	13100 9050 13200 9050
+Wire Wire Line
+	13200 9050 13200 8750
+Connection ~ 13200 8750
+Wire Wire Line
+	13100 8750 13200 8750
+Wire Wire Line
+	13200 8750 13200 8450
+Connection ~ 13200 8450
+Wire Wire Line
+	13100 8450 13200 8450
+Wire Wire Line
+	13200 8450 13200 8150
+Connection ~ 13200 8150
+Wire Wire Line
+	13100 8150 13200 8150
+Wire Wire Line
+	13200 8150 13200 7850
+Connection ~ 13200 7850
+Wire Wire Line
+	13100 7850 13200 7850
+Wire Wire Line
+	13200 7850 13200 7550
+Connection ~ 13200 7550
+Wire Wire Line
+	13100 7550 13200 7550
+Wire Wire Line
+	13200 7550 13200 7250
+Connection ~ 13200 7250
+Wire Wire Line
+	13100 7250 13200 7250
+Wire Wire Line
+	13200 7250 13200 6950
+Connection ~ 13200 6950
+Wire Wire Line
+	13100 6950 13200 6950
+Wire Wire Line
+	13200 6950 13200 6650
+Wire Wire Line
+	13200 6650 13200 6350
+Connection ~ 13200 6650
+Wire Wire Line
+	13100 6650 13200 6650
+Wire Wire Line
+	13200 6350 13100 6350
+Connection ~ 13200 10850
+Wire Wire Line
+	13200 10900 13200 10850
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9393A2
+P 13100 10750
+AR Path="/7B9393A2" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9393A2" Ref="D1008"  Part="1" 
+F 0 "D1008" V 13146 10680 50  0000 R CNN
+F 1 "LED_Small" V 13055 10680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 13100 10750 50  0001 C CNN
+F 3 "~" V 13100 10750 50  0001 C CNN
+	1    13100 10750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9393A8
+P 13100 10450
+AR Path="/7B9393A8" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9393A8" Ref="D976"  Part="1" 
+F 0 "D976" V 13146 10380 50  0000 R CNN
+F 1 "LED_Small" V 13055 10380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 13100 10450 50  0001 C CNN
+F 3 "~" V 13100 10450 50  0001 C CNN
+	1    13100 10450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9393AE
+P 13100 10150
+AR Path="/7B9393AE" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9393AE" Ref="D944"  Part="1" 
+F 0 "D944" V 13146 10080 50  0000 R CNN
+F 1 "LED_Small" V 13055 10080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 13100 10150 50  0001 C CNN
+F 3 "~" V 13100 10150 50  0001 C CNN
+	1    13100 10150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9393B4
+P 13100 9850
+AR Path="/7B9393B4" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9393B4" Ref="D912"  Part="1" 
+F 0 "D912" V 13146 9780 50  0000 R CNN
+F 1 "LED_Small" V 13055 9780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 13100 9850 50  0001 C CNN
+F 3 "~" V 13100 9850 50  0001 C CNN
+	1    13100 9850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9393BA
+P 13100 9550
+AR Path="/7B9393BA" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9393BA" Ref="D880"  Part="1" 
+F 0 "D880" V 13146 9480 50  0000 R CNN
+F 1 "LED_Small" V 13055 9480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 13100 9550 50  0001 C CNN
+F 3 "~" V 13100 9550 50  0001 C CNN
+	1    13100 9550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9393C0
+P 13100 9250
+AR Path="/7B9393C0" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9393C0" Ref="D848"  Part="1" 
+F 0 "D848" V 13146 9180 50  0000 R CNN
+F 1 "LED_Small" V 13055 9180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 13100 9250 50  0001 C CNN
+F 3 "~" V 13100 9250 50  0001 C CNN
+	1    13100 9250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9393C6
+P 13100 8950
+AR Path="/7B9393C6" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9393C6" Ref="D816"  Part="1" 
+F 0 "D816" V 13146 8880 50  0000 R CNN
+F 1 "LED_Small" V 13055 8880 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 13100 8950 50  0001 C CNN
+F 3 "~" V 13100 8950 50  0001 C CNN
+	1    13100 8950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9393CC
+P 13100 8650
+AR Path="/7B9393CC" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9393CC" Ref="D784"  Part="1" 
+F 0 "D784" V 13146 8580 50  0000 R CNN
+F 1 "LED_Small" V 13055 8580 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 13100 8650 50  0001 C CNN
+F 3 "~" V 13100 8650 50  0001 C CNN
+	1    13100 8650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9393D2
+P 13100 8350
+AR Path="/7B9393D2" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9393D2" Ref="D752"  Part="1" 
+F 0 "D752" V 13146 8280 50  0000 R CNN
+F 1 "LED_Small" V 13055 8280 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 13100 8350 50  0001 C CNN
+F 3 "~" V 13100 8350 50  0001 C CNN
+	1    13100 8350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9393D8
+P 13100 8050
+AR Path="/7B9393D8" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9393D8" Ref="D720"  Part="1" 
+F 0 "D720" V 13146 7980 50  0000 R CNN
+F 1 "LED_Small" V 13055 7980 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 13100 8050 50  0001 C CNN
+F 3 "~" V 13100 8050 50  0001 C CNN
+	1    13100 8050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9393DE
+P 13100 7750
+AR Path="/7B9393DE" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9393DE" Ref="D688"  Part="1" 
+F 0 "D688" V 13146 7680 50  0000 R CNN
+F 1 "LED_Small" V 13055 7680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 13100 7750 50  0001 C CNN
+F 3 "~" V 13100 7750 50  0001 C CNN
+	1    13100 7750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9393E4
+P 13100 7450
+AR Path="/7B9393E4" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9393E4" Ref="D656"  Part="1" 
+F 0 "D656" V 13146 7380 50  0000 R CNN
+F 1 "LED_Small" V 13055 7380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 13100 7450 50  0001 C CNN
+F 3 "~" V 13100 7450 50  0001 C CNN
+	1    13100 7450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9393EA
+P 13100 7150
+AR Path="/7B9393EA" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9393EA" Ref="D624"  Part="1" 
+F 0 "D624" V 13146 7080 50  0000 R CNN
+F 1 "LED_Small" V 13055 7080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 13100 7150 50  0001 C CNN
+F 3 "~" V 13100 7150 50  0001 C CNN
+	1    13100 7150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9393F0
+P 13100 6850
+AR Path="/7B9393F0" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9393F0" Ref="D592"  Part="1" 
+F 0 "D592" V 13146 6780 50  0000 R CNN
+F 1 "LED_Small" V 13055 6780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 13100 6850 50  0001 C CNN
+F 3 "~" V 13100 6850 50  0001 C CNN
+	1    13100 6850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9393F6
+P 13100 6550
+AR Path="/7B9393F6" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9393F6" Ref="D560"  Part="1" 
+F 0 "D560" V 13146 6480 50  0000 R CNN
+F 1 "LED_Small" V 13055 6480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 13100 6550 50  0001 C CNN
+F 3 "~" V 13100 6550 50  0001 C CNN
+	1    13100 6550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9393FC
+P 13100 6250
+AR Path="/7B9393FC" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9393FC" Ref="D528"  Part="1" 
+F 0 "D528" V 13146 6180 50  0000 R CNN
+F 1 "LED_Small" V 13055 6180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 13100 6250 50  0001 C CNN
+F 3 "~" V 13100 6250 50  0001 C CNN
+	1    13100 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11900 10650 12500 10650
+Wire Wire Line
+	12500 10650 12600 10650
+Connection ~ 12500 10650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939405
+P 12500 10750
+AR Path="/7B939405" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939405" Ref="D1007"  Part="1" 
+F 0 "D1007" V 12546 10680 50  0000 R CNN
+F 1 "LED_Small" V 12455 10680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 12500 10750 50  0001 C CNN
+F 3 "~" V 12500 10750 50  0001 C CNN
+	1    12500 10750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12500 10350 12000 10350
+Wire Wire Line
+	13100 10350 12500 10350
+Connection ~ 12500 10350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B93940E
+P 12500 10450
+AR Path="/7B93940E" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B93940E" Ref="D975"  Part="1" 
+F 0 "D975" V 12546 10380 50  0000 R CNN
+F 1 "LED_Small" V 12455 10380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 12500 10450 50  0001 C CNN
+F 3 "~" V 12500 10450 50  0001 C CNN
+	1    12500 10450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11900 10050 12500 10050
+Wire Wire Line
+	12500 10050 13100 10050
+Connection ~ 12500 10050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939417
+P 12500 10150
+AR Path="/7B939417" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939417" Ref="D943"  Part="1" 
+F 0 "D943" V 12546 10080 50  0000 R CNN
+F 1 "LED_Small" V 12455 10080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 12500 10150 50  0001 C CNN
+F 3 "~" V 12500 10150 50  0001 C CNN
+	1    12500 10150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12500 9750 11900 9750
+Wire Wire Line
+	13100 9750 12500 9750
+Connection ~ 12500 9750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939420
+P 12500 9850
+AR Path="/7B939420" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939420" Ref="D911"  Part="1" 
+F 0 "D911" V 12546 9780 50  0000 R CNN
+F 1 "LED_Small" V 12455 9780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 12500 9850 50  0001 C CNN
+F 3 "~" V 12500 9850 50  0001 C CNN
+	1    12500 9850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11900 9450 12500 9450
+Wire Wire Line
+	12500 9450 13100 9450
+Connection ~ 12500 9450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939429
+P 12500 9550
+AR Path="/7B939429" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939429" Ref="D879"  Part="1" 
+F 0 "D879" V 12546 9480 50  0000 R CNN
+F 1 "LED_Small" V 12455 9480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 12500 9550 50  0001 C CNN
+F 3 "~" V 12500 9550 50  0001 C CNN
+	1    12500 9550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12500 9150 11900 9150
+Wire Wire Line
+	13100 9150 12500 9150
+Connection ~ 12500 9150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939432
+P 12500 9250
+AR Path="/7B939432" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939432" Ref="D847"  Part="1" 
+F 0 "D847" V 12546 9180 50  0000 R CNN
+F 1 "LED_Small" V 12455 9180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 12500 9250 50  0001 C CNN
+F 3 "~" V 12500 9250 50  0001 C CNN
+	1    12500 9250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11900 8850 12500 8850
+Wire Wire Line
+	12500 8850 13100 8850
+Connection ~ 12500 8850
+$Comp
+L Device:LED_Small D?
+U 1 1 7B93943B
+P 12500 8950
+AR Path="/7B93943B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B93943B" Ref="D815"  Part="1" 
+F 0 "D815" V 12546 8880 50  0000 R CNN
+F 1 "LED_Small" V 12455 8880 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 12500 8950 50  0001 C CNN
+F 3 "~" V 12500 8950 50  0001 C CNN
+	1    12500 8950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12500 8550 11900 8550
+Wire Wire Line
+	12500 8550 13100 8550
+Connection ~ 12500 8550
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939444
+P 12500 8650
+AR Path="/7B939444" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939444" Ref="D783"  Part="1" 
+F 0 "D783" V 12546 8580 50  0000 R CNN
+F 1 "LED_Small" V 12455 8580 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 12500 8650 50  0001 C CNN
+F 3 "~" V 12500 8650 50  0001 C CNN
+	1    12500 8650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11900 8250 12500 8250
+Wire Wire Line
+	12500 8250 13100 8250
+Connection ~ 12500 8250
+$Comp
+L Device:LED_Small D?
+U 1 1 7B93944D
+P 12500 8350
+AR Path="/7B93944D" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B93944D" Ref="D751"  Part="1" 
+F 0 "D751" V 12546 8280 50  0000 R CNN
+F 1 "LED_Small" V 12455 8280 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 12500 8350 50  0001 C CNN
+F 3 "~" V 12500 8350 50  0001 C CNN
+	1    12500 8350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11900 7950 12500 7950
+Wire Wire Line
+	12500 7950 13100 7950
+Connection ~ 12500 7950
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939456
+P 12500 8050
+AR Path="/7B939456" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939456" Ref="D719"  Part="1" 
+F 0 "D719" V 12546 7980 50  0000 R CNN
+F 1 "LED_Small" V 12455 7980 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 12500 8050 50  0001 C CNN
+F 3 "~" V 12500 8050 50  0001 C CNN
+	1    12500 8050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11900 7650 12500 7650
+Wire Wire Line
+	12500 7650 13100 7650
+Connection ~ 12500 7650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B93945F
+P 12500 7750
+AR Path="/7B93945F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B93945F" Ref="D687"  Part="1" 
+F 0 "D687" V 12546 7680 50  0000 R CNN
+F 1 "LED_Small" V 12455 7680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 12500 7750 50  0001 C CNN
+F 3 "~" V 12500 7750 50  0001 C CNN
+	1    12500 7750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11900 7350 12500 7350
+Wire Wire Line
+	12500 7350 13100 7350
+Connection ~ 12500 7350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939468
+P 12500 7450
+AR Path="/7B939468" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939468" Ref="D655"  Part="1" 
+F 0 "D655" V 12546 7380 50  0000 R CNN
+F 1 "LED_Small" V 12455 7380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 12500 7450 50  0001 C CNN
+F 3 "~" V 12500 7450 50  0001 C CNN
+	1    12500 7450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11900 7050 12500 7050
+Wire Wire Line
+	12500 7050 13100 7050
+Connection ~ 12500 7050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939471
+P 12500 7150
+AR Path="/7B939471" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939471" Ref="D623"  Part="1" 
+F 0 "D623" V 12546 7080 50  0000 R CNN
+F 1 "LED_Small" V 12455 7080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 12500 7150 50  0001 C CNN
+F 3 "~" V 12500 7150 50  0001 C CNN
+	1    12500 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11900 6750 12500 6750
+Wire Wire Line
+	12500 6750 13100 6750
+Connection ~ 12500 6750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B93947A
+P 12500 6850
+AR Path="/7B93947A" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B93947A" Ref="D591"  Part="1" 
+F 0 "D591" V 12546 6780 50  0000 R CNN
+F 1 "LED_Small" V 12455 6780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 12500 6850 50  0001 C CNN
+F 3 "~" V 12500 6850 50  0001 C CNN
+	1    12500 6850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11900 6450 12500 6450
+Wire Wire Line
+	12500 6450 13100 6450
+Connection ~ 12500 6450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939483
+P 12500 6550
+AR Path="/7B939483" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939483" Ref="D559"  Part="1" 
+F 0 "D559" V 12546 6480 50  0000 R CNN
+F 1 "LED_Small" V 12455 6480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 12500 6550 50  0001 C CNN
+F 3 "~" V 12500 6550 50  0001 C CNN
+	1    12500 6550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11900 6150 12500 6150
+Wire Wire Line
+	12500 6150 13100 6150
+Connection ~ 12500 6150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B93948C
+P 12500 6250
+AR Path="/7B93948C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B93948C" Ref="D527"  Part="1" 
+F 0 "D527" V 12546 6180 50  0000 R CNN
+F 1 "LED_Small" V 12455 6180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 12500 6250 50  0001 C CNN
+F 3 "~" V 12500 6250 50  0001 C CNN
+	1    12500 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2850 9750 4100 9750
+Wire Wire Line
+	3150 7650 4100 7650
+Wire Wire Line
+	3200 7950 4100 7950
+Wire Wire Line
+	3250 8250 4100 8250
+Wire Wire Line
+	3300 8550 4100 8550
+Wire Wire Line
+	3350 8850 4100 8850
+Wire Wire Line
+	3400 9150 4100 9150
+Wire Wire Line
+	3050 10050 4100 10050
+Wire Wire Line
+	3000 10350 4100 10350
+Wire Wire Line
+	2950 10650 4100 10650
+Wire Wire Line
+	4000 6150 2900 6150
+Connection ~ 4000 6150
+Wire Wire Line
+	2950 6450 4100 6450
+Wire Wire Line
+	3000 6750 4100 6750
+Wire Wire Line
+	3050 7050 4100 7050
+Wire Wire Line
+	3100 7350 4100 7350
+Wire Wire Line
+	3400 9150 3400 9550
+Wire Wire Line
+	3450 9450 4100 9450
+Connection ~ 4100 9450
+Wire Wire Line
+	2900 10900 13200 10900
+Wire Wire Line
+	16650 9850 16650 10050
+Wire Wire Line
+	16600 10350 16600 9950
+Wire Wire Line
+	16550 10050 16550 10650
+Wire Wire Line
+	16500 10150 16500 10900
+$Comp
+L HT16D33A_B:HT16D33B U?
+U 1 1 7B9394AA
+P 15700 9100
+AR Path="/7B9394AA" Ref="U?"  Part="1" 
+AR Path="/61F40005/7B9394AA" Ref="U?"  Part="1" 
+AR Path="/7AD7E6BD/7B9394AA" Ref="U6"  Part="1" 
+F 0 "U6" H 15700 9100 50  0000 C CNN
+F 1 "HT16D33B" H 15700 9000 50  0000 C CNN
+F 2 "Housings_SSOP:SSOP-28_3.9x9.9mm_Pitch0.635mm" H 15700 8650 50  0001 C CNN
+F 3 "" H 15700 8650 50  0001 C CNN
+	1    15700 9100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16500 8350 16450 8350
+Wire Wire Line
+	16550 8450 16450 8450
+Wire Wire Line
+	16550 6450 16550 8450
+Wire Wire Line
+	16600 8550 16450 8550
+Wire Wire Line
+	16600 6750 16600 8550
+Wire Wire Line
+	16650 8650 16450 8650
+Wire Wire Line
+	16650 7050 16650 8650
+Wire Wire Line
+	16700 8750 16450 8750
+Wire Wire Line
+	16700 7350 16700 8750
+Wire Wire Line
+	16750 8850 16450 8850
+Wire Wire Line
+	16750 7650 16750 8850
+Wire Wire Line
+	16800 8950 16450 8950
+Wire Wire Line
+	16800 7950 16800 8950
+Wire Wire Line
+	16850 9050 16450 9050
+Wire Wire Line
+	16850 8250 16850 9050
+Wire Wire Line
+	16900 9250 16450 9250
+Wire Wire Line
+	16900 8550 16900 9250
+Wire Wire Line
+	16950 8850 16950 9450
+Wire Wire Line
+	17000 9550 16450 9550
+Wire Wire Line
+	17050 9650 16450 9650
+Wire Wire Line
+	17050 9450 17050 9650
+Wire Wire Line
+	15550 7950 15650 7950
+Connection ~ 15650 7950
+$Comp
+L power:GND #PWR?
+U 1 1 7B9394C7
+P 15650 10400
+AR Path="/7B9394C7" Ref="#PWR?"  Part="1" 
+AR Path="/61F40005/7B9394C7" Ref="#PWR?"  Part="1" 
+AR Path="/7AD7E6BD/7B9394C7" Ref="#PWR034"  Part="1" 
+F 0 "#PWR034" H 15650 10150 50  0001 C CNN
+F 1 "GND" H 15655 10227 50  0000 C CNN
+F 2 "" H 15650 10400 50  0001 C CNN
+F 3 "" H 15650 10400 50  0001 C CNN
+	1    15650 10400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15750 7950 15750 7550
+Wire Wire Line
+	16450 10150 16500 10150
+Wire Wire Line
+	16450 10050 16550 10050
+Wire Wire Line
+	16450 9950 16600 9950
+Wire Wire Line
+	16450 9850 16650 9850
+$Comp
+L Device:C_Small C?
+U 1 1 7B9394D2
+P 15250 7650
+AR Path="/7B9394D2" Ref="C?"  Part="1" 
+AR Path="/61F40005/7B9394D2" Ref="C?"  Part="1" 
+AR Path="/7AD7E6BD/7B9394D2" Ref="C10"  Part="1" 
+F 0 "C10" H 15342 7696 50  0000 L CNN
+F 1 ".1uF" H 15342 7605 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 15250 7650 50  0001 C CNN
+F 3 "~" H 15250 7650 50  0001 C CNN
+	1    15250 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 7B9394D8
+P 16000 7650
+AR Path="/7B9394D8" Ref="C?"  Part="1" 
+AR Path="/61F40005/7B9394D8" Ref="C?"  Part="1" 
+AR Path="/7AD7E6BD/7B9394D8" Ref="C11"  Part="1" 
+F 0 "C11" H 16092 7696 50  0000 L CNN
+F 1 ".1uF" H 16092 7605 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 16000 7650 50  0001 C CNN
+F 3 "~" H 16000 7650 50  0001 C CNN
+	1    16000 7650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15250 7550 15650 7550
+Wire Wire Line
+	15650 7550 15650 7950
+Wire Wire Line
+	16000 7550 15750 7550
+$Comp
+L power:GND #PWR?
+U 1 1 7B9394E1
+P 15250 7850
+AR Path="/7B9394E1" Ref="#PWR?"  Part="1" 
+AR Path="/61F40005/7B9394E1" Ref="#PWR?"  Part="1" 
+AR Path="/7AD7E6BD/7B9394E1" Ref="#PWR030"  Part="1" 
+F 0 "#PWR030" H 15250 7600 50  0001 C CNN
+F 1 "GND" H 15255 7677 50  0000 C CNN
+F 2 "" H 15250 7850 50  0001 C CNN
+F 3 "" H 15250 7850 50  0001 C CNN
+	1    15250 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 7B9394E7
+P 16000 7850
+AR Path="/7B9394E7" Ref="#PWR?"  Part="1" 
+AR Path="/61F40005/7B9394E7" Ref="#PWR?"  Part="1" 
+AR Path="/7AD7E6BD/7B9394E7" Ref="#PWR031"  Part="1" 
+F 0 "#PWR031" H 16000 7600 50  0001 C CNN
+F 1 "GND" H 16005 7677 50  0000 C CNN
+F 2 "" H 16000 7850 50  0001 C CNN
+F 3 "" H 16000 7850 50  0001 C CNN
+	1    16000 7850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15250 7850 15250 7750
+Wire Wire Line
+	16000 7850 16000 7750
+$Comp
+L power:+3.3V #PWR?
+U 1 1 7B9394EF
+P 15650 7000
+AR Path="/7B9394EF" Ref="#PWR?"  Part="1" 
+AR Path="/61F40005/7B9394EF" Ref="#PWR?"  Part="1" 
+AR Path="/7AD7E6BD/7B9394EF" Ref="#PWR027"  Part="1" 
+F 0 "#PWR027" H 15650 6850 50  0001 C CNN
+F 1 "+3.3V" H 15665 7173 50  0000 C CNN
+F 2 "" H 15650 7000 50  0001 C CNN
+F 3 "" H 15650 7000 50  0001 C CNN
+	1    15650 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15650 7550 15650 7250
+Wire Wire Line
+	15650 7250 15750 7250
+Wire Wire Line
+	15750 7250 15750 7550
+Connection ~ 15650 7550
+Connection ~ 15750 7550
+Wire Wire Line
+	15650 7000 15650 7250
+Connection ~ 15650 7250
+Text GLabel 14650 8350 0    50   Input ~ 0
+SCL
+Text GLabel 14650 8450 0    50   BiDi ~ 0
+SDA
+Wire Wire Line
+	14650 8350 14900 8350
+Wire Wire Line
+	14650 8450 14900 8450
+Wire Wire Line
+	16500 6150 16500 8350
+Wire Wire Line
+	16450 9450 16950 9450
+Wire Wire Line
+	25500 7850 25600 7850
+Connection ~ 23200 6950
+Wire Wire Line
+	23100 6950 23200 6950
+Wire Wire Line
+	21900 8450 22000 8450
+Wire Wire Line
+	20700 7250 20800 7250
+$Comp
+L Device:LED_Small D?
+U 1 1 7B93950E
+P 22500 9250
+AR Path="/7B93950E" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B93950E" Ref="D857"  Part="1" 
+F 0 "D857" V 22546 9180 50  0000 R CNN
+F 1 "LED_Small" V 22455 9180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 22500 9250 50  0001 C CNN
+F 3 "~" V 22500 9250 50  0001 C CNN
+	1    22500 9250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939514
+P 19500 10450
+AR Path="/7B939514" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939514" Ref="D980"  Part="1" 
+F 0 "D980" V 19546 10380 50  0000 R CNN
+F 1 "LED_Small" V 19455 10380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 19500 10450 50  0001 C CNN
+F 3 "~" V 19500 10450 50  0001 C CNN
+	1    19500 10450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	17800 10550 17800 10850
+Wire Wire Line
+	18300 10550 17800 10550
+Connection ~ 17800 10550
+Wire Wire Line
+	17800 10250 17800 10550
+Wire Wire Line
+	18300 10250 17800 10250
+Connection ~ 17800 10250
+Wire Wire Line
+	17800 9950 17800 10250
+Wire Wire Line
+	18300 9950 17800 9950
+Connection ~ 17800 9950
+Wire Wire Line
+	17800 9650 17800 9950
+Wire Wire Line
+	18300 9650 17800 9650
+Connection ~ 17800 9650
+Wire Wire Line
+	17800 9350 17800 9650
+Wire Wire Line
+	18300 9350 17800 9350
+Connection ~ 17800 9350
+Wire Wire Line
+	17800 9050 17800 9350
+Wire Wire Line
+	18300 9050 17800 9050
+Connection ~ 17800 9050
+Wire Wire Line
+	17800 8750 17800 9050
+Wire Wire Line
+	18300 8750 17800 8750
+Connection ~ 17800 8750
+Wire Wire Line
+	17800 8450 17800 8750
+Wire Wire Line
+	18300 8450 17800 8450
+Connection ~ 17800 8450
+Wire Wire Line
+	17800 8150 17800 8450
+Wire Wire Line
+	18300 8150 17800 8150
+Connection ~ 17800 8150
+Wire Wire Line
+	17800 7850 17800 8150
+Wire Wire Line
+	18300 7850 17800 7850
+Connection ~ 17800 7850
+Wire Wire Line
+	17800 7550 17800 7850
+Wire Wire Line
+	18300 7550 17800 7550
+Connection ~ 17800 7550
+Wire Wire Line
+	17800 7250 17800 7550
+Wire Wire Line
+	18300 7250 17800 7250
+Connection ~ 17800 7250
+Wire Wire Line
+	17800 6950 17800 7250
+Wire Wire Line
+	18300 6950 17800 6950
+Wire Wire Line
+	18300 6650 18400 6650
+Wire Wire Line
+	18400 6650 18400 6350
+Connection ~ 18400 6650
+Wire Wire Line
+	18900 6650 19000 6650
+Wire Wire Line
+	19000 6650 19000 6950
+Connection ~ 19000 6950
+Wire Wire Line
+	18900 6950 19000 6950
+Wire Wire Line
+	18900 7250 18400 7250
+Connection ~ 18400 7250
+Wire Wire Line
+	18400 7550 18400 7250
+Wire Wire Line
+	18900 7550 18400 7550
+Connection ~ 18400 7550
+Wire Wire Line
+	18400 7850 18400 7550
+Wire Wire Line
+	18900 7850 18400 7850
+Connection ~ 18400 7850
+Wire Wire Line
+	18400 8150 18400 7850
+Wire Wire Line
+	18900 8150 18400 8150
+Connection ~ 18400 8150
+Wire Wire Line
+	18400 8450 18400 8150
+Wire Wire Line
+	18900 8450 18400 8450
+Connection ~ 18400 8450
+Wire Wire Line
+	18400 8750 18400 8450
+Wire Wire Line
+	18900 8750 18400 8750
+Connection ~ 18400 8750
+Wire Wire Line
+	18400 9050 18400 8750
+Wire Wire Line
+	18900 9050 18400 9050
+Connection ~ 18400 9050
+Wire Wire Line
+	18400 9350 18400 9050
+Wire Wire Line
+	18900 9350 18400 9350
+Connection ~ 18400 9350
+Wire Wire Line
+	18400 9650 18400 9350
+Wire Wire Line
+	18900 9650 18400 9650
+Connection ~ 18400 9650
+Wire Wire Line
+	18400 9950 18400 9650
+Wire Wire Line
+	18900 9950 18400 9950
+Connection ~ 18400 9950
+Wire Wire Line
+	18400 10250 18400 9950
+Wire Wire Line
+	18900 10250 18400 10250
+Connection ~ 18400 10250
+Wire Wire Line
+	18400 10550 18400 10250
+Wire Wire Line
+	18900 10550 18400 10550
+Wire Wire Line
+	19000 10550 19000 10850
+Connection ~ 19000 10550
+Wire Wire Line
+	19500 10550 19000 10550
+Wire Wire Line
+	19000 10250 19000 10550
+Connection ~ 19000 10250
+Wire Wire Line
+	19500 10250 19000 10250
+Wire Wire Line
+	19000 9950 19000 10250
+Connection ~ 19000 9950
+Wire Wire Line
+	19500 9950 19000 9950
+Wire Wire Line
+	19000 9650 19000 9950
+Connection ~ 19000 9650
+Wire Wire Line
+	19500 9650 19000 9650
+Wire Wire Line
+	19000 9350 19000 9650
+Connection ~ 19000 9350
+Wire Wire Line
+	19000 9350 19500 9350
+Wire Wire Line
+	19000 9050 19000 9350
+Connection ~ 19000 9050
+Wire Wire Line
+	19500 9050 19000 9050
+Wire Wire Line
+	19000 8750 19000 9050
+Connection ~ 19000 8750
+Wire Wire Line
+	19000 8750 19500 8750
+Wire Wire Line
+	19000 8450 19000 8750
+Connection ~ 19000 8450
+Wire Wire Line
+	19500 8450 19000 8450
+Wire Wire Line
+	19000 8150 19000 8450
+Connection ~ 19000 8150
+Wire Wire Line
+	19500 8150 19000 8150
+Wire Wire Line
+	19000 7850 19000 8150
+Connection ~ 19000 7850
+Wire Wire Line
+	19500 7850 19000 7850
+Wire Wire Line
+	19000 7550 19000 7850
+Connection ~ 19000 7550
+Wire Wire Line
+	19500 7550 19000 7550
+Wire Wire Line
+	19600 7250 19500 7250
+Connection ~ 19600 7250
+Wire Wire Line
+	19600 6950 19600 7250
+Wire Wire Line
+	19600 6950 19500 6950
+Connection ~ 19600 6950
+Wire Wire Line
+	19600 6650 19600 6950
+Wire Wire Line
+	19500 6650 19600 6650
+Connection ~ 19600 6650
+Wire Wire Line
+	19600 6350 19600 6650
+Wire Wire Line
+	20100 6650 20200 6650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939594
+P 20100 6550
+AR Path="/7B939594" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939594" Ref="D565"  Part="1" 
+F 0 "D565" V 20146 6480 50  0000 R CNN
+F 1 "LED_Small" V 20055 6480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20100 6550 50  0001 C CNN
+F 3 "~" V 20100 6550 50  0001 C CNN
+	1    20100 6550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 20100 6450
+Wire Wire Line
+	20200 6650 20200 6950
+Connection ~ 20200 6950
+Wire Wire Line
+	20100 6950 20200 6950
+Wire Wire Line
+	20200 6950 20200 7250
+Connection ~ 20200 7250
+Wire Wire Line
+	20100 7250 20200 7250
+Wire Wire Line
+	20200 7250 20200 7550
+Connection ~ 20200 7550
+Wire Wire Line
+	20100 7550 20200 7550
+Wire Wire Line
+	19600 7850 20100 7850
+Connection ~ 19600 7850
+Wire Wire Line
+	19600 8150 19600 7850
+Wire Wire Line
+	20100 8150 19600 8150
+Connection ~ 19600 8150
+Wire Wire Line
+	19600 8450 19600 8150
+Wire Wire Line
+	20100 8450 19600 8450
+Connection ~ 19600 8450
+Wire Wire Line
+	19600 8750 19600 8450
+Wire Wire Line
+	20100 8750 19600 8750
+Connection ~ 19600 8750
+Wire Wire Line
+	19600 9050 19600 8750
+Wire Wire Line
+	20100 9050 19600 9050
+Connection ~ 19600 9050
+Wire Wire Line
+	19600 9350 19600 9050
+Wire Wire Line
+	20100 9350 19600 9350
+Connection ~ 19600 9350
+Wire Wire Line
+	19600 9650 19600 9350
+Wire Wire Line
+	20100 9650 19600 9650
+Connection ~ 19600 9650
+Wire Wire Line
+	19600 9950 19600 9650
+Wire Wire Line
+	20100 9950 19600 9950
+Connection ~ 19600 9950
+Wire Wire Line
+	19600 10250 19600 9950
+Wire Wire Line
+	20100 10250 19600 10250
+Connection ~ 19600 10250
+Wire Wire Line
+	19600 10550 19600 10250
+Wire Wire Line
+	20100 10550 19600 10550
+Wire Wire Line
+	20200 10550 20200 10850
+Connection ~ 20200 10550
+Wire Wire Line
+	20700 10550 20200 10550
+Wire Wire Line
+	20200 10250 20200 10550
+Connection ~ 20200 10250
+Wire Wire Line
+	20700 10250 20200 10250
+Wire Wire Line
+	20200 9950 20200 10250
+Connection ~ 20200 9950
+Wire Wire Line
+	20700 9950 20200 9950
+Wire Wire Line
+	20200 9650 20200 9950
+Connection ~ 20200 9650
+Wire Wire Line
+	20700 9650 20200 9650
+Wire Wire Line
+	20200 9350 20200 9650
+Connection ~ 20200 9350
+Wire Wire Line
+	20700 9350 20200 9350
+Wire Wire Line
+	20200 9050 20200 9350
+Connection ~ 20200 9050
+Wire Wire Line
+	20700 9050 20200 9050
+Wire Wire Line
+	20200 8750 20200 9050
+Connection ~ 20200 8750
+Wire Wire Line
+	20700 8750 20200 8750
+Wire Wire Line
+	20200 8450 20200 8750
+Connection ~ 20200 8450
+Wire Wire Line
+	20700 8450 20200 8450
+Wire Wire Line
+	20200 8150 20200 8450
+Connection ~ 20200 8150
+Wire Wire Line
+	20700 8150 20200 8150
+Connection ~ 20800 7850
+Wire Wire Line
+	20700 7850 20800 7850
+Wire Wire Line
+	20800 7850 20800 7550
+Connection ~ 20800 7550
+Wire Wire Line
+	20700 7550 20800 7550
+Wire Wire Line
+	20800 7550 20800 7250
+Connection ~ 20800 7250
+Wire Wire Line
+	20700 6950 20800 6950
+Wire Wire Line
+	20800 7250 20800 6950
+Connection ~ 20800 6950
+Wire Wire Line
+	20800 6950 20800 6650
+Wire Wire Line
+	20800 6650 20800 6350
+Connection ~ 20800 6650
+Wire Wire Line
+	20700 6650 20800 6650
+Wire Wire Line
+	21300 6650 21400 6650
+Wire Wire Line
+	21400 6650 21400 6950
+Connection ~ 21400 6950
+Wire Wire Line
+	21300 6950 21400 6950
+Wire Wire Line
+	21400 6950 21400 7250
+Connection ~ 21400 7250
+Wire Wire Line
+	21300 7250 21400 7250
+Wire Wire Line
+	21400 7250 21400 7550
+Connection ~ 21400 7550
+Wire Wire Line
+	21300 7550 21400 7550
+Wire Wire Line
+	21400 7550 21400 7850
+Connection ~ 21400 7850
+Wire Wire Line
+	21300 7850 21400 7850
+Wire Wire Line
+	21400 7850 21400 8150
+Connection ~ 21400 8150
+Wire Wire Line
+	21300 8150 21400 8150
+Wire Wire Line
+	21300 8450 20800 8450
+Connection ~ 20800 8450
+Wire Wire Line
+	20800 8750 20800 8450
+Wire Wire Line
+	21300 8750 20800 8750
+Connection ~ 20800 8750
+Wire Wire Line
+	20800 9050 20800 8750
+Wire Wire Line
+	21300 9050 20800 9050
+Connection ~ 20800 9050
+Wire Wire Line
+	20800 9350 20800 9050
+Wire Wire Line
+	21300 9350 20800 9350
+Connection ~ 20800 9350
+Wire Wire Line
+	20800 9650 20800 9350
+Wire Wire Line
+	21300 9650 20800 9650
+Connection ~ 20800 9650
+Wire Wire Line
+	20800 9950 20800 9650
+Wire Wire Line
+	21300 9950 20800 9950
+Connection ~ 20800 9950
+Wire Wire Line
+	20800 10250 20800 9950
+Wire Wire Line
+	21300 10250 20800 10250
+Connection ~ 20800 10250
+Wire Wire Line
+	20800 10550 20800 10250
+Wire Wire Line
+	21300 10550 20800 10550
+Wire Wire Line
+	21400 10550 21400 10850
+Connection ~ 21400 10550
+Wire Wire Line
+	21900 10550 21400 10550
+Wire Wire Line
+	21400 10250 21400 10550
+Connection ~ 21400 10250
+Wire Wire Line
+	21900 10250 21400 10250
+Wire Wire Line
+	21400 9950 21400 10250
+Connection ~ 21400 9950
+Wire Wire Line
+	21900 9950 21400 9950
+Wire Wire Line
+	21400 9650 21400 9950
+Connection ~ 21400 9650
+Wire Wire Line
+	21900 9650 21400 9650
+Wire Wire Line
+	21400 9350 21900 9350
+Wire Wire Line
+	21400 9350 21400 9650
+Connection ~ 21400 9350
+Wire Wire Line
+	21400 9050 21400 9350
+Connection ~ 21400 9050
+Wire Wire Line
+	21900 9050 21400 9050
+Wire Wire Line
+	21400 8750 21400 9050
+Connection ~ 21400 8750
+Wire Wire Line
+	21900 8750 21400 8750
+Connection ~ 22000 8450
+Wire Wire Line
+	22000 8150 22000 8450
+Connection ~ 22000 8150
+Wire Wire Line
+	21900 8150 22000 8150
+Wire Wire Line
+	22000 7850 22000 8150
+Connection ~ 22000 7850
+Wire Wire Line
+	21900 7850 22000 7850
+Wire Wire Line
+	22000 7550 22000 7850
+Connection ~ 22000 7550
+Wire Wire Line
+	21900 7550 22000 7550
+Wire Wire Line
+	22000 7250 22000 7550
+Connection ~ 22000 7250
+Wire Wire Line
+	21900 7250 22000 7250
+Wire Wire Line
+	22000 6950 22000 7250
+Connection ~ 22000 6950
+Wire Wire Line
+	21900 6950 22000 6950
+Wire Wire Line
+	22000 6950 22000 6650
+Wire Wire Line
+	22000 6650 22000 6350
+Connection ~ 22000 6650
+Wire Wire Line
+	21900 6650 22000 6650
+Wire Wire Line
+	22000 10250 22500 10250
+Wire Wire Line
+	22500 6650 22600 6650
+Wire Wire Line
+	22600 6650 22600 6950
+Connection ~ 22600 6950
+Wire Wire Line
+	22500 6950 22600 6950
+Wire Wire Line
+	22600 6950 22600 7250
+Connection ~ 22600 7250
+Wire Wire Line
+	22500 7250 22600 7250
+Wire Wire Line
+	22600 7250 22600 7550
+Connection ~ 22600 7550
+Wire Wire Line
+	22500 7550 22600 7550
+Wire Wire Line
+	22600 7550 22600 7850
+Connection ~ 22600 7850
+Wire Wire Line
+	22500 7850 22600 7850
+Wire Wire Line
+	22600 7850 22600 8150
+Connection ~ 22600 8150
+Wire Wire Line
+	22500 8150 22600 8150
+Wire Wire Line
+	22600 8150 22600 8450
+Connection ~ 22600 8450
+Wire Wire Line
+	22500 8450 22600 8450
+Wire Wire Line
+	22600 8450 22600 8750
+Connection ~ 22600 8750
+Wire Wire Line
+	22500 8750 22600 8750
+Wire Wire Line
+	22500 9050 22000 9050
+Connection ~ 22000 9050
+Wire Wire Line
+	22000 9350 22000 9050
+Wire Wire Line
+	22500 9350 22000 9350
+Connection ~ 22000 9350
+Wire Wire Line
+	22000 9650 22000 9350
+Wire Wire Line
+	22500 9650 22000 9650
+Connection ~ 22000 9650
+Wire Wire Line
+	22000 9950 22000 9650
+Wire Wire Line
+	22500 9950 22000 9950
+Connection ~ 22000 9950
+Wire Wire Line
+	22000 10250 22000 9950
+Connection ~ 22000 10250
+Wire Wire Line
+	22000 10550 22000 10250
+Wire Wire Line
+	22500 10550 22000 10550
+Wire Wire Line
+	22600 10550 22600 10850
+Connection ~ 22600 10550
+Wire Wire Line
+	23100 10550 22600 10550
+Wire Wire Line
+	22600 10250 22600 10550
+Connection ~ 22600 10250
+Wire Wire Line
+	23100 10250 22600 10250
+Wire Wire Line
+	22600 9950 22600 10250
+Connection ~ 22600 9950
+Wire Wire Line
+	23100 9950 22600 9950
+Wire Wire Line
+	22600 9650 22600 9950
+Connection ~ 22600 9650
+Wire Wire Line
+	23100 9650 22600 9650
+Wire Wire Line
+	22600 9350 22600 9650
+Connection ~ 22600 9350
+Wire Wire Line
+	23100 9350 22600 9350
+Connection ~ 23200 9050
+Wire Wire Line
+	23200 9050 23100 9050
+Wire Wire Line
+	23200 8750 23200 9050
+Connection ~ 23200 8750
+Wire Wire Line
+	23200 8750 23100 8750
+Wire Wire Line
+	23200 8450 23200 8750
+Connection ~ 23200 8450
+Wire Wire Line
+	23200 8450 23100 8450
+Wire Wire Line
+	23200 8150 23200 8450
+Connection ~ 23200 8150
+Wire Wire Line
+	23200 8150 23100 8150
+Wire Wire Line
+	23200 8150 23200 7850
+Connection ~ 23200 7850
+Wire Wire Line
+	23200 7850 23100 7850
+Wire Wire Line
+	23200 7850 23200 7550
+Connection ~ 23200 7550
+Wire Wire Line
+	23200 7550 23100 7550
+Wire Wire Line
+	23200 7550 23200 7250
+Wire Wire Line
+	23200 7250 23200 6950
+Connection ~ 23200 7250
+Wire Wire Line
+	23200 7250 23100 7250
+Wire Wire Line
+	23200 6950 23200 6650
+Wire Wire Line
+	23200 6650 23200 6350
+Connection ~ 23200 6650
+Wire Wire Line
+	23200 6650 23100 6650
+Wire Wire Line
+	23700 6650 23800 6650
+Wire Wire Line
+	23800 6650 23800 6950
+Connection ~ 23800 6950
+Wire Wire Line
+	23700 6950 23800 6950
+Wire Wire Line
+	23800 6950 23800 7250
+Connection ~ 23800 7250
+Wire Wire Line
+	23700 7250 23800 7250
+Wire Wire Line
+	23800 7250 23800 7550
+Connection ~ 23800 7550
+Wire Wire Line
+	23700 7550 23800 7550
+Wire Wire Line
+	23800 7550 23800 7850
+Connection ~ 23800 7850
+Wire Wire Line
+	23700 7850 23800 7850
+Wire Wire Line
+	23800 7850 23800 8150
+Connection ~ 23800 8150
+Wire Wire Line
+	23700 8150 23800 8150
+Wire Wire Line
+	23800 8150 23800 8450
+Connection ~ 23800 8450
+Wire Wire Line
+	23700 8450 23800 8450
+Wire Wire Line
+	23800 8450 23800 8750
+Connection ~ 23800 8750
+Wire Wire Line
+	23700 8750 23800 8750
+Wire Wire Line
+	23800 8750 23800 9050
+Connection ~ 23800 9050
+Wire Wire Line
+	23700 9050 23800 9050
+Wire Wire Line
+	23800 9050 23800 9350
+Connection ~ 23800 9350
+Wire Wire Line
+	23700 9350 23800 9350
+Wire Wire Line
+	23700 9650 23200 9650
+Connection ~ 23200 9650
+Wire Wire Line
+	23200 9950 23200 9650
+Wire Wire Line
+	23700 9950 23200 9950
+Connection ~ 23200 9950
+Wire Wire Line
+	23200 10250 23200 9950
+Wire Wire Line
+	23700 10250 23200 10250
+Connection ~ 23200 10250
+Wire Wire Line
+	23200 10550 23200 10250
+Wire Wire Line
+	23700 10550 23200 10550
+Wire Wire Line
+	23800 10550 23800 10850
+Connection ~ 23800 10550
+Wire Wire Line
+	24300 10550 23800 10550
+Wire Wire Line
+	23800 10250 23800 10550
+Connection ~ 23800 10250
+Wire Wire Line
+	24300 10250 23800 10250
+Wire Wire Line
+	23800 9950 23800 10250
+Connection ~ 23800 9950
+Wire Wire Line
+	24300 9950 23800 9950
+Connection ~ 24400 9650
+Wire Wire Line
+	24300 9650 24400 9650
+Connection ~ 25000 9950
+Wire Wire Line
+	24900 9950 25000 9950
+Wire Wire Line
+	24400 9650 24400 9350
+Connection ~ 24400 9350
+Wire Wire Line
+	24300 9350 24400 9350
+Wire Wire Line
+	24400 9350 24400 9050
+Connection ~ 24400 9050
+Wire Wire Line
+	24300 9050 24400 9050
+Wire Wire Line
+	24400 9050 24400 8750
+Connection ~ 24400 8750
+Wire Wire Line
+	24300 8750 24400 8750
+Wire Wire Line
+	24400 8750 24400 8450
+Connection ~ 24400 8450
+Wire Wire Line
+	24300 8450 24400 8450
+Wire Wire Line
+	24400 8450 24400 8150
+Connection ~ 24400 8150
+Wire Wire Line
+	24300 8150 24400 8150
+Wire Wire Line
+	24400 8150 24400 7850
+Connection ~ 24400 7850
+Wire Wire Line
+	24300 7850 24400 7850
+Wire Wire Line
+	24400 7850 24400 7550
+Connection ~ 24400 7550
+Wire Wire Line
+	24300 7550 24400 7550
+Wire Wire Line
+	24400 7550 24400 7250
+Connection ~ 24400 7250
+Wire Wire Line
+	24300 7250 24400 7250
+Wire Wire Line
+	24400 7250 24400 6950
+Connection ~ 24400 6950
+Wire Wire Line
+	24300 6950 24400 6950
+Wire Wire Line
+	24400 6950 24400 6650
+Wire Wire Line
+	24400 6650 24400 6350
+Connection ~ 24400 6650
+Wire Wire Line
+	24300 6650 24400 6650
+Wire Wire Line
+	24900 6650 25000 6650
+Wire Wire Line
+	25000 6650 25000 6950
+Connection ~ 25000 6950
+Wire Wire Line
+	24900 6950 25000 6950
+Wire Wire Line
+	25000 6950 25000 7250
+Connection ~ 25000 7250
+Wire Wire Line
+	24900 7250 25000 7250
+Wire Wire Line
+	24900 7550 25000 7550
+Wire Wire Line
+	25000 7250 25000 7550
+Connection ~ 25000 7550
+Wire Wire Line
+	25000 7550 25000 7850
+Connection ~ 25000 7850
+Wire Wire Line
+	24900 7850 25000 7850
+Wire Wire Line
+	25000 7850 25000 8150
+Connection ~ 25000 8150
+Wire Wire Line
+	24900 8150 25000 8150
+Wire Wire Line
+	25000 8150 25000 8450
+Connection ~ 25000 8450
+Wire Wire Line
+	24900 8450 25000 8450
+Wire Wire Line
+	25000 8450 25000 8750
+Connection ~ 25000 8750
+Wire Wire Line
+	24900 8750 25000 8750
+Wire Wire Line
+	25000 8750 25000 9050
+Connection ~ 25000 9050
+Wire Wire Line
+	24900 9050 25000 9050
+Connection ~ 25000 6650
+Wire Wire Line
+	25000 6350 25000 6650
+Wire Wire Line
+	25000 9050 25000 9350
+Connection ~ 25000 9350
+Wire Wire Line
+	24900 9350 25000 9350
+Wire Wire Line
+	25000 9950 25000 9650
+Wire Wire Line
+	25000 9350 25000 9650
+Connection ~ 25000 9650
+Wire Wire Line
+	24900 9650 25000 9650
+Wire Wire Line
+	24900 10250 24400 10250
+Connection ~ 24400 10250
+Wire Wire Line
+	24400 10550 24400 10250
+Wire Wire Line
+	24900 10550 24400 10550
+Wire Wire Line
+	25500 10550 25000 10550
+Wire Wire Line
+	25500 10250 25600 10250
+Wire Wire Line
+	25600 10250 25600 9950
+Connection ~ 25600 9950
+Wire Wire Line
+	25500 9950 25600 9950
+Wire Wire Line
+	25600 9950 25600 9650
+Connection ~ 25600 9650
+Wire Wire Line
+	25500 9650 25600 9650
+Wire Wire Line
+	25600 9650 25600 9350
+Connection ~ 25600 9350
+Wire Wire Line
+	25500 9350 25600 9350
+Wire Wire Line
+	25600 9350 25600 9050
+Connection ~ 25600 9050
+Wire Wire Line
+	25500 9050 25600 9050
+Wire Wire Line
+	25600 9050 25600 8750
+Connection ~ 25600 8750
+Wire Wire Line
+	25500 8750 25600 8750
+Wire Wire Line
+	25600 8750 25600 8450
+Connection ~ 25600 8450
+Wire Wire Line
+	25500 8450 25600 8450
+Wire Wire Line
+	25600 8450 25600 8150
+Connection ~ 25600 8150
+Wire Wire Line
+	25500 8150 25600 8150
+Wire Wire Line
+	25600 8150 25600 7850
+Connection ~ 25600 7850
+Wire Wire Line
+	25600 7850 25600 7550
+Connection ~ 25600 7550
+Wire Wire Line
+	25500 7550 25600 7550
+Wire Wire Line
+	25600 7550 25600 7250
+Connection ~ 25600 7250
+Wire Wire Line
+	25500 7250 25600 7250
+Wire Wire Line
+	25600 7250 25600 6950
+Connection ~ 25600 6950
+Wire Wire Line
+	25500 6950 25600 6950
+Wire Wire Line
+	25600 6950 25600 6650
+Wire Wire Line
+	25600 6650 25600 6350
+Connection ~ 25600 6650
+Wire Wire Line
+	25500 6650 25600 6650
+Connection ~ 25600 10250
+Wire Wire Line
+	25600 10350 25600 10250
+Connection ~ 25600 10350
+Wire Wire Line
+	25000 10550 25000 10050
+Wire Wire Line
+	25000 10050 25000 9950
+Connection ~ 25000 10050
+Wire Wire Line
+	24400 9750 24400 10250
+Wire Wire Line
+	24400 9750 24400 9650
+Connection ~ 24400 9750
+Wire Wire Line
+	23800 9350 23800 9450
+Wire Wire Line
+	23800 9450 23800 9950
+Connection ~ 23800 9450
+Wire Wire Line
+	23200 9050 23200 9150
+Wire Wire Line
+	23200 9650 23200 9150
+Connection ~ 23200 9150
+Wire Wire Line
+	22600 8750 22600 8850
+Wire Wire Line
+	22600 8850 22600 9350
+Connection ~ 22600 8850
+Wire Wire Line
+	22000 8450 22000 8550
+Wire Wire Line
+	22000 9050 22000 8550
+Connection ~ 22000 8550
+Wire Wire Line
+	21400 8150 21400 8250
+Wire Wire Line
+	21400 8250 21400 8750
+Connection ~ 21400 8250
+Wire Wire Line
+	20800 8450 20800 7950
+Wire Wire Line
+	20800 7950 20800 7850
+Connection ~ 20800 7950
+Wire Wire Line
+	20200 7550 20200 7650
+Wire Wire Line
+	20200 7650 20200 8150
+Connection ~ 20200 7650
+Wire Wire Line
+	19600 7250 19600 7350
+Wire Wire Line
+	19600 7850 19600 7350
+Connection ~ 19600 7350
+Wire Wire Line
+	19000 6950 19000 7050
+Wire Wire Line
+	19000 7050 19000 7550
+Connection ~ 19000 7050
+Wire Wire Line
+	18400 7250 18400 6750
+Wire Wire Line
+	18400 6750 18400 6650
+Connection ~ 18400 6750
+Connection ~ 17800 6950
+Wire Wire Line
+	17800 6450 17800 6950
+Wire Wire Line
+	17700 6650 17600 6650
+Wire Wire Line
+	17600 6650 17600 6950
+Connection ~ 17600 6950
+Wire Wire Line
+	17700 6950 17600 6950
+Wire Wire Line
+	17600 7250 17700 7250
+Wire Wire Line
+	17600 6950 17600 7250
+Connection ~ 17600 7250
+Connection ~ 17600 6650
+Wire Wire Line
+	17600 6150 17600 6650
+Wire Wire Line
+	17600 7250 17600 7550
+Connection ~ 17600 7550
+Wire Wire Line
+	17700 7550 17600 7550
+Wire Wire Line
+	17600 7550 17600 7850
+Connection ~ 17600 7850
+Wire Wire Line
+	17700 7850 17600 7850
+Wire Wire Line
+	17600 7850 17600 8150
+Connection ~ 17600 8150
+Wire Wire Line
+	17600 8150 17700 8150
+Wire Wire Line
+	17600 8150 17600 8450
+Connection ~ 17600 8450
+Wire Wire Line
+	17700 8450 17600 8450
+Wire Wire Line
+	17600 8450 17600 8750
+Connection ~ 17600 8750
+Wire Wire Line
+	17600 8750 17700 8750
+Wire Wire Line
+	17600 8750 17600 9050
+Connection ~ 17600 9050
+Wire Wire Line
+	17700 9050 17600 9050
+Wire Wire Line
+	17600 9050 17600 9350
+Connection ~ 17600 9350
+Wire Wire Line
+	17700 9350 17600 9350
+Wire Wire Line
+	17600 9350 17600 9650
+Connection ~ 17600 9650
+Wire Wire Line
+	17600 9650 17700 9650
+Wire Wire Line
+	17600 9650 17600 9950
+Connection ~ 17600 9950
+Wire Wire Line
+	17700 9950 17600 9950
+Wire Wire Line
+	17600 9950 17600 10250
+Connection ~ 17600 10250
+Wire Wire Line
+	17600 10250 17700 10250
+Wire Wire Line
+	17600 10250 17600 10550
+Wire Wire Line
+	17600 10550 17600 10850
+Connection ~ 17600 10550
+Wire Wire Line
+	17700 10550 17600 10550
+Wire Wire Line
+	17600 10850 17700 10850
+Wire Wire Line
+	17800 10850 18300 10850
+Connection ~ 17800 6450
+Wire Wire Line
+	17800 6350 17800 6450
+Wire Wire Line
+	17700 6350 17800 6350
+Wire Wire Line
+	18400 6350 18300 6350
+Connection ~ 18400 10550
+Wire Wire Line
+	18400 10850 18400 10550
+Wire Wire Line
+	18900 10850 18400 10850
+Wire Wire Line
+	19000 10850 19500 10850
+Connection ~ 19000 6650
+Wire Wire Line
+	19000 6350 19000 6650
+Wire Wire Line
+	18900 6350 19000 6350
+Wire Wire Line
+	19600 6350 19500 6350
+Connection ~ 19600 10550
+Wire Wire Line
+	19600 10850 19600 10550
+Wire Wire Line
+	20100 10850 19600 10850
+Wire Wire Line
+	20200 10850 20700 10850
+Connection ~ 20200 6650
+Wire Wire Line
+	20200 6350 20200 6650
+Wire Wire Line
+	20100 6350 20200 6350
+Wire Wire Line
+	20800 6350 20700 6350
+Connection ~ 20800 10550
+Wire Wire Line
+	20800 10850 20800 10550
+Wire Wire Line
+	21300 10850 20800 10850
+Wire Wire Line
+	21400 10850 21900 10850
+Connection ~ 21400 6650
+Wire Wire Line
+	21400 6350 21400 6650
+Wire Wire Line
+	21300 6350 21400 6350
+Wire Wire Line
+	22000 6350 21900 6350
+Connection ~ 22000 10550
+Wire Wire Line
+	22000 10850 22000 10550
+Wire Wire Line
+	22500 10850 22000 10850
+Wire Wire Line
+	22600 10850 23100 10850
+Connection ~ 22600 6650
+Wire Wire Line
+	22600 6350 22600 6650
+Wire Wire Line
+	22500 6350 22600 6350
+Wire Wire Line
+	23200 6350 23100 6350
+Connection ~ 23200 10550
+Wire Wire Line
+	23200 10850 23200 10550
+Wire Wire Line
+	23700 10850 23200 10850
+Wire Wire Line
+	23800 10850 24300 10850
+Connection ~ 23800 6650
+Wire Wire Line
+	23800 6350 23800 6650
+Wire Wire Line
+	23700 6350 23800 6350
+Wire Wire Line
+	24400 6350 24300 6350
+Connection ~ 24400 10550
+Wire Wire Line
+	24400 10850 24400 10550
+Wire Wire Line
+	24900 10850 24400 10850
+Wire Wire Line
+	25000 6350 24900 6350
+Connection ~ 25000 10550
+Wire Wire Line
+	25000 10850 25000 10550
+Wire Wire Line
+	25500 10850 25000 10850
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9397AD
+P 25500 6250
+AR Path="/7B9397AD" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9397AD" Ref="D542"  Part="1" 
+F 0 "D542" V 25546 6180 50  0000 R CNN
+F 1 "LED_Small" V 25455 6180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 25500 6250 50  0001 C CNN
+F 3 "~" V 25500 6250 50  0001 C CNN
+	1    25500 6250
+	0    -1   -1   0   
+$EndComp
+Connection ~ 25500 6150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9397B4
+P 25500 6550
+AR Path="/7B9397B4" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9397B4" Ref="D574"  Part="1" 
+F 0 "D574" V 25546 6480 50  0000 R CNN
+F 1 "LED_Small" V 25455 6480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 25500 6550 50  0001 C CNN
+F 3 "~" V 25500 6550 50  0001 C CNN
+	1    25500 6550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 25500 6450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9397BB
+P 25500 6850
+AR Path="/7B9397BB" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9397BB" Ref="D606"  Part="1" 
+F 0 "D606" V 25546 6780 50  0000 R CNN
+F 1 "LED_Small" V 25455 6780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 25500 6850 50  0001 C CNN
+F 3 "~" V 25500 6850 50  0001 C CNN
+	1    25500 6850
+	0    -1   -1   0   
+$EndComp
+Connection ~ 25500 6750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9397C2
+P 25500 7150
+AR Path="/7B9397C2" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9397C2" Ref="D638"  Part="1" 
+F 0 "D638" V 25546 7080 50  0000 R CNN
+F 1 "LED_Small" V 25455 7080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 25500 7150 50  0001 C CNN
+F 3 "~" V 25500 7150 50  0001 C CNN
+	1    25500 7150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 25500 7050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9397C9
+P 25500 7450
+AR Path="/7B9397C9" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9397C9" Ref="D670"  Part="1" 
+F 0 "D670" V 25546 7380 50  0000 R CNN
+F 1 "LED_Small" V 25455 7380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 25500 7450 50  0001 C CNN
+F 3 "~" V 25500 7450 50  0001 C CNN
+	1    25500 7450
+	0    -1   -1   0   
+$EndComp
+Connection ~ 25500 7350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9397D0
+P 25500 7750
+AR Path="/7B9397D0" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9397D0" Ref="D702"  Part="1" 
+F 0 "D702" V 25546 7680 50  0000 R CNN
+F 1 "LED_Small" V 25455 7680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 25500 7750 50  0001 C CNN
+F 3 "~" V 25500 7750 50  0001 C CNN
+	1    25500 7750
+	0    -1   -1   0   
+$EndComp
+Connection ~ 25500 7650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9397D7
+P 25500 8050
+AR Path="/7B9397D7" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9397D7" Ref="D734"  Part="1" 
+F 0 "D734" V 25546 7980 50  0000 R CNN
+F 1 "LED_Small" V 25455 7980 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 25500 8050 50  0001 C CNN
+F 3 "~" V 25500 8050 50  0001 C CNN
+	1    25500 8050
+	0    -1   -1   0   
+$EndComp
+Connection ~ 25500 7950
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9397DE
+P 25500 8350
+AR Path="/7B9397DE" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9397DE" Ref="D766"  Part="1" 
+F 0 "D766" V 25546 8280 50  0000 R CNN
+F 1 "LED_Small" V 25455 8280 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 25500 8350 50  0001 C CNN
+F 3 "~" V 25500 8350 50  0001 C CNN
+	1    25500 8350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 25500 8250
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9397E5
+P 25500 8650
+AR Path="/7B9397E5" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9397E5" Ref="D798"  Part="1" 
+F 0 "D798" V 25546 8580 50  0000 R CNN
+F 1 "LED_Small" V 25455 8580 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 25500 8650 50  0001 C CNN
+F 3 "~" V 25500 8650 50  0001 C CNN
+	1    25500 8650
+	0    -1   -1   0   
+$EndComp
+Connection ~ 25500 8550
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9397EC
+P 25500 8950
+AR Path="/7B9397EC" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9397EC" Ref="D830"  Part="1" 
+F 0 "D830" V 25546 8880 50  0000 R CNN
+F 1 "LED_Small" V 25455 8880 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 25500 8950 50  0001 C CNN
+F 3 "~" V 25500 8950 50  0001 C CNN
+	1    25500 8950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 25500 8850
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9397F3
+P 25500 9250
+AR Path="/7B9397F3" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9397F3" Ref="D862"  Part="1" 
+F 0 "D862" V 25546 9180 50  0000 R CNN
+F 1 "LED_Small" V 25455 9180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 25500 9250 50  0001 C CNN
+F 3 "~" V 25500 9250 50  0001 C CNN
+	1    25500 9250
+	0    -1   -1   0   
+$EndComp
+Connection ~ 25500 9150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9397FA
+P 25500 9550
+AR Path="/7B9397FA" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9397FA" Ref="D894"  Part="1" 
+F 0 "D894" V 25546 9480 50  0000 R CNN
+F 1 "LED_Small" V 25455 9480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 25500 9550 50  0001 C CNN
+F 3 "~" V 25500 9550 50  0001 C CNN
+	1    25500 9550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 25500 9450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939801
+P 25500 9850
+AR Path="/7B939801" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939801" Ref="D926"  Part="1" 
+F 0 "D926" V 25546 9780 50  0000 R CNN
+F 1 "LED_Small" V 25455 9780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 25500 9850 50  0001 C CNN
+F 3 "~" V 25500 9850 50  0001 C CNN
+	1    25500 9850
+	0    -1   -1   0   
+$EndComp
+Connection ~ 25500 9750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939808
+P 25500 10150
+AR Path="/7B939808" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939808" Ref="D958"  Part="1" 
+F 0 "D958" V 25546 10080 50  0000 R CNN
+F 1 "LED_Small" V 25455 10080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 25500 10150 50  0001 C CNN
+F 3 "~" V 25500 10150 50  0001 C CNN
+	1    25500 10150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	25000 10050 25500 10050
+Connection ~ 25500 10050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939810
+P 25500 10450
+AR Path="/7B939810" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939810" Ref="D990"  Part="1" 
+F 0 "D990" V 25546 10380 50  0000 R CNN
+F 1 "LED_Small" V 25455 10380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 25500 10450 50  0001 C CNN
+F 3 "~" V 25500 10450 50  0001 C CNN
+	1    25500 10450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	25600 10350 25500 10350
+Connection ~ 25500 10350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939818
+P 25500 10750
+AR Path="/7B939818" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939818" Ref="D1022"  Part="1" 
+F 0 "D1022" V 25546 10680 50  0000 R CNN
+F 1 "LED_Small" V 25455 10680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 25500 10750 50  0001 C CNN
+F 3 "~" V 25500 10750 50  0001 C CNN
+	1    25500 10750
+	0    -1   -1   0   
+$EndComp
+Connection ~ 25500 10650
+Wire Wire Line
+	25600 6350 25500 6350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939820
+P 17700 6250
+AR Path="/7B939820" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939820" Ref="D529"  Part="1" 
+F 0 "D529" V 17746 6180 50  0000 R CNN
+F 1 "LED_Small" V 17655 6180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 17700 6250 50  0001 C CNN
+F 3 "~" V 17700 6250 50  0001 C CNN
+	1    17700 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	17600 6150 17700 6150
+Connection ~ 17700 6150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939828
+P 17700 6550
+AR Path="/7B939828" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939828" Ref="D561"  Part="1" 
+F 0 "D561" V 17746 6480 50  0000 R CNN
+F 1 "LED_Small" V 17655 6480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 17700 6550 50  0001 C CNN
+F 3 "~" V 17700 6550 50  0001 C CNN
+	1    17700 6550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 17700 6450
+Wire Wire Line
+	17700 6450 17800 6450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939830
+P 17700 6850
+AR Path="/7B939830" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939830" Ref="D593"  Part="1" 
+F 0 "D593" V 17746 6780 50  0000 R CNN
+F 1 "LED_Small" V 17655 6780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 17700 6850 50  0001 C CNN
+F 3 "~" V 17700 6850 50  0001 C CNN
+	1    17700 6850
+	0    -1   -1   0   
+$EndComp
+Connection ~ 17700 6750
+Wire Wire Line
+	17700 6750 18300 6750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939838
+P 17700 7150
+AR Path="/7B939838" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939838" Ref="D625"  Part="1" 
+F 0 "D625" V 17746 7080 50  0000 R CNN
+F 1 "LED_Small" V 17655 7080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 17700 7150 50  0001 C CNN
+F 3 "~" V 17700 7150 50  0001 C CNN
+	1    17700 7150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 17700 7050
+Wire Wire Line
+	17700 7050 18300 7050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939840
+P 17700 7450
+AR Path="/7B939840" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939840" Ref="D657"  Part="1" 
+F 0 "D657" V 17746 7380 50  0000 R CNN
+F 1 "LED_Small" V 17655 7380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 17700 7450 50  0001 C CNN
+F 3 "~" V 17700 7450 50  0001 C CNN
+	1    17700 7450
+	0    -1   -1   0   
+$EndComp
+Connection ~ 17700 7350
+Wire Wire Line
+	17700 7350 18300 7350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939848
+P 17700 7750
+AR Path="/7B939848" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939848" Ref="D689"  Part="1" 
+F 0 "D689" V 17746 7680 50  0000 R CNN
+F 1 "LED_Small" V 17655 7680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 17700 7750 50  0001 C CNN
+F 3 "~" V 17700 7750 50  0001 C CNN
+	1    17700 7750
+	0    -1   -1   0   
+$EndComp
+Connection ~ 17700 7650
+Wire Wire Line
+	17700 7650 18300 7650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939850
+P 17700 8050
+AR Path="/7B939850" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939850" Ref="D721"  Part="1" 
+F 0 "D721" V 17746 7980 50  0000 R CNN
+F 1 "LED_Small" V 17655 7980 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 17700 8050 50  0001 C CNN
+F 3 "~" V 17700 8050 50  0001 C CNN
+	1    17700 8050
+	0    -1   -1   0   
+$EndComp
+Connection ~ 17700 7950
+Wire Wire Line
+	17700 7950 18300 7950
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939858
+P 17700 8350
+AR Path="/7B939858" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939858" Ref="D753"  Part="1" 
+F 0 "D753" V 17746 8280 50  0000 R CNN
+F 1 "LED_Small" V 17655 8280 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 17700 8350 50  0001 C CNN
+F 3 "~" V 17700 8350 50  0001 C CNN
+	1    17700 8350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 17700 8250
+Wire Wire Line
+	17700 8250 18300 8250
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939860
+P 17700 8650
+AR Path="/7B939860" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939860" Ref="D785"  Part="1" 
+F 0 "D785" V 17746 8580 50  0000 R CNN
+F 1 "LED_Small" V 17655 8580 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 17700 8650 50  0001 C CNN
+F 3 "~" V 17700 8650 50  0001 C CNN
+	1    17700 8650
+	0    -1   -1   0   
+$EndComp
+Connection ~ 17700 8550
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939867
+P 17700 8950
+AR Path="/7B939867" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939867" Ref="D817"  Part="1" 
+F 0 "D817" V 17746 8880 50  0000 R CNN
+F 1 "LED_Small" V 17655 8880 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 17700 8950 50  0001 C CNN
+F 3 "~" V 17700 8950 50  0001 C CNN
+	1    17700 8950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 17700 8850
+Wire Wire Line
+	17700 8850 18300 8850
+$Comp
+L Device:LED_Small D?
+U 1 1 7B93986F
+P 17700 9250
+AR Path="/7B93986F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B93986F" Ref="D849"  Part="1" 
+F 0 "D849" V 17746 9180 50  0000 R CNN
+F 1 "LED_Small" V 17655 9180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 17700 9250 50  0001 C CNN
+F 3 "~" V 17700 9250 50  0001 C CNN
+	1    17700 9250
+	0    -1   -1   0   
+$EndComp
+Connection ~ 17700 9150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939876
+P 17700 9550
+AR Path="/7B939876" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939876" Ref="D881"  Part="1" 
+F 0 "D881" V 17746 9480 50  0000 R CNN
+F 1 "LED_Small" V 17655 9480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 17700 9550 50  0001 C CNN
+F 3 "~" V 17700 9550 50  0001 C CNN
+	1    17700 9550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	17700 9450 18300 9450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B93987D
+P 17700 9850
+AR Path="/7B93987D" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B93987D" Ref="D913"  Part="1" 
+F 0 "D913" V 17746 9780 50  0000 R CNN
+F 1 "LED_Small" V 17655 9780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 17700 9850 50  0001 C CNN
+F 3 "~" V 17700 9850 50  0001 C CNN
+	1    17700 9850
+	0    -1   -1   0   
+$EndComp
+Connection ~ 17700 9750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939884
+P 17700 10150
+AR Path="/7B939884" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939884" Ref="D945"  Part="1" 
+F 0 "D945" V 17746 10080 50  0000 R CNN
+F 1 "LED_Small" V 17655 10080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 17700 10150 50  0001 C CNN
+F 3 "~" V 17700 10150 50  0001 C CNN
+	1    17700 10150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 17700 10050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B93988B
+P 17700 10450
+AR Path="/7B93988B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B93988B" Ref="D977"  Part="1" 
+F 0 "D977" V 17746 10380 50  0000 R CNN
+F 1 "LED_Small" V 17655 10380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 17700 10450 50  0001 C CNN
+F 3 "~" V 17700 10450 50  0001 C CNN
+	1    17700 10450
+	0    -1   -1   0   
+$EndComp
+Connection ~ 17700 10350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939892
+P 17700 10750
+AR Path="/7B939892" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939892" Ref="D1009"  Part="1" 
+F 0 "D1009" V 17746 10680 50  0000 R CNN
+F 1 "LED_Small" V 17655 10680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 17700 10750 50  0001 C CNN
+F 3 "~" V 17700 10750 50  0001 C CNN
+	1    17700 10750
+	0    -1   -1   0   
+$EndComp
+Connection ~ 17700 10650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939899
+P 18300 6250
+AR Path="/7B939899" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939899" Ref="D530"  Part="1" 
+F 0 "D530" V 18346 6180 50  0000 R CNN
+F 1 "LED_Small" V 18255 6180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18300 6250 50  0001 C CNN
+F 3 "~" V 18300 6250 50  0001 C CNN
+	1    18300 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	17700 6150 18300 6150
+Connection ~ 18300 6150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9398A1
+P 18300 6550
+AR Path="/7B9398A1" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9398A1" Ref="D562"  Part="1" 
+F 0 "D562" V 18346 6480 50  0000 R CNN
+F 1 "LED_Small" V 18255 6480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18300 6550 50  0001 C CNN
+F 3 "~" V 18300 6550 50  0001 C CNN
+	1    18300 6550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	17800 6450 18300 6450
+Connection ~ 18300 6450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9398A9
+P 18300 6850
+AR Path="/7B9398A9" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9398A9" Ref="D594"  Part="1" 
+F 0 "D594" V 18346 6780 50  0000 R CNN
+F 1 "LED_Small" V 18255 6780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18300 6850 50  0001 C CNN
+F 3 "~" V 18300 6850 50  0001 C CNN
+	1    18300 6850
+	0    -1   -1   0   
+$EndComp
+Connection ~ 18300 6750
+Wire Wire Line
+	18300 6750 18400 6750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9398B1
+P 18300 7150
+AR Path="/7B9398B1" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9398B1" Ref="D626"  Part="1" 
+F 0 "D626" V 18346 7080 50  0000 R CNN
+F 1 "LED_Small" V 18255 7080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18300 7150 50  0001 C CNN
+F 3 "~" V 18300 7150 50  0001 C CNN
+	1    18300 7150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 18300 7050
+Wire Wire Line
+	18300 7050 18900 7050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9398B9
+P 18300 7450
+AR Path="/7B9398B9" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9398B9" Ref="D658"  Part="1" 
+F 0 "D658" V 18346 7380 50  0000 R CNN
+F 1 "LED_Small" V 18255 7380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18300 7450 50  0001 C CNN
+F 3 "~" V 18300 7450 50  0001 C CNN
+	1    18300 7450
+	0    -1   -1   0   
+$EndComp
+Connection ~ 18300 7350
+Wire Wire Line
+	18300 7350 18900 7350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9398C1
+P 18300 7750
+AR Path="/7B9398C1" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9398C1" Ref="D690"  Part="1" 
+F 0 "D690" V 18346 7680 50  0000 R CNN
+F 1 "LED_Small" V 18255 7680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18300 7750 50  0001 C CNN
+F 3 "~" V 18300 7750 50  0001 C CNN
+	1    18300 7750
+	0    -1   -1   0   
+$EndComp
+Connection ~ 18300 7650
+Wire Wire Line
+	18300 7650 18900 7650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9398C9
+P 18300 8050
+AR Path="/7B9398C9" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9398C9" Ref="D722"  Part="1" 
+F 0 "D722" V 18346 7980 50  0000 R CNN
+F 1 "LED_Small" V 18255 7980 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18300 8050 50  0001 C CNN
+F 3 "~" V 18300 8050 50  0001 C CNN
+	1    18300 8050
+	0    -1   -1   0   
+$EndComp
+Connection ~ 18300 7950
+Wire Wire Line
+	18300 7950 18900 7950
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9398D1
+P 18300 8350
+AR Path="/7B9398D1" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9398D1" Ref="D754"  Part="1" 
+F 0 "D754" V 18346 8280 50  0000 R CNN
+F 1 "LED_Small" V 18255 8280 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18300 8350 50  0001 C CNN
+F 3 "~" V 18300 8350 50  0001 C CNN
+	1    18300 8350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 18300 8250
+Wire Wire Line
+	18300 8250 18900 8250
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9398D9
+P 18300 8650
+AR Path="/7B9398D9" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9398D9" Ref="D786"  Part="1" 
+F 0 "D786" V 18346 8580 50  0000 R CNN
+F 1 "LED_Small" V 18255 8580 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18300 8650 50  0001 C CNN
+F 3 "~" V 18300 8650 50  0001 C CNN
+	1    18300 8650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18300 8550 17700 8550
+Connection ~ 18300 8550
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9398E1
+P 18300 8950
+AR Path="/7B9398E1" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9398E1" Ref="D818"  Part="1" 
+F 0 "D818" V 18346 8880 50  0000 R CNN
+F 1 "LED_Small" V 18255 8880 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18300 8950 50  0001 C CNN
+F 3 "~" V 18300 8950 50  0001 C CNN
+	1    18300 8950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 18300 8850
+Wire Wire Line
+	18300 8850 18900 8850
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9398E9
+P 18300 9250
+AR Path="/7B9398E9" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9398E9" Ref="D850"  Part="1" 
+F 0 "D850" V 18346 9180 50  0000 R CNN
+F 1 "LED_Small" V 18255 9180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18300 9250 50  0001 C CNN
+F 3 "~" V 18300 9250 50  0001 C CNN
+	1    18300 9250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18300 9150 17700 9150
+Connection ~ 18300 9150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9398F1
+P 18300 9550
+AR Path="/7B9398F1" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9398F1" Ref="D882"  Part="1" 
+F 0 "D882" V 18346 9480 50  0000 R CNN
+F 1 "LED_Small" V 18255 9480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18300 9550 50  0001 C CNN
+F 3 "~" V 18300 9550 50  0001 C CNN
+	1    18300 9550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 18300 9450
+Wire Wire Line
+	18300 9450 18900 9450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9398F9
+P 18300 9850
+AR Path="/7B9398F9" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9398F9" Ref="D914"  Part="1" 
+F 0 "D914" V 18346 9780 50  0000 R CNN
+F 1 "LED_Small" V 18255 9780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18300 9850 50  0001 C CNN
+F 3 "~" V 18300 9850 50  0001 C CNN
+	1    18300 9850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18300 9750 17700 9750
+Connection ~ 18300 9750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939901
+P 18300 10150
+AR Path="/7B939901" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939901" Ref="D946"  Part="1" 
+F 0 "D946" V 18346 10080 50  0000 R CNN
+F 1 "LED_Small" V 18255 10080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18300 10150 50  0001 C CNN
+F 3 "~" V 18300 10150 50  0001 C CNN
+	1    18300 10150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	17700 10050 18300 10050
+Connection ~ 18300 10050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939909
+P 18300 10450
+AR Path="/7B939909" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939909" Ref="D978"  Part="1" 
+F 0 "D978" V 18346 10380 50  0000 R CNN
+F 1 "LED_Small" V 18255 10380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18300 10450 50  0001 C CNN
+F 3 "~" V 18300 10450 50  0001 C CNN
+	1    18300 10450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18300 10350 17700 10350
+Connection ~ 18300 10350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939911
+P 18300 10750
+AR Path="/7B939911" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939911" Ref="D1010"  Part="1" 
+F 0 "D1010" V 18346 10680 50  0000 R CNN
+F 1 "LED_Small" V 18255 10680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18300 10750 50  0001 C CNN
+F 3 "~" V 18300 10750 50  0001 C CNN
+	1    18300 10750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	17700 10650 18300 10650
+Connection ~ 18300 10650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939919
+P 18900 6250
+AR Path="/7B939919" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939919" Ref="D531"  Part="1" 
+F 0 "D531" V 18946 6180 50  0000 R CNN
+F 1 "LED_Small" V 18855 6180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18900 6250 50  0001 C CNN
+F 3 "~" V 18900 6250 50  0001 C CNN
+	1    18900 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18300 6150 18900 6150
+Connection ~ 18900 6150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939921
+P 18900 6550
+AR Path="/7B939921" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939921" Ref="D563"  Part="1" 
+F 0 "D563" V 18946 6480 50  0000 R CNN
+F 1 "LED_Small" V 18855 6480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18900 6550 50  0001 C CNN
+F 3 "~" V 18900 6550 50  0001 C CNN
+	1    18900 6550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18300 6450 18900 6450
+Connection ~ 18900 6450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939929
+P 18900 6850
+AR Path="/7B939929" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939929" Ref="D595"  Part="1" 
+F 0 "D595" V 18946 6780 50  0000 R CNN
+F 1 "LED_Small" V 18855 6780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18900 6850 50  0001 C CNN
+F 3 "~" V 18900 6850 50  0001 C CNN
+	1    18900 6850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18400 6750 18900 6750
+Connection ~ 18900 6750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939931
+P 18900 7150
+AR Path="/7B939931" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939931" Ref="D627"  Part="1" 
+F 0 "D627" V 18946 7080 50  0000 R CNN
+F 1 "LED_Small" V 18855 7080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18900 7150 50  0001 C CNN
+F 3 "~" V 18900 7150 50  0001 C CNN
+	1    18900 7150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 18900 7050
+Wire Wire Line
+	18900 7050 19000 7050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939939
+P 18900 7450
+AR Path="/7B939939" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939939" Ref="D659"  Part="1" 
+F 0 "D659" V 18946 7380 50  0000 R CNN
+F 1 "LED_Small" V 18855 7380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18900 7450 50  0001 C CNN
+F 3 "~" V 18900 7450 50  0001 C CNN
+	1    18900 7450
+	0    -1   -1   0   
+$EndComp
+Connection ~ 18900 7350
+Wire Wire Line
+	18900 7350 19500 7350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939941
+P 18900 7750
+AR Path="/7B939941" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939941" Ref="D691"  Part="1" 
+F 0 "D691" V 18946 7680 50  0000 R CNN
+F 1 "LED_Small" V 18855 7680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18900 7750 50  0001 C CNN
+F 3 "~" V 18900 7750 50  0001 C CNN
+	1    18900 7750
+	0    -1   -1   0   
+$EndComp
+Connection ~ 18900 7650
+Wire Wire Line
+	18900 7650 19500 7650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939949
+P 18900 8050
+AR Path="/7B939949" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939949" Ref="D723"  Part="1" 
+F 0 "D723" V 18946 7980 50  0000 R CNN
+F 1 "LED_Small" V 18855 7980 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18900 8050 50  0001 C CNN
+F 3 "~" V 18900 8050 50  0001 C CNN
+	1    18900 8050
+	0    -1   -1   0   
+$EndComp
+Connection ~ 18900 7950
+Wire Wire Line
+	18900 7950 19500 7950
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939951
+P 18900 8350
+AR Path="/7B939951" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939951" Ref="D755"  Part="1" 
+F 0 "D755" V 18946 8280 50  0000 R CNN
+F 1 "LED_Small" V 18855 8280 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18900 8350 50  0001 C CNN
+F 3 "~" V 18900 8350 50  0001 C CNN
+	1    18900 8350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 18900 8250
+Wire Wire Line
+	18900 8250 19500 8250
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939959
+P 18900 8650
+AR Path="/7B939959" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939959" Ref="D787"  Part="1" 
+F 0 "D787" V 18946 8580 50  0000 R CNN
+F 1 "LED_Small" V 18855 8580 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18900 8650 50  0001 C CNN
+F 3 "~" V 18900 8650 50  0001 C CNN
+	1    18900 8650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18900 8550 18300 8550
+Connection ~ 18900 8550
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939961
+P 18900 8950
+AR Path="/7B939961" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939961" Ref="D819"  Part="1" 
+F 0 "D819" V 18946 8880 50  0000 R CNN
+F 1 "LED_Small" V 18855 8880 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18900 8950 50  0001 C CNN
+F 3 "~" V 18900 8950 50  0001 C CNN
+	1    18900 8950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 18900 8850
+Wire Wire Line
+	18900 8850 19500 8850
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939969
+P 18900 9250
+AR Path="/7B939969" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939969" Ref="D851"  Part="1" 
+F 0 "D851" V 18946 9180 50  0000 R CNN
+F 1 "LED_Small" V 18855 9180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18900 9250 50  0001 C CNN
+F 3 "~" V 18900 9250 50  0001 C CNN
+	1    18900 9250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18900 9150 18300 9150
+Connection ~ 18900 9150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939971
+P 18900 9550
+AR Path="/7B939971" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939971" Ref="D883"  Part="1" 
+F 0 "D883" V 18946 9480 50  0000 R CNN
+F 1 "LED_Small" V 18855 9480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18900 9550 50  0001 C CNN
+F 3 "~" V 18900 9550 50  0001 C CNN
+	1    18900 9550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 18900 9450
+Wire Wire Line
+	18900 9450 19500 9450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939979
+P 18900 9850
+AR Path="/7B939979" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939979" Ref="D915"  Part="1" 
+F 0 "D915" V 18946 9780 50  0000 R CNN
+F 1 "LED_Small" V 18855 9780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18900 9850 50  0001 C CNN
+F 3 "~" V 18900 9850 50  0001 C CNN
+	1    18900 9850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18900 9750 18300 9750
+Connection ~ 18900 9750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939981
+P 18900 10150
+AR Path="/7B939981" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939981" Ref="D947"  Part="1" 
+F 0 "D947" V 18946 10080 50  0000 R CNN
+F 1 "LED_Small" V 18855 10080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18900 10150 50  0001 C CNN
+F 3 "~" V 18900 10150 50  0001 C CNN
+	1    18900 10150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18300 10050 18900 10050
+Connection ~ 18900 10050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939989
+P 18900 10450
+AR Path="/7B939989" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939989" Ref="D979"  Part="1" 
+F 0 "D979" V 18946 10380 50  0000 R CNN
+F 1 "LED_Small" V 18855 10380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18900 10450 50  0001 C CNN
+F 3 "~" V 18900 10450 50  0001 C CNN
+	1    18900 10450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18900 10350 18300 10350
+Connection ~ 18900 10350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939991
+P 18900 10750
+AR Path="/7B939991" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939991" Ref="D1011"  Part="1" 
+F 0 "D1011" V 18946 10680 50  0000 R CNN
+F 1 "LED_Small" V 18855 10680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 18900 10750 50  0001 C CNN
+F 3 "~" V 18900 10750 50  0001 C CNN
+	1    18900 10750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18300 10650 18900 10650
+Connection ~ 18900 10650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939999
+P 19500 6250
+AR Path="/7B939999" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939999" Ref="D532"  Part="1" 
+F 0 "D532" V 19546 6180 50  0000 R CNN
+F 1 "LED_Small" V 19455 6180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 19500 6250 50  0001 C CNN
+F 3 "~" V 19500 6250 50  0001 C CNN
+	1    19500 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18900 6150 19500 6150
+Connection ~ 19500 6150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9399A1
+P 19500 6550
+AR Path="/7B9399A1" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9399A1" Ref="D564"  Part="1" 
+F 0 "D564" V 19546 6480 50  0000 R CNN
+F 1 "LED_Small" V 19455 6480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 19500 6550 50  0001 C CNN
+F 3 "~" V 19500 6550 50  0001 C CNN
+	1    19500 6550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19500 6450 20100 6450
+Wire Wire Line
+	18900 6450 19500 6450
+Connection ~ 19500 6450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9399AA
+P 19500 6850
+AR Path="/7B9399AA" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9399AA" Ref="D596"  Part="1" 
+F 0 "D596" V 19546 6780 50  0000 R CNN
+F 1 "LED_Small" V 19455 6780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 19500 6850 50  0001 C CNN
+F 3 "~" V 19500 6850 50  0001 C CNN
+	1    19500 6850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18900 6750 19500 6750
+Connection ~ 19500 6750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9399B2
+P 19500 7150
+AR Path="/7B9399B2" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9399B2" Ref="D628"  Part="1" 
+F 0 "D628" V 19546 7080 50  0000 R CNN
+F 1 "LED_Small" V 19455 7080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 19500 7150 50  0001 C CNN
+F 3 "~" V 19500 7150 50  0001 C CNN
+	1    19500 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19000 7050 19500 7050
+Connection ~ 19500 7050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9399BA
+P 19500 7450
+AR Path="/7B9399BA" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9399BA" Ref="D660"  Part="1" 
+F 0 "D660" V 19546 7380 50  0000 R CNN
+F 1 "LED_Small" V 19455 7380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 19500 7450 50  0001 C CNN
+F 3 "~" V 19500 7450 50  0001 C CNN
+	1    19500 7450
+	0    -1   -1   0   
+$EndComp
+Connection ~ 19500 7350
+Wire Wire Line
+	19500 7350 19600 7350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9399C2
+P 19500 7750
+AR Path="/7B9399C2" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9399C2" Ref="D692"  Part="1" 
+F 0 "D692" V 19546 7680 50  0000 R CNN
+F 1 "LED_Small" V 19455 7680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 19500 7750 50  0001 C CNN
+F 3 "~" V 19500 7750 50  0001 C CNN
+	1    19500 7750
+	0    -1   -1   0   
+$EndComp
+Connection ~ 19500 7650
+Wire Wire Line
+	19500 7650 20100 7650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9399CA
+P 19500 8050
+AR Path="/7B9399CA" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9399CA" Ref="D724"  Part="1" 
+F 0 "D724" V 19546 7980 50  0000 R CNN
+F 1 "LED_Small" V 19455 7980 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 19500 8050 50  0001 C CNN
+F 3 "~" V 19500 8050 50  0001 C CNN
+	1    19500 8050
+	0    -1   -1   0   
+$EndComp
+Connection ~ 19500 7950
+Wire Wire Line
+	19500 7950 20100 7950
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9399D2
+P 19500 8350
+AR Path="/7B9399D2" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9399D2" Ref="D756"  Part="1" 
+F 0 "D756" V 19546 8280 50  0000 R CNN
+F 1 "LED_Small" V 19455 8280 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 19500 8350 50  0001 C CNN
+F 3 "~" V 19500 8350 50  0001 C CNN
+	1    19500 8350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 19500 8250
+Wire Wire Line
+	19500 8250 20100 8250
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9399DA
+P 19500 8650
+AR Path="/7B9399DA" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9399DA" Ref="D788"  Part="1" 
+F 0 "D788" V 19546 8580 50  0000 R CNN
+F 1 "LED_Small" V 19455 8580 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 19500 8650 50  0001 C CNN
+F 3 "~" V 19500 8650 50  0001 C CNN
+	1    19500 8650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19500 8550 18900 8550
+Connection ~ 19500 8550
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9399E2
+P 19500 8950
+AR Path="/7B9399E2" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9399E2" Ref="D820"  Part="1" 
+F 0 "D820" V 19546 8880 50  0000 R CNN
+F 1 "LED_Small" V 19455 8880 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 19500 8950 50  0001 C CNN
+F 3 "~" V 19500 8950 50  0001 C CNN
+	1    19500 8950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 19500 8850
+Wire Wire Line
+	19500 8850 20100 8850
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9399EA
+P 19500 9250
+AR Path="/7B9399EA" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9399EA" Ref="D852"  Part="1" 
+F 0 "D852" V 19546 9180 50  0000 R CNN
+F 1 "LED_Small" V 19455 9180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 19500 9250 50  0001 C CNN
+F 3 "~" V 19500 9250 50  0001 C CNN
+	1    19500 9250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19500 9150 18900 9150
+Connection ~ 19500 9150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9399F2
+P 19500 9550
+AR Path="/7B9399F2" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9399F2" Ref="D884"  Part="1" 
+F 0 "D884" V 19546 9480 50  0000 R CNN
+F 1 "LED_Small" V 19455 9480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 19500 9550 50  0001 C CNN
+F 3 "~" V 19500 9550 50  0001 C CNN
+	1    19500 9550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 19500 9450
+Wire Wire Line
+	19500 9450 20100 9450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B9399FA
+P 19500 9850
+AR Path="/7B9399FA" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B9399FA" Ref="D916"  Part="1" 
+F 0 "D916" V 19546 9780 50  0000 R CNN
+F 1 "LED_Small" V 19455 9780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 19500 9850 50  0001 C CNN
+F 3 "~" V 19500 9850 50  0001 C CNN
+	1    19500 9850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19500 9750 18900 9750
+Connection ~ 19500 9750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939A02
+P 19500 10150
+AR Path="/7B939A02" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939A02" Ref="D948"  Part="1" 
+F 0 "D948" V 19546 10080 50  0000 R CNN
+F 1 "LED_Small" V 19455 10080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 19500 10150 50  0001 C CNN
+F 3 "~" V 19500 10150 50  0001 C CNN
+	1    19500 10150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18900 10050 19500 10050
+Connection ~ 19500 10050
+Wire Wire Line
+	19500 10350 18900 10350
+Connection ~ 19500 10350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939A0C
+P 19500 10750
+AR Path="/7B939A0C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939A0C" Ref="D1012"  Part="1" 
+F 0 "D1012" V 19546 10680 50  0000 R CNN
+F 1 "LED_Small" V 19455 10680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 19500 10750 50  0001 C CNN
+F 3 "~" V 19500 10750 50  0001 C CNN
+	1    19500 10750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18900 10650 19500 10650
+Connection ~ 19500 10650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939A14
+P 20100 6250
+AR Path="/7B939A14" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939A14" Ref="D533"  Part="1" 
+F 0 "D533" V 20146 6180 50  0000 R CNN
+F 1 "LED_Small" V 20055 6180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20100 6250 50  0001 C CNN
+F 3 "~" V 20100 6250 50  0001 C CNN
+	1    20100 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19500 6150 20100 6150
+Connection ~ 20100 6150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939A1C
+P 20100 6850
+AR Path="/7B939A1C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939A1C" Ref="D597"  Part="1" 
+F 0 "D597" V 20146 6780 50  0000 R CNN
+F 1 "LED_Small" V 20055 6780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20100 6850 50  0001 C CNN
+F 3 "~" V 20100 6850 50  0001 C CNN
+	1    20100 6850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19500 6750 20100 6750
+Connection ~ 20100 6750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939A24
+P 20100 7150
+AR Path="/7B939A24" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939A24" Ref="D629"  Part="1" 
+F 0 "D629" V 20146 7080 50  0000 R CNN
+F 1 "LED_Small" V 20055 7080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20100 7150 50  0001 C CNN
+F 3 "~" V 20100 7150 50  0001 C CNN
+	1    20100 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19500 7050 20100 7050
+Connection ~ 20100 7050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939A2C
+P 20100 7450
+AR Path="/7B939A2C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939A2C" Ref="D661"  Part="1" 
+F 0 "D661" V 20146 7380 50  0000 R CNN
+F 1 "LED_Small" V 20055 7380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20100 7450 50  0001 C CNN
+F 3 "~" V 20100 7450 50  0001 C CNN
+	1    20100 7450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19600 7350 20100 7350
+Connection ~ 20100 7350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939A34
+P 20100 7750
+AR Path="/7B939A34" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939A34" Ref="D693"  Part="1" 
+F 0 "D693" V 20146 7680 50  0000 R CNN
+F 1 "LED_Small" V 20055 7680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20100 7750 50  0001 C CNN
+F 3 "~" V 20100 7750 50  0001 C CNN
+	1    20100 7750
+	0    -1   -1   0   
+$EndComp
+Connection ~ 20100 7650
+Wire Wire Line
+	20100 7650 20200 7650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939A3C
+P 20100 8050
+AR Path="/7B939A3C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939A3C" Ref="D725"  Part="1" 
+F 0 "D725" V 20146 7980 50  0000 R CNN
+F 1 "LED_Small" V 20055 7980 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20100 8050 50  0001 C CNN
+F 3 "~" V 20100 8050 50  0001 C CNN
+	1    20100 8050
+	0    -1   -1   0   
+$EndComp
+Connection ~ 20100 7950
+Wire Wire Line
+	20100 7950 20700 7950
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939A44
+P 20100 8350
+AR Path="/7B939A44" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939A44" Ref="D757"  Part="1" 
+F 0 "D757" V 20146 8280 50  0000 R CNN
+F 1 "LED_Small" V 20055 8280 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20100 8350 50  0001 C CNN
+F 3 "~" V 20100 8350 50  0001 C CNN
+	1    20100 8350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 20100 8250
+Wire Wire Line
+	20100 8250 20700 8250
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939A4C
+P 20100 8650
+AR Path="/7B939A4C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939A4C" Ref="D789"  Part="1" 
+F 0 "D789" V 20146 8580 50  0000 R CNN
+F 1 "LED_Small" V 20055 8580 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20100 8650 50  0001 C CNN
+F 3 "~" V 20100 8650 50  0001 C CNN
+	1    20100 8650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20100 8550 19500 8550
+Connection ~ 20100 8550
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939A54
+P 20100 8950
+AR Path="/7B939A54" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939A54" Ref="D821"  Part="1" 
+F 0 "D821" V 20146 8880 50  0000 R CNN
+F 1 "LED_Small" V 20055 8880 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20100 8950 50  0001 C CNN
+F 3 "~" V 20100 8950 50  0001 C CNN
+	1    20100 8950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 20100 8850
+Wire Wire Line
+	20100 8850 20700 8850
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939A5C
+P 20100 9250
+AR Path="/7B939A5C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939A5C" Ref="D853"  Part="1" 
+F 0 "D853" V 20146 9180 50  0000 R CNN
+F 1 "LED_Small" V 20055 9180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20100 9250 50  0001 C CNN
+F 3 "~" V 20100 9250 50  0001 C CNN
+	1    20100 9250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20100 9150 19500 9150
+Connection ~ 20100 9150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939A64
+P 20100 9550
+AR Path="/7B939A64" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939A64" Ref="D885"  Part="1" 
+F 0 "D885" V 20146 9480 50  0000 R CNN
+F 1 "LED_Small" V 20055 9480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20100 9550 50  0001 C CNN
+F 3 "~" V 20100 9550 50  0001 C CNN
+	1    20100 9550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 20100 9450
+Wire Wire Line
+	20100 9450 20700 9450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939A6C
+P 20100 9850
+AR Path="/7B939A6C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939A6C" Ref="D917"  Part="1" 
+F 0 "D917" V 20146 9780 50  0000 R CNN
+F 1 "LED_Small" V 20055 9780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20100 9850 50  0001 C CNN
+F 3 "~" V 20100 9850 50  0001 C CNN
+	1    20100 9850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20100 9750 19500 9750
+Connection ~ 20100 9750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939A74
+P 20100 10150
+AR Path="/7B939A74" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939A74" Ref="D949"  Part="1" 
+F 0 "D949" V 20146 10080 50  0000 R CNN
+F 1 "LED_Small" V 20055 10080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20100 10150 50  0001 C CNN
+F 3 "~" V 20100 10150 50  0001 C CNN
+	1    20100 10150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19500 10050 20100 10050
+Connection ~ 20100 10050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939A7C
+P 20100 10450
+AR Path="/7B939A7C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939A7C" Ref="D981"  Part="1" 
+F 0 "D981" V 20146 10380 50  0000 R CNN
+F 1 "LED_Small" V 20055 10380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20100 10450 50  0001 C CNN
+F 3 "~" V 20100 10450 50  0001 C CNN
+	1    20100 10450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20100 10350 19500 10350
+Connection ~ 20100 10350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939A84
+P 20100 10750
+AR Path="/7B939A84" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939A84" Ref="D1013"  Part="1" 
+F 0 "D1013" V 20146 10680 50  0000 R CNN
+F 1 "LED_Small" V 20055 10680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20100 10750 50  0001 C CNN
+F 3 "~" V 20100 10750 50  0001 C CNN
+	1    20100 10750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19500 10650 20100 10650
+Connection ~ 20100 10650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939A8C
+P 20700 6250
+AR Path="/7B939A8C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939A8C" Ref="D534"  Part="1" 
+F 0 "D534" V 20746 6180 50  0000 R CNN
+F 1 "LED_Small" V 20655 6180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20700 6250 50  0001 C CNN
+F 3 "~" V 20700 6250 50  0001 C CNN
+	1    20700 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20100 6150 20700 6150
+Connection ~ 20700 6150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939A94
+P 20700 6550
+AR Path="/7B939A94" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939A94" Ref="D566"  Part="1" 
+F 0 "D566" V 20746 6480 50  0000 R CNN
+F 1 "LED_Small" V 20655 6480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20700 6550 50  0001 C CNN
+F 3 "~" V 20700 6550 50  0001 C CNN
+	1    20700 6550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20100 6450 20700 6450
+Connection ~ 20700 6450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939A9C
+P 20700 6850
+AR Path="/7B939A9C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939A9C" Ref="D598"  Part="1" 
+F 0 "D598" V 20746 6780 50  0000 R CNN
+F 1 "LED_Small" V 20655 6780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20700 6850 50  0001 C CNN
+F 3 "~" V 20700 6850 50  0001 C CNN
+	1    20700 6850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20100 6750 20700 6750
+Connection ~ 20700 6750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939AA4
+P 20700 7150
+AR Path="/7B939AA4" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939AA4" Ref="D630"  Part="1" 
+F 0 "D630" V 20746 7080 50  0000 R CNN
+F 1 "LED_Small" V 20655 7080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20700 7150 50  0001 C CNN
+F 3 "~" V 20700 7150 50  0001 C CNN
+	1    20700 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20100 7050 20700 7050
+Connection ~ 20700 7050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939AAC
+P 20700 7450
+AR Path="/7B939AAC" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939AAC" Ref="D662"  Part="1" 
+F 0 "D662" V 20746 7380 50  0000 R CNN
+F 1 "LED_Small" V 20655 7380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20700 7450 50  0001 C CNN
+F 3 "~" V 20700 7450 50  0001 C CNN
+	1    20700 7450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20100 7350 20700 7350
+Connection ~ 20700 7350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939AB4
+P 20700 7750
+AR Path="/7B939AB4" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939AB4" Ref="D694"  Part="1" 
+F 0 "D694" V 20746 7680 50  0000 R CNN
+F 1 "LED_Small" V 20655 7680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20700 7750 50  0001 C CNN
+F 3 "~" V 20700 7750 50  0001 C CNN
+	1    20700 7750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20200 7650 20700 7650
+Connection ~ 20700 7650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939ABC
+P 20700 8050
+AR Path="/7B939ABC" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939ABC" Ref="D726"  Part="1" 
+F 0 "D726" V 20746 7980 50  0000 R CNN
+F 1 "LED_Small" V 20655 7980 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20700 8050 50  0001 C CNN
+F 3 "~" V 20700 8050 50  0001 C CNN
+	1    20700 8050
+	0    -1   -1   0   
+$EndComp
+Connection ~ 20700 7950
+Wire Wire Line
+	20700 7950 20800 7950
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939AC4
+P 20700 8350
+AR Path="/7B939AC4" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939AC4" Ref="D758"  Part="1" 
+F 0 "D758" V 20746 8280 50  0000 R CNN
+F 1 "LED_Small" V 20655 8280 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20700 8350 50  0001 C CNN
+F 3 "~" V 20700 8350 50  0001 C CNN
+	1    20700 8350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 20700 8250
+Wire Wire Line
+	20700 8250 21300 8250
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939ACC
+P 20700 8650
+AR Path="/7B939ACC" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939ACC" Ref="D790"  Part="1" 
+F 0 "D790" V 20746 8580 50  0000 R CNN
+F 1 "LED_Small" V 20655 8580 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20700 8650 50  0001 C CNN
+F 3 "~" V 20700 8650 50  0001 C CNN
+	1    20700 8650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20700 8550 20100 8550
+Connection ~ 20700 8550
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939AD4
+P 20700 8950
+AR Path="/7B939AD4" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939AD4" Ref="D822"  Part="1" 
+F 0 "D822" V 20746 8880 50  0000 R CNN
+F 1 "LED_Small" V 20655 8880 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20700 8950 50  0001 C CNN
+F 3 "~" V 20700 8950 50  0001 C CNN
+	1    20700 8950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 20700 8850
+Wire Wire Line
+	20700 8850 21300 8850
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939ADC
+P 20700 9250
+AR Path="/7B939ADC" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939ADC" Ref="D854"  Part="1" 
+F 0 "D854" V 20746 9180 50  0000 R CNN
+F 1 "LED_Small" V 20655 9180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20700 9250 50  0001 C CNN
+F 3 "~" V 20700 9250 50  0001 C CNN
+	1    20700 9250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20700 9150 20100 9150
+Connection ~ 20700 9150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939AE4
+P 20700 9550
+AR Path="/7B939AE4" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939AE4" Ref="D886"  Part="1" 
+F 0 "D886" V 20746 9480 50  0000 R CNN
+F 1 "LED_Small" V 20655 9480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20700 9550 50  0001 C CNN
+F 3 "~" V 20700 9550 50  0001 C CNN
+	1    20700 9550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 20700 9450
+Wire Wire Line
+	20700 9450 21300 9450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939AEC
+P 20700 9850
+AR Path="/7B939AEC" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939AEC" Ref="D918"  Part="1" 
+F 0 "D918" V 20746 9780 50  0000 R CNN
+F 1 "LED_Small" V 20655 9780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20700 9850 50  0001 C CNN
+F 3 "~" V 20700 9850 50  0001 C CNN
+	1    20700 9850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20700 9750 20100 9750
+Connection ~ 20700 9750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939AF4
+P 20700 10150
+AR Path="/7B939AF4" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939AF4" Ref="D950"  Part="1" 
+F 0 "D950" V 20746 10080 50  0000 R CNN
+F 1 "LED_Small" V 20655 10080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20700 10150 50  0001 C CNN
+F 3 "~" V 20700 10150 50  0001 C CNN
+	1    20700 10150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20100 10050 20700 10050
+Connection ~ 20700 10050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939AFC
+P 20700 10450
+AR Path="/7B939AFC" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939AFC" Ref="D982"  Part="1" 
+F 0 "D982" V 20746 10380 50  0000 R CNN
+F 1 "LED_Small" V 20655 10380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20700 10450 50  0001 C CNN
+F 3 "~" V 20700 10450 50  0001 C CNN
+	1    20700 10450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20700 10350 20100 10350
+Connection ~ 20700 10350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939B04
+P 20700 10750
+AR Path="/7B939B04" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939B04" Ref="D1014"  Part="1" 
+F 0 "D1014" V 20746 10680 50  0000 R CNN
+F 1 "LED_Small" V 20655 10680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 20700 10750 50  0001 C CNN
+F 3 "~" V 20700 10750 50  0001 C CNN
+	1    20700 10750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20100 10650 20700 10650
+Connection ~ 20700 10650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939B0C
+P 21300 6250
+AR Path="/7B939B0C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939B0C" Ref="D535"  Part="1" 
+F 0 "D535" V 21346 6180 50  0000 R CNN
+F 1 "LED_Small" V 21255 6180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21300 6250 50  0001 C CNN
+F 3 "~" V 21300 6250 50  0001 C CNN
+	1    21300 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20700 6150 21300 6150
+Connection ~ 21300 6150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939B14
+P 21300 6550
+AR Path="/7B939B14" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939B14" Ref="D567"  Part="1" 
+F 0 "D567" V 21346 6480 50  0000 R CNN
+F 1 "LED_Small" V 21255 6480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21300 6550 50  0001 C CNN
+F 3 "~" V 21300 6550 50  0001 C CNN
+	1    21300 6550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20700 6450 21300 6450
+Connection ~ 21300 6450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939B1C
+P 21300 6850
+AR Path="/7B939B1C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939B1C" Ref="D599"  Part="1" 
+F 0 "D599" V 21346 6780 50  0000 R CNN
+F 1 "LED_Small" V 21255 6780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21300 6850 50  0001 C CNN
+F 3 "~" V 21300 6850 50  0001 C CNN
+	1    21300 6850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20700 6750 21300 6750
+Connection ~ 21300 6750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939B24
+P 21300 7150
+AR Path="/7B939B24" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939B24" Ref="D631"  Part="1" 
+F 0 "D631" V 21346 7080 50  0000 R CNN
+F 1 "LED_Small" V 21255 7080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21300 7150 50  0001 C CNN
+F 3 "~" V 21300 7150 50  0001 C CNN
+	1    21300 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20700 7050 21300 7050
+Connection ~ 21300 7050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939B2C
+P 21300 7450
+AR Path="/7B939B2C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939B2C" Ref="D663"  Part="1" 
+F 0 "D663" V 21346 7380 50  0000 R CNN
+F 1 "LED_Small" V 21255 7380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21300 7450 50  0001 C CNN
+F 3 "~" V 21300 7450 50  0001 C CNN
+	1    21300 7450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20700 7350 21300 7350
+Connection ~ 21300 7350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939B34
+P 21300 7750
+AR Path="/7B939B34" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939B34" Ref="D695"  Part="1" 
+F 0 "D695" V 21346 7680 50  0000 R CNN
+F 1 "LED_Small" V 21255 7680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21300 7750 50  0001 C CNN
+F 3 "~" V 21300 7750 50  0001 C CNN
+	1    21300 7750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20700 7650 21300 7650
+Connection ~ 21300 7650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939B3C
+P 21300 8050
+AR Path="/7B939B3C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939B3C" Ref="D727"  Part="1" 
+F 0 "D727" V 21346 7980 50  0000 R CNN
+F 1 "LED_Small" V 21255 7980 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21300 8050 50  0001 C CNN
+F 3 "~" V 21300 8050 50  0001 C CNN
+	1    21300 8050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20800 7950 21300 7950
+Connection ~ 21300 7950
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939B44
+P 21300 8350
+AR Path="/7B939B44" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939B44" Ref="D759"  Part="1" 
+F 0 "D759" V 21346 8280 50  0000 R CNN
+F 1 "LED_Small" V 21255 8280 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21300 8350 50  0001 C CNN
+F 3 "~" V 21300 8350 50  0001 C CNN
+	1    21300 8350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 21300 8250
+Wire Wire Line
+	21300 8250 21400 8250
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939B4C
+P 21300 8650
+AR Path="/7B939B4C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939B4C" Ref="D791"  Part="1" 
+F 0 "D791" V 21346 8580 50  0000 R CNN
+F 1 "LED_Small" V 21255 8580 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21300 8650 50  0001 C CNN
+F 3 "~" V 21300 8650 50  0001 C CNN
+	1    21300 8650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21300 8550 20700 8550
+Connection ~ 21300 8550
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939B54
+P 21300 8950
+AR Path="/7B939B54" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939B54" Ref="D823"  Part="1" 
+F 0 "D823" V 21346 8880 50  0000 R CNN
+F 1 "LED_Small" V 21255 8880 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21300 8950 50  0001 C CNN
+F 3 "~" V 21300 8950 50  0001 C CNN
+	1    21300 8950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 21300 8850
+Wire Wire Line
+	21300 8850 21900 8850
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939B5C
+P 21300 9250
+AR Path="/7B939B5C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939B5C" Ref="D855"  Part="1" 
+F 0 "D855" V 21346 9180 50  0000 R CNN
+F 1 "LED_Small" V 21255 9180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21300 9250 50  0001 C CNN
+F 3 "~" V 21300 9250 50  0001 C CNN
+	1    21300 9250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21300 9150 20700 9150
+Connection ~ 21300 9150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939B64
+P 21300 9550
+AR Path="/7B939B64" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939B64" Ref="D887"  Part="1" 
+F 0 "D887" V 21346 9480 50  0000 R CNN
+F 1 "LED_Small" V 21255 9480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21300 9550 50  0001 C CNN
+F 3 "~" V 21300 9550 50  0001 C CNN
+	1    21300 9550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 21300 9450
+Wire Wire Line
+	21300 9450 21900 9450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939B6C
+P 21300 9850
+AR Path="/7B939B6C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939B6C" Ref="D919"  Part="1" 
+F 0 "D919" V 21346 9780 50  0000 R CNN
+F 1 "LED_Small" V 21255 9780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21300 9850 50  0001 C CNN
+F 3 "~" V 21300 9850 50  0001 C CNN
+	1    21300 9850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21300 9750 20700 9750
+Connection ~ 21300 9750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939B74
+P 21300 10150
+AR Path="/7B939B74" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939B74" Ref="D951"  Part="1" 
+F 0 "D951" V 21346 10080 50  0000 R CNN
+F 1 "LED_Small" V 21255 10080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21300 10150 50  0001 C CNN
+F 3 "~" V 21300 10150 50  0001 C CNN
+	1    21300 10150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20700 10050 21300 10050
+Connection ~ 21300 10050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939B7C
+P 21300 10450
+AR Path="/7B939B7C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939B7C" Ref="D983"  Part="1" 
+F 0 "D983" V 21346 10380 50  0000 R CNN
+F 1 "LED_Small" V 21255 10380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21300 10450 50  0001 C CNN
+F 3 "~" V 21300 10450 50  0001 C CNN
+	1    21300 10450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21300 10350 20700 10350
+Connection ~ 21300 10350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939B84
+P 21300 10750
+AR Path="/7B939B84" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939B84" Ref="D1015"  Part="1" 
+F 0 "D1015" V 21346 10680 50  0000 R CNN
+F 1 "LED_Small" V 21255 10680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21300 10750 50  0001 C CNN
+F 3 "~" V 21300 10750 50  0001 C CNN
+	1    21300 10750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20700 10650 21300 10650
+Connection ~ 21300 10650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939B8C
+P 21900 6250
+AR Path="/7B939B8C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939B8C" Ref="D536"  Part="1" 
+F 0 "D536" V 21946 6180 50  0000 R CNN
+F 1 "LED_Small" V 21855 6180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21900 6250 50  0001 C CNN
+F 3 "~" V 21900 6250 50  0001 C CNN
+	1    21900 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21300 6150 21900 6150
+Connection ~ 21900 6150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939B94
+P 21900 6550
+AR Path="/7B939B94" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939B94" Ref="D568"  Part="1" 
+F 0 "D568" V 21946 6480 50  0000 R CNN
+F 1 "LED_Small" V 21855 6480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21900 6550 50  0001 C CNN
+F 3 "~" V 21900 6550 50  0001 C CNN
+	1    21900 6550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21300 6450 21900 6450
+Connection ~ 21900 6450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939B9C
+P 21900 6850
+AR Path="/7B939B9C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939B9C" Ref="D600"  Part="1" 
+F 0 "D600" V 21946 6780 50  0000 R CNN
+F 1 "LED_Small" V 21855 6780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21900 6850 50  0001 C CNN
+F 3 "~" V 21900 6850 50  0001 C CNN
+	1    21900 6850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21300 6750 21900 6750
+Connection ~ 21900 6750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939BA4
+P 21900 7150
+AR Path="/7B939BA4" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939BA4" Ref="D632"  Part="1" 
+F 0 "D632" V 21946 7080 50  0000 R CNN
+F 1 "LED_Small" V 21855 7080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21900 7150 50  0001 C CNN
+F 3 "~" V 21900 7150 50  0001 C CNN
+	1    21900 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21300 7050 21900 7050
+Connection ~ 21900 7050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939BAC
+P 21900 7450
+AR Path="/7B939BAC" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939BAC" Ref="D664"  Part="1" 
+F 0 "D664" V 21946 7380 50  0000 R CNN
+F 1 "LED_Small" V 21855 7380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21900 7450 50  0001 C CNN
+F 3 "~" V 21900 7450 50  0001 C CNN
+	1    21900 7450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21300 7350 21900 7350
+Connection ~ 21900 7350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939BB4
+P 21900 7750
+AR Path="/7B939BB4" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939BB4" Ref="D696"  Part="1" 
+F 0 "D696" V 21946 7680 50  0000 R CNN
+F 1 "LED_Small" V 21855 7680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21900 7750 50  0001 C CNN
+F 3 "~" V 21900 7750 50  0001 C CNN
+	1    21900 7750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21300 7650 21900 7650
+Connection ~ 21900 7650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939BBC
+P 21900 8050
+AR Path="/7B939BBC" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939BBC" Ref="D728"  Part="1" 
+F 0 "D728" V 21946 7980 50  0000 R CNN
+F 1 "LED_Small" V 21855 7980 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21900 8050 50  0001 C CNN
+F 3 "~" V 21900 8050 50  0001 C CNN
+	1    21900 8050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21300 7950 21900 7950
+Connection ~ 21900 7950
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939BC4
+P 21900 8350
+AR Path="/7B939BC4" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939BC4" Ref="D760"  Part="1" 
+F 0 "D760" V 21946 8280 50  0000 R CNN
+F 1 "LED_Small" V 21855 8280 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21900 8350 50  0001 C CNN
+F 3 "~" V 21900 8350 50  0001 C CNN
+	1    21900 8350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21400 8250 21900 8250
+Connection ~ 21900 8250
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939BCC
+P 21900 8650
+AR Path="/7B939BCC" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939BCC" Ref="D792"  Part="1" 
+F 0 "D792" V 21946 8580 50  0000 R CNN
+F 1 "LED_Small" V 21855 8580 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21900 8650 50  0001 C CNN
+F 3 "~" V 21900 8650 50  0001 C CNN
+	1    21900 8650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22000 8550 21900 8550
+Wire Wire Line
+	21900 8550 21300 8550
+Connection ~ 21900 8550
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939BD5
+P 21900 8950
+AR Path="/7B939BD5" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939BD5" Ref="D824"  Part="1" 
+F 0 "D824" V 21946 8880 50  0000 R CNN
+F 1 "LED_Small" V 21855 8880 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21900 8950 50  0001 C CNN
+F 3 "~" V 21900 8950 50  0001 C CNN
+	1    21900 8950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 21900 8850
+Wire Wire Line
+	21900 8850 22500 8850
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939BDD
+P 21900 9250
+AR Path="/7B939BDD" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939BDD" Ref="D856"  Part="1" 
+F 0 "D856" V 21946 9180 50  0000 R CNN
+F 1 "LED_Small" V 21855 9180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21900 9250 50  0001 C CNN
+F 3 "~" V 21900 9250 50  0001 C CNN
+	1    21900 9250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21900 9150 21300 9150
+Connection ~ 21900 9150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939BE5
+P 21900 9550
+AR Path="/7B939BE5" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939BE5" Ref="D888"  Part="1" 
+F 0 "D888" V 21946 9480 50  0000 R CNN
+F 1 "LED_Small" V 21855 9480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21900 9550 50  0001 C CNN
+F 3 "~" V 21900 9550 50  0001 C CNN
+	1    21900 9550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 21900 9450
+Wire Wire Line
+	21900 9450 22500 9450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939BED
+P 21900 9850
+AR Path="/7B939BED" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939BED" Ref="D920"  Part="1" 
+F 0 "D920" V 21946 9780 50  0000 R CNN
+F 1 "LED_Small" V 21855 9780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21900 9850 50  0001 C CNN
+F 3 "~" V 21900 9850 50  0001 C CNN
+	1    21900 9850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21900 9750 21300 9750
+Connection ~ 21900 9750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939BF5
+P 21900 10150
+AR Path="/7B939BF5" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939BF5" Ref="D952"  Part="1" 
+F 0 "D952" V 21946 10080 50  0000 R CNN
+F 1 "LED_Small" V 21855 10080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21900 10150 50  0001 C CNN
+F 3 "~" V 21900 10150 50  0001 C CNN
+	1    21900 10150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21300 10050 21900 10050
+Connection ~ 21900 10050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939BFD
+P 21900 10450
+AR Path="/7B939BFD" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939BFD" Ref="D984"  Part="1" 
+F 0 "D984" V 21946 10380 50  0000 R CNN
+F 1 "LED_Small" V 21855 10380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21900 10450 50  0001 C CNN
+F 3 "~" V 21900 10450 50  0001 C CNN
+	1    21900 10450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21900 10350 21300 10350
+Connection ~ 21900 10350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939C05
+P 21900 10750
+AR Path="/7B939C05" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939C05" Ref="D1016"  Part="1" 
+F 0 "D1016" V 21946 10680 50  0000 R CNN
+F 1 "LED_Small" V 21855 10680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 21900 10750 50  0001 C CNN
+F 3 "~" V 21900 10750 50  0001 C CNN
+	1    21900 10750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21300 10650 21900 10650
+Connection ~ 21900 10650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939C0D
+P 22500 6250
+AR Path="/7B939C0D" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939C0D" Ref="D537"  Part="1" 
+F 0 "D537" V 22546 6180 50  0000 R CNN
+F 1 "LED_Small" V 22455 6180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 22500 6250 50  0001 C CNN
+F 3 "~" V 22500 6250 50  0001 C CNN
+	1    22500 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21900 6150 22500 6150
+Connection ~ 22500 6150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939C15
+P 22500 6550
+AR Path="/7B939C15" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939C15" Ref="D569"  Part="1" 
+F 0 "D569" V 22546 6480 50  0000 R CNN
+F 1 "LED_Small" V 22455 6480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 22500 6550 50  0001 C CNN
+F 3 "~" V 22500 6550 50  0001 C CNN
+	1    22500 6550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21900 6450 22500 6450
+Connection ~ 22500 6450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939C1D
+P 22500 6850
+AR Path="/7B939C1D" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939C1D" Ref="D601"  Part="1" 
+F 0 "D601" V 22546 6780 50  0000 R CNN
+F 1 "LED_Small" V 22455 6780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 22500 6850 50  0001 C CNN
+F 3 "~" V 22500 6850 50  0001 C CNN
+	1    22500 6850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21900 6750 22500 6750
+Connection ~ 22500 6750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939C25
+P 22500 7150
+AR Path="/7B939C25" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939C25" Ref="D633"  Part="1" 
+F 0 "D633" V 22546 7080 50  0000 R CNN
+F 1 "LED_Small" V 22455 7080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 22500 7150 50  0001 C CNN
+F 3 "~" V 22500 7150 50  0001 C CNN
+	1    22500 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21900 7050 22500 7050
+Connection ~ 22500 7050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939C2D
+P 22500 7450
+AR Path="/7B939C2D" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939C2D" Ref="D665"  Part="1" 
+F 0 "D665" V 22546 7380 50  0000 R CNN
+F 1 "LED_Small" V 22455 7380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 22500 7450 50  0001 C CNN
+F 3 "~" V 22500 7450 50  0001 C CNN
+	1    22500 7450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21900 7350 22500 7350
+Connection ~ 22500 7350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939C35
+P 22500 7750
+AR Path="/7B939C35" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939C35" Ref="D697"  Part="1" 
+F 0 "D697" V 22546 7680 50  0000 R CNN
+F 1 "LED_Small" V 22455 7680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 22500 7750 50  0001 C CNN
+F 3 "~" V 22500 7750 50  0001 C CNN
+	1    22500 7750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21900 7650 22500 7650
+Connection ~ 22500 7650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939C3D
+P 22500 8050
+AR Path="/7B939C3D" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939C3D" Ref="D729"  Part="1" 
+F 0 "D729" V 22546 7980 50  0000 R CNN
+F 1 "LED_Small" V 22455 7980 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 22500 8050 50  0001 C CNN
+F 3 "~" V 22500 8050 50  0001 C CNN
+	1    22500 8050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21900 7950 22500 7950
+Connection ~ 22500 7950
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939C45
+P 22500 8350
+AR Path="/7B939C45" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939C45" Ref="D761"  Part="1" 
+F 0 "D761" V 22546 8280 50  0000 R CNN
+F 1 "LED_Small" V 22455 8280 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 22500 8350 50  0001 C CNN
+F 3 "~" V 22500 8350 50  0001 C CNN
+	1    22500 8350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21900 8250 22500 8250
+Connection ~ 22500 8250
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939C4D
+P 22500 8650
+AR Path="/7B939C4D" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939C4D" Ref="D793"  Part="1" 
+F 0 "D793" V 22546 8580 50  0000 R CNN
+F 1 "LED_Small" V 22455 8580 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 22500 8650 50  0001 C CNN
+F 3 "~" V 22500 8650 50  0001 C CNN
+	1    22500 8650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22500 8550 22000 8550
+Connection ~ 22500 8550
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939C55
+P 22500 8950
+AR Path="/7B939C55" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939C55" Ref="D825"  Part="1" 
+F 0 "D825" V 22546 8880 50  0000 R CNN
+F 1 "LED_Small" V 22455 8880 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 22500 8950 50  0001 C CNN
+F 3 "~" V 22500 8950 50  0001 C CNN
+	1    22500 8950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 22500 8850
+Wire Wire Line
+	22500 8850 22600 8850
+Wire Wire Line
+	22500 9150 21900 9150
+Connection ~ 22500 9150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939C5F
+P 22500 9550
+AR Path="/7B939C5F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939C5F" Ref="D889"  Part="1" 
+F 0 "D889" V 22546 9480 50  0000 R CNN
+F 1 "LED_Small" V 22455 9480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 22500 9550 50  0001 C CNN
+F 3 "~" V 22500 9550 50  0001 C CNN
+	1    22500 9550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 22500 9450
+Wire Wire Line
+	22500 9450 23100 9450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939C67
+P 22500 9850
+AR Path="/7B939C67" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939C67" Ref="D921"  Part="1" 
+F 0 "D921" V 22546 9780 50  0000 R CNN
+F 1 "LED_Small" V 22455 9780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 22500 9850 50  0001 C CNN
+F 3 "~" V 22500 9850 50  0001 C CNN
+	1    22500 9850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22500 9750 21900 9750
+Connection ~ 22500 9750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939C6F
+P 22500 10150
+AR Path="/7B939C6F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939C6F" Ref="D953"  Part="1" 
+F 0 "D953" V 22546 10080 50  0000 R CNN
+F 1 "LED_Small" V 22455 10080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 22500 10150 50  0001 C CNN
+F 3 "~" V 22500 10150 50  0001 C CNN
+	1    22500 10150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21900 10050 22500 10050
+Connection ~ 22500 10050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939C77
+P 22500 10450
+AR Path="/7B939C77" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939C77" Ref="D985"  Part="1" 
+F 0 "D985" V 22546 10380 50  0000 R CNN
+F 1 "LED_Small" V 22455 10380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 22500 10450 50  0001 C CNN
+F 3 "~" V 22500 10450 50  0001 C CNN
+	1    22500 10450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22500 10350 21900 10350
+Connection ~ 22500 10350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939C7F
+P 22500 10750
+AR Path="/7B939C7F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939C7F" Ref="D1017"  Part="1" 
+F 0 "D1017" V 22546 10680 50  0000 R CNN
+F 1 "LED_Small" V 22455 10680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 22500 10750 50  0001 C CNN
+F 3 "~" V 22500 10750 50  0001 C CNN
+	1    22500 10750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21900 10650 22500 10650
+Connection ~ 22500 10650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939C87
+P 23100 6250
+AR Path="/7B939C87" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939C87" Ref="D538"  Part="1" 
+F 0 "D538" V 23146 6180 50  0000 R CNN
+F 1 "LED_Small" V 23055 6180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23100 6250 50  0001 C CNN
+F 3 "~" V 23100 6250 50  0001 C CNN
+	1    23100 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22500 6150 23100 6150
+Connection ~ 23100 6150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939C8F
+P 23100 6550
+AR Path="/7B939C8F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939C8F" Ref="D570"  Part="1" 
+F 0 "D570" V 23146 6480 50  0000 R CNN
+F 1 "LED_Small" V 23055 6480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23100 6550 50  0001 C CNN
+F 3 "~" V 23100 6550 50  0001 C CNN
+	1    23100 6550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22500 6450 23100 6450
+Connection ~ 23100 6450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939C97
+P 23100 6850
+AR Path="/7B939C97" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939C97" Ref="D602"  Part="1" 
+F 0 "D602" V 23146 6780 50  0000 R CNN
+F 1 "LED_Small" V 23055 6780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23100 6850 50  0001 C CNN
+F 3 "~" V 23100 6850 50  0001 C CNN
+	1    23100 6850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22500 6750 23100 6750
+Connection ~ 23100 6750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939C9F
+P 23100 7150
+AR Path="/7B939C9F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939C9F" Ref="D634"  Part="1" 
+F 0 "D634" V 23146 7080 50  0000 R CNN
+F 1 "LED_Small" V 23055 7080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23100 7150 50  0001 C CNN
+F 3 "~" V 23100 7150 50  0001 C CNN
+	1    23100 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22500 7050 23100 7050
+Connection ~ 23100 7050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939CA7
+P 23100 7450
+AR Path="/7B939CA7" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939CA7" Ref="D666"  Part="1" 
+F 0 "D666" V 23146 7380 50  0000 R CNN
+F 1 "LED_Small" V 23055 7380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23100 7450 50  0001 C CNN
+F 3 "~" V 23100 7450 50  0001 C CNN
+	1    23100 7450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22500 7350 23100 7350
+Connection ~ 23100 7350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939CAF
+P 23100 7750
+AR Path="/7B939CAF" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939CAF" Ref="D698"  Part="1" 
+F 0 "D698" V 23146 7680 50  0000 R CNN
+F 1 "LED_Small" V 23055 7680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23100 7750 50  0001 C CNN
+F 3 "~" V 23100 7750 50  0001 C CNN
+	1    23100 7750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22500 7650 23100 7650
+Connection ~ 23100 7650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939CB7
+P 23100 8050
+AR Path="/7B939CB7" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939CB7" Ref="D730"  Part="1" 
+F 0 "D730" V 23146 7980 50  0000 R CNN
+F 1 "LED_Small" V 23055 7980 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23100 8050 50  0001 C CNN
+F 3 "~" V 23100 8050 50  0001 C CNN
+	1    23100 8050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22500 7950 23100 7950
+Connection ~ 23100 7950
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939CBF
+P 23100 8350
+AR Path="/7B939CBF" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939CBF" Ref="D762"  Part="1" 
+F 0 "D762" V 23146 8280 50  0000 R CNN
+F 1 "LED_Small" V 23055 8280 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23100 8350 50  0001 C CNN
+F 3 "~" V 23100 8350 50  0001 C CNN
+	1    23100 8350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22500 8250 23100 8250
+Connection ~ 23100 8250
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939CC7
+P 23100 8650
+AR Path="/7B939CC7" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939CC7" Ref="D794"  Part="1" 
+F 0 "D794" V 23146 8580 50  0000 R CNN
+F 1 "LED_Small" V 23055 8580 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23100 8650 50  0001 C CNN
+F 3 "~" V 23100 8650 50  0001 C CNN
+	1    23100 8650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23100 8550 22500 8550
+Connection ~ 23100 8550
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939CCF
+P 23100 8950
+AR Path="/7B939CCF" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939CCF" Ref="D826"  Part="1" 
+F 0 "D826" V 23146 8880 50  0000 R CNN
+F 1 "LED_Small" V 23055 8880 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23100 8950 50  0001 C CNN
+F 3 "~" V 23100 8950 50  0001 C CNN
+	1    23100 8950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22600 8850 23100 8850
+Connection ~ 23100 8850
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939CD7
+P 23100 9250
+AR Path="/7B939CD7" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939CD7" Ref="D858"  Part="1" 
+F 0 "D858" V 23146 9180 50  0000 R CNN
+F 1 "LED_Small" V 23055 9180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23100 9250 50  0001 C CNN
+F 3 "~" V 23100 9250 50  0001 C CNN
+	1    23100 9250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23200 9150 23100 9150
+Wire Wire Line
+	23100 9150 22500 9150
+Connection ~ 23100 9150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939CE0
+P 23100 9550
+AR Path="/7B939CE0" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939CE0" Ref="D890"  Part="1" 
+F 0 "D890" V 23146 9480 50  0000 R CNN
+F 1 "LED_Small" V 23055 9480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23100 9550 50  0001 C CNN
+F 3 "~" V 23100 9550 50  0001 C CNN
+	1    23100 9550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 23100 9450
+Wire Wire Line
+	23100 9450 23700 9450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939CE8
+P 23100 9850
+AR Path="/7B939CE8" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939CE8" Ref="D922"  Part="1" 
+F 0 "D922" V 23146 9780 50  0000 R CNN
+F 1 "LED_Small" V 23055 9780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23100 9850 50  0001 C CNN
+F 3 "~" V 23100 9850 50  0001 C CNN
+	1    23100 9850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23100 9750 22500 9750
+Connection ~ 23100 9750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939CF0
+P 23100 10150
+AR Path="/7B939CF0" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939CF0" Ref="D954"  Part="1" 
+F 0 "D954" V 23146 10080 50  0000 R CNN
+F 1 "LED_Small" V 23055 10080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23100 10150 50  0001 C CNN
+F 3 "~" V 23100 10150 50  0001 C CNN
+	1    23100 10150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22500 10050 23100 10050
+Connection ~ 23100 10050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939CF8
+P 23100 10450
+AR Path="/7B939CF8" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939CF8" Ref="D986"  Part="1" 
+F 0 "D986" V 23146 10380 50  0000 R CNN
+F 1 "LED_Small" V 23055 10380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23100 10450 50  0001 C CNN
+F 3 "~" V 23100 10450 50  0001 C CNN
+	1    23100 10450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23100 10350 22500 10350
+Connection ~ 23100 10350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939D00
+P 23100 10750
+AR Path="/7B939D00" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939D00" Ref="D1018"  Part="1" 
+F 0 "D1018" V 23146 10680 50  0000 R CNN
+F 1 "LED_Small" V 23055 10680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23100 10750 50  0001 C CNN
+F 3 "~" V 23100 10750 50  0001 C CNN
+	1    23100 10750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22500 10650 23100 10650
+Connection ~ 23100 10650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939D08
+P 23700 6250
+AR Path="/7B939D08" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939D08" Ref="D539"  Part="1" 
+F 0 "D539" V 23746 6180 50  0000 R CNN
+F 1 "LED_Small" V 23655 6180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23700 6250 50  0001 C CNN
+F 3 "~" V 23700 6250 50  0001 C CNN
+	1    23700 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23100 6150 23700 6150
+Connection ~ 23700 6150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939D10
+P 23700 6550
+AR Path="/7B939D10" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939D10" Ref="D571"  Part="1" 
+F 0 "D571" V 23746 6480 50  0000 R CNN
+F 1 "LED_Small" V 23655 6480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23700 6550 50  0001 C CNN
+F 3 "~" V 23700 6550 50  0001 C CNN
+	1    23700 6550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23100 6450 23700 6450
+Connection ~ 23700 6450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939D18
+P 23700 6850
+AR Path="/7B939D18" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939D18" Ref="D603"  Part="1" 
+F 0 "D603" V 23746 6780 50  0000 R CNN
+F 1 "LED_Small" V 23655 6780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23700 6850 50  0001 C CNN
+F 3 "~" V 23700 6850 50  0001 C CNN
+	1    23700 6850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23100 6750 23700 6750
+Connection ~ 23700 6750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939D20
+P 23700 7150
+AR Path="/7B939D20" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939D20" Ref="D635"  Part="1" 
+F 0 "D635" V 23746 7080 50  0000 R CNN
+F 1 "LED_Small" V 23655 7080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23700 7150 50  0001 C CNN
+F 3 "~" V 23700 7150 50  0001 C CNN
+	1    23700 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23100 7050 23700 7050
+Connection ~ 23700 7050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939D28
+P 23700 7450
+AR Path="/7B939D28" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939D28" Ref="D667"  Part="1" 
+F 0 "D667" V 23746 7380 50  0000 R CNN
+F 1 "LED_Small" V 23655 7380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23700 7450 50  0001 C CNN
+F 3 "~" V 23700 7450 50  0001 C CNN
+	1    23700 7450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23100 7350 23700 7350
+Connection ~ 23700 7350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939D30
+P 23700 7750
+AR Path="/7B939D30" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939D30" Ref="D699"  Part="1" 
+F 0 "D699" V 23746 7680 50  0000 R CNN
+F 1 "LED_Small" V 23655 7680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23700 7750 50  0001 C CNN
+F 3 "~" V 23700 7750 50  0001 C CNN
+	1    23700 7750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23100 7650 23700 7650
+Connection ~ 23700 7650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939D38
+P 23700 8050
+AR Path="/7B939D38" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939D38" Ref="D731"  Part="1" 
+F 0 "D731" V 23746 7980 50  0000 R CNN
+F 1 "LED_Small" V 23655 7980 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23700 8050 50  0001 C CNN
+F 3 "~" V 23700 8050 50  0001 C CNN
+	1    23700 8050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23100 7950 23700 7950
+Connection ~ 23700 7950
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939D40
+P 23700 8350
+AR Path="/7B939D40" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939D40" Ref="D763"  Part="1" 
+F 0 "D763" V 23746 8280 50  0000 R CNN
+F 1 "LED_Small" V 23655 8280 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23700 8350 50  0001 C CNN
+F 3 "~" V 23700 8350 50  0001 C CNN
+	1    23700 8350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23100 8250 23700 8250
+Connection ~ 23700 8250
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939D48
+P 23700 8650
+AR Path="/7B939D48" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939D48" Ref="D795"  Part="1" 
+F 0 "D795" V 23746 8580 50  0000 R CNN
+F 1 "LED_Small" V 23655 8580 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23700 8650 50  0001 C CNN
+F 3 "~" V 23700 8650 50  0001 C CNN
+	1    23700 8650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23700 8550 23100 8550
+Connection ~ 23700 8550
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939D50
+P 23700 8950
+AR Path="/7B939D50" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939D50" Ref="D827"  Part="1" 
+F 0 "D827" V 23746 8880 50  0000 R CNN
+F 1 "LED_Small" V 23655 8880 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23700 8950 50  0001 C CNN
+F 3 "~" V 23700 8950 50  0001 C CNN
+	1    23700 8950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23100 8850 23700 8850
+Connection ~ 23700 8850
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939D58
+P 23700 9250
+AR Path="/7B939D58" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939D58" Ref="D859"  Part="1" 
+F 0 "D859" V 23746 9180 50  0000 R CNN
+F 1 "LED_Small" V 23655 9180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23700 9250 50  0001 C CNN
+F 3 "~" V 23700 9250 50  0001 C CNN
+	1    23700 9250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23700 9150 23200 9150
+Connection ~ 23700 9150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939D60
+P 23700 9550
+AR Path="/7B939D60" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939D60" Ref="D891"  Part="1" 
+F 0 "D891" V 23746 9480 50  0000 R CNN
+F 1 "LED_Small" V 23655 9480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23700 9550 50  0001 C CNN
+F 3 "~" V 23700 9550 50  0001 C CNN
+	1    23700 9550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 23700 9450
+Wire Wire Line
+	23700 9450 23800 9450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939D68
+P 23700 9850
+AR Path="/7B939D68" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939D68" Ref="D923"  Part="1" 
+F 0 "D923" V 23746 9780 50  0000 R CNN
+F 1 "LED_Small" V 23655 9780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23700 9850 50  0001 C CNN
+F 3 "~" V 23700 9850 50  0001 C CNN
+	1    23700 9850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23700 9750 23100 9750
+Connection ~ 23700 9750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939D70
+P 23700 10150
+AR Path="/7B939D70" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939D70" Ref="D955"  Part="1" 
+F 0 "D955" V 23746 10080 50  0000 R CNN
+F 1 "LED_Small" V 23655 10080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23700 10150 50  0001 C CNN
+F 3 "~" V 23700 10150 50  0001 C CNN
+	1    23700 10150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23100 10050 23700 10050
+Connection ~ 23700 10050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939D78
+P 23700 10450
+AR Path="/7B939D78" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939D78" Ref="D987"  Part="1" 
+F 0 "D987" V 23746 10380 50  0000 R CNN
+F 1 "LED_Small" V 23655 10380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23700 10450 50  0001 C CNN
+F 3 "~" V 23700 10450 50  0001 C CNN
+	1    23700 10450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23700 10350 23100 10350
+Connection ~ 23700 10350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939D80
+P 23700 10750
+AR Path="/7B939D80" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939D80" Ref="D1019"  Part="1" 
+F 0 "D1019" V 23746 10680 50  0000 R CNN
+F 1 "LED_Small" V 23655 10680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 23700 10750 50  0001 C CNN
+F 3 "~" V 23700 10750 50  0001 C CNN
+	1    23700 10750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23100 10650 23700 10650
+Connection ~ 23700 10650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939D88
+P 24300 6250
+AR Path="/7B939D88" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939D88" Ref="D540"  Part="1" 
+F 0 "D540" V 24346 6180 50  0000 R CNN
+F 1 "LED_Small" V 24255 6180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24300 6250 50  0001 C CNN
+F 3 "~" V 24300 6250 50  0001 C CNN
+	1    24300 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23700 6150 24300 6150
+Connection ~ 24300 6150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939D90
+P 24300 6550
+AR Path="/7B939D90" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939D90" Ref="D572"  Part="1" 
+F 0 "D572" V 24346 6480 50  0000 R CNN
+F 1 "LED_Small" V 24255 6480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24300 6550 50  0001 C CNN
+F 3 "~" V 24300 6550 50  0001 C CNN
+	1    24300 6550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23700 6450 24300 6450
+Connection ~ 24300 6450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939D98
+P 24300 6850
+AR Path="/7B939D98" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939D98" Ref="D604"  Part="1" 
+F 0 "D604" V 24346 6780 50  0000 R CNN
+F 1 "LED_Small" V 24255 6780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24300 6850 50  0001 C CNN
+F 3 "~" V 24300 6850 50  0001 C CNN
+	1    24300 6850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23700 6750 24300 6750
+Connection ~ 24300 6750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939DA0
+P 24300 7150
+AR Path="/7B939DA0" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939DA0" Ref="D636"  Part="1" 
+F 0 "D636" V 24346 7080 50  0000 R CNN
+F 1 "LED_Small" V 24255 7080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24300 7150 50  0001 C CNN
+F 3 "~" V 24300 7150 50  0001 C CNN
+	1    24300 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23700 7050 24300 7050
+Connection ~ 24300 7050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939DA8
+P 24300 7450
+AR Path="/7B939DA8" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939DA8" Ref="D668"  Part="1" 
+F 0 "D668" V 24346 7380 50  0000 R CNN
+F 1 "LED_Small" V 24255 7380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24300 7450 50  0001 C CNN
+F 3 "~" V 24300 7450 50  0001 C CNN
+	1    24300 7450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23700 7350 24300 7350
+Connection ~ 24300 7350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939DB0
+P 24300 7750
+AR Path="/7B939DB0" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939DB0" Ref="D700"  Part="1" 
+F 0 "D700" V 24346 7680 50  0000 R CNN
+F 1 "LED_Small" V 24255 7680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24300 7750 50  0001 C CNN
+F 3 "~" V 24300 7750 50  0001 C CNN
+	1    24300 7750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23700 7650 24300 7650
+Connection ~ 24300 7650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939DB8
+P 24300 8050
+AR Path="/7B939DB8" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939DB8" Ref="D732"  Part="1" 
+F 0 "D732" V 24346 7980 50  0000 R CNN
+F 1 "LED_Small" V 24255 7980 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24300 8050 50  0001 C CNN
+F 3 "~" V 24300 8050 50  0001 C CNN
+	1    24300 8050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23700 7950 24300 7950
+Connection ~ 24300 7950
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939DC0
+P 24300 8350
+AR Path="/7B939DC0" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939DC0" Ref="D764"  Part="1" 
+F 0 "D764" V 24346 8280 50  0000 R CNN
+F 1 "LED_Small" V 24255 8280 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24300 8350 50  0001 C CNN
+F 3 "~" V 24300 8350 50  0001 C CNN
+	1    24300 8350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23700 8250 24300 8250
+Connection ~ 24300 8250
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939DC8
+P 24300 8650
+AR Path="/7B939DC8" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939DC8" Ref="D796"  Part="1" 
+F 0 "D796" V 24346 8580 50  0000 R CNN
+F 1 "LED_Small" V 24255 8580 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24300 8650 50  0001 C CNN
+F 3 "~" V 24300 8650 50  0001 C CNN
+	1    24300 8650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	24300 8550 23700 8550
+Connection ~ 24300 8550
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939DD0
+P 24300 8950
+AR Path="/7B939DD0" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939DD0" Ref="D828"  Part="1" 
+F 0 "D828" V 24346 8880 50  0000 R CNN
+F 1 "LED_Small" V 24255 8880 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24300 8950 50  0001 C CNN
+F 3 "~" V 24300 8950 50  0001 C CNN
+	1    24300 8950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23700 8850 24300 8850
+Connection ~ 24300 8850
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939DD8
+P 24300 9250
+AR Path="/7B939DD8" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939DD8" Ref="D860"  Part="1" 
+F 0 "D860" V 24346 9180 50  0000 R CNN
+F 1 "LED_Small" V 24255 9180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24300 9250 50  0001 C CNN
+F 3 "~" V 24300 9250 50  0001 C CNN
+	1    24300 9250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	24300 9150 23700 9150
+Connection ~ 24300 9150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939DE0
+P 24300 9550
+AR Path="/7B939DE0" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939DE0" Ref="D892"  Part="1" 
+F 0 "D892" V 24346 9480 50  0000 R CNN
+F 1 "LED_Small" V 24255 9480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24300 9550 50  0001 C CNN
+F 3 "~" V 24300 9550 50  0001 C CNN
+	1    24300 9550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23800 9450 24300 9450
+Connection ~ 24300 9450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939DE8
+P 24300 9850
+AR Path="/7B939DE8" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939DE8" Ref="D924"  Part="1" 
+F 0 "D924" V 24346 9780 50  0000 R CNN
+F 1 "LED_Small" V 24255 9780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24300 9850 50  0001 C CNN
+F 3 "~" V 24300 9850 50  0001 C CNN
+	1    24300 9850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	24400 9750 24300 9750
+Wire Wire Line
+	24300 9750 23700 9750
+Connection ~ 24300 9750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939DF1
+P 24300 10150
+AR Path="/7B939DF1" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939DF1" Ref="D956"  Part="1" 
+F 0 "D956" V 24346 10080 50  0000 R CNN
+F 1 "LED_Small" V 24255 10080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24300 10150 50  0001 C CNN
+F 3 "~" V 24300 10150 50  0001 C CNN
+	1    24300 10150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23700 10050 24300 10050
+Connection ~ 24300 10050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939DF9
+P 24300 10450
+AR Path="/7B939DF9" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939DF9" Ref="D988"  Part="1" 
+F 0 "D988" V 24346 10380 50  0000 R CNN
+F 1 "LED_Small" V 24255 10380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24300 10450 50  0001 C CNN
+F 3 "~" V 24300 10450 50  0001 C CNN
+	1    24300 10450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	24300 10350 23700 10350
+Connection ~ 24300 10350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939E01
+P 24300 10750
+AR Path="/7B939E01" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939E01" Ref="D1020"  Part="1" 
+F 0 "D1020" V 24346 10680 50  0000 R CNN
+F 1 "LED_Small" V 24255 10680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24300 10750 50  0001 C CNN
+F 3 "~" V 24300 10750 50  0001 C CNN
+	1    24300 10750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23700 10650 24300 10650
+Connection ~ 24300 10650
+Wire Wire Line
+	24900 6150 25500 6150
+Wire Wire Line
+	24300 6150 24900 6150
+Connection ~ 24900 6150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939E0C
+P 24900 6250
+AR Path="/7B939E0C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939E0C" Ref="D541"  Part="1" 
+F 0 "D541" V 24946 6180 50  0000 R CNN
+F 1 "LED_Small" V 24855 6180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24900 6250 50  0001 C CNN
+F 3 "~" V 24900 6250 50  0001 C CNN
+	1    24900 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	24900 6450 25500 6450
+Wire Wire Line
+	24300 6450 24900 6450
+Connection ~ 24900 6450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939E15
+P 24900 6550
+AR Path="/7B939E15" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939E15" Ref="D573"  Part="1" 
+F 0 "D573" V 24946 6480 50  0000 R CNN
+F 1 "LED_Small" V 24855 6480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24900 6550 50  0001 C CNN
+F 3 "~" V 24900 6550 50  0001 C CNN
+	1    24900 6550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	24900 6750 25500 6750
+Wire Wire Line
+	24300 6750 24900 6750
+Connection ~ 24900 6750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939E1E
+P 24900 6850
+AR Path="/7B939E1E" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939E1E" Ref="D605"  Part="1" 
+F 0 "D605" V 24946 6780 50  0000 R CNN
+F 1 "LED_Small" V 24855 6780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24900 6850 50  0001 C CNN
+F 3 "~" V 24900 6850 50  0001 C CNN
+	1    24900 6850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	24900 7050 25500 7050
+Wire Wire Line
+	24300 7050 24900 7050
+Connection ~ 24900 7050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939E27
+P 24900 7150
+AR Path="/7B939E27" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939E27" Ref="D637"  Part="1" 
+F 0 "D637" V 24946 7080 50  0000 R CNN
+F 1 "LED_Small" V 24855 7080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24900 7150 50  0001 C CNN
+F 3 "~" V 24900 7150 50  0001 C CNN
+	1    24900 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	24900 7350 25500 7350
+Wire Wire Line
+	24300 7350 24900 7350
+Connection ~ 24900 7350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939E30
+P 24900 7450
+AR Path="/7B939E30" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939E30" Ref="D669"  Part="1" 
+F 0 "D669" V 24946 7380 50  0000 R CNN
+F 1 "LED_Small" V 24855 7380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24900 7450 50  0001 C CNN
+F 3 "~" V 24900 7450 50  0001 C CNN
+	1    24900 7450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	24900 7650 25500 7650
+Wire Wire Line
+	24300 7650 24900 7650
+Connection ~ 24900 7650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939E39
+P 24900 7750
+AR Path="/7B939E39" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939E39" Ref="D701"  Part="1" 
+F 0 "D701" V 24946 7680 50  0000 R CNN
+F 1 "LED_Small" V 24855 7680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24900 7750 50  0001 C CNN
+F 3 "~" V 24900 7750 50  0001 C CNN
+	1    24900 7750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	24900 7950 25500 7950
+Wire Wire Line
+	24300 7950 24900 7950
+Connection ~ 24900 7950
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939E42
+P 24900 8050
+AR Path="/7B939E42" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939E42" Ref="D733"  Part="1" 
+F 0 "D733" V 24946 7980 50  0000 R CNN
+F 1 "LED_Small" V 24855 7980 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24900 8050 50  0001 C CNN
+F 3 "~" V 24900 8050 50  0001 C CNN
+	1    24900 8050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	24900 8250 25500 8250
+Wire Wire Line
+	24300 8250 24900 8250
+Connection ~ 24900 8250
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939E4B
+P 24900 8350
+AR Path="/7B939E4B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939E4B" Ref="D765"  Part="1" 
+F 0 "D765" V 24946 8280 50  0000 R CNN
+F 1 "LED_Small" V 24855 8280 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24900 8350 50  0001 C CNN
+F 3 "~" V 24900 8350 50  0001 C CNN
+	1    24900 8350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	25500 8550 24900 8550
+Wire Wire Line
+	24900 8550 24300 8550
+Connection ~ 24900 8550
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939E54
+P 24900 8650
+AR Path="/7B939E54" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939E54" Ref="D797"  Part="1" 
+F 0 "D797" V 24946 8580 50  0000 R CNN
+F 1 "LED_Small" V 24855 8580 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24900 8650 50  0001 C CNN
+F 3 "~" V 24900 8650 50  0001 C CNN
+	1    24900 8650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	24900 8850 25500 8850
+Wire Wire Line
+	24300 8850 24900 8850
+Connection ~ 24900 8850
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939E5D
+P 24900 8950
+AR Path="/7B939E5D" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939E5D" Ref="D829"  Part="1" 
+F 0 "D829" V 24946 8880 50  0000 R CNN
+F 1 "LED_Small" V 24855 8880 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24900 8950 50  0001 C CNN
+F 3 "~" V 24900 8950 50  0001 C CNN
+	1    24900 8950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	25500 9150 24900 9150
+Wire Wire Line
+	24900 9150 24300 9150
+Connection ~ 24900 9150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939E66
+P 24900 9250
+AR Path="/7B939E66" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939E66" Ref="D861"  Part="1" 
+F 0 "D861" V 24946 9180 50  0000 R CNN
+F 1 "LED_Small" V 24855 9180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24900 9250 50  0001 C CNN
+F 3 "~" V 24900 9250 50  0001 C CNN
+	1    24900 9250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	24900 9450 25500 9450
+Wire Wire Line
+	24300 9450 24900 9450
+Connection ~ 24900 9450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939E6F
+P 24900 9550
+AR Path="/7B939E6F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939E6F" Ref="D893"  Part="1" 
+F 0 "D893" V 24946 9480 50  0000 R CNN
+F 1 "LED_Small" V 24855 9480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24900 9550 50  0001 C CNN
+F 3 "~" V 24900 9550 50  0001 C CNN
+	1    24900 9550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	25500 9750 24900 9750
+Wire Wire Line
+	24900 9750 24400 9750
+Connection ~ 24900 9750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939E78
+P 24900 9850
+AR Path="/7B939E78" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939E78" Ref="D925"  Part="1" 
+F 0 "D925" V 24946 9780 50  0000 R CNN
+F 1 "LED_Small" V 24855 9780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24900 9850 50  0001 C CNN
+F 3 "~" V 24900 9850 50  0001 C CNN
+	1    24900 9850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	24900 10050 25000 10050
+Wire Wire Line
+	24300 10050 24900 10050
+Connection ~ 24900 10050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939E81
+P 24900 10150
+AR Path="/7B939E81" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939E81" Ref="D957"  Part="1" 
+F 0 "D957" V 24946 10080 50  0000 R CNN
+F 1 "LED_Small" V 24855 10080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24900 10150 50  0001 C CNN
+F 3 "~" V 24900 10150 50  0001 C CNN
+	1    24900 10150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	25500 10350 24900 10350
+Wire Wire Line
+	24900 10350 24300 10350
+Connection ~ 24900 10350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939E8A
+P 24900 10450
+AR Path="/7B939E8A" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939E8A" Ref="D989"  Part="1" 
+F 0 "D989" V 24946 10380 50  0000 R CNN
+F 1 "LED_Small" V 24855 10380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24900 10450 50  0001 C CNN
+F 3 "~" V 24900 10450 50  0001 C CNN
+	1    24900 10450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	24900 10650 25500 10650
+Wire Wire Line
+	24300 10650 24900 10650
+Connection ~ 24900 10650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939E93
+P 24900 10750
+AR Path="/7B939E93" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939E93" Ref="D1021"  Part="1" 
+F 0 "D1021" V 24946 10680 50  0000 R CNN
+F 1 "LED_Small" V 24855 10680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 24900 10750 50  0001 C CNN
+F 3 "~" V 24900 10750 50  0001 C CNN
+	1    24900 10750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	25600 10850 25600 10350
+Wire Wire Line
+	25600 10850 26100 10850
+Wire Wire Line
+	26100 7250 26200 7250
+Connection ~ 26200 7250
+Wire Wire Line
+	26200 7550 26200 7250
+Wire Wire Line
+	26100 7550 26200 7550
+Connection ~ 26200 7550
+Wire Wire Line
+	26200 7850 26200 7550
+Wire Wire Line
+	26100 7850 26200 7850
+Connection ~ 26200 7850
+Wire Wire Line
+	26200 8150 26200 7850
+Wire Wire Line
+	26100 8150 26200 8150
+Connection ~ 26200 8150
+Wire Wire Line
+	26200 8450 26200 8150
+Wire Wire Line
+	26100 8450 26200 8450
+Connection ~ 26200 8450
+Wire Wire Line
+	26200 8750 26200 8450
+Wire Wire Line
+	26100 8750 26200 8750
+Connection ~ 26200 8750
+Wire Wire Line
+	26200 9050 26200 8750
+Wire Wire Line
+	26100 9050 26200 9050
+Connection ~ 26200 9050
+Wire Wire Line
+	26200 9350 26200 9050
+Wire Wire Line
+	26100 9350 26200 9350
+Connection ~ 26200 9350
+Wire Wire Line
+	26200 9650 26200 9350
+Wire Wire Line
+	26100 9650 26200 9650
+Connection ~ 26200 9650
+Wire Wire Line
+	26200 9950 26200 9650
+Wire Wire Line
+	26100 9950 26200 9950
+Connection ~ 26200 9950
+Wire Wire Line
+	26200 10250 26200 9950
+Wire Wire Line
+	26100 10250 26200 10250
+Connection ~ 26200 10250
+Wire Wire Line
+	26200 10550 26200 10250
+Wire Wire Line
+	26100 10550 26200 10550
+Wire Wire Line
+	26200 7250 26200 6950
+Connection ~ 26200 6950
+Wire Wire Line
+	26100 6950 26200 6950
+Wire Wire Line
+	26200 6950 26200 6650
+Wire Wire Line
+	26200 6650 26200 6350
+Connection ~ 26200 6650
+Wire Wire Line
+	26100 6650 26200 6650
+Wire Wire Line
+	26200 6350 26100 6350
+Connection ~ 26200 10550
+Wire Wire Line
+	26200 10650 26700 10650
+Connection ~ 26200 10650
+Wire Wire Line
+	26200 10650 26200 10550
+Wire Wire Line
+	26700 10850 26800 10850
+Wire Wire Line
+	26800 10850 26800 10550
+Connection ~ 26800 10550
+Wire Wire Line
+	26700 10550 26800 10550
+Wire Wire Line
+	26800 10550 26800 10250
+Connection ~ 26800 10250
+Wire Wire Line
+	26700 10250 26800 10250
+Wire Wire Line
+	26800 10250 26800 9950
+Connection ~ 26800 9950
+Wire Wire Line
+	26700 9950 26800 9950
+Wire Wire Line
+	26800 9950 26800 9650
+Connection ~ 26800 9650
+Wire Wire Line
+	26700 9650 26800 9650
+Wire Wire Line
+	26800 9650 26800 9350
+Connection ~ 26800 9350
+Wire Wire Line
+	26700 9350 26800 9350
+Wire Wire Line
+	26800 9350 26800 9050
+Connection ~ 26800 9050
+Wire Wire Line
+	26700 9050 26800 9050
+Wire Wire Line
+	26800 9050 26800 8750
+Connection ~ 26800 8750
+Wire Wire Line
+	26700 8750 26800 8750
+Wire Wire Line
+	26800 8750 26800 8450
+Connection ~ 26800 8450
+Wire Wire Line
+	26700 8450 26800 8450
+Wire Wire Line
+	26800 8450 26800 8150
+Connection ~ 26800 8150
+Wire Wire Line
+	26700 8150 26800 8150
+Wire Wire Line
+	26800 8150 26800 7850
+Connection ~ 26800 7850
+Wire Wire Line
+	26700 7850 26800 7850
+Wire Wire Line
+	26800 7850 26800 7550
+Connection ~ 26800 7550
+Wire Wire Line
+	26700 7550 26800 7550
+Wire Wire Line
+	26800 7550 26800 7250
+Connection ~ 26800 7250
+Wire Wire Line
+	26700 7250 26800 7250
+Wire Wire Line
+	26800 7250 26800 6950
+Connection ~ 26800 6950
+Wire Wire Line
+	26700 6950 26800 6950
+Wire Wire Line
+	26800 6950 26800 6650
+Wire Wire Line
+	26800 6650 26800 6350
+Connection ~ 26800 6650
+Wire Wire Line
+	26700 6650 26800 6650
+Wire Wire Line
+	26800 6350 26700 6350
+Connection ~ 26800 10850
+Wire Wire Line
+	26800 10900 26800 10850
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939EF8
+P 26700 10750
+AR Path="/7B939EF8" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939EF8" Ref="D1024"  Part="1" 
+F 0 "D1024" V 26746 10680 50  0000 R CNN
+F 1 "LED_Small" V 26655 10680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26700 10750 50  0001 C CNN
+F 3 "~" V 26700 10750 50  0001 C CNN
+	1    26700 10750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939EFE
+P 26700 10450
+AR Path="/7B939EFE" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939EFE" Ref="D992"  Part="1" 
+F 0 "D992" V 26746 10380 50  0000 R CNN
+F 1 "LED_Small" V 26655 10380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26700 10450 50  0001 C CNN
+F 3 "~" V 26700 10450 50  0001 C CNN
+	1    26700 10450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939F04
+P 26700 10150
+AR Path="/7B939F04" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939F04" Ref="D960"  Part="1" 
+F 0 "D960" V 26746 10080 50  0000 R CNN
+F 1 "LED_Small" V 26655 10080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26700 10150 50  0001 C CNN
+F 3 "~" V 26700 10150 50  0001 C CNN
+	1    26700 10150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939F0A
+P 26700 9850
+AR Path="/7B939F0A" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939F0A" Ref="D928"  Part="1" 
+F 0 "D928" V 26746 9780 50  0000 R CNN
+F 1 "LED_Small" V 26655 9780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26700 9850 50  0001 C CNN
+F 3 "~" V 26700 9850 50  0001 C CNN
+	1    26700 9850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939F10
+P 26700 9550
+AR Path="/7B939F10" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939F10" Ref="D896"  Part="1" 
+F 0 "D896" V 26746 9480 50  0000 R CNN
+F 1 "LED_Small" V 26655 9480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26700 9550 50  0001 C CNN
+F 3 "~" V 26700 9550 50  0001 C CNN
+	1    26700 9550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939F16
+P 26700 9250
+AR Path="/7B939F16" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939F16" Ref="D864"  Part="1" 
+F 0 "D864" V 26746 9180 50  0000 R CNN
+F 1 "LED_Small" V 26655 9180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26700 9250 50  0001 C CNN
+F 3 "~" V 26700 9250 50  0001 C CNN
+	1    26700 9250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939F1C
+P 26700 8950
+AR Path="/7B939F1C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939F1C" Ref="D832"  Part="1" 
+F 0 "D832" V 26746 8880 50  0000 R CNN
+F 1 "LED_Small" V 26655 8880 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26700 8950 50  0001 C CNN
+F 3 "~" V 26700 8950 50  0001 C CNN
+	1    26700 8950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939F22
+P 26700 8650
+AR Path="/7B939F22" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939F22" Ref="D800"  Part="1" 
+F 0 "D800" V 26746 8580 50  0000 R CNN
+F 1 "LED_Small" V 26655 8580 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26700 8650 50  0001 C CNN
+F 3 "~" V 26700 8650 50  0001 C CNN
+	1    26700 8650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939F28
+P 26700 8350
+AR Path="/7B939F28" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939F28" Ref="D768"  Part="1" 
+F 0 "D768" V 26746 8280 50  0000 R CNN
+F 1 "LED_Small" V 26655 8280 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26700 8350 50  0001 C CNN
+F 3 "~" V 26700 8350 50  0001 C CNN
+	1    26700 8350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939F2E
+P 26700 8050
+AR Path="/7B939F2E" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939F2E" Ref="D736"  Part="1" 
+F 0 "D736" V 26746 7980 50  0000 R CNN
+F 1 "LED_Small" V 26655 7980 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26700 8050 50  0001 C CNN
+F 3 "~" V 26700 8050 50  0001 C CNN
+	1    26700 8050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939F34
+P 26700 7750
+AR Path="/7B939F34" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939F34" Ref="D704"  Part="1" 
+F 0 "D704" V 26746 7680 50  0000 R CNN
+F 1 "LED_Small" V 26655 7680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26700 7750 50  0001 C CNN
+F 3 "~" V 26700 7750 50  0001 C CNN
+	1    26700 7750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939F3A
+P 26700 7450
+AR Path="/7B939F3A" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939F3A" Ref="D672"  Part="1" 
+F 0 "D672" V 26746 7380 50  0000 R CNN
+F 1 "LED_Small" V 26655 7380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26700 7450 50  0001 C CNN
+F 3 "~" V 26700 7450 50  0001 C CNN
+	1    26700 7450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939F40
+P 26700 7150
+AR Path="/7B939F40" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939F40" Ref="D640"  Part="1" 
+F 0 "D640" V 26746 7080 50  0000 R CNN
+F 1 "LED_Small" V 26655 7080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26700 7150 50  0001 C CNN
+F 3 "~" V 26700 7150 50  0001 C CNN
+	1    26700 7150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939F46
+P 26700 6850
+AR Path="/7B939F46" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939F46" Ref="D608"  Part="1" 
+F 0 "D608" V 26746 6780 50  0000 R CNN
+F 1 "LED_Small" V 26655 6780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26700 6850 50  0001 C CNN
+F 3 "~" V 26700 6850 50  0001 C CNN
+	1    26700 6850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939F4C
+P 26700 6550
+AR Path="/7B939F4C" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939F4C" Ref="D576"  Part="1" 
+F 0 "D576" V 26746 6480 50  0000 R CNN
+F 1 "LED_Small" V 26655 6480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26700 6550 50  0001 C CNN
+F 3 "~" V 26700 6550 50  0001 C CNN
+	1    26700 6550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939F52
+P 26700 6250
+AR Path="/7B939F52" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939F52" Ref="D544"  Part="1" 
+F 0 "D544" V 26746 6180 50  0000 R CNN
+F 1 "LED_Small" V 26655 6180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26700 6250 50  0001 C CNN
+F 3 "~" V 26700 6250 50  0001 C CNN
+	1    26700 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	25500 10650 26100 10650
+Wire Wire Line
+	26100 10650 26200 10650
+Connection ~ 26100 10650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939F5B
+P 26100 10750
+AR Path="/7B939F5B" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939F5B" Ref="D1023"  Part="1" 
+F 0 "D1023" V 26146 10680 50  0000 R CNN
+F 1 "LED_Small" V 26055 10680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26100 10750 50  0001 C CNN
+F 3 "~" V 26100 10750 50  0001 C CNN
+	1    26100 10750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	26100 10350 25600 10350
+Wire Wire Line
+	26700 10350 26100 10350
+Connection ~ 26100 10350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939F64
+P 26100 10450
+AR Path="/7B939F64" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939F64" Ref="D991"  Part="1" 
+F 0 "D991" V 26146 10380 50  0000 R CNN
+F 1 "LED_Small" V 26055 10380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26100 10450 50  0001 C CNN
+F 3 "~" V 26100 10450 50  0001 C CNN
+	1    26100 10450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	25500 10050 26100 10050
+Wire Wire Line
+	26100 10050 26700 10050
+Connection ~ 26100 10050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939F6D
+P 26100 10150
+AR Path="/7B939F6D" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939F6D" Ref="D959"  Part="1" 
+F 0 "D959" V 26146 10080 50  0000 R CNN
+F 1 "LED_Small" V 26055 10080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26100 10150 50  0001 C CNN
+F 3 "~" V 26100 10150 50  0001 C CNN
+	1    26100 10150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	26100 9750 25500 9750
+Wire Wire Line
+	26700 9750 26100 9750
+Connection ~ 26100 9750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939F76
+P 26100 9850
+AR Path="/7B939F76" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939F76" Ref="D927"  Part="1" 
+F 0 "D927" V 26146 9780 50  0000 R CNN
+F 1 "LED_Small" V 26055 9780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26100 9850 50  0001 C CNN
+F 3 "~" V 26100 9850 50  0001 C CNN
+	1    26100 9850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	25500 9450 26100 9450
+Wire Wire Line
+	26100 9450 26700 9450
+Connection ~ 26100 9450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939F7F
+P 26100 9550
+AR Path="/7B939F7F" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939F7F" Ref="D895"  Part="1" 
+F 0 "D895" V 26146 9480 50  0000 R CNN
+F 1 "LED_Small" V 26055 9480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26100 9550 50  0001 C CNN
+F 3 "~" V 26100 9550 50  0001 C CNN
+	1    26100 9550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	26100 9150 25500 9150
+Wire Wire Line
+	26700 9150 26100 9150
+Connection ~ 26100 9150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939F88
+P 26100 9250
+AR Path="/7B939F88" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939F88" Ref="D863"  Part="1" 
+F 0 "D863" V 26146 9180 50  0000 R CNN
+F 1 "LED_Small" V 26055 9180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26100 9250 50  0001 C CNN
+F 3 "~" V 26100 9250 50  0001 C CNN
+	1    26100 9250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	25500 8850 26100 8850
+Wire Wire Line
+	26100 8850 26700 8850
+Connection ~ 26100 8850
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939F91
+P 26100 8950
+AR Path="/7B939F91" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939F91" Ref="D831"  Part="1" 
+F 0 "D831" V 26146 8880 50  0000 R CNN
+F 1 "LED_Small" V 26055 8880 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26100 8950 50  0001 C CNN
+F 3 "~" V 26100 8950 50  0001 C CNN
+	1    26100 8950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	26100 8550 25500 8550
+Wire Wire Line
+	26100 8550 26700 8550
+Connection ~ 26100 8550
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939F9A
+P 26100 8650
+AR Path="/7B939F9A" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939F9A" Ref="D799"  Part="1" 
+F 0 "D799" V 26146 8580 50  0000 R CNN
+F 1 "LED_Small" V 26055 8580 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26100 8650 50  0001 C CNN
+F 3 "~" V 26100 8650 50  0001 C CNN
+	1    26100 8650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	25500 8250 26100 8250
+Wire Wire Line
+	26100 8250 26700 8250
+Connection ~ 26100 8250
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939FA3
+P 26100 8350
+AR Path="/7B939FA3" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939FA3" Ref="D767"  Part="1" 
+F 0 "D767" V 26146 8280 50  0000 R CNN
+F 1 "LED_Small" V 26055 8280 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26100 8350 50  0001 C CNN
+F 3 "~" V 26100 8350 50  0001 C CNN
+	1    26100 8350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	25500 7950 26100 7950
+Wire Wire Line
+	26100 7950 26700 7950
+Connection ~ 26100 7950
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939FAC
+P 26100 8050
+AR Path="/7B939FAC" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939FAC" Ref="D735"  Part="1" 
+F 0 "D735" V 26146 7980 50  0000 R CNN
+F 1 "LED_Small" V 26055 7980 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26100 8050 50  0001 C CNN
+F 3 "~" V 26100 8050 50  0001 C CNN
+	1    26100 8050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	25500 7650 26100 7650
+Wire Wire Line
+	26100 7650 26700 7650
+Connection ~ 26100 7650
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939FB5
+P 26100 7750
+AR Path="/7B939FB5" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939FB5" Ref="D703"  Part="1" 
+F 0 "D703" V 26146 7680 50  0000 R CNN
+F 1 "LED_Small" V 26055 7680 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26100 7750 50  0001 C CNN
+F 3 "~" V 26100 7750 50  0001 C CNN
+	1    26100 7750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	25500 7350 26100 7350
+Wire Wire Line
+	26100 7350 26700 7350
+Connection ~ 26100 7350
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939FBE
+P 26100 7450
+AR Path="/7B939FBE" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939FBE" Ref="D671"  Part="1" 
+F 0 "D671" V 26146 7380 50  0000 R CNN
+F 1 "LED_Small" V 26055 7380 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26100 7450 50  0001 C CNN
+F 3 "~" V 26100 7450 50  0001 C CNN
+	1    26100 7450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	25500 7050 26100 7050
+Wire Wire Line
+	26100 7050 26700 7050
+Connection ~ 26100 7050
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939FC7
+P 26100 7150
+AR Path="/7B939FC7" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939FC7" Ref="D639"  Part="1" 
+F 0 "D639" V 26146 7080 50  0000 R CNN
+F 1 "LED_Small" V 26055 7080 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26100 7150 50  0001 C CNN
+F 3 "~" V 26100 7150 50  0001 C CNN
+	1    26100 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	25500 6750 26100 6750
+Wire Wire Line
+	26100 6750 26700 6750
+Connection ~ 26100 6750
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939FD0
+P 26100 6850
+AR Path="/7B939FD0" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939FD0" Ref="D607"  Part="1" 
+F 0 "D607" V 26146 6780 50  0000 R CNN
+F 1 "LED_Small" V 26055 6780 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26100 6850 50  0001 C CNN
+F 3 "~" V 26100 6850 50  0001 C CNN
+	1    26100 6850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	25500 6450 26100 6450
+Wire Wire Line
+	26100 6450 26700 6450
+Connection ~ 26100 6450
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939FD9
+P 26100 6550
+AR Path="/7B939FD9" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939FD9" Ref="D575"  Part="1" 
+F 0 "D575" V 26146 6480 50  0000 R CNN
+F 1 "LED_Small" V 26055 6480 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26100 6550 50  0001 C CNN
+F 3 "~" V 26100 6550 50  0001 C CNN
+	1    26100 6550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	25500 6150 26100 6150
+Wire Wire Line
+	26100 6150 26700 6150
+Connection ~ 26100 6150
+$Comp
+L Device:LED_Small D?
+U 1 1 7B939FE2
+P 26100 6250
+AR Path="/7B939FE2" Ref="D?"  Part="1" 
+AR Path="/7AD7E6BD/7B939FE2" Ref="D543"  Part="1" 
+F 0 "D543" V 26146 6180 50  0000 R CNN
+F 1 "LED_Small" V 26055 6180 50  0000 R CNN
+F 2 "Custom_LEDs:LED_0603_No_SilkS_Ref" V 26100 6250 50  0001 C CNN
+F 3 "~" V 26100 6250 50  0001 C CNN
+	1    26100 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	16450 9750 17700 9750
+Wire Wire Line
+	16750 7650 17700 7650
+Wire Wire Line
+	16800 7950 17700 7950
+Wire Wire Line
+	16850 8250 17700 8250
+Wire Wire Line
+	16900 8550 17700 8550
+Wire Wire Line
+	16950 8850 17700 8850
+Wire Wire Line
+	17000 9150 17700 9150
+Wire Wire Line
+	16650 10050 17700 10050
+Wire Wire Line
+	16600 10350 17700 10350
+Wire Wire Line
+	16550 10650 17700 10650
+Wire Wire Line
+	17600 6150 16500 6150
+Connection ~ 17600 6150
+Wire Wire Line
+	16550 6450 17700 6450
+Wire Wire Line
+	16600 6750 17700 6750
+Wire Wire Line
+	16650 7050 17700 7050
+Wire Wire Line
+	16700 7350 17700 7350
+Wire Wire Line
+	17000 9150 17000 9550
+Wire Wire Line
+	17050 9450 17700 9450
+Connection ~ 17700 9450
+Wire Wire Line
+	16500 10900 26800 10900
+Wire Wire Line
+	1200 8450 1200 8250
+Connection ~ 1200 8450
+Wire Wire Line
+	1200 8450 1300 8450
+Wire Wire Line
+	14850 2800 14850 2900
+Connection ~ 14850 2900
+Wire Wire Line
+	14850 2900 14900 2900
+$Comp
+L power:+3.3V #PWR?
+U 1 1 7DC2C123
+P 14900 8150
+AR Path="/7DC2C123" Ref="#PWR?"  Part="1" 
+AR Path="/61F40005/7DC2C123" Ref="#PWR?"  Part="1" 
+AR Path="/7AD7E6BD/7DC2C123" Ref="#PWR032"  Part="1" 
+F 0 "#PWR032" H 14900 8000 50  0001 C CNN
+F 1 "+3.3V" H 14915 8323 50  0000 C CNN
+F 2 "" H 14900 8150 50  0001 C CNN
+F 3 "" H 14900 8150 50  0001 C CNN
+	1    14900 8150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14900 8250 14900 8150
+Wire Wire Line
+	3100 1900 3100 3300
+Wire Wire Line
+	3100 7350 3100 8750
+$EndSCHEMATC

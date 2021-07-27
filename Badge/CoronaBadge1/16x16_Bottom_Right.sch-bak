@@ -1,0 +1,5594 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 5 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A141
+P 9200 1100
+AR Path="/66E0A141" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A141" Ref="D993"  Part="1" 
+F 0 "D993" V 9246 1030 50  0000 R CNN
+F 1 "LED_Small" V 9155 1030 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 9200 1100 50  0001 C CNN
+F 3 "~" V 9200 1100 50  0001 C CNN
+	1    9200 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A147
+P 9200 1400
+AR Path="/66E0A147" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A147" Ref="D994"  Part="1" 
+F 0 "D994" V 9246 1330 50  0000 R CNN
+F 1 "LED_Small" V 9155 1330 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 9200 1400 50  0001 C CNN
+F 3 "~" V 9200 1400 50  0001 C CNN
+	1    9200 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A14D
+P 9200 1700
+AR Path="/66E0A14D" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A14D" Ref="D995"  Part="1" 
+F 0 "D995" V 9246 1630 50  0000 R CNN
+F 1 "LED_Small" V 9155 1630 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 9200 1700 50  0001 C CNN
+F 3 "~" V 9200 1700 50  0001 C CNN
+	1    9200 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A153
+P 9200 2000
+AR Path="/66E0A153" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A153" Ref="D996"  Part="1" 
+F 0 "D996" V 9246 1930 50  0000 R CNN
+F 1 "LED_Small" V 9155 1930 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 9200 2000 50  0001 C CNN
+F 3 "~" V 9200 2000 50  0001 C CNN
+	1    9200 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A159
+P 9200 2300
+AR Path="/66E0A159" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A159" Ref="D997"  Part="1" 
+F 0 "D997" V 9246 2230 50  0000 R CNN
+F 1 "LED_Small" V 9155 2230 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 9200 2300 50  0001 C CNN
+F 3 "~" V 9200 2300 50  0001 C CNN
+	1    9200 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A15F
+P 9200 2600
+AR Path="/66E0A15F" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A15F" Ref="D998"  Part="1" 
+F 0 "D998" V 9246 2530 50  0000 R CNN
+F 1 "LED_Small" V 9155 2530 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 9200 2600 50  0001 C CNN
+F 3 "~" V 9200 2600 50  0001 C CNN
+	1    9200 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A165
+P 9200 2900
+AR Path="/66E0A165" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A165" Ref="D999"  Part="1" 
+F 0 "D999" V 9246 2830 50  0000 R CNN
+F 1 "LED_Small" V 9155 2830 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 9200 2900 50  0001 C CNN
+F 3 "~" V 9200 2900 50  0001 C CNN
+	1    9200 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A16B
+P 9200 3200
+AR Path="/66E0A16B" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A16B" Ref="D1000"  Part="1" 
+F 0 "D1000" V 9246 3130 50  0000 R CNN
+F 1 "LED_Small" V 9155 3130 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 9200 3200 50  0001 C CNN
+F 3 "~" V 9200 3200 50  0001 C CNN
+	1    9200 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A171
+P 9200 3500
+AR Path="/66E0A171" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A171" Ref="D1001"  Part="1" 
+F 0 "D1001" V 9246 3430 50  0000 R CNN
+F 1 "LED_Small" V 9155 3430 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 9200 3500 50  0001 C CNN
+F 3 "~" V 9200 3500 50  0001 C CNN
+	1    9200 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A177
+P 9200 3800
+AR Path="/66E0A177" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A177" Ref="D1002"  Part="1" 
+F 0 "D1002" V 9246 3730 50  0000 R CNN
+F 1 "LED_Small" V 9155 3730 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 9200 3800 50  0001 C CNN
+F 3 "~" V 9200 3800 50  0001 C CNN
+	1    9200 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A17D
+P 9200 4100
+AR Path="/66E0A17D" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A17D" Ref="D1003"  Part="1" 
+F 0 "D1003" V 9246 4030 50  0000 R CNN
+F 1 "LED_Small" V 9155 4030 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 9200 4100 50  0001 C CNN
+F 3 "~" V 9200 4100 50  0001 C CNN
+	1    9200 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A183
+P 9200 4400
+AR Path="/66E0A183" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A183" Ref="D1004"  Part="1" 
+F 0 "D1004" V 9246 4330 50  0000 R CNN
+F 1 "LED_Small" V 9155 4330 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 9200 4400 50  0001 C CNN
+F 3 "~" V 9200 4400 50  0001 C CNN
+	1    9200 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A189
+P 9200 4700
+AR Path="/66E0A189" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A189" Ref="D1005"  Part="1" 
+F 0 "D1005" V 9246 4630 50  0000 R CNN
+F 1 "LED_Small" V 9155 4630 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 9200 4700 50  0001 C CNN
+F 3 "~" V 9200 4700 50  0001 C CNN
+	1    9200 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A18F
+P 9200 5000
+AR Path="/66E0A18F" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A18F" Ref="D1006"  Part="1" 
+F 0 "D1006" V 9246 4930 50  0000 R CNN
+F 1 "LED_Small" V 9155 4930 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 9200 5000 50  0001 C CNN
+F 3 "~" V 9200 5000 50  0001 C CNN
+	1    9200 5000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A195
+P 9200 5300
+AR Path="/66E0A195" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A195" Ref="D1007"  Part="1" 
+F 0 "D1007" V 9246 5230 50  0000 R CNN
+F 1 "LED_Small" V 9155 5230 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 9200 5300 50  0001 C CNN
+F 3 "~" V 9200 5300 50  0001 C CNN
+	1    9200 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A19B
+P 9200 5600
+AR Path="/66E0A19B" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A19B" Ref="D1008"  Part="1" 
+F 0 "D1008" V 9246 5530 50  0000 R CNN
+F 1 "LED_Small" V 9155 5530 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 9200 5600 50  0001 C CNN
+F 3 "~" V 9200 5600 50  0001 C CNN
+	1    9200 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A1A1
+P 9800 1100
+AR Path="/66E0A1A1" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A1A1" Ref="D1009"  Part="1" 
+F 0 "D1009" V 9846 1030 50  0000 R CNN
+F 1 "LED_Small" V 9755 1030 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 9800 1100 50  0001 C CNN
+F 3 "~" V 9800 1100 50  0001 C CNN
+	1    9800 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A1A7
+P 9800 1400
+AR Path="/66E0A1A7" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A1A7" Ref="D1010"  Part="1" 
+F 0 "D1010" V 9846 1330 50  0000 R CNN
+F 1 "LED_Small" V 9755 1330 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 9800 1400 50  0001 C CNN
+F 3 "~" V 9800 1400 50  0001 C CNN
+	1    9800 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A1AD
+P 9800 1700
+AR Path="/66E0A1AD" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A1AD" Ref="D1011"  Part="1" 
+F 0 "D1011" V 9846 1630 50  0000 R CNN
+F 1 "LED_Small" V 9755 1630 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 9800 1700 50  0001 C CNN
+F 3 "~" V 9800 1700 50  0001 C CNN
+	1    9800 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A1B3
+P 9800 2000
+AR Path="/66E0A1B3" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A1B3" Ref="D1012"  Part="1" 
+F 0 "D1012" V 9846 1930 50  0000 R CNN
+F 1 "LED_Small" V 9755 1930 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 9800 2000 50  0001 C CNN
+F 3 "~" V 9800 2000 50  0001 C CNN
+	1    9800 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A1B9
+P 9800 2300
+AR Path="/66E0A1B9" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A1B9" Ref="D1013"  Part="1" 
+F 0 "D1013" V 9846 2230 50  0000 R CNN
+F 1 "LED_Small" V 9755 2230 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 9800 2300 50  0001 C CNN
+F 3 "~" V 9800 2300 50  0001 C CNN
+	1    9800 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A1BF
+P 9800 2600
+AR Path="/66E0A1BF" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A1BF" Ref="D1014"  Part="1" 
+F 0 "D1014" V 9846 2530 50  0000 R CNN
+F 1 "LED_Small" V 9755 2530 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 9800 2600 50  0001 C CNN
+F 3 "~" V 9800 2600 50  0001 C CNN
+	1    9800 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A1C5
+P 9800 2900
+AR Path="/66E0A1C5" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A1C5" Ref="D1015"  Part="1" 
+F 0 "D1015" V 9846 2830 50  0000 R CNN
+F 1 "LED_Small" V 9755 2830 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 9800 2900 50  0001 C CNN
+F 3 "~" V 9800 2900 50  0001 C CNN
+	1    9800 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A1CB
+P 9800 3200
+AR Path="/66E0A1CB" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A1CB" Ref="D1016"  Part="1" 
+F 0 "D1016" V 9846 3130 50  0000 R CNN
+F 1 "LED_Small" V 9755 3130 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 9800 3200 50  0001 C CNN
+F 3 "~" V 9800 3200 50  0001 C CNN
+	1    9800 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A1D1
+P 9800 3500
+AR Path="/66E0A1D1" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A1D1" Ref="D1017"  Part="1" 
+F 0 "D1017" V 9846 3430 50  0000 R CNN
+F 1 "LED_Small" V 9755 3430 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 9800 3500 50  0001 C CNN
+F 3 "~" V 9800 3500 50  0001 C CNN
+	1    9800 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A1D7
+P 9800 3800
+AR Path="/66E0A1D7" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A1D7" Ref="D1018"  Part="1" 
+F 0 "D1018" V 9846 3730 50  0000 R CNN
+F 1 "LED_Small" V 9755 3730 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 9800 3800 50  0001 C CNN
+F 3 "~" V 9800 3800 50  0001 C CNN
+	1    9800 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A1DD
+P 9800 4100
+AR Path="/66E0A1DD" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A1DD" Ref="D1019"  Part="1" 
+F 0 "D1019" V 9846 4030 50  0000 R CNN
+F 1 "LED_Small" V 9755 4030 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 9800 4100 50  0001 C CNN
+F 3 "~" V 9800 4100 50  0001 C CNN
+	1    9800 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A1E3
+P 9800 4400
+AR Path="/66E0A1E3" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A1E3" Ref="D1020"  Part="1" 
+F 0 "D1020" V 9846 4330 50  0000 R CNN
+F 1 "LED_Small" V 9755 4330 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 9800 4400 50  0001 C CNN
+F 3 "~" V 9800 4400 50  0001 C CNN
+	1    9800 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A1E9
+P 9800 4700
+AR Path="/66E0A1E9" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A1E9" Ref="D1021"  Part="1" 
+F 0 "D1021" V 9846 4630 50  0000 R CNN
+F 1 "LED_Small" V 9755 4630 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 9800 4700 50  0001 C CNN
+F 3 "~" V 9800 4700 50  0001 C CNN
+	1    9800 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A1EF
+P 9800 5000
+AR Path="/66E0A1EF" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A1EF" Ref="D1022"  Part="1" 
+F 0 "D1022" V 9846 4930 50  0000 R CNN
+F 1 "LED_Small" V 9755 4930 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 9800 5000 50  0001 C CNN
+F 3 "~" V 9800 5000 50  0001 C CNN
+	1    9800 5000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A1F5
+P 9800 5300
+AR Path="/66E0A1F5" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A1F5" Ref="D1023"  Part="1" 
+F 0 "D1023" V 9846 5230 50  0000 R CNN
+F 1 "LED_Small" V 9755 5230 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 9800 5300 50  0001 C CNN
+F 3 "~" V 9800 5300 50  0001 C CNN
+	1    9800 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A1FB
+P 9800 5600
+AR Path="/66E0A1FB" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A1FB" Ref="D1024"  Part="1" 
+F 0 "D1024" V 9846 5530 50  0000 R CNN
+F 1 "LED_Small" V 9755 5530 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 9800 5600 50  0001 C CNN
+F 3 "~" V 9800 5600 50  0001 C CNN
+	1    9800 5600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9200 1000 9800 1000
+Wire Wire Line
+	9200 1300 9800 1300
+Wire Wire Line
+	9200 1600 9800 1600
+Wire Wire Line
+	9200 1900 9800 1900
+Wire Wire Line
+	9200 2200 9800 2200
+Wire Wire Line
+	9200 2500 9800 2500
+Wire Wire Line
+	9200 2800 9800 2800
+Wire Wire Line
+	9200 3100 9800 3100
+Wire Wire Line
+	9200 3700 9800 3700
+Wire Wire Line
+	9800 4000 9200 4000
+Wire Wire Line
+	9200 4300 9800 4300
+Wire Wire Line
+	9800 4600 9200 4600
+Wire Wire Line
+	9200 4900 9800 4900
+Wire Wire Line
+	9800 5200 9200 5200
+Wire Wire Line
+	9200 3400 9800 3400
+Wire Wire Line
+	9900 1200 9800 1200
+Wire Wire Line
+	9800 1500 9900 1500
+Connection ~ 9900 1500
+Wire Wire Line
+	9900 1500 9900 1200
+Wire Wire Line
+	9800 1800 9900 1800
+Connection ~ 9900 1800
+Wire Wire Line
+	9900 1800 9900 1500
+Wire Wire Line
+	9800 2100 9900 2100
+Connection ~ 9900 2100
+Wire Wire Line
+	9900 2100 9900 1800
+Wire Wire Line
+	9800 2400 9900 2400
+Connection ~ 9900 2400
+Wire Wire Line
+	9900 2400 9900 2100
+Wire Wire Line
+	9800 2700 9900 2700
+Connection ~ 9900 2700
+Wire Wire Line
+	9900 2700 9900 2400
+Wire Wire Line
+	9800 3000 9900 3000
+Connection ~ 9900 3000
+Wire Wire Line
+	9900 3000 9900 2700
+Wire Wire Line
+	9800 3300 9900 3300
+Connection ~ 9900 3300
+Wire Wire Line
+	9900 3300 9900 3000
+Wire Wire Line
+	9800 3600 9900 3600
+Connection ~ 9900 3600
+Wire Wire Line
+	9900 3600 9900 3300
+Wire Wire Line
+	9800 3900 9900 3900
+Connection ~ 9900 3900
+Wire Wire Line
+	9900 3900 9900 3600
+Wire Wire Line
+	9800 4200 9900 4200
+Connection ~ 9900 4200
+Wire Wire Line
+	9900 4200 9900 3900
+Wire Wire Line
+	9800 4500 9900 4500
+Connection ~ 9900 4500
+Wire Wire Line
+	9900 4500 9900 4200
+Wire Wire Line
+	9800 4800 9900 4800
+Connection ~ 9900 4800
+Wire Wire Line
+	9900 4800 9900 4500
+Wire Wire Line
+	9800 5100 9900 5100
+Connection ~ 9900 5100
+Wire Wire Line
+	9900 5100 9900 4800
+Wire Wire Line
+	9800 5400 9900 5400
+Connection ~ 9900 5400
+Wire Wire Line
+	9900 5400 9900 5100
+Wire Wire Line
+	9800 5700 9900 5700
+Connection ~ 9900 5700
+Wire Wire Line
+	9900 5700 9900 5400
+Wire Wire Line
+	9200 5500 9300 5500
+Wire Wire Line
+	9300 5500 9300 5400
+Wire Wire Line
+	9300 1200 9200 1200
+Connection ~ 9300 5500
+Wire Wire Line
+	9300 5500 9800 5500
+Wire Wire Line
+	9200 1500 9300 1500
+Connection ~ 9300 1500
+Wire Wire Line
+	9300 1500 9300 1200
+Wire Wire Line
+	9200 1800 9300 1800
+Connection ~ 9300 1800
+Wire Wire Line
+	9300 1800 9300 1500
+Wire Wire Line
+	9200 5400 9300 5400
+Connection ~ 9300 5400
+Wire Wire Line
+	9300 5400 9300 5100
+Wire Wire Line
+	9200 5100 9300 5100
+Connection ~ 9300 5100
+Wire Wire Line
+	9300 5100 9300 4800
+Wire Wire Line
+	9200 4800 9300 4800
+Connection ~ 9300 4800
+Wire Wire Line
+	9300 4800 9300 4500
+Wire Wire Line
+	9200 4500 9300 4500
+Connection ~ 9300 4500
+Wire Wire Line
+	9300 4500 9300 4200
+Wire Wire Line
+	9200 4200 9300 4200
+Connection ~ 9300 4200
+Wire Wire Line
+	9300 4200 9300 3900
+Wire Wire Line
+	9200 3900 9300 3900
+Connection ~ 9300 3900
+Wire Wire Line
+	9300 3900 9300 3600
+Wire Wire Line
+	9200 3600 9300 3600
+Connection ~ 9300 3600
+Wire Wire Line
+	9300 3600 9300 3300
+Wire Wire Line
+	9200 3300 9300 3300
+Connection ~ 9300 3300
+Wire Wire Line
+	9300 3300 9300 3000
+Wire Wire Line
+	9200 3000 9300 3000
+Connection ~ 9300 3000
+Wire Wire Line
+	9300 3000 9300 2700
+Wire Wire Line
+	9200 2700 9300 2700
+Connection ~ 9300 2700
+Wire Wire Line
+	9300 2700 9300 2400
+Wire Wire Line
+	9200 2400 9300 2400
+Connection ~ 9300 2400
+Wire Wire Line
+	9300 2400 9300 2100
+Wire Wire Line
+	9200 2100 9300 2100
+Connection ~ 9300 2100
+Wire Wire Line
+	9300 2100 9300 1800
+Wire Wire Line
+	8700 5700 9200 5700
+Wire Wire Line
+	8700 5700 8700 5200
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A26F
+P 8000 5600
+AR Path="/66E0A26F" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A26F" Ref="D976"  Part="1" 
+F 0 "D976" V 8046 5530 50  0000 R CNN
+F 1 "LED_Small" V 7955 5530 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 8000 5600 50  0001 C CNN
+F 3 "~" V 8000 5600 50  0001 C CNN
+	1    8000 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A275
+P 8000 5300
+AR Path="/66E0A275" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A275" Ref="D975"  Part="1" 
+F 0 "D975" V 8046 5230 50  0000 R CNN
+F 1 "LED_Small" V 7955 5230 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 8000 5300 50  0001 C CNN
+F 3 "~" V 8000 5300 50  0001 C CNN
+	1    8000 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A27B
+P 8000 5000
+AR Path="/66E0A27B" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A27B" Ref="D974"  Part="1" 
+F 0 "D974" V 8046 4930 50  0000 R CNN
+F 1 "LED_Small" V 7955 4930 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 8000 5000 50  0001 C CNN
+F 3 "~" V 8000 5000 50  0001 C CNN
+	1    8000 5000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A281
+P 8000 4700
+AR Path="/66E0A281" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A281" Ref="D973"  Part="1" 
+F 0 "D973" V 8046 4630 50  0000 R CNN
+F 1 "LED_Small" V 7955 4630 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 8000 4700 50  0001 C CNN
+F 3 "~" V 8000 4700 50  0001 C CNN
+	1    8000 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A287
+P 8000 4400
+AR Path="/66E0A287" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A287" Ref="D972"  Part="1" 
+F 0 "D972" V 8046 4330 50  0000 R CNN
+F 1 "LED_Small" V 7955 4330 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 8000 4400 50  0001 C CNN
+F 3 "~" V 8000 4400 50  0001 C CNN
+	1    8000 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A28D
+P 8000 4100
+AR Path="/66E0A28D" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A28D" Ref="D971"  Part="1" 
+F 0 "D971" V 8046 4030 50  0000 R CNN
+F 1 "LED_Small" V 7955 4030 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 8000 4100 50  0001 C CNN
+F 3 "~" V 8000 4100 50  0001 C CNN
+	1    8000 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A293
+P 8000 3800
+AR Path="/66E0A293" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A293" Ref="D970"  Part="1" 
+F 0 "D970" V 8046 3730 50  0000 R CNN
+F 1 "LED_Small" V 7955 3730 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 8000 3800 50  0001 C CNN
+F 3 "~" V 8000 3800 50  0001 C CNN
+	1    8000 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A299
+P 8000 3500
+AR Path="/66E0A299" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A299" Ref="D969"  Part="1" 
+F 0 "D969" V 8046 3430 50  0000 R CNN
+F 1 "LED_Small" V 7955 3430 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 8000 3500 50  0001 C CNN
+F 3 "~" V 8000 3500 50  0001 C CNN
+	1    8000 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A29F
+P 8000 3200
+AR Path="/66E0A29F" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A29F" Ref="D968"  Part="1" 
+F 0 "D968" V 8046 3130 50  0000 R CNN
+F 1 "LED_Small" V 7955 3130 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 8000 3200 50  0001 C CNN
+F 3 "~" V 8000 3200 50  0001 C CNN
+	1    8000 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A2A5
+P 8000 2900
+AR Path="/66E0A2A5" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A2A5" Ref="D967"  Part="1" 
+F 0 "D967" V 8046 2830 50  0000 R CNN
+F 1 "LED_Small" V 7955 2830 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 8000 2900 50  0001 C CNN
+F 3 "~" V 8000 2900 50  0001 C CNN
+	1    8000 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A2AB
+P 8000 2600
+AR Path="/66E0A2AB" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A2AB" Ref="D966"  Part="1" 
+F 0 "D966" V 8046 2530 50  0000 R CNN
+F 1 "LED_Small" V 7955 2530 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 8000 2600 50  0001 C CNN
+F 3 "~" V 8000 2600 50  0001 C CNN
+	1    8000 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A2B1
+P 8000 2300
+AR Path="/66E0A2B1" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A2B1" Ref="D965"  Part="1" 
+F 0 "D965" V 8046 2230 50  0000 R CNN
+F 1 "LED_Small" V 7955 2230 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 8000 2300 50  0001 C CNN
+F 3 "~" V 8000 2300 50  0001 C CNN
+	1    8000 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A2B7
+P 8000 2000
+AR Path="/66E0A2B7" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A2B7" Ref="D964"  Part="1" 
+F 0 "D964" V 8046 1930 50  0000 R CNN
+F 1 "LED_Small" V 7955 1930 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 8000 2000 50  0001 C CNN
+F 3 "~" V 8000 2000 50  0001 C CNN
+	1    8000 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A2BD
+P 8000 1700
+AR Path="/66E0A2BD" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A2BD" Ref="D963"  Part="1" 
+F 0 "D963" V 8046 1630 50  0000 R CNN
+F 1 "LED_Small" V 7955 1630 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 8000 1700 50  0001 C CNN
+F 3 "~" V 8000 1700 50  0001 C CNN
+	1    8000 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A2C3
+P 8000 1400
+AR Path="/66E0A2C3" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A2C3" Ref="D962"  Part="1" 
+F 0 "D962" V 8046 1330 50  0000 R CNN
+F 1 "LED_Small" V 7955 1330 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 8000 1400 50  0001 C CNN
+F 3 "~" V 8000 1400 50  0001 C CNN
+	1    8000 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A2C9
+P 8000 1100
+AR Path="/66E0A2C9" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A2C9" Ref="D961"  Part="1" 
+F 0 "D961" V 8046 1030 50  0000 R CNN
+F 1 "LED_Small" V 7955 1030 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 8000 1100 50  0001 C CNN
+F 3 "~" V 8000 1100 50  0001 C CNN
+	1    8000 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7400 5500 8000 5500
+Connection ~ 7400 5500
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A2D1
+P 7400 5600
+AR Path="/66E0A2D1" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A2D1" Ref="D960"  Part="1" 
+F 0 "D960" V 7446 5530 50  0000 R CNN
+F 1 "LED_Small" V 7355 5530 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 7400 5600 50  0001 C CNN
+F 3 "~" V 7400 5600 50  0001 C CNN
+	1    7400 5600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8000 5200 7400 5200
+Connection ~ 7400 5200
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A2D9
+P 7400 5300
+AR Path="/66E0A2D9" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A2D9" Ref="D959"  Part="1" 
+F 0 "D959" V 7446 5230 50  0000 R CNN
+F 1 "LED_Small" V 7355 5230 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 7400 5300 50  0001 C CNN
+F 3 "~" V 7400 5300 50  0001 C CNN
+	1    7400 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7400 4900 8000 4900
+Connection ~ 7400 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A2E1
+P 7400 5000
+AR Path="/66E0A2E1" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A2E1" Ref="D958"  Part="1" 
+F 0 "D958" V 7446 4930 50  0000 R CNN
+F 1 "LED_Small" V 7355 4930 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 7400 5000 50  0001 C CNN
+F 3 "~" V 7400 5000 50  0001 C CNN
+	1    7400 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8000 4600 7500 4600
+Connection ~ 7400 4600
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A2E9
+P 7400 4700
+AR Path="/66E0A2E9" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A2E9" Ref="D957"  Part="1" 
+F 0 "D957" V 7446 4630 50  0000 R CNN
+F 1 "LED_Small" V 7355 4630 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 7400 4700 50  0001 C CNN
+F 3 "~" V 7400 4700 50  0001 C CNN
+	1    7400 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7400 4300 8000 4300
+Connection ~ 7400 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A2F1
+P 7400 4400
+AR Path="/66E0A2F1" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A2F1" Ref="D956"  Part="1" 
+F 0 "D956" V 7446 4330 50  0000 R CNN
+F 1 "LED_Small" V 7355 4330 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 7400 4400 50  0001 C CNN
+F 3 "~" V 7400 4400 50  0001 C CNN
+	1    7400 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8000 4000 7400 4000
+Connection ~ 7400 4000
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A2F9
+P 7400 4100
+AR Path="/66E0A2F9" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A2F9" Ref="D955"  Part="1" 
+F 0 "D955" V 7446 4030 50  0000 R CNN
+F 1 "LED_Small" V 7355 4030 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 7400 4100 50  0001 C CNN
+F 3 "~" V 7400 4100 50  0001 C CNN
+	1    7400 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7400 3700 8000 3700
+Connection ~ 7400 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A301
+P 7400 3800
+AR Path="/66E0A301" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A301" Ref="D954"  Part="1" 
+F 0 "D954" V 7446 3730 50  0000 R CNN
+F 1 "LED_Small" V 7355 3730 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 7400 3800 50  0001 C CNN
+F 3 "~" V 7400 3800 50  0001 C CNN
+	1    7400 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8000 3400 7400 3400
+Connection ~ 7400 3400
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A309
+P 7400 3500
+AR Path="/66E0A309" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A309" Ref="D953"  Part="1" 
+F 0 "D953" V 7446 3430 50  0000 R CNN
+F 1 "LED_Small" V 7355 3430 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 7400 3500 50  0001 C CNN
+F 3 "~" V 7400 3500 50  0001 C CNN
+	1    7400 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7400 3100 8000 3100
+Connection ~ 7400 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A311
+P 7400 3200
+AR Path="/66E0A311" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A311" Ref="D952"  Part="1" 
+F 0 "D952" V 7446 3130 50  0000 R CNN
+F 1 "LED_Small" V 7355 3130 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 7400 3200 50  0001 C CNN
+F 3 "~" V 7400 3200 50  0001 C CNN
+	1    7400 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7400 2800 8000 2800
+Connection ~ 7400 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A319
+P 7400 2900
+AR Path="/66E0A319" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A319" Ref="D951"  Part="1" 
+F 0 "D951" V 7446 2830 50  0000 R CNN
+F 1 "LED_Small" V 7355 2830 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 7400 2900 50  0001 C CNN
+F 3 "~" V 7400 2900 50  0001 C CNN
+	1    7400 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7400 2500 8000 2500
+Connection ~ 7400 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A321
+P 7400 2600
+AR Path="/66E0A321" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A321" Ref="D950"  Part="1" 
+F 0 "D950" V 7446 2530 50  0000 R CNN
+F 1 "LED_Small" V 7355 2530 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 7400 2600 50  0001 C CNN
+F 3 "~" V 7400 2600 50  0001 C CNN
+	1    7400 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7400 2200 8000 2200
+Connection ~ 7400 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A329
+P 7400 2300
+AR Path="/66E0A329" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A329" Ref="D949"  Part="1" 
+F 0 "D949" V 7446 2230 50  0000 R CNN
+F 1 "LED_Small" V 7355 2230 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 7400 2300 50  0001 C CNN
+F 3 "~" V 7400 2300 50  0001 C CNN
+	1    7400 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7400 1900 8000 1900
+Connection ~ 7400 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A331
+P 7400 2000
+AR Path="/66E0A331" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A331" Ref="D948"  Part="1" 
+F 0 "D948" V 7446 1930 50  0000 R CNN
+F 1 "LED_Small" V 7355 1930 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 7400 2000 50  0001 C CNN
+F 3 "~" V 7400 2000 50  0001 C CNN
+	1    7400 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7400 1600 8000 1600
+Connection ~ 7400 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A339
+P 7400 1700
+AR Path="/66E0A339" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A339" Ref="D947"  Part="1" 
+F 0 "D947" V 7446 1630 50  0000 R CNN
+F 1 "LED_Small" V 7355 1630 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 7400 1700 50  0001 C CNN
+F 3 "~" V 7400 1700 50  0001 C CNN
+	1    7400 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7400 1300 8000 1300
+Connection ~ 7400 1300
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A341
+P 7400 1400
+AR Path="/66E0A341" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A341" Ref="D946"  Part="1" 
+F 0 "D946" V 7446 1330 50  0000 R CNN
+F 1 "LED_Small" V 7355 1330 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 7400 1400 50  0001 C CNN
+F 3 "~" V 7400 1400 50  0001 C CNN
+	1    7400 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7400 1000 8000 1000
+Connection ~ 7400 1000
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A349
+P 7400 1100
+AR Path="/66E0A349" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A349" Ref="D945"  Part="1" 
+F 0 "D945" V 7446 1030 50  0000 R CNN
+F 1 "LED_Small" V 7355 1030 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 7400 1100 50  0001 C CNN
+F 3 "~" V 7400 1100 50  0001 C CNN
+	1    7400 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6800 5500 7400 5500
+Connection ~ 6800 5500
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A351
+P 6800 5600
+AR Path="/66E0A351" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A351" Ref="D944"  Part="1" 
+F 0 "D944" V 6846 5530 50  0000 R CNN
+F 1 "LED_Small" V 6755 5530 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 6800 5600 50  0001 C CNN
+F 3 "~" V 6800 5600 50  0001 C CNN
+	1    6800 5600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7400 5200 6800 5200
+Connection ~ 6800 5200
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A359
+P 6800 5300
+AR Path="/66E0A359" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A359" Ref="D943"  Part="1" 
+F 0 "D943" V 6846 5230 50  0000 R CNN
+F 1 "LED_Small" V 6755 5230 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 6800 5300 50  0001 C CNN
+F 3 "~" V 6800 5300 50  0001 C CNN
+	1    6800 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6800 4900 7400 4900
+Connection ~ 6800 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A361
+P 6800 5000
+AR Path="/66E0A361" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A361" Ref="D942"  Part="1" 
+F 0 "D942" V 6846 4930 50  0000 R CNN
+F 1 "LED_Small" V 6755 4930 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 6800 5000 50  0001 C CNN
+F 3 "~" V 6800 5000 50  0001 C CNN
+	1    6800 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7400 4600 6800 4600
+Connection ~ 6800 4600
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A369
+P 6800 4700
+AR Path="/66E0A369" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A369" Ref="D941"  Part="1" 
+F 0 "D941" V 6846 4630 50  0000 R CNN
+F 1 "LED_Small" V 6755 4630 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 6800 4700 50  0001 C CNN
+F 3 "~" V 6800 4700 50  0001 C CNN
+	1    6800 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6800 4300 6900 4300
+Connection ~ 6800 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A371
+P 6800 4400
+AR Path="/66E0A371" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A371" Ref="D940"  Part="1" 
+F 0 "D940" V 6846 4330 50  0000 R CNN
+F 1 "LED_Small" V 6755 4330 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 6800 4400 50  0001 C CNN
+F 3 "~" V 6800 4400 50  0001 C CNN
+	1    6800 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7400 4000 6800 4000
+Connection ~ 6800 4000
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A379
+P 6800 4100
+AR Path="/66E0A379" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A379" Ref="D939"  Part="1" 
+F 0 "D939" V 6846 4030 50  0000 R CNN
+F 1 "LED_Small" V 6755 4030 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 6800 4100 50  0001 C CNN
+F 3 "~" V 6800 4100 50  0001 C CNN
+	1    6800 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6800 3700 7400 3700
+Connection ~ 6800 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A381
+P 6800 3800
+AR Path="/66E0A381" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A381" Ref="D938"  Part="1" 
+F 0 "D938" V 6846 3730 50  0000 R CNN
+F 1 "LED_Small" V 6755 3730 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 6800 3800 50  0001 C CNN
+F 3 "~" V 6800 3800 50  0001 C CNN
+	1    6800 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7400 3400 6800 3400
+Connection ~ 6800 3400
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A389
+P 6800 3500
+AR Path="/66E0A389" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A389" Ref="D937"  Part="1" 
+F 0 "D937" V 6846 3430 50  0000 R CNN
+F 1 "LED_Small" V 6755 3430 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 6800 3500 50  0001 C CNN
+F 3 "~" V 6800 3500 50  0001 C CNN
+	1    6800 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6800 3100 7400 3100
+Connection ~ 6800 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A391
+P 6800 3200
+AR Path="/66E0A391" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A391" Ref="D936"  Part="1" 
+F 0 "D936" V 6846 3130 50  0000 R CNN
+F 1 "LED_Small" V 6755 3130 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 6800 3200 50  0001 C CNN
+F 3 "~" V 6800 3200 50  0001 C CNN
+	1    6800 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6800 2800 7400 2800
+Connection ~ 6800 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A399
+P 6800 2900
+AR Path="/66E0A399" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A399" Ref="D935"  Part="1" 
+F 0 "D935" V 6846 2830 50  0000 R CNN
+F 1 "LED_Small" V 6755 2830 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 6800 2900 50  0001 C CNN
+F 3 "~" V 6800 2900 50  0001 C CNN
+	1    6800 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6800 2500 7400 2500
+Connection ~ 6800 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A3A1
+P 6800 2600
+AR Path="/66E0A3A1" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A3A1" Ref="D934"  Part="1" 
+F 0 "D934" V 6846 2530 50  0000 R CNN
+F 1 "LED_Small" V 6755 2530 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 6800 2600 50  0001 C CNN
+F 3 "~" V 6800 2600 50  0001 C CNN
+	1    6800 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6800 2200 7400 2200
+Connection ~ 6800 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A3A9
+P 6800 2300
+AR Path="/66E0A3A9" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A3A9" Ref="D933"  Part="1" 
+F 0 "D933" V 6846 2230 50  0000 R CNN
+F 1 "LED_Small" V 6755 2230 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 6800 2300 50  0001 C CNN
+F 3 "~" V 6800 2300 50  0001 C CNN
+	1    6800 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6800 1900 7400 1900
+Connection ~ 6800 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A3B1
+P 6800 2000
+AR Path="/66E0A3B1" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A3B1" Ref="D932"  Part="1" 
+F 0 "D932" V 6846 1930 50  0000 R CNN
+F 1 "LED_Small" V 6755 1930 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 6800 2000 50  0001 C CNN
+F 3 "~" V 6800 2000 50  0001 C CNN
+	1    6800 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6800 1600 7400 1600
+Connection ~ 6800 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A3B9
+P 6800 1700
+AR Path="/66E0A3B9" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A3B9" Ref="D931"  Part="1" 
+F 0 "D931" V 6846 1630 50  0000 R CNN
+F 1 "LED_Small" V 6755 1630 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 6800 1700 50  0001 C CNN
+F 3 "~" V 6800 1700 50  0001 C CNN
+	1    6800 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6800 1300 7400 1300
+Connection ~ 6800 1300
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A3C1
+P 6800 1400
+AR Path="/66E0A3C1" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A3C1" Ref="D930"  Part="1" 
+F 0 "D930" V 6846 1330 50  0000 R CNN
+F 1 "LED_Small" V 6755 1330 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 6800 1400 50  0001 C CNN
+F 3 "~" V 6800 1400 50  0001 C CNN
+	1    6800 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6800 1000 7400 1000
+Connection ~ 6800 1000
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A3C9
+P 6800 1100
+AR Path="/66E0A3C9" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A3C9" Ref="D929"  Part="1" 
+F 0 "D929" V 6846 1030 50  0000 R CNN
+F 1 "LED_Small" V 6755 1030 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 6800 1100 50  0001 C CNN
+F 3 "~" V 6800 1100 50  0001 C CNN
+	1    6800 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 5500 6800 5500
+Connection ~ 6200 5500
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A3D1
+P 6200 5600
+AR Path="/66E0A3D1" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A3D1" Ref="D928"  Part="1" 
+F 0 "D928" V 6246 5530 50  0000 R CNN
+F 1 "LED_Small" V 6155 5530 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 6200 5600 50  0001 C CNN
+F 3 "~" V 6200 5600 50  0001 C CNN
+	1    6200 5600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6800 5200 6200 5200
+Connection ~ 6200 5200
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A3D9
+P 6200 5300
+AR Path="/66E0A3D9" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A3D9" Ref="D927"  Part="1" 
+F 0 "D927" V 6246 5230 50  0000 R CNN
+F 1 "LED_Small" V 6155 5230 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 6200 5300 50  0001 C CNN
+F 3 "~" V 6200 5300 50  0001 C CNN
+	1    6200 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 4900 6800 4900
+Connection ~ 6200 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A3E1
+P 6200 5000
+AR Path="/66E0A3E1" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A3E1" Ref="D926"  Part="1" 
+F 0 "D926" V 6246 4930 50  0000 R CNN
+F 1 "LED_Small" V 6155 4930 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 6200 5000 50  0001 C CNN
+F 3 "~" V 6200 5000 50  0001 C CNN
+	1    6200 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6800 4600 6200 4600
+Connection ~ 6200 4600
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A3E9
+P 6200 4700
+AR Path="/66E0A3E9" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A3E9" Ref="D925"  Part="1" 
+F 0 "D925" V 6246 4630 50  0000 R CNN
+F 1 "LED_Small" V 6155 4630 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 6200 4700 50  0001 C CNN
+F 3 "~" V 6200 4700 50  0001 C CNN
+	1    6200 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 4300 6800 4300
+Connection ~ 6200 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A3F1
+P 6200 4400
+AR Path="/66E0A3F1" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A3F1" Ref="D924"  Part="1" 
+F 0 "D924" V 6246 4330 50  0000 R CNN
+F 1 "LED_Small" V 6155 4330 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 6200 4400 50  0001 C CNN
+F 3 "~" V 6200 4400 50  0001 C CNN
+	1    6200 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6800 4000 6300 4000
+Connection ~ 6200 4000
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A3F9
+P 6200 4100
+AR Path="/66E0A3F9" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A3F9" Ref="D923"  Part="1" 
+F 0 "D923" V 6246 4030 50  0000 R CNN
+F 1 "LED_Small" V 6155 4030 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 6200 4100 50  0001 C CNN
+F 3 "~" V 6200 4100 50  0001 C CNN
+	1    6200 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 3700 6800 3700
+Connection ~ 6200 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A401
+P 6200 3800
+AR Path="/66E0A401" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A401" Ref="D922"  Part="1" 
+F 0 "D922" V 6246 3730 50  0000 R CNN
+F 1 "LED_Small" V 6155 3730 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 6200 3800 50  0001 C CNN
+F 3 "~" V 6200 3800 50  0001 C CNN
+	1    6200 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6800 3400 6200 3400
+Connection ~ 6200 3400
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A409
+P 6200 3500
+AR Path="/66E0A409" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A409" Ref="D921"  Part="1" 
+F 0 "D921" V 6246 3430 50  0000 R CNN
+F 1 "LED_Small" V 6155 3430 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 6200 3500 50  0001 C CNN
+F 3 "~" V 6200 3500 50  0001 C CNN
+	1    6200 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 3100 6800 3100
+Connection ~ 6200 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A411
+P 6200 3200
+AR Path="/66E0A411" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A411" Ref="D920"  Part="1" 
+F 0 "D920" V 6246 3130 50  0000 R CNN
+F 1 "LED_Small" V 6155 3130 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 6200 3200 50  0001 C CNN
+F 3 "~" V 6200 3200 50  0001 C CNN
+	1    6200 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 2800 6800 2800
+Connection ~ 6200 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A419
+P 6200 2900
+AR Path="/66E0A419" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A419" Ref="D919"  Part="1" 
+F 0 "D919" V 6246 2830 50  0000 R CNN
+F 1 "LED_Small" V 6155 2830 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 6200 2900 50  0001 C CNN
+F 3 "~" V 6200 2900 50  0001 C CNN
+	1    6200 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 2500 6800 2500
+Connection ~ 6200 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A421
+P 6200 2600
+AR Path="/66E0A421" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A421" Ref="D918"  Part="1" 
+F 0 "D918" V 6246 2530 50  0000 R CNN
+F 1 "LED_Small" V 6155 2530 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 6200 2600 50  0001 C CNN
+F 3 "~" V 6200 2600 50  0001 C CNN
+	1    6200 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 2200 6800 2200
+Connection ~ 6200 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A429
+P 6200 2300
+AR Path="/66E0A429" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A429" Ref="D917"  Part="1" 
+F 0 "D917" V 6246 2230 50  0000 R CNN
+F 1 "LED_Small" V 6155 2230 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 6200 2300 50  0001 C CNN
+F 3 "~" V 6200 2300 50  0001 C CNN
+	1    6200 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 1900 6800 1900
+Connection ~ 6200 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A431
+P 6200 2000
+AR Path="/66E0A431" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A431" Ref="D916"  Part="1" 
+F 0 "D916" V 6246 1930 50  0000 R CNN
+F 1 "LED_Small" V 6155 1930 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 6200 2000 50  0001 C CNN
+F 3 "~" V 6200 2000 50  0001 C CNN
+	1    6200 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 1600 6800 1600
+Connection ~ 6200 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A439
+P 6200 1700
+AR Path="/66E0A439" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A439" Ref="D915"  Part="1" 
+F 0 "D915" V 6246 1630 50  0000 R CNN
+F 1 "LED_Small" V 6155 1630 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 6200 1700 50  0001 C CNN
+F 3 "~" V 6200 1700 50  0001 C CNN
+	1    6200 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 1300 6800 1300
+Connection ~ 6200 1300
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A441
+P 6200 1400
+AR Path="/66E0A441" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A441" Ref="D914"  Part="1" 
+F 0 "D914" V 6246 1330 50  0000 R CNN
+F 1 "LED_Small" V 6155 1330 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 6200 1400 50  0001 C CNN
+F 3 "~" V 6200 1400 50  0001 C CNN
+	1    6200 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 1000 6800 1000
+Connection ~ 6200 1000
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A449
+P 6200 1100
+AR Path="/66E0A449" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A449" Ref="D913"  Part="1" 
+F 0 "D913" V 6246 1030 50  0000 R CNN
+F 1 "LED_Small" V 6155 1030 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 6200 1100 50  0001 C CNN
+F 3 "~" V 6200 1100 50  0001 C CNN
+	1    6200 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5600 5500 6200 5500
+Connection ~ 5600 5500
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A451
+P 5600 5600
+AR Path="/66E0A451" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A451" Ref="D912"  Part="1" 
+F 0 "D912" V 5646 5530 50  0000 R CNN
+F 1 "LED_Small" V 5555 5530 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 5600 5600 50  0001 C CNN
+F 3 "~" V 5600 5600 50  0001 C CNN
+	1    5600 5600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 5200 5600 5200
+Connection ~ 5600 5200
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A459
+P 5600 5300
+AR Path="/66E0A459" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A459" Ref="D911"  Part="1" 
+F 0 "D911" V 5646 5230 50  0000 R CNN
+F 1 "LED_Small" V 5555 5230 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 5600 5300 50  0001 C CNN
+F 3 "~" V 5600 5300 50  0001 C CNN
+	1    5600 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5600 4900 6200 4900
+Connection ~ 5600 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A461
+P 5600 5000
+AR Path="/66E0A461" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A461" Ref="D910"  Part="1" 
+F 0 "D910" V 5646 4930 50  0000 R CNN
+F 1 "LED_Small" V 5555 4930 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 5600 5000 50  0001 C CNN
+F 3 "~" V 5600 5000 50  0001 C CNN
+	1    5600 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 4600 5600 4600
+Connection ~ 5600 4600
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A469
+P 5600 4700
+AR Path="/66E0A469" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A469" Ref="D909"  Part="1" 
+F 0 "D909" V 5646 4630 50  0000 R CNN
+F 1 "LED_Small" V 5555 4630 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 5600 4700 50  0001 C CNN
+F 3 "~" V 5600 4700 50  0001 C CNN
+	1    5600 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5600 4300 6200 4300
+Connection ~ 5600 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A471
+P 5600 4400
+AR Path="/66E0A471" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A471" Ref="D908"  Part="1" 
+F 0 "D908" V 5646 4330 50  0000 R CNN
+F 1 "LED_Small" V 5555 4330 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 5600 4400 50  0001 C CNN
+F 3 "~" V 5600 4400 50  0001 C CNN
+	1    5600 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 4000 5600 4000
+Connection ~ 5600 4000
+Wire Wire Line
+	5600 3700 5700 3700
+Connection ~ 5600 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A47B
+P 5600 3800
+AR Path="/66E0A47B" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A47B" Ref="D906"  Part="1" 
+F 0 "D906" V 5646 3730 50  0000 R CNN
+F 1 "LED_Small" V 5555 3730 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 5600 3800 50  0001 C CNN
+F 3 "~" V 5600 3800 50  0001 C CNN
+	1    5600 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 3400 5600 3400
+Connection ~ 5600 3400
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A483
+P 5600 3500
+AR Path="/66E0A483" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A483" Ref="D905"  Part="1" 
+F 0 "D905" V 5646 3430 50  0000 R CNN
+F 1 "LED_Small" V 5555 3430 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 5600 3500 50  0001 C CNN
+F 3 "~" V 5600 3500 50  0001 C CNN
+	1    5600 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5600 3100 6200 3100
+Connection ~ 5600 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A48B
+P 5600 3200
+AR Path="/66E0A48B" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A48B" Ref="D904"  Part="1" 
+F 0 "D904" V 5646 3130 50  0000 R CNN
+F 1 "LED_Small" V 5555 3130 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 5600 3200 50  0001 C CNN
+F 3 "~" V 5600 3200 50  0001 C CNN
+	1    5600 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5600 2800 6200 2800
+Connection ~ 5600 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A493
+P 5600 2900
+AR Path="/66E0A493" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A493" Ref="D903"  Part="1" 
+F 0 "D903" V 5646 2830 50  0000 R CNN
+F 1 "LED_Small" V 5555 2830 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 5600 2900 50  0001 C CNN
+F 3 "~" V 5600 2900 50  0001 C CNN
+	1    5600 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5600 2500 6200 2500
+Connection ~ 5600 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A49B
+P 5600 2600
+AR Path="/66E0A49B" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A49B" Ref="D902"  Part="1" 
+F 0 "D902" V 5646 2530 50  0000 R CNN
+F 1 "LED_Small" V 5555 2530 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 5600 2600 50  0001 C CNN
+F 3 "~" V 5600 2600 50  0001 C CNN
+	1    5600 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5600 2200 6200 2200
+Connection ~ 5600 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A4A3
+P 5600 2300
+AR Path="/66E0A4A3" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A4A3" Ref="D901"  Part="1" 
+F 0 "D901" V 5646 2230 50  0000 R CNN
+F 1 "LED_Small" V 5555 2230 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 5600 2300 50  0001 C CNN
+F 3 "~" V 5600 2300 50  0001 C CNN
+	1    5600 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5600 1900 6200 1900
+Connection ~ 5600 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A4AB
+P 5600 2000
+AR Path="/66E0A4AB" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A4AB" Ref="D900"  Part="1" 
+F 0 "D900" V 5646 1930 50  0000 R CNN
+F 1 "LED_Small" V 5555 1930 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 5600 2000 50  0001 C CNN
+F 3 "~" V 5600 2000 50  0001 C CNN
+	1    5600 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5600 1600 6200 1600
+Connection ~ 5600 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A4B3
+P 5600 1700
+AR Path="/66E0A4B3" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A4B3" Ref="D899"  Part="1" 
+F 0 "D899" V 5646 1630 50  0000 R CNN
+F 1 "LED_Small" V 5555 1630 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 5600 1700 50  0001 C CNN
+F 3 "~" V 5600 1700 50  0001 C CNN
+	1    5600 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5600 1300 6200 1300
+Connection ~ 5600 1300
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A4BB
+P 5600 1400
+AR Path="/66E0A4BB" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A4BB" Ref="D898"  Part="1" 
+F 0 "D898" V 5646 1330 50  0000 R CNN
+F 1 "LED_Small" V 5555 1330 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 5600 1400 50  0001 C CNN
+F 3 "~" V 5600 1400 50  0001 C CNN
+	1    5600 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5600 1000 6200 1000
+Connection ~ 5600 1000
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A4C3
+P 5600 1100
+AR Path="/66E0A4C3" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A4C3" Ref="D897"  Part="1" 
+F 0 "D897" V 5646 1030 50  0000 R CNN
+F 1 "LED_Small" V 5555 1030 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 5600 1100 50  0001 C CNN
+F 3 "~" V 5600 1100 50  0001 C CNN
+	1    5600 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5000 5500 5600 5500
+Connection ~ 5000 5500
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A4CB
+P 5000 5600
+AR Path="/66E0A4CB" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A4CB" Ref="D896"  Part="1" 
+F 0 "D896" V 5046 5530 50  0000 R CNN
+F 1 "LED_Small" V 4955 5530 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 5000 5600 50  0001 C CNN
+F 3 "~" V 5000 5600 50  0001 C CNN
+	1    5000 5600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5600 5200 5000 5200
+Connection ~ 5000 5200
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A4D3
+P 5000 5300
+AR Path="/66E0A4D3" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A4D3" Ref="D895"  Part="1" 
+F 0 "D895" V 5046 5230 50  0000 R CNN
+F 1 "LED_Small" V 4955 5230 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 5000 5300 50  0001 C CNN
+F 3 "~" V 5000 5300 50  0001 C CNN
+	1    5000 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5000 4900 5600 4900
+Connection ~ 5000 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A4DB
+P 5000 5000
+AR Path="/66E0A4DB" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A4DB" Ref="D894"  Part="1" 
+F 0 "D894" V 5046 4930 50  0000 R CNN
+F 1 "LED_Small" V 4955 4930 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 5000 5000 50  0001 C CNN
+F 3 "~" V 5000 5000 50  0001 C CNN
+	1    5000 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5600 4600 5000 4600
+Connection ~ 5000 4600
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A4E3
+P 5000 4700
+AR Path="/66E0A4E3" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A4E3" Ref="D893"  Part="1" 
+F 0 "D893" V 5046 4630 50  0000 R CNN
+F 1 "LED_Small" V 4955 4630 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 5000 4700 50  0001 C CNN
+F 3 "~" V 5000 4700 50  0001 C CNN
+	1    5000 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5000 4300 5600 4300
+Connection ~ 5000 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A4EB
+P 5000 4400
+AR Path="/66E0A4EB" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A4EB" Ref="D892"  Part="1" 
+F 0 "D892" V 5046 4330 50  0000 R CNN
+F 1 "LED_Small" V 4955 4330 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 5000 4400 50  0001 C CNN
+F 3 "~" V 5000 4400 50  0001 C CNN
+	1    5000 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5600 4000 5000 4000
+Connection ~ 5000 4000
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A4F3
+P 5000 4100
+AR Path="/66E0A4F3" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A4F3" Ref="D891"  Part="1" 
+F 0 "D891" V 5046 4030 50  0000 R CNN
+F 1 "LED_Small" V 4955 4030 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 5000 4100 50  0001 C CNN
+F 3 "~" V 5000 4100 50  0001 C CNN
+	1    5000 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5000 3700 5600 3700
+Connection ~ 5000 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A4FB
+P 5000 3800
+AR Path="/66E0A4FB" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A4FB" Ref="D890"  Part="1" 
+F 0 "D890" V 5046 3730 50  0000 R CNN
+F 1 "LED_Small" V 4955 3730 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 5000 3800 50  0001 C CNN
+F 3 "~" V 5000 3800 50  0001 C CNN
+	1    5000 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5600 3400 5100 3400
+Connection ~ 5000 3400
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A503
+P 5000 3500
+AR Path="/66E0A503" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A503" Ref="D889"  Part="1" 
+F 0 "D889" V 5046 3430 50  0000 R CNN
+F 1 "LED_Small" V 4955 3430 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 5000 3500 50  0001 C CNN
+F 3 "~" V 5000 3500 50  0001 C CNN
+	1    5000 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5000 3100 5600 3100
+Connection ~ 5000 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A50B
+P 5000 3200
+AR Path="/66E0A50B" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A50B" Ref="D888"  Part="1" 
+F 0 "D888" V 5046 3130 50  0000 R CNN
+F 1 "LED_Small" V 4955 3130 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 5000 3200 50  0001 C CNN
+F 3 "~" V 5000 3200 50  0001 C CNN
+	1    5000 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5000 2800 5600 2800
+Connection ~ 5000 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A513
+P 5000 2900
+AR Path="/66E0A513" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A513" Ref="D887"  Part="1" 
+F 0 "D887" V 5046 2830 50  0000 R CNN
+F 1 "LED_Small" V 4955 2830 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 5000 2900 50  0001 C CNN
+F 3 "~" V 5000 2900 50  0001 C CNN
+	1    5000 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5000 2500 5600 2500
+Connection ~ 5000 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A51B
+P 5000 2600
+AR Path="/66E0A51B" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A51B" Ref="D886"  Part="1" 
+F 0 "D886" V 5046 2530 50  0000 R CNN
+F 1 "LED_Small" V 4955 2530 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 5000 2600 50  0001 C CNN
+F 3 "~" V 5000 2600 50  0001 C CNN
+	1    5000 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5000 2200 5600 2200
+Connection ~ 5000 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A523
+P 5000 2300
+AR Path="/66E0A523" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A523" Ref="D885"  Part="1" 
+F 0 "D885" V 5046 2230 50  0000 R CNN
+F 1 "LED_Small" V 4955 2230 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 5000 2300 50  0001 C CNN
+F 3 "~" V 5000 2300 50  0001 C CNN
+	1    5000 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5000 1900 5600 1900
+Connection ~ 5000 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A52B
+P 5000 2000
+AR Path="/66E0A52B" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A52B" Ref="D884"  Part="1" 
+F 0 "D884" V 5046 1930 50  0000 R CNN
+F 1 "LED_Small" V 4955 1930 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 5000 2000 50  0001 C CNN
+F 3 "~" V 5000 2000 50  0001 C CNN
+	1    5000 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5000 1600 5600 1600
+Connection ~ 5000 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A533
+P 5000 1700
+AR Path="/66E0A533" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A533" Ref="D883"  Part="1" 
+F 0 "D883" V 5046 1630 50  0000 R CNN
+F 1 "LED_Small" V 4955 1630 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 5000 1700 50  0001 C CNN
+F 3 "~" V 5000 1700 50  0001 C CNN
+	1    5000 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5000 1300 5600 1300
+Connection ~ 5000 1300
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A53B
+P 5000 1400
+AR Path="/66E0A53B" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A53B" Ref="D882"  Part="1" 
+F 0 "D882" V 5046 1330 50  0000 R CNN
+F 1 "LED_Small" V 4955 1330 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 5000 1400 50  0001 C CNN
+F 3 "~" V 5000 1400 50  0001 C CNN
+	1    5000 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5000 1000 5600 1000
+Connection ~ 5000 1000
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A543
+P 5000 1100
+AR Path="/66E0A543" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A543" Ref="D881"  Part="1" 
+F 0 "D881" V 5046 1030 50  0000 R CNN
+F 1 "LED_Small" V 4955 1030 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 5000 1100 50  0001 C CNN
+F 3 "~" V 5000 1100 50  0001 C CNN
+	1    5000 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4400 5500 5000 5500
+Connection ~ 4400 5500
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A54B
+P 4400 5600
+AR Path="/66E0A54B" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A54B" Ref="D880"  Part="1" 
+F 0 "D880" V 4446 5530 50  0000 R CNN
+F 1 "LED_Small" V 4355 5530 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 4400 5600 50  0001 C CNN
+F 3 "~" V 4400 5600 50  0001 C CNN
+	1    4400 5600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5000 5200 4400 5200
+Connection ~ 4400 5200
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A553
+P 4400 5300
+AR Path="/66E0A553" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A553" Ref="D879"  Part="1" 
+F 0 "D879" V 4446 5230 50  0000 R CNN
+F 1 "LED_Small" V 4355 5230 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 4400 5300 50  0001 C CNN
+F 3 "~" V 4400 5300 50  0001 C CNN
+	1    4400 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4400 4900 5000 4900
+Connection ~ 4400 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A55B
+P 4400 5000
+AR Path="/66E0A55B" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A55B" Ref="D878"  Part="1" 
+F 0 "D878" V 4446 4930 50  0000 R CNN
+F 1 "LED_Small" V 4355 4930 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 4400 5000 50  0001 C CNN
+F 3 "~" V 4400 5000 50  0001 C CNN
+	1    4400 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5000 4600 4400 4600
+Connection ~ 4400 4600
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A563
+P 4400 4700
+AR Path="/66E0A563" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A563" Ref="D877"  Part="1" 
+F 0 "D877" V 4446 4630 50  0000 R CNN
+F 1 "LED_Small" V 4355 4630 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 4400 4700 50  0001 C CNN
+F 3 "~" V 4400 4700 50  0001 C CNN
+	1    4400 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4400 4300 5000 4300
+Connection ~ 4400 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A56B
+P 4400 4400
+AR Path="/66E0A56B" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A56B" Ref="D876"  Part="1" 
+F 0 "D876" V 4446 4330 50  0000 R CNN
+F 1 "LED_Small" V 4355 4330 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 4400 4400 50  0001 C CNN
+F 3 "~" V 4400 4400 50  0001 C CNN
+	1    4400 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5000 4000 4400 4000
+Connection ~ 4400 4000
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A573
+P 4400 4100
+AR Path="/66E0A573" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A573" Ref="D875"  Part="1" 
+F 0 "D875" V 4446 4030 50  0000 R CNN
+F 1 "LED_Small" V 4355 4030 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 4400 4100 50  0001 C CNN
+F 3 "~" V 4400 4100 50  0001 C CNN
+	1    4400 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4400 3700 5000 3700
+Connection ~ 4400 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A57B
+P 4400 3800
+AR Path="/66E0A57B" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A57B" Ref="D874"  Part="1" 
+F 0 "D874" V 4446 3730 50  0000 R CNN
+F 1 "LED_Small" V 4355 3730 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 4400 3800 50  0001 C CNN
+F 3 "~" V 4400 3800 50  0001 C CNN
+	1    4400 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5000 3400 4400 3400
+Connection ~ 4400 3400
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A583
+P 4400 3500
+AR Path="/66E0A583" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A583" Ref="D873"  Part="1" 
+F 0 "D873" V 4446 3430 50  0000 R CNN
+F 1 "LED_Small" V 4355 3430 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 4400 3500 50  0001 C CNN
+F 3 "~" V 4400 3500 50  0001 C CNN
+	1    4400 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4400 3100 4500 3100
+Connection ~ 4400 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A58B
+P 4400 3200
+AR Path="/66E0A58B" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A58B" Ref="D872"  Part="1" 
+F 0 "D872" V 4446 3130 50  0000 R CNN
+F 1 "LED_Small" V 4355 3130 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 4400 3200 50  0001 C CNN
+F 3 "~" V 4400 3200 50  0001 C CNN
+	1    4400 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4400 2800 5000 2800
+Connection ~ 4400 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A593
+P 4400 2900
+AR Path="/66E0A593" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A593" Ref="D871"  Part="1" 
+F 0 "D871" V 4446 2830 50  0000 R CNN
+F 1 "LED_Small" V 4355 2830 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 4400 2900 50  0001 C CNN
+F 3 "~" V 4400 2900 50  0001 C CNN
+	1    4400 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4400 2500 5000 2500
+Connection ~ 4400 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A59B
+P 4400 2600
+AR Path="/66E0A59B" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A59B" Ref="D870"  Part="1" 
+F 0 "D870" V 4446 2530 50  0000 R CNN
+F 1 "LED_Small" V 4355 2530 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 4400 2600 50  0001 C CNN
+F 3 "~" V 4400 2600 50  0001 C CNN
+	1    4400 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4400 2200 5000 2200
+Connection ~ 4400 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A5A3
+P 4400 2300
+AR Path="/66E0A5A3" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A5A3" Ref="D869"  Part="1" 
+F 0 "D869" V 4446 2230 50  0000 R CNN
+F 1 "LED_Small" V 4355 2230 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 4400 2300 50  0001 C CNN
+F 3 "~" V 4400 2300 50  0001 C CNN
+	1    4400 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4400 1900 5000 1900
+Connection ~ 4400 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A5AB
+P 4400 2000
+AR Path="/66E0A5AB" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A5AB" Ref="D868"  Part="1" 
+F 0 "D868" V 4446 1930 50  0000 R CNN
+F 1 "LED_Small" V 4355 1930 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 4400 2000 50  0001 C CNN
+F 3 "~" V 4400 2000 50  0001 C CNN
+	1    4400 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4400 1600 5000 1600
+Connection ~ 4400 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A5B3
+P 4400 1700
+AR Path="/66E0A5B3" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A5B3" Ref="D867"  Part="1" 
+F 0 "D867" V 4446 1630 50  0000 R CNN
+F 1 "LED_Small" V 4355 1630 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 4400 1700 50  0001 C CNN
+F 3 "~" V 4400 1700 50  0001 C CNN
+	1    4400 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4400 1300 5000 1300
+Connection ~ 4400 1300
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A5BB
+P 4400 1400
+AR Path="/66E0A5BB" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A5BB" Ref="D866"  Part="1" 
+F 0 "D866" V 4446 1330 50  0000 R CNN
+F 1 "LED_Small" V 4355 1330 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 4400 1400 50  0001 C CNN
+F 3 "~" V 4400 1400 50  0001 C CNN
+	1    4400 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4400 1000 5000 1000
+Connection ~ 4400 1000
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A5C3
+P 4400 1100
+AR Path="/66E0A5C3" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A5C3" Ref="D865"  Part="1" 
+F 0 "D865" V 4446 1030 50  0000 R CNN
+F 1 "LED_Small" V 4355 1030 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 4400 1100 50  0001 C CNN
+F 3 "~" V 4400 1100 50  0001 C CNN
+	1    4400 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 5500 4400 5500
+Connection ~ 3800 5500
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A5CB
+P 3800 5600
+AR Path="/66E0A5CB" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A5CB" Ref="D864"  Part="1" 
+F 0 "D864" V 3846 5530 50  0000 R CNN
+F 1 "LED_Small" V 3755 5530 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 3800 5600 50  0001 C CNN
+F 3 "~" V 3800 5600 50  0001 C CNN
+	1    3800 5600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4400 5200 3800 5200
+Connection ~ 3800 5200
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A5D3
+P 3800 5300
+AR Path="/66E0A5D3" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A5D3" Ref="D863"  Part="1" 
+F 0 "D863" V 3846 5230 50  0000 R CNN
+F 1 "LED_Small" V 3755 5230 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 3800 5300 50  0001 C CNN
+F 3 "~" V 3800 5300 50  0001 C CNN
+	1    3800 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 4900 4400 4900
+Connection ~ 3800 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A5DB
+P 3800 5000
+AR Path="/66E0A5DB" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A5DB" Ref="D862"  Part="1" 
+F 0 "D862" V 3846 4930 50  0000 R CNN
+F 1 "LED_Small" V 3755 4930 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 3800 5000 50  0001 C CNN
+F 3 "~" V 3800 5000 50  0001 C CNN
+	1    3800 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4400 4600 3800 4600
+Connection ~ 3800 4600
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A5E3
+P 3800 4700
+AR Path="/66E0A5E3" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A5E3" Ref="D861"  Part="1" 
+F 0 "D861" V 3846 4630 50  0000 R CNN
+F 1 "LED_Small" V 3755 4630 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 3800 4700 50  0001 C CNN
+F 3 "~" V 3800 4700 50  0001 C CNN
+	1    3800 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 4300 4400 4300
+Connection ~ 3800 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A5EB
+P 3800 4400
+AR Path="/66E0A5EB" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A5EB" Ref="D860"  Part="1" 
+F 0 "D860" V 3846 4330 50  0000 R CNN
+F 1 "LED_Small" V 3755 4330 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 3800 4400 50  0001 C CNN
+F 3 "~" V 3800 4400 50  0001 C CNN
+	1    3800 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4400 4000 3800 4000
+Connection ~ 3800 4000
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A5F3
+P 3800 4100
+AR Path="/66E0A5F3" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A5F3" Ref="D859"  Part="1" 
+F 0 "D859" V 3846 4030 50  0000 R CNN
+F 1 "LED_Small" V 3755 4030 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 3800 4100 50  0001 C CNN
+F 3 "~" V 3800 4100 50  0001 C CNN
+	1    3800 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 3700 4400 3700
+Connection ~ 3800 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A5FB
+P 3800 3800
+AR Path="/66E0A5FB" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A5FB" Ref="D858"  Part="1" 
+F 0 "D858" V 3846 3730 50  0000 R CNN
+F 1 "LED_Small" V 3755 3730 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 3800 3800 50  0001 C CNN
+F 3 "~" V 3800 3800 50  0001 C CNN
+	1    3800 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4400 3400 3800 3400
+Connection ~ 3800 3400
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A603
+P 3800 3500
+AR Path="/66E0A603" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A603" Ref="D857"  Part="1" 
+F 0 "D857" V 3846 3430 50  0000 R CNN
+F 1 "LED_Small" V 3755 3430 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 3800 3500 50  0001 C CNN
+F 3 "~" V 3800 3500 50  0001 C CNN
+	1    3800 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 3100 4400 3100
+Connection ~ 3800 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A60B
+P 3800 3200
+AR Path="/66E0A60B" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A60B" Ref="D856"  Part="1" 
+F 0 "D856" V 3846 3130 50  0000 R CNN
+F 1 "LED_Small" V 3755 3130 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 3800 3200 50  0001 C CNN
+F 3 "~" V 3800 3200 50  0001 C CNN
+	1    3800 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 2800 3900 2800
+Connection ~ 3800 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A613
+P 3800 2900
+AR Path="/66E0A613" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A613" Ref="D855"  Part="1" 
+F 0 "D855" V 3846 2830 50  0000 R CNN
+F 1 "LED_Small" V 3755 2830 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 3800 2900 50  0001 C CNN
+F 3 "~" V 3800 2900 50  0001 C CNN
+	1    3800 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 2500 4400 2500
+Connection ~ 3800 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A61B
+P 3800 2600
+AR Path="/66E0A61B" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A61B" Ref="D854"  Part="1" 
+F 0 "D854" V 3846 2530 50  0000 R CNN
+F 1 "LED_Small" V 3755 2530 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 3800 2600 50  0001 C CNN
+F 3 "~" V 3800 2600 50  0001 C CNN
+	1    3800 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 2200 4400 2200
+Connection ~ 3800 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A623
+P 3800 2300
+AR Path="/66E0A623" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A623" Ref="D853"  Part="1" 
+F 0 "D853" V 3846 2230 50  0000 R CNN
+F 1 "LED_Small" V 3755 2230 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 3800 2300 50  0001 C CNN
+F 3 "~" V 3800 2300 50  0001 C CNN
+	1    3800 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 1900 4400 1900
+Connection ~ 3800 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A62B
+P 3800 2000
+AR Path="/66E0A62B" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A62B" Ref="D852"  Part="1" 
+F 0 "D852" V 3846 1930 50  0000 R CNN
+F 1 "LED_Small" V 3755 1930 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 3800 2000 50  0001 C CNN
+F 3 "~" V 3800 2000 50  0001 C CNN
+	1    3800 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 1600 4400 1600
+Connection ~ 3800 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A633
+P 3800 1700
+AR Path="/66E0A633" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A633" Ref="D851"  Part="1" 
+F 0 "D851" V 3846 1630 50  0000 R CNN
+F 1 "LED_Small" V 3755 1630 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 3800 1700 50  0001 C CNN
+F 3 "~" V 3800 1700 50  0001 C CNN
+	1    3800 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 1300 4400 1300
+Connection ~ 3800 1300
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A63B
+P 3800 1400
+AR Path="/66E0A63B" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A63B" Ref="D850"  Part="1" 
+F 0 "D850" V 3846 1330 50  0000 R CNN
+F 1 "LED_Small" V 3755 1330 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 3800 1400 50  0001 C CNN
+F 3 "~" V 3800 1400 50  0001 C CNN
+	1    3800 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 1000 4400 1000
+Connection ~ 3800 1000
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A643
+P 3800 1100
+AR Path="/66E0A643" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A643" Ref="D849"  Part="1" 
+F 0 "D849" V 3846 1030 50  0000 R CNN
+F 1 "LED_Small" V 3755 1030 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 3800 1100 50  0001 C CNN
+F 3 "~" V 3800 1100 50  0001 C CNN
+	1    3800 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 5500 3800 5500
+Connection ~ 3200 5500
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A64B
+P 3200 5600
+AR Path="/66E0A64B" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A64B" Ref="D848"  Part="1" 
+F 0 "D848" V 3246 5530 50  0000 R CNN
+F 1 "LED_Small" V 3155 5530 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 3200 5600 50  0001 C CNN
+F 3 "~" V 3200 5600 50  0001 C CNN
+	1    3200 5600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 5200 3200 5200
+Connection ~ 3200 5200
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A653
+P 3200 5300
+AR Path="/66E0A653" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A653" Ref="D847"  Part="1" 
+F 0 "D847" V 3246 5230 50  0000 R CNN
+F 1 "LED_Small" V 3155 5230 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 3200 5300 50  0001 C CNN
+F 3 "~" V 3200 5300 50  0001 C CNN
+	1    3200 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 4900 3800 4900
+Connection ~ 3200 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A65B
+P 3200 5000
+AR Path="/66E0A65B" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A65B" Ref="D846"  Part="1" 
+F 0 "D846" V 3246 4930 50  0000 R CNN
+F 1 "LED_Small" V 3155 4930 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 3200 5000 50  0001 C CNN
+F 3 "~" V 3200 5000 50  0001 C CNN
+	1    3200 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 4600 3200 4600
+Connection ~ 3200 4600
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A663
+P 3200 4700
+AR Path="/66E0A663" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A663" Ref="D845"  Part="1" 
+F 0 "D845" V 3246 4630 50  0000 R CNN
+F 1 "LED_Small" V 3155 4630 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 3200 4700 50  0001 C CNN
+F 3 "~" V 3200 4700 50  0001 C CNN
+	1    3200 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 4300 3800 4300
+Connection ~ 3200 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A66B
+P 3200 4400
+AR Path="/66E0A66B" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A66B" Ref="D844"  Part="1" 
+F 0 "D844" V 3246 4330 50  0000 R CNN
+F 1 "LED_Small" V 3155 4330 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 3200 4400 50  0001 C CNN
+F 3 "~" V 3200 4400 50  0001 C CNN
+	1    3200 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 4000 3200 4000
+Connection ~ 3200 4000
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A673
+P 3200 4100
+AR Path="/66E0A673" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A673" Ref="D843"  Part="1" 
+F 0 "D843" V 3246 4030 50  0000 R CNN
+F 1 "LED_Small" V 3155 4030 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 3200 4100 50  0001 C CNN
+F 3 "~" V 3200 4100 50  0001 C CNN
+	1    3200 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 3700 3800 3700
+Connection ~ 3200 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A67B
+P 3200 3800
+AR Path="/66E0A67B" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A67B" Ref="D842"  Part="1" 
+F 0 "D842" V 3246 3730 50  0000 R CNN
+F 1 "LED_Small" V 3155 3730 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 3200 3800 50  0001 C CNN
+F 3 "~" V 3200 3800 50  0001 C CNN
+	1    3200 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 3400 3200 3400
+Connection ~ 3200 3400
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A683
+P 3200 3500
+AR Path="/66E0A683" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A683" Ref="D841"  Part="1" 
+F 0 "D841" V 3246 3430 50  0000 R CNN
+F 1 "LED_Small" V 3155 3430 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 3200 3500 50  0001 C CNN
+F 3 "~" V 3200 3500 50  0001 C CNN
+	1    3200 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 3100 3800 3100
+Connection ~ 3200 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A68B
+P 3200 3200
+AR Path="/66E0A68B" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A68B" Ref="D840"  Part="1" 
+F 0 "D840" V 3246 3130 50  0000 R CNN
+F 1 "LED_Small" V 3155 3130 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 3200 3200 50  0001 C CNN
+F 3 "~" V 3200 3200 50  0001 C CNN
+	1    3200 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 2800 3800 2800
+Connection ~ 3200 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A693
+P 3200 2900
+AR Path="/66E0A693" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A693" Ref="D839"  Part="1" 
+F 0 "D839" V 3246 2830 50  0000 R CNN
+F 1 "LED_Small" V 3155 2830 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 3200 2900 50  0001 C CNN
+F 3 "~" V 3200 2900 50  0001 C CNN
+	1    3200 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 2500 3300 2500
+Connection ~ 3200 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A69B
+P 3200 2600
+AR Path="/66E0A69B" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A69B" Ref="D838"  Part="1" 
+F 0 "D838" V 3246 2530 50  0000 R CNN
+F 1 "LED_Small" V 3155 2530 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 3200 2600 50  0001 C CNN
+F 3 "~" V 3200 2600 50  0001 C CNN
+	1    3200 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 2200 3800 2200
+Connection ~ 3200 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A6A3
+P 3200 2300
+AR Path="/66E0A6A3" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A6A3" Ref="D837"  Part="1" 
+F 0 "D837" V 3246 2230 50  0000 R CNN
+F 1 "LED_Small" V 3155 2230 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 3200 2300 50  0001 C CNN
+F 3 "~" V 3200 2300 50  0001 C CNN
+	1    3200 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 1900 3800 1900
+Connection ~ 3200 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A6AB
+P 3200 2000
+AR Path="/66E0A6AB" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A6AB" Ref="D836"  Part="1" 
+F 0 "D836" V 3246 1930 50  0000 R CNN
+F 1 "LED_Small" V 3155 1930 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 3200 2000 50  0001 C CNN
+F 3 "~" V 3200 2000 50  0001 C CNN
+	1    3200 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 1600 3800 1600
+Connection ~ 3200 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A6B3
+P 3200 1700
+AR Path="/66E0A6B3" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A6B3" Ref="D835"  Part="1" 
+F 0 "D835" V 3246 1630 50  0000 R CNN
+F 1 "LED_Small" V 3155 1630 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 3200 1700 50  0001 C CNN
+F 3 "~" V 3200 1700 50  0001 C CNN
+	1    3200 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 1000 3800 1000
+Connection ~ 3200 1000
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A6BB
+P 3200 1100
+AR Path="/66E0A6BB" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A6BB" Ref="D833"  Part="1" 
+F 0 "D833" V 3246 1030 50  0000 R CNN
+F 1 "LED_Small" V 3155 1030 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 3200 1100 50  0001 C CNN
+F 3 "~" V 3200 1100 50  0001 C CNN
+	1    3200 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2600 5500 3200 5500
+Connection ~ 2600 5500
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A6C3
+P 2600 5600
+AR Path="/66E0A6C3" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A6C3" Ref="D832"  Part="1" 
+F 0 "D832" V 2646 5530 50  0000 R CNN
+F 1 "LED_Small" V 2555 5530 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 2600 5600 50  0001 C CNN
+F 3 "~" V 2600 5600 50  0001 C CNN
+	1    2600 5600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 5200 2600 5200
+Connection ~ 2600 5200
+Wire Wire Line
+	2600 4900 3200 4900
+Connection ~ 2600 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A6CD
+P 2600 5000
+AR Path="/66E0A6CD" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A6CD" Ref="D830"  Part="1" 
+F 0 "D830" V 2646 4930 50  0000 R CNN
+F 1 "LED_Small" V 2555 4930 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 2600 5000 50  0001 C CNN
+F 3 "~" V 2600 5000 50  0001 C CNN
+	1    2600 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 4600 2600 4600
+Connection ~ 2600 4600
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A6D5
+P 2600 4700
+AR Path="/66E0A6D5" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A6D5" Ref="D829"  Part="1" 
+F 0 "D829" V 2646 4630 50  0000 R CNN
+F 1 "LED_Small" V 2555 4630 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 2600 4700 50  0001 C CNN
+F 3 "~" V 2600 4700 50  0001 C CNN
+	1    2600 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2600 4300 3200 4300
+Connection ~ 2600 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A6DD
+P 2600 4400
+AR Path="/66E0A6DD" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A6DD" Ref="D828"  Part="1" 
+F 0 "D828" V 2646 4330 50  0000 R CNN
+F 1 "LED_Small" V 2555 4330 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 2600 4400 50  0001 C CNN
+F 3 "~" V 2600 4400 50  0001 C CNN
+	1    2600 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 4000 2600 4000
+Connection ~ 2600 4000
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A6E5
+P 2600 4100
+AR Path="/66E0A6E5" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A6E5" Ref="D827"  Part="1" 
+F 0 "D827" V 2646 4030 50  0000 R CNN
+F 1 "LED_Small" V 2555 4030 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 2600 4100 50  0001 C CNN
+F 3 "~" V 2600 4100 50  0001 C CNN
+	1    2600 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2600 3700 3200 3700
+Connection ~ 2600 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A6ED
+P 2600 3800
+AR Path="/66E0A6ED" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A6ED" Ref="D826"  Part="1" 
+F 0 "D826" V 2646 3730 50  0000 R CNN
+F 1 "LED_Small" V 2555 3730 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 2600 3800 50  0001 C CNN
+F 3 "~" V 2600 3800 50  0001 C CNN
+	1    2600 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 3400 2600 3400
+Connection ~ 2600 3400
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A6F5
+P 2600 3500
+AR Path="/66E0A6F5" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A6F5" Ref="D825"  Part="1" 
+F 0 "D825" V 2646 3430 50  0000 R CNN
+F 1 "LED_Small" V 2555 3430 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 2600 3500 50  0001 C CNN
+F 3 "~" V 2600 3500 50  0001 C CNN
+	1    2600 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2600 3100 3200 3100
+Connection ~ 2600 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A6FD
+P 2600 3200
+AR Path="/66E0A6FD" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A6FD" Ref="D824"  Part="1" 
+F 0 "D824" V 2646 3130 50  0000 R CNN
+F 1 "LED_Small" V 2555 3130 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 2600 3200 50  0001 C CNN
+F 3 "~" V 2600 3200 50  0001 C CNN
+	1    2600 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2600 2800 3200 2800
+Connection ~ 2600 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A705
+P 2600 2900
+AR Path="/66E0A705" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A705" Ref="D823"  Part="1" 
+F 0 "D823" V 2646 2830 50  0000 R CNN
+F 1 "LED_Small" V 2555 2830 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 2600 2900 50  0001 C CNN
+F 3 "~" V 2600 2900 50  0001 C CNN
+	1    2600 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2600 2500 3200 2500
+Connection ~ 2600 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A70D
+P 2600 2600
+AR Path="/66E0A70D" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A70D" Ref="D822"  Part="1" 
+F 0 "D822" V 2646 2530 50  0000 R CNN
+F 1 "LED_Small" V 2555 2530 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 2600 2600 50  0001 C CNN
+F 3 "~" V 2600 2600 50  0001 C CNN
+	1    2600 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2600 2200 2700 2200
+Connection ~ 2600 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A715
+P 2600 2300
+AR Path="/66E0A715" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A715" Ref="D821"  Part="1" 
+F 0 "D821" V 2646 2230 50  0000 R CNN
+F 1 "LED_Small" V 2555 2230 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 2600 2300 50  0001 C CNN
+F 3 "~" V 2600 2300 50  0001 C CNN
+	1    2600 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2600 1900 3200 1900
+Connection ~ 2600 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A71D
+P 2600 2000
+AR Path="/66E0A71D" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A71D" Ref="D820"  Part="1" 
+F 0 "D820" V 2646 1930 50  0000 R CNN
+F 1 "LED_Small" V 2555 1930 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 2600 2000 50  0001 C CNN
+F 3 "~" V 2600 2000 50  0001 C CNN
+	1    2600 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2600 1600 3200 1600
+Connection ~ 2600 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A725
+P 2600 1700
+AR Path="/66E0A725" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A725" Ref="D819"  Part="1" 
+F 0 "D819" V 2646 1630 50  0000 R CNN
+F 1 "LED_Small" V 2555 1630 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 2600 1700 50  0001 C CNN
+F 3 "~" V 2600 1700 50  0001 C CNN
+	1    2600 1700
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2600 1300
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A72C
+P 2600 1400
+AR Path="/66E0A72C" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A72C" Ref="D818"  Part="1" 
+F 0 "D818" V 2646 1330 50  0000 R CNN
+F 1 "LED_Small" V 2555 1330 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 2600 1400 50  0001 C CNN
+F 3 "~" V 2600 1400 50  0001 C CNN
+	1    2600 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2600 1000 3200 1000
+Connection ~ 2600 1000
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A734
+P 2600 1100
+AR Path="/66E0A734" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A734" Ref="D817"  Part="1" 
+F 0 "D817" V 2646 1030 50  0000 R CNN
+F 1 "LED_Small" V 2555 1030 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 2600 1100 50  0001 C CNN
+F 3 "~" V 2600 1100 50  0001 C CNN
+	1    2600 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2000 5500 2600 5500
+Connection ~ 2000 5500
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A73C
+P 2000 5600
+AR Path="/66E0A73C" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A73C" Ref="D816"  Part="1" 
+F 0 "D816" V 2046 5530 50  0000 R CNN
+F 1 "LED_Small" V 1955 5530 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 2000 5600 50  0001 C CNN
+F 3 "~" V 2000 5600 50  0001 C CNN
+	1    2000 5600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2600 5200 2000 5200
+Connection ~ 2000 5200
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A744
+P 2000 5300
+AR Path="/66E0A744" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A744" Ref="D815"  Part="1" 
+F 0 "D815" V 2046 5230 50  0000 R CNN
+F 1 "LED_Small" V 1955 5230 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 2000 5300 50  0001 C CNN
+F 3 "~" V 2000 5300 50  0001 C CNN
+	1    2000 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2000 4900 2600 4900
+Connection ~ 2000 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A74C
+P 2000 5000
+AR Path="/66E0A74C" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A74C" Ref="D814"  Part="1" 
+F 0 "D814" V 2046 4930 50  0000 R CNN
+F 1 "LED_Small" V 1955 4930 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 2000 5000 50  0001 C CNN
+F 3 "~" V 2000 5000 50  0001 C CNN
+	1    2000 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2600 4600 2000 4600
+Connection ~ 2000 4600
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A754
+P 2000 4700
+AR Path="/66E0A754" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A754" Ref="D813"  Part="1" 
+F 0 "D813" V 2046 4630 50  0000 R CNN
+F 1 "LED_Small" V 1955 4630 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 2000 4700 50  0001 C CNN
+F 3 "~" V 2000 4700 50  0001 C CNN
+	1    2000 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2000 4300 2600 4300
+Connection ~ 2000 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A75C
+P 2000 4400
+AR Path="/66E0A75C" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A75C" Ref="D812"  Part="1" 
+F 0 "D812" V 2046 4330 50  0000 R CNN
+F 1 "LED_Small" V 1955 4330 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 2000 4400 50  0001 C CNN
+F 3 "~" V 2000 4400 50  0001 C CNN
+	1    2000 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2600 4000 2000 4000
+Connection ~ 2000 4000
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A764
+P 2000 4100
+AR Path="/66E0A764" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A764" Ref="D811"  Part="1" 
+F 0 "D811" V 2046 4030 50  0000 R CNN
+F 1 "LED_Small" V 1955 4030 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 2000 4100 50  0001 C CNN
+F 3 "~" V 2000 4100 50  0001 C CNN
+	1    2000 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2000 3700 2600 3700
+Connection ~ 2000 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A76C
+P 2000 3800
+AR Path="/66E0A76C" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A76C" Ref="D810"  Part="1" 
+F 0 "D810" V 2046 3730 50  0000 R CNN
+F 1 "LED_Small" V 1955 3730 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 2000 3800 50  0001 C CNN
+F 3 "~" V 2000 3800 50  0001 C CNN
+	1    2000 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2600 3400 2000 3400
+Connection ~ 2000 3400
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A774
+P 2000 3500
+AR Path="/66E0A774" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A774" Ref="D809"  Part="1" 
+F 0 "D809" V 2046 3430 50  0000 R CNN
+F 1 "LED_Small" V 1955 3430 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 2000 3500 50  0001 C CNN
+F 3 "~" V 2000 3500 50  0001 C CNN
+	1    2000 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2000 3100 2600 3100
+Connection ~ 2000 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A77C
+P 2000 3200
+AR Path="/66E0A77C" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A77C" Ref="D808"  Part="1" 
+F 0 "D808" V 2046 3130 50  0000 R CNN
+F 1 "LED_Small" V 1955 3130 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 2000 3200 50  0001 C CNN
+F 3 "~" V 2000 3200 50  0001 C CNN
+	1    2000 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2000 2800 2600 2800
+Connection ~ 2000 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A784
+P 2000 2900
+AR Path="/66E0A784" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A784" Ref="D807"  Part="1" 
+F 0 "D807" V 2046 2830 50  0000 R CNN
+F 1 "LED_Small" V 1955 2830 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 2000 2900 50  0001 C CNN
+F 3 "~" V 2000 2900 50  0001 C CNN
+	1    2000 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2000 2500 2600 2500
+Connection ~ 2000 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A78C
+P 2000 2600
+AR Path="/66E0A78C" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A78C" Ref="D806"  Part="1" 
+F 0 "D806" V 2046 2530 50  0000 R CNN
+F 1 "LED_Small" V 1955 2530 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 2000 2600 50  0001 C CNN
+F 3 "~" V 2000 2600 50  0001 C CNN
+	1    2000 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2000 2200 2600 2200
+Connection ~ 2000 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A794
+P 2000 2300
+AR Path="/66E0A794" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A794" Ref="D805"  Part="1" 
+F 0 "D805" V 2046 2230 50  0000 R CNN
+F 1 "LED_Small" V 1955 2230 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 2000 2300 50  0001 C CNN
+F 3 "~" V 2000 2300 50  0001 C CNN
+	1    2000 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2000 1900 2100 1900
+Connection ~ 2000 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A79C
+P 2000 2000
+AR Path="/66E0A79C" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A79C" Ref="D804"  Part="1" 
+F 0 "D804" V 2046 1930 50  0000 R CNN
+F 1 "LED_Small" V 1955 1930 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 2000 2000 50  0001 C CNN
+F 3 "~" V 2000 2000 50  0001 C CNN
+	1    2000 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2000 1600 2600 1600
+Connection ~ 2000 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A7A4
+P 2000 1700
+AR Path="/66E0A7A4" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A7A4" Ref="D803"  Part="1" 
+F 0 "D803" V 2046 1630 50  0000 R CNN
+F 1 "LED_Small" V 1955 1630 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 2000 1700 50  0001 C CNN
+F 3 "~" V 2000 1700 50  0001 C CNN
+	1    2000 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2000 1300 2600 1300
+Connection ~ 2000 1300
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A7AC
+P 2000 1400
+AR Path="/66E0A7AC" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A7AC" Ref="D802"  Part="1" 
+F 0 "D802" V 2046 1330 50  0000 R CNN
+F 1 "LED_Small" V 1955 1330 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 2000 1400 50  0001 C CNN
+F 3 "~" V 2000 1400 50  0001 C CNN
+	1    2000 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2000 1000 2600 1000
+Connection ~ 2000 1000
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A7B4
+P 2000 1100
+AR Path="/66E0A7B4" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A7B4" Ref="D801"  Part="1" 
+F 0 "D801" V 2046 1030 50  0000 R CNN
+F 1 "LED_Small" V 1955 1030 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 2000 1100 50  0001 C CNN
+F 3 "~" V 2000 1100 50  0001 C CNN
+	1    2000 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1400 5500 2000 5500
+Connection ~ 1400 5500
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A7BC
+P 1400 5600
+AR Path="/66E0A7BC" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A7BC" Ref="D800"  Part="1" 
+F 0 "D800" V 1446 5530 50  0000 R CNN
+F 1 "LED_Small" V 1355 5530 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 1400 5600 50  0001 C CNN
+F 3 "~" V 1400 5600 50  0001 C CNN
+	1    1400 5600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2000 5200 1400 5200
+Connection ~ 1400 5200
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A7C4
+P 1400 5300
+AR Path="/66E0A7C4" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A7C4" Ref="D799"  Part="1" 
+F 0 "D799" V 1446 5230 50  0000 R CNN
+F 1 "LED_Small" V 1355 5230 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 1400 5300 50  0001 C CNN
+F 3 "~" V 1400 5300 50  0001 C CNN
+	1    1400 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1400 4900 2000 4900
+Connection ~ 1400 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A7CC
+P 1400 5000
+AR Path="/66E0A7CC" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A7CC" Ref="D798"  Part="1" 
+F 0 "D798" V 1446 4930 50  0000 R CNN
+F 1 "LED_Small" V 1355 4930 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 1400 5000 50  0001 C CNN
+F 3 "~" V 1400 5000 50  0001 C CNN
+	1    1400 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2000 4600 1400 4600
+Connection ~ 1400 4600
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A7D4
+P 1400 4700
+AR Path="/66E0A7D4" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A7D4" Ref="D797"  Part="1" 
+F 0 "D797" V 1446 4630 50  0000 R CNN
+F 1 "LED_Small" V 1355 4630 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 1400 4700 50  0001 C CNN
+F 3 "~" V 1400 4700 50  0001 C CNN
+	1    1400 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1400 4300 2000 4300
+Connection ~ 1400 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A7DC
+P 1400 4400
+AR Path="/66E0A7DC" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A7DC" Ref="D796"  Part="1" 
+F 0 "D796" V 1446 4330 50  0000 R CNN
+F 1 "LED_Small" V 1355 4330 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 1400 4400 50  0001 C CNN
+F 3 "~" V 1400 4400 50  0001 C CNN
+	1    1400 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2000 4000 1400 4000
+Connection ~ 1400 4000
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A7E4
+P 1400 4100
+AR Path="/66E0A7E4" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A7E4" Ref="D795"  Part="1" 
+F 0 "D795" V 1446 4030 50  0000 R CNN
+F 1 "LED_Small" V 1355 4030 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 1400 4100 50  0001 C CNN
+F 3 "~" V 1400 4100 50  0001 C CNN
+	1    1400 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1400 3700 2000 3700
+Connection ~ 1400 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A7EC
+P 1400 3800
+AR Path="/66E0A7EC" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A7EC" Ref="D794"  Part="1" 
+F 0 "D794" V 1446 3730 50  0000 R CNN
+F 1 "LED_Small" V 1355 3730 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 1400 3800 50  0001 C CNN
+F 3 "~" V 1400 3800 50  0001 C CNN
+	1    1400 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2000 3400 1400 3400
+Connection ~ 1400 3400
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A7F4
+P 1400 3500
+AR Path="/66E0A7F4" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A7F4" Ref="D793"  Part="1" 
+F 0 "D793" V 1446 3430 50  0000 R CNN
+F 1 "LED_Small" V 1355 3430 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 1400 3500 50  0001 C CNN
+F 3 "~" V 1400 3500 50  0001 C CNN
+	1    1400 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1400 3100 2000 3100
+Connection ~ 1400 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A7FC
+P 1400 3200
+AR Path="/66E0A7FC" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A7FC" Ref="D792"  Part="1" 
+F 0 "D792" V 1446 3130 50  0000 R CNN
+F 1 "LED_Small" V 1355 3130 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 1400 3200 50  0001 C CNN
+F 3 "~" V 1400 3200 50  0001 C CNN
+	1    1400 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1400 2800 2000 2800
+Connection ~ 1400 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A804
+P 1400 2900
+AR Path="/66E0A804" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A804" Ref="D791"  Part="1" 
+F 0 "D791" V 1446 2830 50  0000 R CNN
+F 1 "LED_Small" V 1355 2830 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 1400 2900 50  0001 C CNN
+F 3 "~" V 1400 2900 50  0001 C CNN
+	1    1400 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1400 2500 2000 2500
+Connection ~ 1400 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A80C
+P 1400 2600
+AR Path="/66E0A80C" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A80C" Ref="D790"  Part="1" 
+F 0 "D790" V 1446 2530 50  0000 R CNN
+F 1 "LED_Small" V 1355 2530 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 1400 2600 50  0001 C CNN
+F 3 "~" V 1400 2600 50  0001 C CNN
+	1    1400 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1400 2200 2000 2200
+Connection ~ 1400 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A814
+P 1400 2300
+AR Path="/66E0A814" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A814" Ref="D789"  Part="1" 
+F 0 "D789" V 1446 2230 50  0000 R CNN
+F 1 "LED_Small" V 1355 2230 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 1400 2300 50  0001 C CNN
+F 3 "~" V 1400 2300 50  0001 C CNN
+	1    1400 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1400 1900 2000 1900
+Connection ~ 1400 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A81C
+P 1400 2000
+AR Path="/66E0A81C" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A81C" Ref="D788"  Part="1" 
+F 0 "D788" V 1446 1930 50  0000 R CNN
+F 1 "LED_Small" V 1355 1930 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 1400 2000 50  0001 C CNN
+F 3 "~" V 1400 2000 50  0001 C CNN
+	1    1400 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1400 1600 1500 1600
+Connection ~ 1400 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A824
+P 1400 1700
+AR Path="/66E0A824" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A824" Ref="D787"  Part="1" 
+F 0 "D787" V 1446 1630 50  0000 R CNN
+F 1 "LED_Small" V 1355 1630 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 1400 1700 50  0001 C CNN
+F 3 "~" V 1400 1700 50  0001 C CNN
+	1    1400 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1400 1300 2000 1300
+Connection ~ 1400 1300
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A82C
+P 1400 1400
+AR Path="/66E0A82C" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A82C" Ref="D786"  Part="1" 
+F 0 "D786" V 1446 1330 50  0000 R CNN
+F 1 "LED_Small" V 1355 1330 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 1400 1400 50  0001 C CNN
+F 3 "~" V 1400 1400 50  0001 C CNN
+	1    1400 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1400 1000 2000 1000
+Connection ~ 1400 1000
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A834
+P 1400 1100
+AR Path="/66E0A834" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A834" Ref="D785"  Part="1" 
+F 0 "D785" V 1446 1030 50  0000 R CNN
+F 1 "LED_Small" V 1355 1030 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 1400 1100 50  0001 C CNN
+F 3 "~" V 1400 1100 50  0001 C CNN
+	1    1400 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	800  5500 1400 5500
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A83B
+P 800 5600
+AR Path="/66E0A83B" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A83B" Ref="D784"  Part="1" 
+F 0 "D784" V 846 5530 50  0000 R CNN
+F 1 "LED_Small" V 755 5530 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 800 5600 50  0001 C CNN
+F 3 "~" V 800 5600 50  0001 C CNN
+	1    800  5600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1400 5200 800  5200
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A842
+P 800 5300
+AR Path="/66E0A842" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A842" Ref="D783"  Part="1" 
+F 0 "D783" V 846 5230 50  0000 R CNN
+F 1 "LED_Small" V 755 5230 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 800 5300 50  0001 C CNN
+F 3 "~" V 800 5300 50  0001 C CNN
+	1    800  5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	800  4900 1400 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A849
+P 800 5000
+AR Path="/66E0A849" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A849" Ref="D782"  Part="1" 
+F 0 "D782" V 846 4930 50  0000 R CNN
+F 1 "LED_Small" V 755 4930 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 800 5000 50  0001 C CNN
+F 3 "~" V 800 5000 50  0001 C CNN
+	1    800  5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1400 4600 800  4600
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A850
+P 800 4700
+AR Path="/66E0A850" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A850" Ref="D781"  Part="1" 
+F 0 "D781" V 846 4630 50  0000 R CNN
+F 1 "LED_Small" V 755 4630 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 800 4700 50  0001 C CNN
+F 3 "~" V 800 4700 50  0001 C CNN
+	1    800  4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	800  4300 1400 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A857
+P 800 4400
+AR Path="/66E0A857" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A857" Ref="D780"  Part="1" 
+F 0 "D780" V 846 4330 50  0000 R CNN
+F 1 "LED_Small" V 755 4330 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 800 4400 50  0001 C CNN
+F 3 "~" V 800 4400 50  0001 C CNN
+	1    800  4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1400 4000 800  4000
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A85E
+P 800 4100
+AR Path="/66E0A85E" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A85E" Ref="D779"  Part="1" 
+F 0 "D779" V 846 4030 50  0000 R CNN
+F 1 "LED_Small" V 755 4030 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 800 4100 50  0001 C CNN
+F 3 "~" V 800 4100 50  0001 C CNN
+	1    800  4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	800  3700 1400 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A865
+P 800 3800
+AR Path="/66E0A865" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A865" Ref="D778"  Part="1" 
+F 0 "D778" V 846 3730 50  0000 R CNN
+F 1 "LED_Small" V 755 3730 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 800 3800 50  0001 C CNN
+F 3 "~" V 800 3800 50  0001 C CNN
+	1    800  3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1400 3400 800  3400
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A86C
+P 800 3500
+AR Path="/66E0A86C" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A86C" Ref="D777"  Part="1" 
+F 0 "D777" V 846 3430 50  0000 R CNN
+F 1 "LED_Small" V 755 3430 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 800 3500 50  0001 C CNN
+F 3 "~" V 800 3500 50  0001 C CNN
+	1    800  3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	800  3100 1400 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A873
+P 800 3200
+AR Path="/66E0A873" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A873" Ref="D776"  Part="1" 
+F 0 "D776" V 846 3130 50  0000 R CNN
+F 1 "LED_Small" V 755 3130 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 800 3200 50  0001 C CNN
+F 3 "~" V 800 3200 50  0001 C CNN
+	1    800  3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	800  2800 1400 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A87A
+P 800 2900
+AR Path="/66E0A87A" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A87A" Ref="D775"  Part="1" 
+F 0 "D775" V 846 2830 50  0000 R CNN
+F 1 "LED_Small" V 755 2830 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 800 2900 50  0001 C CNN
+F 3 "~" V 800 2900 50  0001 C CNN
+	1    800  2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	800  2500 1400 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A881
+P 800 2600
+AR Path="/66E0A881" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A881" Ref="D774"  Part="1" 
+F 0 "D774" V 846 2530 50  0000 R CNN
+F 1 "LED_Small" V 755 2530 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 800 2600 50  0001 C CNN
+F 3 "~" V 800 2600 50  0001 C CNN
+	1    800  2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	800  2200 1400 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A888
+P 800 2300
+AR Path="/66E0A888" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A888" Ref="D773"  Part="1" 
+F 0 "D773" V 846 2230 50  0000 R CNN
+F 1 "LED_Small" V 755 2230 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 800 2300 50  0001 C CNN
+F 3 "~" V 800 2300 50  0001 C CNN
+	1    800  2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	800  1900 1400 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A88F
+P 800 2000
+AR Path="/66E0A88F" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A88F" Ref="D772"  Part="1" 
+F 0 "D772" V 846 1930 50  0000 R CNN
+F 1 "LED_Small" V 755 1930 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 800 2000 50  0001 C CNN
+F 3 "~" V 800 2000 50  0001 C CNN
+	1    800  2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	800  1600 1400 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A896
+P 800 1700
+AR Path="/66E0A896" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A896" Ref="D771"  Part="1" 
+F 0 "D771" V 846 1630 50  0000 R CNN
+F 1 "LED_Small" V 755 1630 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 800 1700 50  0001 C CNN
+F 3 "~" V 800 1700 50  0001 C CNN
+	1    800  1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	800  1300 900  1300
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A89D
+P 800 1400
+AR Path="/66E0A89D" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A89D" Ref="D770"  Part="1" 
+F 0 "D770" V 846 1330 50  0000 R CNN
+F 1 "LED_Small" V 755 1330 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 800 1400 50  0001 C CNN
+F 3 "~" V 800 1400 50  0001 C CNN
+	1    800  1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	800  1000 1400 1000
+Connection ~ 800  1000
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A8A5
+P 800 1100
+AR Path="/66E0A8A5" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A8A5" Ref="D769"  Part="1" 
+F 0 "D769" V 846 1030 50  0000 R CNN
+F 1 "LED_Small" V 755 1030 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 800 1100 50  0001 C CNN
+F 3 "~" V 800 1100 50  0001 C CNN
+	1    800  1100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9200 5500
+Connection ~ 8000 5500
+Connection ~ 9200 5200
+Connection ~ 8000 5200
+Connection ~ 9200 4900
+Connection ~ 8000 4900
+Connection ~ 9200 4600
+Connection ~ 8000 4600
+Connection ~ 9200 4300
+Connection ~ 8000 4300
+Connection ~ 9200 4000
+Connection ~ 8000 4000
+Connection ~ 9200 3700
+Connection ~ 8000 3700
+Connection ~ 9200 3400
+Connection ~ 8000 3400
+Connection ~ 9200 3100
+Connection ~ 8000 3100
+Connection ~ 9200 2800
+Connection ~ 8000 2800
+Connection ~ 9200 2500
+Connection ~ 8000 2500
+Connection ~ 9200 2200
+Connection ~ 8000 2200
+Connection ~ 9200 1900
+Connection ~ 8000 1900
+Connection ~ 9200 1600
+Connection ~ 8000 1600
+Connection ~ 9200 1300
+Connection ~ 8000 1300
+Connection ~ 9200 1000
+Connection ~ 8000 1000
+Wire Wire Line
+	8700 1200 8600 1200
+Wire Wire Line
+	8600 5500 9200 5500
+Wire Wire Line
+	8000 5500 8600 5500
+Connection ~ 8600 5500
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A8CF
+P 8600 5600
+AR Path="/66E0A8CF" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A8CF" Ref="D992"  Part="1" 
+F 0 "D992" V 8646 5530 50  0000 R CNN
+F 1 "LED_Small" V 8555 5530 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 8600 5600 50  0001 C CNN
+F 3 "~" V 8600 5600 50  0001 C CNN
+	1    8600 5600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9200 5200 8700 5200
+Wire Wire Line
+	8600 5200 8000 5200
+Connection ~ 8600 5200
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A8D8
+P 8600 5300
+AR Path="/66E0A8D8" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A8D8" Ref="D991"  Part="1" 
+F 0 "D991" V 8646 5230 50  0000 R CNN
+F 1 "LED_Small" V 8555 5230 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 8600 5300 50  0001 C CNN
+F 3 "~" V 8600 5300 50  0001 C CNN
+	1    8600 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8600 4900 9200 4900
+Wire Wire Line
+	8000 4900 8100 4900
+Connection ~ 8600 4900
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A8E1
+P 8600 5000
+AR Path="/66E0A8E1" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A8E1" Ref="D990"  Part="1" 
+F 0 "D990" V 8646 4930 50  0000 R CNN
+F 1 "LED_Small" V 8555 4930 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 8600 5000 50  0001 C CNN
+F 3 "~" V 8600 5000 50  0001 C CNN
+	1    8600 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9200 4600 8600 4600
+Wire Wire Line
+	8600 4600 8000 4600
+Connection ~ 8600 4600
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A8EA
+P 8600 4700
+AR Path="/66E0A8EA" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A8EA" Ref="D989"  Part="1" 
+F 0 "D989" V 8646 4630 50  0000 R CNN
+F 1 "LED_Small" V 8555 4630 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 8600 4700 50  0001 C CNN
+F 3 "~" V 8600 4700 50  0001 C CNN
+	1    8600 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8600 4300 9200 4300
+Wire Wire Line
+	8000 4300 8600 4300
+Connection ~ 8600 4300
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A8F3
+P 8600 4400
+AR Path="/66E0A8F3" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A8F3" Ref="D988"  Part="1" 
+F 0 "D988" V 8646 4330 50  0000 R CNN
+F 1 "LED_Small" V 8555 4330 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 8600 4400 50  0001 C CNN
+F 3 "~" V 8600 4400 50  0001 C CNN
+	1    8600 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9200 4000 8600 4000
+Wire Wire Line
+	8600 4000 8000 4000
+Connection ~ 8600 4000
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A8FC
+P 8600 4100
+AR Path="/66E0A8FC" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A8FC" Ref="D987"  Part="1" 
+F 0 "D987" V 8646 4030 50  0000 R CNN
+F 1 "LED_Small" V 8555 4030 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 8600 4100 50  0001 C CNN
+F 3 "~" V 8600 4100 50  0001 C CNN
+	1    8600 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8600 3700 9200 3700
+Wire Wire Line
+	8000 3700 8600 3700
+Connection ~ 8600 3700
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A905
+P 8600 3800
+AR Path="/66E0A905" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A905" Ref="D986"  Part="1" 
+F 0 "D986" V 8646 3730 50  0000 R CNN
+F 1 "LED_Small" V 8555 3730 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 8600 3800 50  0001 C CNN
+F 3 "~" V 8600 3800 50  0001 C CNN
+	1    8600 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9200 3400 8600 3400
+Wire Wire Line
+	8600 3400 8000 3400
+Connection ~ 8600 3400
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A90E
+P 8600 3500
+AR Path="/66E0A90E" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A90E" Ref="D985"  Part="1" 
+F 0 "D985" V 8646 3430 50  0000 R CNN
+F 1 "LED_Small" V 8555 3430 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 8600 3500 50  0001 C CNN
+F 3 "~" V 8600 3500 50  0001 C CNN
+	1    8600 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8600 3100 9200 3100
+Wire Wire Line
+	8000 3100 8600 3100
+Connection ~ 8600 3100
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A917
+P 8600 3200
+AR Path="/66E0A917" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A917" Ref="D984"  Part="1" 
+F 0 "D984" V 8646 3130 50  0000 R CNN
+F 1 "LED_Small" V 8555 3130 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 8600 3200 50  0001 C CNN
+F 3 "~" V 8600 3200 50  0001 C CNN
+	1    8600 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8600 2800 9200 2800
+Wire Wire Line
+	8000 2800 8600 2800
+Connection ~ 8600 2800
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A920
+P 8600 2900
+AR Path="/66E0A920" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A920" Ref="D983"  Part="1" 
+F 0 "D983" V 8646 2830 50  0000 R CNN
+F 1 "LED_Small" V 8555 2830 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 8600 2900 50  0001 C CNN
+F 3 "~" V 8600 2900 50  0001 C CNN
+	1    8600 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8600 2500 9200 2500
+Wire Wire Line
+	8000 2500 8600 2500
+Connection ~ 8600 2500
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A929
+P 8600 2600
+AR Path="/66E0A929" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A929" Ref="D982"  Part="1" 
+F 0 "D982" V 8646 2530 50  0000 R CNN
+F 1 "LED_Small" V 8555 2530 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 8600 2600 50  0001 C CNN
+F 3 "~" V 8600 2600 50  0001 C CNN
+	1    8600 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8600 2200 9200 2200
+Wire Wire Line
+	8000 2200 8600 2200
+Connection ~ 8600 2200
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A932
+P 8600 2300
+AR Path="/66E0A932" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A932" Ref="D981"  Part="1" 
+F 0 "D981" V 8646 2230 50  0000 R CNN
+F 1 "LED_Small" V 8555 2230 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 8600 2300 50  0001 C CNN
+F 3 "~" V 8600 2300 50  0001 C CNN
+	1    8600 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8600 1900 9200 1900
+Wire Wire Line
+	8000 1900 8600 1900
+Connection ~ 8600 1900
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A93B
+P 8600 2000
+AR Path="/66E0A93B" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A93B" Ref="D980"  Part="1" 
+F 0 "D980" V 8646 1930 50  0000 R CNN
+F 1 "LED_Small" V 8555 1930 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 8600 2000 50  0001 C CNN
+F 3 "~" V 8600 2000 50  0001 C CNN
+	1    8600 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8600 1600 9200 1600
+Wire Wire Line
+	8000 1600 8600 1600
+Connection ~ 8600 1600
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A944
+P 8600 1700
+AR Path="/66E0A944" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A944" Ref="D979"  Part="1" 
+F 0 "D979" V 8646 1630 50  0000 R CNN
+F 1 "LED_Small" V 8555 1630 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 8600 1700 50  0001 C CNN
+F 3 "~" V 8600 1700 50  0001 C CNN
+	1    8600 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8600 1300 9200 1300
+Wire Wire Line
+	8000 1300 8600 1300
+Connection ~ 8600 1300
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A94D
+P 8600 1400
+AR Path="/66E0A94D" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A94D" Ref="D978"  Part="1" 
+F 0 "D978" V 8646 1330 50  0000 R CNN
+F 1 "LED_Small" V 8555 1330 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 8600 1400 50  0001 C CNN
+F 3 "~" V 8600 1400 50  0001 C CNN
+	1    8600 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8600 1000 9200 1000
+Wire Wire Line
+	8000 1000 8600 1000
+Connection ~ 8600 1000
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0A956
+P 8600 1100
+AR Path="/66E0A956" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0A956" Ref="D977"  Part="1" 
+F 0 "D977" V 8646 1030 50  0000 R CNN
+F 1 "LED_Small" V 8555 1030 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 8600 1100 50  0001 C CNN
+F 3 "~" V 8600 1100 50  0001 C CNN
+	1    8600 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8600 5700 8100 5700
+Wire Wire Line
+	8100 5700 8100 5400
+Wire Wire Line
+	8100 1200 8000 1200
+Wire Wire Line
+	8000 5700 7500 5700
+Wire Wire Line
+	7500 5700 7500 5400
+Wire Wire Line
+	7500 1200 7400 1200
+Wire Wire Line
+	6800 1200 6900 1200
+Wire Wire Line
+	6900 1200 6900 1500
+Wire Wire Line
+	6900 5700 7400 5700
+Wire Wire Line
+	6800 5700 6300 5700
+Wire Wire Line
+	6300 5700 6300 5400
+Wire Wire Line
+	6300 1200 6200 1200
+Wire Wire Line
+	5600 1200 5700 1200
+Wire Wire Line
+	5700 1200 5700 1500
+Wire Wire Line
+	5700 5700 6200 5700
+Wire Wire Line
+	5600 5700 5100 5700
+Wire Wire Line
+	5100 5700 5100 5400
+Wire Wire Line
+	5100 1200 5000 1200
+Wire Wire Line
+	4400 1200 4500 1200
+Wire Wire Line
+	4500 1200 4500 1500
+Wire Wire Line
+	4500 5700 5000 5700
+Wire Wire Line
+	4400 5700 3900 5700
+Wire Wire Line
+	3900 5700 3900 5400
+Wire Wire Line
+	3900 1200 3800 1200
+Wire Wire Line
+	3200 1200 3300 1200
+Wire Wire Line
+	3300 1200 3300 1500
+Wire Wire Line
+	3300 5700 3800 5700
+Wire Wire Line
+	3200 5700 2700 5700
+Wire Wire Line
+	2700 5700 2700 5400
+Wire Wire Line
+	2700 1200 2600 1200
+Wire Wire Line
+	2000 1200 2100 1200
+Wire Wire Line
+	2100 1200 2100 1500
+Wire Wire Line
+	2100 5700 2600 5700
+Wire Wire Line
+	2000 5700 1500 5700
+Wire Wire Line
+	1500 5700 1500 5400
+Wire Wire Line
+	1500 1200 1400 1200
+Wire Wire Line
+	800  1200 900  1200
+Wire Wire Line
+	900  1200 900  1300
+Wire Wire Line
+	900  5700 1400 5700
+Wire Wire Line
+	700  5700 800  5700
+Wire Wire Line
+	700  1000 800  1000
+Wire Wire Line
+	800  5400 700  5400
+Connection ~ 700  5400
+Wire Wire Line
+	700  5400 700  5700
+Wire Wire Line
+	700  5100 800  5100
+Connection ~ 700  5100
+Wire Wire Line
+	700  5100 700  5400
+Wire Wire Line
+	800  4800 700  4800
+Connection ~ 700  4800
+Wire Wire Line
+	700  4800 700  5100
+Wire Wire Line
+	700  4500 800  4500
+Connection ~ 700  4500
+Wire Wire Line
+	700  4500 700  4800
+Wire Wire Line
+	800  4200 700  4200
+Connection ~ 700  4200
+Wire Wire Line
+	700  4200 700  4500
+Wire Wire Line
+	800  3900 700  3900
+Connection ~ 700  3900
+Wire Wire Line
+	700  3900 700  4200
+Wire Wire Line
+	700  3600 800  3600
+Connection ~ 700  3600
+Wire Wire Line
+	700  3600 700  3900
+Wire Wire Line
+	800  3300 700  3300
+Connection ~ 700  3300
+Wire Wire Line
+	700  3300 700  3600
+Wire Wire Line
+	700  3000 800  3000
+Connection ~ 700  3000
+Wire Wire Line
+	700  3000 700  3300
+Wire Wire Line
+	800  2700 700  2700
+Connection ~ 700  2700
+Wire Wire Line
+	700  2700 700  3000
+Wire Wire Line
+	800  2400 700  2400
+Connection ~ 700  2400
+Wire Wire Line
+	700  2400 700  2700
+Wire Wire Line
+	700  1000 700  1500
+Connection ~ 700  2100
+Wire Wire Line
+	700  2100 700  2400
+Wire Wire Line
+	700  2100 800  2100
+Wire Wire Line
+	800  1800 700  1800
+Connection ~ 700  1800
+Wire Wire Line
+	700  1800 700  2100
+Wire Wire Line
+	800  1500 700  1500
+Connection ~ 700  1500
+Wire Wire Line
+	700  1500 700  1800
+Connection ~ 900  1300
+Wire Wire Line
+	900  1300 1400 1300
+Wire Wire Line
+	900  1300 900  1800
+Connection ~ 1500 1600
+Wire Wire Line
+	1500 1600 2000 1600
+Wire Wire Line
+	1500 1600 1500 1500
+Connection ~ 2100 1900
+Wire Wire Line
+	2100 1900 2600 1900
+Wire Wire Line
+	2100 1900 2100 2400
+Connection ~ 2700 2200
+Wire Wire Line
+	2700 2200 3200 2200
+Connection ~ 3300 2500
+Wire Wire Line
+	3300 2500 3800 2500
+Wire Wire Line
+	3300 2500 3300 3000
+Connection ~ 3900 2800
+Wire Wire Line
+	3900 2800 4400 2800
+Wire Wire Line
+	3900 2800 3900 2700
+Connection ~ 4500 3100
+Wire Wire Line
+	4500 3100 5000 3100
+Wire Wire Line
+	4500 3100 4500 3600
+Connection ~ 5100 3400
+Wire Wire Line
+	5100 3400 5000 3400
+Connection ~ 5700 3700
+Wire Wire Line
+	5700 3700 6200 3700
+Wire Wire Line
+	5700 3700 5700 4200
+Connection ~ 6300 4000
+Wire Wire Line
+	6300 4000 6200 4000
+Connection ~ 6900 4300
+Wire Wire Line
+	6900 4300 7400 4300
+Wire Wire Line
+	6900 4300 6900 4800
+Connection ~ 7500 4600
+Wire Wire Line
+	7500 4600 7400 4600
+Wire Wire Line
+	7500 4600 7500 4500
+Connection ~ 8100 4900
+Wire Wire Line
+	8100 4900 8600 4900
+Wire Wire Line
+	8100 4900 8100 4800
+Connection ~ 8700 5200
+Wire Wire Line
+	8700 5200 8700 5100
+Wire Wire Line
+	8700 5200 8600 5200
+Wire Wire Line
+	8600 1500 8700 1500
+Connection ~ 8700 1500
+Wire Wire Line
+	8700 1500 8700 1200
+Wire Wire Line
+	8600 1800 8700 1800
+Connection ~ 8700 1800
+Wire Wire Line
+	8700 1800 8700 1500
+Wire Wire Line
+	8600 2100 8700 2100
+Connection ~ 8700 2100
+Wire Wire Line
+	8700 2100 8700 1800
+Wire Wire Line
+	8600 2400 8700 2400
+Connection ~ 8700 2400
+Wire Wire Line
+	8700 2400 8700 2100
+Connection ~ 8700 2700
+Wire Wire Line
+	8700 2700 8700 2400
+Wire Wire Line
+	8600 3000 8700 3000
+Connection ~ 8700 3000
+Wire Wire Line
+	8700 3000 8700 2700
+Wire Wire Line
+	8600 3300 8700 3300
+Connection ~ 8700 3300
+Wire Wire Line
+	8700 3300 8700 3000
+Wire Wire Line
+	8600 3600 8700 3600
+Connection ~ 8700 3600
+Wire Wire Line
+	8700 3600 8700 3300
+Wire Wire Line
+	8600 3900 8700 3900
+Connection ~ 8700 3900
+Wire Wire Line
+	8700 3900 8700 3600
+Wire Wire Line
+	8600 4200 8700 4200
+Connection ~ 8700 4200
+Wire Wire Line
+	8700 4200 8700 3900
+Wire Wire Line
+	8600 4500 8700 4500
+Connection ~ 8700 4500
+Wire Wire Line
+	8700 4500 8700 4200
+Wire Wire Line
+	8600 4800 8700 4800
+Connection ~ 8700 4800
+Wire Wire Line
+	8700 4800 8700 4500
+Wire Wire Line
+	8600 5100 8700 5100
+Connection ~ 8700 5100
+Wire Wire Line
+	8700 5100 8700 4800
+Wire Wire Line
+	8600 5400 8100 5400
+Connection ~ 8100 5400
+Wire Wire Line
+	8100 5400 8100 4900
+Wire Wire Line
+	8000 5400 7500 5400
+Connection ~ 7500 5400
+Wire Wire Line
+	7500 5400 7500 5100
+Wire Wire Line
+	8000 5100 7500 5100
+Connection ~ 7500 5100
+Wire Wire Line
+	8000 4500 8100 4500
+Connection ~ 8100 4500
+Wire Wire Line
+	8000 4200 8100 4200
+Wire Wire Line
+	8100 1200 8100 1500
+Connection ~ 8100 4200
+Wire Wire Line
+	8100 4200 8100 4500
+Wire Wire Line
+	8000 3900 8100 3900
+Connection ~ 8100 3900
+Wire Wire Line
+	8100 3900 8100 4200
+Wire Wire Line
+	8000 3600 8100 3600
+Connection ~ 8100 3600
+Wire Wire Line
+	8100 3600 8100 3900
+Wire Wire Line
+	8000 3300 8100 3300
+Connection ~ 8100 3300
+Wire Wire Line
+	8100 3300 8100 3600
+Wire Wire Line
+	8000 3000 8100 3000
+Connection ~ 8100 3000
+Wire Wire Line
+	8100 3000 8100 3300
+Wire Wire Line
+	8000 2700 8100 2700
+Connection ~ 8100 2700
+Wire Wire Line
+	8100 2700 8100 3000
+Connection ~ 8100 2400
+Wire Wire Line
+	8100 2400 8100 2700
+Wire Wire Line
+	8000 2400 8100 2400
+Wire Wire Line
+	8000 2100 8100 2100
+Connection ~ 8100 2100
+Wire Wire Line
+	8100 2100 8100 2400
+Wire Wire Line
+	8000 1800 8100 1800
+Connection ~ 8100 1800
+Wire Wire Line
+	8100 1800 8100 2100
+Wire Wire Line
+	8000 1500 8100 1500
+Connection ~ 8100 1500
+Wire Wire Line
+	8100 1500 8100 1800
+Wire Wire Line
+	7400 1500 7500 1500
+Connection ~ 7500 1500
+Wire Wire Line
+	7500 1500 7500 1200
+Wire Wire Line
+	7400 1800 7500 1800
+Connection ~ 7500 1800
+Wire Wire Line
+	7500 1800 7500 1500
+Wire Wire Line
+	7400 2100 7500 2100
+Connection ~ 7500 2100
+Wire Wire Line
+	7500 2100 7500 1800
+Wire Wire Line
+	7400 2400 7500 2400
+Connection ~ 7500 2400
+Wire Wire Line
+	7500 2400 7500 2100
+Wire Wire Line
+	7400 2700 7500 2700
+Connection ~ 7500 2700
+Wire Wire Line
+	7500 2700 7500 2400
+Wire Wire Line
+	7400 3000 7500 3000
+Connection ~ 7500 3000
+Wire Wire Line
+	7500 3000 7500 2700
+Wire Wire Line
+	7400 3300 7500 3300
+Connection ~ 7500 3300
+Wire Wire Line
+	7500 3300 7500 3000
+Wire Wire Line
+	7400 3600 7500 3600
+Connection ~ 7500 3600
+Wire Wire Line
+	7500 3600 7500 3300
+Wire Wire Line
+	7400 3900 7500 3900
+Connection ~ 7500 3900
+Wire Wire Line
+	7500 3900 7500 3600
+Wire Wire Line
+	7400 4200 7500 4200
+Connection ~ 7500 4200
+Wire Wire Line
+	7500 4200 7500 3900
+Wire Wire Line
+	7500 4600 7500 5100
+Wire Wire Line
+	8000 4800 8100 4800
+Connection ~ 8100 4800
+Wire Wire Line
+	8100 4800 8100 4500
+Wire Wire Line
+	7400 4500 7500 4500
+Connection ~ 7500 4500
+Wire Wire Line
+	7500 4500 7500 4200
+Wire Wire Line
+	7400 4800 6900 4800
+Connection ~ 6900 4800
+Wire Wire Line
+	6900 4800 6900 5100
+Wire Wire Line
+	7400 5100 6900 5100
+Connection ~ 6900 5100
+Wire Wire Line
+	6900 5100 6900 5400
+Wire Wire Line
+	7400 5400 6900 5400
+Connection ~ 6900 5400
+Wire Wire Line
+	6900 5400 6900 5700
+Wire Wire Line
+	6800 5400 6300 5400
+Connection ~ 6300 5400
+Wire Wire Line
+	6300 5400 6300 5100
+Wire Wire Line
+	6800 5100 6300 5100
+Connection ~ 6300 5100
+Wire Wire Line
+	6300 5100 6300 4800
+Wire Wire Line
+	6800 4800 6300 4800
+Connection ~ 6300 4800
+Wire Wire Line
+	6300 4800 6300 4500
+Wire Wire Line
+	6800 4500 6300 4500
+Connection ~ 6300 4500
+Wire Wire Line
+	6300 4500 6300 4000
+Wire Wire Line
+	6800 4200 6900 4200
+Connection ~ 6900 4200
+Wire Wire Line
+	6900 4200 6900 4300
+Wire Wire Line
+	6800 3900 6900 3900
+Connection ~ 6900 3900
+Wire Wire Line
+	6900 3900 6900 4200
+Wire Wire Line
+	6800 3600 6900 3600
+Connection ~ 6900 3600
+Wire Wire Line
+	6900 3600 6900 3900
+Wire Wire Line
+	6800 3300 6900 3300
+Connection ~ 6900 3300
+Wire Wire Line
+	6900 3300 6900 3600
+Wire Wire Line
+	6800 3000 6900 3000
+Connection ~ 6900 3000
+Wire Wire Line
+	6900 3000 6900 3300
+Wire Wire Line
+	6800 2700 6900 2700
+Connection ~ 6900 2700
+Wire Wire Line
+	6900 2700 6900 3000
+Wire Wire Line
+	6800 2400 6900 2400
+Connection ~ 6900 2400
+Wire Wire Line
+	6900 2400 6900 2700
+Wire Wire Line
+	6800 2100 6900 2100
+Connection ~ 6900 2100
+Wire Wire Line
+	6900 2100 6900 2400
+Wire Wire Line
+	6800 1800 6900 1800
+Connection ~ 6900 1800
+Wire Wire Line
+	6900 1800 6900 2100
+Wire Wire Line
+	6800 1500 6900 1500
+Connection ~ 6900 1500
+Wire Wire Line
+	6900 1500 6900 1800
+Wire Wire Line
+	6300 1500 6200 1500
+Connection ~ 6300 1500
+Wire Wire Line
+	6300 1500 6300 1200
+Wire Wire Line
+	6300 2100 6200 2100
+Connection ~ 6300 2100
+Wire Wire Line
+	6300 2100 6300 1800
+Wire Wire Line
+	6300 2400 6200 2400
+Connection ~ 6300 2400
+Wire Wire Line
+	6300 2400 6300 2100
+Wire Wire Line
+	6300 2700 6200 2700
+Connection ~ 6300 2700
+Wire Wire Line
+	6300 2700 6300 2400
+Wire Wire Line
+	6300 3000 6200 3000
+Connection ~ 6300 3000
+Wire Wire Line
+	6300 3000 6300 2700
+Wire Wire Line
+	6300 3300 6200 3300
+Wire Wire Line
+	6300 3000 6300 3300
+Connection ~ 6300 3300
+Wire Wire Line
+	6300 3300 6300 3600
+Wire Wire Line
+	6300 3600 6200 3600
+Connection ~ 6300 3600
+Wire Wire Line
+	6300 3600 6300 3900
+Wire Wire Line
+	6300 3900 6200 3900
+Connection ~ 6300 3900
+Wire Wire Line
+	6300 3900 6300 4000
+Wire Wire Line
+	6200 4200 5700 4200
+Connection ~ 5700 4200
+Wire Wire Line
+	5700 4200 5700 4500
+Wire Wire Line
+	6200 4500 5700 4500
+Connection ~ 5700 4500
+Wire Wire Line
+	5700 4500 5700 4800
+Wire Wire Line
+	6200 4800 5700 4800
+Connection ~ 5700 4800
+Wire Wire Line
+	5700 4800 5700 5100
+Wire Wire Line
+	6200 5100 5700 5100
+Connection ~ 5700 5100
+Wire Wire Line
+	5700 5100 5700 5400
+Wire Wire Line
+	6200 5400 5700 5400
+Connection ~ 5700 5400
+Wire Wire Line
+	5700 5400 5700 5700
+Wire Wire Line
+	5600 5400 5100 5400
+Connection ~ 5100 5400
+Wire Wire Line
+	5100 5400 5100 5100
+Connection ~ 5100 5100
+Wire Wire Line
+	5100 5100 5100 4800
+Wire Wire Line
+	5600 4800 5100 4800
+Connection ~ 5100 4800
+Wire Wire Line
+	5100 4800 5100 4500
+Wire Wire Line
+	5600 4500 5100 4500
+Connection ~ 5100 4500
+Wire Wire Line
+	5100 4500 5100 4200
+Wire Wire Line
+	5600 4200 5100 4200
+Connection ~ 5100 4200
+Wire Wire Line
+	5100 4200 5100 3900
+Wire Wire Line
+	5600 3900 5100 3900
+Connection ~ 5100 3900
+Wire Wire Line
+	5100 3900 5100 3400
+Wire Wire Line
+	5600 3600 5700 3600
+Connection ~ 5700 3600
+Wire Wire Line
+	5700 3600 5700 3700
+Wire Wire Line
+	5600 3300 5700 3300
+Connection ~ 5700 3300
+Wire Wire Line
+	5700 3300 5700 3600
+Wire Wire Line
+	5600 3000 5700 3000
+Connection ~ 5700 3000
+Wire Wire Line
+	5700 3000 5700 3300
+Wire Wire Line
+	5600 2700 5700 2700
+Connection ~ 5700 2700
+Wire Wire Line
+	5700 2700 5700 3000
+Wire Wire Line
+	5600 2400 5700 2400
+Connection ~ 5700 2400
+Wire Wire Line
+	5700 2400 5700 2700
+Wire Wire Line
+	5600 2100 5700 2100
+Connection ~ 5700 2100
+Wire Wire Line
+	5700 2100 5700 2400
+Wire Wire Line
+	5600 1800 5700 1800
+Connection ~ 5700 1800
+Wire Wire Line
+	5700 1800 5700 2100
+Wire Wire Line
+	5600 1500 5700 1500
+Connection ~ 5700 1500
+Wire Wire Line
+	5700 1500 5700 1800
+Wire Wire Line
+	5100 5100 5600 5100
+Wire Wire Line
+	5000 1500 5100 1500
+Connection ~ 5100 1500
+Wire Wire Line
+	5100 1500 5100 1200
+Wire Wire Line
+	5000 1800 5100 1800
+Connection ~ 5100 1800
+Wire Wire Line
+	5100 1800 5100 1500
+Wire Wire Line
+	5000 2100 5100 2100
+Wire Wire Line
+	5100 1800 5100 2100
+Connection ~ 5100 2100
+Wire Wire Line
+	5100 2100 5100 2400
+Wire Wire Line
+	5000 2400 5100 2400
+Connection ~ 5100 2400
+Wire Wire Line
+	5100 2400 5100 2700
+Wire Wire Line
+	5000 2700 5100 2700
+Connection ~ 5100 2700
+Wire Wire Line
+	5100 2700 5100 3000
+Wire Wire Line
+	5000 3000 5100 3000
+Connection ~ 5100 3000
+Wire Wire Line
+	5100 3000 5100 3300
+Connection ~ 5100 3300
+Wire Wire Line
+	5100 3300 5100 3400
+Wire Wire Line
+	5000 3600 4500 3600
+Connection ~ 4500 3600
+Wire Wire Line
+	4500 3600 4500 3900
+Wire Wire Line
+	5000 3900 4500 3900
+Connection ~ 4500 3900
+Wire Wire Line
+	4500 3900 4500 4200
+Connection ~ 4500 4200
+Wire Wire Line
+	4500 4200 4500 4500
+Wire Wire Line
+	4500 4200 5000 4200
+Wire Wire Line
+	5000 4500 4500 4500
+Connection ~ 4500 4500
+Wire Wire Line
+	4500 4500 4500 4800
+Wire Wire Line
+	5000 4800 4500 4800
+Connection ~ 4500 4800
+Wire Wire Line
+	4500 4800 4500 5100
+Wire Wire Line
+	5000 5100 4500 5100
+Connection ~ 4500 5100
+Wire Wire Line
+	4500 5100 4500 5400
+Wire Wire Line
+	5000 5400 4500 5400
+Connection ~ 4500 5400
+Wire Wire Line
+	4500 5400 4500 5700
+Wire Wire Line
+	4400 5400 3900 5400
+Connection ~ 3900 5400
+Wire Wire Line
+	3900 5400 3900 5100
+Wire Wire Line
+	4400 5100 3900 5100
+Connection ~ 3900 5100
+Wire Wire Line
+	3900 5100 3900 4800
+Wire Wire Line
+	4400 4800 3900 4800
+Connection ~ 3900 4800
+Wire Wire Line
+	3900 4800 3900 4500
+Wire Wire Line
+	4400 4500 3900 4500
+Connection ~ 3900 4500
+Wire Wire Line
+	3900 4500 3900 4200
+Wire Wire Line
+	4400 4200 3900 4200
+Connection ~ 3900 4200
+Wire Wire Line
+	3900 4200 3900 3900
+Wire Wire Line
+	4400 3900 3900 3900
+Connection ~ 3900 3900
+Wire Wire Line
+	3900 3900 3900 3600
+Wire Wire Line
+	4400 3600 3900 3600
+Connection ~ 3900 3600
+Wire Wire Line
+	3900 3600 3900 3300
+Wire Wire Line
+	4400 3300 3900 3300
+Connection ~ 3900 3300
+Wire Wire Line
+	3900 3300 3900 2800
+Wire Wire Line
+	4400 3000 4500 3000
+Connection ~ 4500 3000
+Wire Wire Line
+	4500 3000 4500 3100
+Wire Wire Line
+	4400 2700 4500 2700
+Connection ~ 4500 2700
+Wire Wire Line
+	4500 2700 4500 3000
+Wire Wire Line
+	4400 2400 4500 2400
+Connection ~ 4500 2400
+Wire Wire Line
+	4500 2400 4500 2700
+Wire Wire Line
+	4400 2100 4500 2100
+Connection ~ 4500 2100
+Wire Wire Line
+	4500 2100 4500 2400
+Wire Wire Line
+	4400 1800 4500 1800
+Connection ~ 4500 1800
+Wire Wire Line
+	4500 1800 4500 2100
+Wire Wire Line
+	4400 1500 4500 1500
+Connection ~ 4500 1500
+Wire Wire Line
+	4500 1500 4500 1800
+Wire Wire Line
+	3800 1500 3900 1500
+Connection ~ 3900 1500
+Wire Wire Line
+	3900 1500 3900 1200
+Connection ~ 3900 1800
+Wire Wire Line
+	3900 1800 3900 1500
+Wire Wire Line
+	3800 1800 3900 1800
+Connection ~ 3900 2100
+Wire Wire Line
+	3900 2100 3900 1800
+Wire Wire Line
+	3800 2400 3900 2400
+Connection ~ 3900 2400
+Wire Wire Line
+	3900 2400 3900 2100
+Wire Wire Line
+	3800 2700 3900 2700
+Connection ~ 3900 2700
+Wire Wire Line
+	3900 2700 3900 2400
+Wire Wire Line
+	3800 3000 3300 3000
+Connection ~ 3300 3000
+Wire Wire Line
+	3300 3000 3300 3300
+Wire Wire Line
+	3800 3300 3300 3300
+Connection ~ 3300 3300
+Wire Wire Line
+	3300 3300 3300 3600
+Wire Wire Line
+	3800 3600 3300 3600
+Connection ~ 3300 3600
+Wire Wire Line
+	3300 3600 3300 3900
+Wire Wire Line
+	3800 3900 3300 3900
+Connection ~ 3300 3900
+Wire Wire Line
+	3300 3900 3300 4200
+Wire Wire Line
+	3800 4200 3300 4200
+Connection ~ 3300 4200
+Wire Wire Line
+	3300 4200 3300 4500
+Wire Wire Line
+	3800 4500 3300 4500
+Connection ~ 3300 4500
+Wire Wire Line
+	3300 4500 3300 4800
+Wire Wire Line
+	3800 4800 3300 4800
+Connection ~ 3300 4800
+Wire Wire Line
+	3300 4800 3300 5100
+Wire Wire Line
+	3800 5100 3300 5100
+Connection ~ 3300 5100
+Wire Wire Line
+	3300 5100 3300 5400
+Wire Wire Line
+	3800 5400 3300 5400
+Connection ~ 3300 5400
+Wire Wire Line
+	3300 5400 3300 5700
+Wire Wire Line
+	3200 5400 2700 5400
+Connection ~ 2700 5400
+Wire Wire Line
+	2700 5400 2700 5100
+Wire Wire Line
+	3200 5100 2700 5100
+Connection ~ 2700 5100
+Wire Wire Line
+	2700 5100 2700 4800
+Wire Wire Line
+	3200 4800 2700 4800
+Connection ~ 2700 4800
+Wire Wire Line
+	2700 4800 2700 4500
+Wire Wire Line
+	3200 4500 2700 4500
+Connection ~ 2700 4500
+Wire Wire Line
+	2700 4500 2700 4200
+Wire Wire Line
+	3200 4200 2700 4200
+Connection ~ 2700 4200
+Wire Wire Line
+	2700 4200 2700 3900
+Wire Wire Line
+	3200 3900 2700 3900
+Connection ~ 2700 3900
+Wire Wire Line
+	2700 3900 2700 3600
+Wire Wire Line
+	3200 3600 2700 3600
+Connection ~ 2700 3600
+Wire Wire Line
+	2700 3600 2700 3300
+Wire Wire Line
+	3200 3300 2700 3300
+Connection ~ 2700 3300
+Wire Wire Line
+	2700 3300 2700 3000
+Wire Wire Line
+	3200 3000 2700 3000
+Connection ~ 2700 3000
+Wire Wire Line
+	2700 3000 2700 2700
+Connection ~ 2700 2700
+Wire Wire Line
+	2700 2700 2700 2200
+Wire Wire Line
+	2700 2700 3200 2700
+Wire Wire Line
+	3200 2400 3300 2400
+Connection ~ 3300 2400
+Wire Wire Line
+	3300 2400 3300 2500
+Wire Wire Line
+	3200 2100 3300 2100
+Connection ~ 3300 2100
+Wire Wire Line
+	3300 2100 3300 2400
+Wire Wire Line
+	3200 1800 3300 1800
+Connection ~ 3300 1800
+Wire Wire Line
+	3300 1800 3300 2100
+Connection ~ 3200 1300
+Wire Wire Line
+	3200 1300 3800 1300
+Wire Wire Line
+	2600 1300 3200 1300
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0AB77
+P 3200 1400
+AR Path="/66E0AB77" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0AB77" Ref="D834"  Part="1" 
+F 0 "D834" V 3246 1330 50  0000 R CNN
+F 1 "LED_Small" V 3155 1330 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 3200 1400 50  0001 C CNN
+F 3 "~" V 3200 1400 50  0001 C CNN
+	1    3200 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 1500 3300 1500
+Connection ~ 3300 1500
+Wire Wire Line
+	3300 1500 3300 1800
+Wire Wire Line
+	2700 1200 2700 1500
+Wire Wire Line
+	2600 1500 2700 1500
+Connection ~ 2700 1500
+Wire Wire Line
+	2700 1500 2700 1800
+Wire Wire Line
+	2700 1800 2600 1800
+Connection ~ 2700 1800
+Wire Wire Line
+	2700 1800 2700 2100
+Wire Wire Line
+	2700 2100 2600 2100
+Connection ~ 2700 2100
+Wire Wire Line
+	2700 2100 2700 2200
+Wire Wire Line
+	2600 2400 2100 2400
+Connection ~ 2100 2400
+Wire Wire Line
+	2100 2400 2100 2700
+Wire Wire Line
+	2600 2700 2100 2700
+Connection ~ 2100 2700
+Wire Wire Line
+	2100 2700 2100 3000
+Wire Wire Line
+	2600 3000 2100 3000
+Connection ~ 2100 3000
+Wire Wire Line
+	2100 3000 2100 3300
+Wire Wire Line
+	2600 3300 2100 3300
+Connection ~ 2100 3300
+Wire Wire Line
+	2100 3300 2100 3600
+Wire Wire Line
+	2100 3600 2600 3600
+Connection ~ 2100 3600
+Wire Wire Line
+	2100 3600 2100 3900
+Wire Wire Line
+	2600 3900 2100 3900
+Connection ~ 2100 3900
+Wire Wire Line
+	2100 3900 2100 4200
+Wire Wire Line
+	2100 4200 2600 4200
+Connection ~ 2100 4200
+Wire Wire Line
+	2100 4200 2100 4500
+Wire Wire Line
+	2600 4500 2100 4500
+Connection ~ 2100 4500
+Wire Wire Line
+	2100 4500 2100 4800
+Wire Wire Line
+	2600 4800 2100 4800
+Connection ~ 2100 4800
+Wire Wire Line
+	2100 4800 2100 5100
+Wire Wire Line
+	2600 5100 2100 5100
+Connection ~ 2100 5100
+Wire Wire Line
+	2100 5100 2100 5400
+Wire Wire Line
+	2600 5400 2100 5400
+Connection ~ 2100 5400
+Wire Wire Line
+	2100 5400 2100 5700
+Wire Wire Line
+	2000 5400 1500 5400
+Connection ~ 1500 5400
+Wire Wire Line
+	1500 5400 1500 5100
+Wire Wire Line
+	2000 5100 1500 5100
+Connection ~ 1500 5100
+Wire Wire Line
+	1500 5100 1500 4800
+Wire Wire Line
+	2000 4800 1500 4800
+Connection ~ 1500 4800
+Wire Wire Line
+	1500 4800 1500 4500
+Wire Wire Line
+	2000 4500 1500 4500
+Connection ~ 1500 4500
+Wire Wire Line
+	1500 4500 1500 4200
+Wire Wire Line
+	2000 4200 1500 4200
+Connection ~ 1500 4200
+Wire Wire Line
+	1500 4200 1500 3900
+Wire Wire Line
+	2000 3900 1500 3900
+Connection ~ 1500 3900
+Wire Wire Line
+	1500 3900 1500 3600
+Wire Wire Line
+	2000 3600 1500 3600
+Connection ~ 1500 3600
+Wire Wire Line
+	1500 3600 1500 3300
+Wire Wire Line
+	2000 3300 1500 3300
+Connection ~ 1500 3300
+Wire Wire Line
+	1500 3300 1500 3000
+Wire Wire Line
+	2000 3000 1500 3000
+Connection ~ 1500 3000
+Wire Wire Line
+	1500 3000 1500 2700
+Wire Wire Line
+	2000 2700 1500 2700
+Connection ~ 1500 2700
+Wire Wire Line
+	1500 2700 1500 2400
+Wire Wire Line
+	2000 2400 1500 2400
+Connection ~ 1500 2400
+Wire Wire Line
+	1500 2400 1500 2100
+Wire Wire Line
+	2000 2100 1500 2100
+Connection ~ 1500 2100
+Wire Wire Line
+	1500 2100 1500 1600
+Wire Wire Line
+	2000 1800 2100 1800
+Connection ~ 2100 1800
+Wire Wire Line
+	2100 1800 2100 1900
+Wire Wire Line
+	2000 1500 2100 1500
+Connection ~ 2100 1500
+Wire Wire Line
+	2100 1500 2100 1800
+Connection ~ 1500 1500
+Wire Wire Line
+	1500 1500 1500 1200
+Wire Wire Line
+	1400 1500 1500 1500
+Wire Wire Line
+	1400 1800 900  1800
+Connection ~ 900  1800
+Wire Wire Line
+	900  1800 900  2100
+Wire Wire Line
+	1400 2100 900  2100
+Connection ~ 900  2100
+Wire Wire Line
+	900  2100 900  2400
+Wire Wire Line
+	1400 2400 900  2400
+Connection ~ 900  2400
+Wire Wire Line
+	900  2400 900  2700
+Wire Wire Line
+	1400 2700 900  2700
+Connection ~ 900  2700
+Wire Wire Line
+	900  2700 900  3000
+Wire Wire Line
+	1400 3000 900  3000
+Connection ~ 900  3000
+Wire Wire Line
+	900  3000 900  3300
+Wire Wire Line
+	1400 3300 900  3300
+Connection ~ 900  3300
+Wire Wire Line
+	900  3300 900  3600
+Wire Wire Line
+	1400 3600 900  3600
+Connection ~ 900  3600
+Wire Wire Line
+	900  3600 900  3900
+Wire Wire Line
+	1400 3900 900  3900
+Connection ~ 900  3900
+Wire Wire Line
+	900  3900 900  4200
+Wire Wire Line
+	1400 4200 900  4200
+Connection ~ 900  4200
+Wire Wire Line
+	900  4200 900  4500
+Wire Wire Line
+	1400 4500 900  4500
+Connection ~ 900  4500
+Wire Wire Line
+	900  4500 900  4800
+Wire Wire Line
+	1400 4800 900  4800
+Connection ~ 900  4800
+Wire Wire Line
+	900  4800 900  5100
+Wire Wire Line
+	1400 5100 900  5100
+Connection ~ 900  5100
+Wire Wire Line
+	900  5100 900  5400
+Wire Wire Line
+	1400 5400 900  5400
+Connection ~ 900  5400
+Wire Wire Line
+	900  5400 900  5700
+$Comp
+L HT16D33A_B:HT16D33B U?
+U 1 1 66E0ABFF
+P 11600 3550
+AR Path="/66E0ABFF" Ref="U?"  Part="1" 
+AR Path="/6671BB2D/66E0ABFF" Ref="U4"  Part="1" 
+F 0 "U4" H 11600 3550 50  0000 C CNN
+F 1 "HT16D33B" H 11600 3450 50  0000 C CNN
+F 2 "Housings_SSOP:SSOP-28_3.9x9.9mm_Pitch0.635mm" H 11600 3100 50  0001 C CNN
+F 3 "" H 11600 3100 50  0001 C CNN
+	1    11600 3550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	11450 2400 11550 2400
+Connection ~ 11550 2400
+$Comp
+L power:GND #PWR?
+U 1 1 66E0AC07
+P 11650 4850
+AR Path="/66E0AC07" Ref="#PWR?"  Part="1" 
+AR Path="/6671BB2D/66E0AC07" Ref="#PWR0114"  Part="1" 
+F 0 "#PWR0114" H 11650 4600 50  0001 C CNN
+F 1 "GND" H 11655 4677 50  0000 C CNN
+F 2 "" H 11650 4850 50  0001 C CNN
+F 3 "" H 11650 4850 50  0001 C CNN
+	1    11650 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11650 2400 11650 2000
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0AC0E
+P 2600 5300
+AR Path="/66E0AC0E" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0AC0E" Ref="D831"  Part="1" 
+F 0 "D831" V 2646 5230 50  0000 R CNN
+F 1 "LED_Small" V 2555 5230 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 2600 5300 50  0001 C CNN
+F 3 "~" V 2600 5300 50  0001 C CNN
+	1    2600 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 66E0AC14
+P 5600 4100
+AR Path="/66E0AC14" Ref="D?"  Part="1" 
+AR Path="/6671BB2D/66E0AC14" Ref="D907"  Part="1" 
+F 0 "D907" V 5646 4030 50  0000 R CNN
+F 1 "LED_Small" V 5555 4030 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 5600 4100 50  0001 C CNN
+F 3 "~" V 5600 4100 50  0001 C CNN
+	1    5600 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 2100 3900 2100
+Wire Wire Line
+	5000 3300 5100 3300
+Wire Wire Line
+	6200 1800 6300 1800
+Connection ~ 6300 1800
+Wire Wire Line
+	6300 1800 6300 1500
+Wire Wire Line
+	8600 2700 8700 2700
+$Comp
+L Device:C_Small C?
+U 1 1 66E0AC20
+P 11150 2100
+AR Path="/66E0AC20" Ref="C?"  Part="1" 
+AR Path="/6671BB2D/66E0AC20" Ref="C7"  Part="1" 
+F 0 "C7" H 11242 2146 50  0000 L CNN
+F 1 ".1uF" H 11242 2055 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 11150 2100 50  0001 C CNN
+F 3 "~" H 11150 2100 50  0001 C CNN
+	1    11150 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 66E0AC26
+P 11900 2100
+AR Path="/66E0AC26" Ref="C?"  Part="1" 
+AR Path="/6671BB2D/66E0AC26" Ref="C8"  Part="1" 
+F 0 "C8" H 11992 2146 50  0000 L CNN
+F 1 ".1uF" H 11992 2055 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 11900 2100 50  0001 C CNN
+F 3 "~" H 11900 2100 50  0001 C CNN
+	1    11900 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11150 2000 11550 2000
+Wire Wire Line
+	11550 2000 11550 2400
+Wire Wire Line
+	11900 2000 11650 2000
+$Comp
+L power:GND #PWR?
+U 1 1 66E0AC2F
+P 11150 2300
+AR Path="/66E0AC2F" Ref="#PWR?"  Part="1" 
+AR Path="/6671BB2D/66E0AC2F" Ref="#PWR0115"  Part="1" 
+F 0 "#PWR0115" H 11150 2050 50  0001 C CNN
+F 1 "GND" H 11155 2127 50  0000 C CNN
+F 2 "" H 11150 2300 50  0001 C CNN
+F 3 "" H 11150 2300 50  0001 C CNN
+	1    11150 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 66E0AC35
+P 11900 2300
+AR Path="/66E0AC35" Ref="#PWR?"  Part="1" 
+AR Path="/6671BB2D/66E0AC35" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0116" H 11900 2050 50  0001 C CNN
+F 1 "GND" H 11905 2127 50  0000 C CNN
+F 2 "" H 11900 2300 50  0001 C CNN
+F 3 "" H 11900 2300 50  0001 C CNN
+	1    11900 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11150 2300 11150 2200
+Wire Wire Line
+	11900 2300 11900 2200
+$Comp
+L power:+3.3V #PWR?
+U 1 1 66E0AC3D
+P 11550 1500
+AR Path="/66E0AC3D" Ref="#PWR?"  Part="1" 
+AR Path="/6671BB2D/66E0AC3D" Ref="#PWR0117"  Part="1" 
+F 0 "#PWR0117" H 11550 1350 50  0001 C CNN
+F 1 "+3.3V" H 11565 1673 50  0000 C CNN
+F 2 "" H 11550 1500 50  0001 C CNN
+F 3 "" H 11550 1500 50  0001 C CNN
+	1    11550 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11550 2000 11550 1700
+Wire Wire Line
+	11550 1700 11650 1700
+Wire Wire Line
+	11650 1700 11650 2000
+Connection ~ 11550 2000
+Connection ~ 11650 2000
+Wire Wire Line
+	11550 1500 11550 1700
+Connection ~ 11550 1700
+Wire Wire Line
+	10800 1000 9800 1000
+Connection ~ 9800 1000
+Wire Wire Line
+	9800 1300 10750 1300
+Wire Wire Line
+	10750 1300 10750 2900
+Wire Wire Line
+	10750 2900 10850 2900
+Connection ~ 9800 1300
+Wire Wire Line
+	9800 1600 10700 1600
+Wire Wire Line
+	10700 1600 10700 3000
+Wire Wire Line
+	10700 3000 10850 3000
+Connection ~ 9800 1600
+Wire Wire Line
+	10850 3100 10650 3100
+Wire Wire Line
+	10650 3100 10650 1900
+Wire Wire Line
+	10650 1900 9800 1900
+Connection ~ 9800 1900
+Wire Wire Line
+	9800 2200 10600 2200
+Wire Wire Line
+	10600 2200 10600 3200
+Wire Wire Line
+	10600 3200 10850 3200
+Connection ~ 9800 2200
+Wire Wire Line
+	9800 2500 10550 2500
+Wire Wire Line
+	10550 2500 10550 3300
+Wire Wire Line
+	10550 3300 10850 3300
+Connection ~ 9800 2500
+Wire Wire Line
+	9800 2800 10500 2800
+Wire Wire Line
+	10500 2800 10500 3400
+Wire Wire Line
+	10500 3400 10850 3400
+Connection ~ 9800 2800
+Wire Wire Line
+	9850 3100 10450 3100
+Wire Wire Line
+	10450 3100 10450 3500
+Wire Wire Line
+	10450 3500 10850 3500
+Wire Wire Line
+	9800 3400 10400 3400
+Connection ~ 9800 3400
+Wire Wire Line
+	9900 5700 10850 5700
+Wire Wire Line
+	9800 5200 10750 5200
+Connection ~ 9800 5200
+Wire Wire Line
+	10800 1000 10800 2800
+Wire Wire Line
+	10800 2800 10850 2800
+Wire Wire Line
+	10400 3700 10850 3700
+Wire Wire Line
+	10400 3400 10400 3700
+Wire Wire Line
+	9800 3700 10350 3700
+Wire Wire Line
+	10350 3700 10350 3900
+Wire Wire Line
+	10350 3900 10850 3900
+Connection ~ 9800 3700
+Wire Wire Line
+	10750 4400 10850 4400
+Wire Wire Line
+	10750 4400 10750 5200
+Wire Wire Line
+	10800 4500 10850 4500
+Wire Wire Line
+	10800 4500 10800 5500
+Wire Wire Line
+	9800 4900 10700 4900
+Wire Wire Line
+	10700 4900 10700 4300
+Wire Wire Line
+	10700 4300 10850 4300
+Connection ~ 9800 4900
+Wire Wire Line
+	9800 4600 10650 4600
+Wire Wire Line
+	10650 4600 10650 4200
+Wire Wire Line
+	10650 4200 10850 4200
+Connection ~ 9800 4600
+Wire Wire Line
+	9800 4300 10600 4300
+Wire Wire Line
+	10600 4300 10600 4100
+Wire Wire Line
+	10600 4100 10850 4100
+Connection ~ 9800 4300
+Wire Wire Line
+	9800 4000 10850 4000
+Connection ~ 9800 4000
+Wire Wire Line
+	10850 4600 10850 5700
+Wire Wire Line
+	9800 5500 10800 5500
+Connection ~ 9800 5500
+$Comp
+L power:+3.3V #PWR?
+U 1 1 66E0AC89
+P 12400 2600
+AR Path="/66E0AC89" Ref="#PWR?"  Part="1" 
+AR Path="/6671BB2D/66E0AC89" Ref="#PWR0118"  Part="1" 
+F 0 "#PWR0118" H 12400 2450 50  0001 C CNN
+F 1 "+3.3V" H 12415 2773 50  0000 C CNN
+F 2 "" H 12400 2600 50  0001 C CNN
+F 3 "" H 12400 2600 50  0001 C CNN
+	1    12400 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12400 2700 12400 2600
+Text GLabel 12850 2800 2    50   Input ~ 0
+SCL
+Text GLabel 12850 2900 2    50   BiDi ~ 0
+SDA
+Wire Wire Line
+	12850 2800 12400 2800
+Wire Wire Line
+	12400 2900 12850 2900
+$EndSCHEMATC
